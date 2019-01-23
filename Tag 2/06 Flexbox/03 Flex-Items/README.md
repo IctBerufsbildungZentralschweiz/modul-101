@@ -1,4 +1,4 @@
-# Der Flex-Items
+# Die Flex-Items
 Die folgende Liste von Eigenschaften für die Flex-Items ist nicht abschliessend, zeigt jedoch die wichtigten Elemente.
 
 ![Flex Items](./src/flex-items.svg)

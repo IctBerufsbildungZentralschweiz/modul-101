@@ -55,7 +55,7 @@ PNG steht für Portable Network Graphics. Es ist eine alternative zum GIF-Format
 * Wie das JPEG, verfügt das PNG über Millionen von Farben.
 * Wie das GIF, handelt es sich um einen verlustfreien Kompressionsalgorithmus.
 * Das PNG-Format unterstützt Transparenz - dabei gibt es die Möglichkeit für teiltransparente Pixel (75% - transparent; 25% - weiss). Es eignet sich deshalb für Bilder mit unterschiedlichen Transparenzstufen.
-* Es eignet sich daher sich für komplexe Bilder und Grafiken.
+* Es eignet sich daher für komplexe Bilder und Grafiken.
 
 ### Anwendungsfall
 
