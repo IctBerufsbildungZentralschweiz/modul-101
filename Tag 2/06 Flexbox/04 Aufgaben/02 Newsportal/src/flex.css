@@ -1,0 +1,27 @@
+/** Für Aufgabe 1 kannst du von hier... **/
+
+/** ...bis hier CSS-Regeln hinzufügen. **/
+
+@media screen and (max-width: 768px) {
+    /* Die CSS-Regeln innerhalb der geschweiften
+    Klammern werden nur interpretiert, wenn die
+    Breite des Bildschirms kleiner als 768px ist
+    - sprich Tablets und Handies */
+
+    /** Für Aufgabe 2 kannst du von hier... **/
+
+    /** ...bis hier CSS-Regeln hinzufügen. **/
+
+}
+
+@media screen and (max-width: 480px) {
+    /* Die CSS-Regeln innerhalb der geschweiften
+    Klammern werden nur interpretiert, wenn die
+    Breite des Bildschirms kleiner als 480px ist
+    - sprich Handies */
+
+    /** Für Aufgabe 3 kannst du von hier... **/
+
+    /** ...bis hier CSS-Regeln hinzufügen. **/
+
+}
