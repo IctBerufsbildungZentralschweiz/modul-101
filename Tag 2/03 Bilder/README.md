@@ -38,7 +38,7 @@ GIF steht für Graphics Interchange Format.
 
 * Das GIF-Format verfügt nur über 256 Farben, dadurch ist die Dateigrösse meistens entsprechend klein.
     ![GIF-Kompression](src/gif.jpg)
-* Das GIF-Format ist ein verlustfreies Bildformat.
+* Das GIF-Format ist ein verlustreiches Bildformat.
 * Das GIF-Format unterstützt Transparenz - dabei gibt es jedoch keine Halbtransparenz (z. B. 50% weiss), sondern immer nur ganz oder garnicht.
 * Das GIF-Format unterstützt Animationen - darum kann es gut eingesetzt werden für repetierende, animierte Bilder wie Icons, Emoticons, Banner etc.
 * Eignet sich für einfache Grafiken mit wenig Farben, jedoch nicht für Fotografien.

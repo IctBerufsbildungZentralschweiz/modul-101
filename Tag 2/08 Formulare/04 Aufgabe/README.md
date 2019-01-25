@@ -13,4 +13,4 @@ Erstelle ein Anmeldeformular für den nächsten Firmenanlass deines Lehrbetriebe
 * [ ] Einzel- oder Doppelzimmer
 * [ ] Bemerkung
 
-Achte darauf die richten Formularfeld-Typen zu verwenden. Zudem sollten die Formularfelder korrekt gruppiert werden.
+Achte darauf die richtigen Formularfeld-Typen zu verwenden. Zudem sollten die Formularfelder korrekt gruppiert werden.
