@@ -60,7 +60,8 @@ Absolute Pfade haben immer das Stammverzeichnis eines Servers (Root) als Ausgang
 Beispiel für absoluter Pfad für die gleiche Ordnersturktur wie oben:
 
 ```html
-<link href="root/css/frontpage/style.css" rel="stylesheet">
+<link href="/root/css/frontpage/style.css" rel="stylesheet">
+<link href="https://www.example.com/root/css/frontpage/style.css" rel="stylesheet">
 ```
 
 Werden Beziehungen zu externen Dateien (Frameworks, Schriften etc.) hergestellt, wird der Pfad meistens mit einem absoluten Pfad angegeben. Dabei sollte der Anbieter sicherstellen, dass sich der Pfad nicht ändert.
