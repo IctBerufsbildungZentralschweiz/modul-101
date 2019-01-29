@@ -116,4 +116,4 @@ Ein Styleguide kann unter anderem Folgendes beinhalten:
 * [Styleguide von Styletil.es](http://styletil.es/downloads/Style_Tile_Template.psd.zip) - PSD Vorlage
 
 ## Testing
-Die Konzeption des Testing dient dazu, die Website vor oder im Betrieb testen zu können um Fehler und Pannen zu vermindern. Wie so ein Testing aussehen könnte, werden wir am Kurstag 3 anhand eines Beispieles erarbeiten.
+Die Konzeption des Testing dient dazu, die Website vor oder im Betrieb testen zu können um Fehler und Pannen zu vermindern.
