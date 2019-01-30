@@ -60,7 +60,7 @@ Mögliche Fragestellungen für die Erstellung einer Persona:
 * Wie nutzen die Besucher die Website und welche Ziele verfolgen sie?
 * Welche Inhalte, Funktionen und Services wünschen sich die Nutzer?
 
-[Beispiele für Personas](res/personas.jpg) von https://blog.seibert-media.net
+[Beispiele für Personas](src/persona.png) von https://www.banctracsolutions.com
 
 ## Informationsarchitektur
 
