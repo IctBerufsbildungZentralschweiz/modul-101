@@ -12,16 +12,16 @@ Die Formularfelder sind die kleinsten Elemente innerhalb eines Formulars. Die ve
 
 ```html
 <label for="firstname">Vorname</label>
-<input type="text" id="firstname">
+<input type="text" id="firstname" name="firstname">
 
 <label for="lastname">Nachname</label>
-<input type="text" id="lastname">
+<input type="text" id="lastname" name="lastname">
 
 <label for="work">Beruf</label>
-<input type="text" id="work">
+<input type="text" id="work" name="work">
 
 <label for="workplace">Arbeitgeber</label>
-<input type="text" id="workplace">
+<input type="text" id="workplace" name="workplace">
 ```
 
 Als kleine Illustration:
@@ -46,10 +46,10 @@ Die Formularfeld-Gruppen erleichtern zum einen die Navigation innerhalb des Doku
     <legend>Informationen zur Person</legend>
 
     <label for="firstname">Vorname</label>
-    <input type="text" id="firstname">
+    <input type="text" id="firstname" name="firstname">
 
     <label for="lastname">Nachname</label>
-    <input type="text" id="lastname">
+    <input type="text" id="lastname" name="lastname">
 
 </fieldset>
 
@@ -58,10 +58,10 @@ Die Formularfeld-Gruppen erleichtern zum einen die Navigation innerhalb des Doku
     <legend>Informationen zum Beruf</legend>
         
     <label for="work">Beruf</label>
-    <input type="text" id="work">
+    <input type="text" id="work" name="work">
 
     <label for="workplace">Arbeitgeber</label>
-    <input type="text" id="workplace">
+    <input type="text" id="workplace" name="workplace">
 
 </fieldset>
 
@@ -91,10 +91,10 @@ Das `form` Tag ist auf der höchsten strukturellen Ebene eines Formulars und bei
         <legend>Informationen zur Person</legend>
 
         <label for="firstname">Vorname</label>
-        <input type="text" id="firstname">
+        <input type="text" id="firstname" name="firstname">
 
         <label for="lastname">Nachname</label>
-        <input type="text" id="lastname">
+        <input type="text" id="lastname" name="lastname">
 
     </fieldset>
 
@@ -103,10 +103,10 @@ Das `form` Tag ist auf der höchsten strukturellen Ebene eines Formulars und bei
         <legend>Informationen zum Beruf</legend>
             
         <label for="work">Beruf</label>
-        <input type="text" id="work">
+        <input type="text" id="work" name="work">
 
         <label for="workplace">Arbeitgeber</label>
-        <input type="text" id="workplace">
+        <input type="text" id="workplace" name="workplace">
 
     </fieldset>
 
