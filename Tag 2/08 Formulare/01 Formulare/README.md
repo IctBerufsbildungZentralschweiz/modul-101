@@ -20,8 +20,8 @@ Zusätzlich zu einfachen Text-Inputs gibt es noch mehrzeilige Textfelder (`texta
 <textarea rows="10" cols="4"></textarea>
 
 <select name="anrede">
-    <option>Frau</option>
-    <option>Herr</option>
+    <option value="Frau">Frau</option>
+    <option value="Herr">Herr</option>
 </select>
 
 <button type="submit">Formular absenden</button>
