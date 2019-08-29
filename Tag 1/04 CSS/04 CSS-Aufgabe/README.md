@@ -4,7 +4,7 @@
 1. Verknüpfe das externe Paper-Framework mit deiner `invoice.html`. 
 
     ```text
-    https://offline.swiss/vfi/paper.css
+    https://offline.ch/ict/paper.css
     ```
 2.  Style die erstelle `invoice.html` mit Hilfe deiner eigenen CSS-Datei. Das Ergebnis soll dabei möglichst ähnlich aussehen, wie die Rechnungsvorlage unten.
 3. Kopiere den Code anschliessend in den CSS-Validator und korrigiere allfällige Fehler.

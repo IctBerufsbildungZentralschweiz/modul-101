@@ -2,7 +2,7 @@
 
 Unter folgendem Link findest du einige Code-Beispiele und Besonderheiten im Zusammenhang mit Formularen:
 
-[https://offline.swiss/vfi/formulare.html](https://offline.swiss/vfi/formulare.html)
+[https://offline.ch/ict/formulare.html](https://offline.ch/ict/formulare.html)
 
 
 ## Steuerelemente
