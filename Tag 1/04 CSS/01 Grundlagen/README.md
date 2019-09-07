@@ -202,6 +202,7 @@ Als `Nachfahre` werden alle Elemente unterhalb eines anderen Elements bezeichnet
 
 ```html
 <div class="main">
+  <p>Dieser Text ist rot</p>  
   <div>
     <p>Dieser Text ist rot</p>
   </div>
