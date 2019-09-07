@@ -14,3 +14,7 @@ Erstelle ein Anmeldeformular für den nächsten Firmenanlass deines Lehrbetriebe
 * [ ] Bemerkung
 
 Achte darauf die richtigen Formularfeld-Typen zu verwenden. Zudem sollten die Formularfelder korrekt gruppiert werden.
+
+## Versand
+
+Versuche für den Formularversand den Dienst [`formspree.io`](https://formspree.io/) zu verwenden.
