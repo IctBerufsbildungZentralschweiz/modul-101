@@ -1,4 +1,5 @@
 # CSS-Grundlagen
+
 Wie HTML ist auch CSS keine Programmiersprache sondern eine Stylesheet-Sprache.
 
 CSS erlaubt es, für Elemente auf einer Website das Aussehen festzulegen. Zum Beispiel benötigt man folgengen CSS-Code, um alle Absätze (`<p>`) auszuwählen und deren Inhalt rot einzufärben:
@@ -8,6 +9,17 @@ p {
   color: red;
 }
 ```
+
+Via CSS können auch bestimmte Attribute aus dem HTML-Quellcode angesprochen werden. Um Elemente nach ihrer Klasse (`class`) auszuwählen 
+muss der Selektor mit einem Punkt `.` beginnen. Um Elemente nach Ihrer `ID` auszuwählen, muss der Selektor mit `#` beginnen.
+
+## Tipps zur Namensgebung
+
+* Versuche auf Sonderzeichen bei der Verwendung des `class`-Attributs zu verzichten. Auch wenn dies 
+  von CSS unterstützt wird, kann es zu unerwarteten Problemen führen.
+* Verwende englische Begriffe für Klassen.
+* Da die Gross- und Kleinschreibung von Klassen relevant ist, empfiehlt es sich alles in Kleinbuchsetaben zu schreiben. 
+* Leerzeichen sind nicht erlaubt, verwende `-` bei Klassen mit mehreren Worten (z. B. `main-navigation`).
 
 ## CSS-Einbinden
 Probieren wir es gleich aus: Kopiere diese drei Zeilen CSS in eine neue Datei im Texteditor und speichere die Datei unter dem Namen `style.css` im gleichen Verzeichnis wie deine HTML-Datei `invoice.html` für die Rechnung.
@@ -83,9 +95,11 @@ Die ganze Struktur wird Regelsatz (oder oft nur Regel) genannt:
 **Eigenschafts-Wert (englisch: property value)** - Rechts neben der Eigenschaft, nach dem Doppelpunk, steht der Wert der Eigenschaft. Dieser gibt eine von vielen Möglichkeiten wieder, wie die Eigenschaft das Aussehen eines Elements verändern kann.
 
 ### Syntax
+
 * Hinter dem Selektor stehen die zugehörigen Regeln innerhalb geschwungener Klammern (`{}`).
 * Innerhalb einer Deklaration muss man einen Doppelpunkt (`:`) nutzen, um Eigenschaft und Wert zu trennen.
 * Am Ende jeder Deklaration muss ein Semikolon (;) gesetzt werden. Dieser trennt mehrere Deklarationen voneinander ab.
+
 ```css
 p {
   color: red;
@@ -95,6 +109,7 @@ p {
 ```
 
 ### Mehrere Elemente auswählen
+
 Teilen sich mehrere Elemente die gleichen Regeln, können diese miteinander selektiert werden. Dazu werden einfach mehrere Selektoren hintereinander geschrieben, getrennt durch Kommas:
 
 ```css
@@ -105,8 +120,8 @@ p, li, h1 {
 
 ### Verschiedene Arten von Selektoren
 
-
 #### Element-Selektor 
+
 Auch Tag- oder Typ-Selektor genannt. Alle HTML-Elemente eines bestimmten Typs werden ausgewählt.
 
 ```css
@@ -144,16 +159,78 @@ Elemente mit der entprechenden Klasse werden ausgewählt. Klassen können mehrer
 
 
 ```css
-.important {
+.important-text {
     color: red;
 }
 ```
 
 ```html
-<p class="important">Wird ausgewählt</p>
-<p class="important">Wird auch ausgewählt</p>
+<p class="important-text">Wird ausgewählt</p>
+<p class="important-text">Wird auch ausgewählt</p>
 
 <p>Wird nicht ausgewählt</p>
+```
+
+#### Mehrfach-Selektor
+
+Um Elemente gleichzeitig über mehrere Attribute auszuwählen, kette diese einfach aneinander:
+
+```css
+.card.headline { /* Gilt nur für div mit .card und .headline */
+  color: red;
+}
+```
+
+```html
+<div class="card">Ich habe eine Klasse</div>
+<div class="card headline">Ich habe zwei Klassen</div>
+```
+
+#### Nachfahren-Selektor
+
+Beim `Nachfahren-Selektor` werden zwei Selektoren durch ein Leerzeichen voneinander getrennt. Der Selektor
+spricht das zuletzt erwähnte Element nur dann an, wenn es ein `Nachfahre` des vorhergehenden Elements ist.
+
+Als `Nachfahre` werden alle Elemente unterhalb eines anderen Elements bezeichnet (Kinder, Kindeskinder etc.)
+
+```css
+.main p { /* Formatiere alle p unterhalb von .main */
+  color: red;
+}
+```
+
+
+```html
+<div class="main">
+  <div>
+    <p>Dieser Text ist rot</p>
+  </div>
+</div>
+
+<p>Dieser Text ist nicht rot</p>
+```
+
+
+#### Kind-Selektor
+
+Beim `Kind-Selektor` werden zwei Selektoren durch ein `>` voneinander getrennt. Der Selektor
+spricht das zuletzt erwähnte Element nur dann an, wenn es ein direktes `Kind` des vorhergehenden Elements ist.
+
+Als `Kind` werden alle Elemente _direkt unterhalb_ eines anderen Elements bezeichnet.
+
+```css
+.main > p { /* Formatiere alle p direkt unterhalb von .main */
+  color: red;
+}
+```
+
+```html
+<div class="main">
+  <p>Dieser Text ist rot</p>  
+  <div>
+    <p>Dieser Text ist nicht rot</p>
+  </div>
+</div>
 ```
 
 #### Attribut-Selektor
@@ -188,3 +265,4 @@ a:hover {
 ```html
 <a href="css.html">Wird rot wenn der Mauszeiger darüber fährt.</a>
 ```
+
