@@ -7,7 +7,7 @@ Lade die HTML- und CSS-Dateien `index.html`, `style.css` und `flex.css` herunter
 Dabei dürfen die anderen Dateien `index.html` und `style.css` **nicht verändert werden**.
 
 # Aufgabe 2
-Die CSS-Regeln innerhalb der geschweiften Klammern der folgenden `@media`-Eigenschaft werden nur interpretiert, wenn die Breite des Bildschirms kleiner als 768px ist - sprich auf Tablets und Handies
+Die CSS-Regeln innerhalb der geschweiften Klammern der folgenden `@media`-Eigenschaft werden nur interpretiert, wenn die Breite des Bildschirms kleiner als 768px ist - sprich auf Tablets und Smartphones
 
 ```css
 @media screen and (max-width: 768px) {
@@ -22,7 +22,7 @@ Ergänze nun CSS-Regeln in den geschweiften Klammern, damit das Layout wie folgt
 ![Order](src/news-2.jpg)
 
 # Aufgabe 3
-Die CSS-Regeln innerhalb der geschweiften Klammern der folgenden `@media`-Eigenschaft werden nur interpretiert, wenn die Breite des Bildschirms kleiner als 480px ist - sprich auf Handies
+Die CSS-Regeln innerhalb der geschweiften Klammern der folgenden `@media`-Eigenschaft werden nur interpretiert, wenn die Breite des Bildschirms kleiner als 480px ist.
 
 ```css
 @media screen and (max-width: 480px) {
@@ -31,7 +31,7 @@ Die CSS-Regeln innerhalb der geschweiften Klammern der folgenden `@media`-Eigens
 }
 ```
 
-Ergänze nun CSS-Regeln in den geschweiften Klammern, damit das Layout wie folgt auf dem Handies angezeigt wird, ohne dass sich die Anzeige auf grösseren Bildschirmen ändert:
+Ergänze nun CSS-Regeln in den geschweiften Klammern, damit das Layout wie folgt auf dem Smartphone angezeigt wird, ohne dass sich die Anzeige auf grösseren Bildschirmen ändert:
 
 #### Bildschirmbreite: kleiner als 480px
 ![Order](src/news-3.jpg)
