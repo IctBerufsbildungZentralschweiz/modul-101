@@ -1,3 +1,27 @@
+# Einsatz von Bildern
+
+Wichtig ist es nicht nur die Bilder im richtigen Bildformat bereitzustellen, sondern auch in einer angemessenen Grösse. Bilder sollten immer in der Grösse bereitgestellt werden, in der sie tatsächlich im Web verwendet werden.
+
+Hier noch ein nützliches Werkzeug um mehrere Fotos miteinander zu verarbeiten: [Bulk Resize Photos](https://bulkresizephotos.com/).
+
+# Rechte an Bildern & Inhalten
+
+> Alle Inhalte im Internet sind grundsätzlich urheberrechtlich geschützt und dürfen nicht öffentlich verbreitet werden. Das gilt für Musik, die zwar frei aus dem Web kopiert, aber nur im privaten Kreis ab­gespielt und weitergegeben werden darf, ebenso wie für Fotos: Als Desktop-Hintergrund, Schlafzimmerposter oder Illustra­tion in einer E-Mail an Freunde darf man jedes Bild verwenden. Auf einer öffentlich zugänglichen Homepage aber eben nicht.
+
+-- [Beobachter Konsum](https://www.beobachter.ch/konsum/webdesign-die-sache-mit-dem-copyright)
+
+Somit sollten ein Website-Betreiber immer die nötigen Rechte für Bilder haben, welche auf seiner Website gezeigt werden. Mögliche Plattformen für den Erwerb von Bild-Lizenzen:
+
+- [Fotolia](https://de.fotolia.com/)
+- [Shutterstock](https://www.shutterstock.com)
+
+Daneben gibt es auch noch komplett kostenlose Bildportale. Meistens sind die Aufnahmen von Amateur- und Hobbyfotografen, die aber deshalb nicht schlechter sein müssen:
+
+- [Unsplash](https://unsplash.com)
+- [Pixabay](https://pixabay.com/de/)
+- [Pixelio](https://www.pixelio.de/)
+
+
 # Ladegeschwindigkeit
 Die zentrale Rolle der Ladegeschwindigkeit für eine Website zeigt folgendes Beispiel:
 
@@ -55,7 +79,7 @@ PNG steht für Portable Network Graphics. Es ist eine alternative zum GIF-Format
 * Wie das JPEG, verfügt das PNG über Millionen von Farben.
 * Wie das GIF, handelt es sich um einen verlustfreien Kompressionsalgorithmus.
 * Das PNG-Format unterstützt Transparenz - dabei gibt es die Möglichkeit für teiltransparente Pixel (75% - transparent; 25% - weiss). Es eignet sich deshalb für Bilder mit unterschiedlichen Transparenzstufen.
-* Es eignet sich daher sich für komplexe Bilder und Grafiken.
+* Es eignet sich daher für komplexe Bilder und Grafiken.
 
 ### Anwendungsfall
 
@@ -82,25 +106,3 @@ Dieses Bildformat hat jedoch Web in seiner DNA: Es wurde für den Gebrauch im In
 Der Vorteil von WebP ist also, dass es die Vorzüge von JPG und PNG in einem Bildformat kombiniert - ohne dabei auf eine überdimensionale Dateigrösse zu wachsen.
 
 **ACHTUNG:** Leider ist der Browsersupport für das Format noch nicht flächendeckend gewährleistet. Aus diesem Grund sollte im Moment noch auf den Einsatz verzichtet werden. Sollten jedoch Firefox, IE/Edge und Safari auf den Zug aufspringen, hat dieses Bildformat ein grosses Potential.
-
-# Einsatz von Bildern
-
-Wichtig ist es nicht nur die Bilder im richtigen Bildformat bereitzustellen, sondern auch in einer angemessenen Grösse. Bilder sollten immer in der Grösse bereitgestellt werden, in der sie tatsächlich im Web verwendet werden.
-
-Hier noch ein nützliches Werkzeug um mehrere Fotos miteinander zu verarbeiten: [Bulk Resize Photos](https://bulkresizephotos.com/).
-
-# Rechte an Bildern & Inhalten
-
-> Alle Inhalte im Internet sind grundsätzlich urheberrechtlich geschützt und dürfen nicht öffentlich verbreitet werden. Das gilt für Musik, die zwar frei aus dem Web kopiert, aber nur im privaten Kreis ab­gespielt und weitergegeben werden darf, ebenso wie für Fotos: Als Desktop-Hintergrund, Schlafzimmerposter oder Illustra­tion in einer E-Mail an Freunde darf man jedes Bild verwenden. Auf einer öffentlich zugänglichen Homepage aber eben nicht.
-
--- [Beobachter Konsum](https://www.beobachter.ch/konsum/webdesign-die-sache-mit-dem-copyright)
-
-Somit sollten ein Website-Betreiber immer die nötigen Rechte für Bilder haben, welche auf seiner Website gezeigt werden. Mögliche Plattformen für den Erwerb von Bild-Lizenzen:
-
-- [Fotolia](https://de.fotolia.com/)
-- [Shutterstock](https://www.shutterstock.com)
-
-Daneben gibt es auch noch komplett kostenlose Bildportale. Meistens sind die Aufnahmen von Amateur- und Hobbyfotografen, die aber deshalb nicht schlechter sein müssen:
-
-- [Pixabay](https://pixabay.com/de/)
-- [Pixelio](https://www.pixelio.de/)

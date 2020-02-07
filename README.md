@@ -4,6 +4,6 @@
 | HTML-Grundlagen | Bilder und   Schriften | Responsive Design |   |   |
 |   | Flexbox |   |   | Ende Projektarbeit |
 |   |   |   |   |   |
-| CSS-Grundlagen | Gestaltung | Konzeptionierung |   | Präsentation |
+| CSS-Grundlagen | Gestaltung | Konzeptionierung |   | Feedback-Runde |
 |   | Formulare | Veröffentlichen |   | Besprechung und   Reflexion |
 |   | Testing | Start   Projektarbeit |   |  |

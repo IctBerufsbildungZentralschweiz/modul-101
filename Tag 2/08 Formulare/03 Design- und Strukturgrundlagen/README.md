@@ -13,10 +13,6 @@ Zum Einstieg ein kleines Video wieso User Experience und User Design wichtig sin
 
 Die User Experience bei Formularen ist wichtig, da zwischen dem Ziel des Benutzers (Kaufen, Beitreten, Bloggen) und dem Ziel des Unternehmen (Verkaufen, hohe Mitgliederzahl, mehr Content) oft ein Formular steht.
 
-![Gebrauch von Formularen.](https://www.smashingmagazine.com/wp-content/uploads/2011/10/00-Table-webform-objectives.jpg)
-
-<sup>Gebrauch von Formularen, auf [Smashing Magazine](http://www.smashingmagazine.com), gemäss [Luke Wroblewski](http://www.lukew.com/resources/web_form_design.asp).</sup>
-
 * Ein __Formular__ macht somit eine Website __nutzbar__.
 * Ein __Formular__ muss somit __nützlich__ sein.
 
@@ -81,7 +77,7 @@ Das Aussehen eines Formulars ist entscheidend für dessen Benutzerfreundlichkeit
 
 <sup>Anmeldeformular bei Amazon [www.amazon.ch](www.amazon.ch) - Die Anmeldeseite von Amazon nutzt ganze Sätze, obwohl einzelne Wörter absolut ausreichend sind.</sup>
 
-* __Position des Labels.__ Auch hier gibt es keine abschliessende Regel und die unterschiedlichen Positionen des Labels bieten verschiedene Vor- und Nachteile. Hier findest du eine kleine Übersicht über die verschiedenen Positionen des Labels: [Überblick über Label-Positionierung](http://media.mediatemple.netdna-cdn.com/wp-content/uploads/2011/10/00-Table-webform-alignment.jpg)
+* __Position des Labels.__ Auch hier gibt es keine abschliessende Regel und die unterschiedlichen Positionen des Labels bieten verschiedene Vor- und Nachteile. 
 
 * __Nur eine Kolonne.__ Der Aufbau eines Formulars sollte sich nicht über mehrere Spalten ziehen, sondern klar dem Verlauf von oben nach unten folgen.
 
@@ -96,8 +92,6 @@ Das Aussehen eines Formulars ist entscheidend für dessen Benutzerfreundlichkeit
 * __Gestaltung der Formularfelder.__ HTML5 und CSS3 bieten eine Vielfalt von verschiedenen Varianten um ein Formularfeld zu gestalten. Diese sollten jedoch nur beschränkt eingesetzt werden. Es ist wichtiger dem Benutzer eine einfache und intuitive Oberfläche zu bieten als ein schön gestaltetes aber benutzerunfreundliches Formular zu designen (Beispiel Pflichtfeld mit *).
 
 ![Da hat es jemand zu gut gemeint.](src/06.jpg)
-
-<sup>Ein zu kreatives Kontaktfomular [www.2advanced.com](http://www.2advanced.com/) - Kreativität nie vor Funktionalität.</sup>
 
 
 ##### Aktionen

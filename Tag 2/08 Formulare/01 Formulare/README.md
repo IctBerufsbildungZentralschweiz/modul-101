@@ -2,7 +2,7 @@
 
 Unter folgendem Link findest du einige Code-Beispiele und Besonderheiten im Zusammenhang mit Formularen:
 
-[https://offline.swiss/vfi/formulare.html](https://offline.swiss/vfi/formulare.html)
+[https://offline.ch/ict/formulare.html](https://offline.ch/ict/formulare.html)
 
 
 ## Steuerelemente
@@ -13,11 +13,16 @@ In HTML werden Formularfelder mit dem `input` Tag deklariert. Mit dem `type` Att
 <input type="text">
 ```
 
-Zusätzlich zu einfachen Text-Inputs gibt es noch mehrzeilige Textfelder (`textarea`) und Schaltflächen (`buttons`).
+Zusätzlich zu einfachen Text-Inputs gibt es noch mehrzeilige Textfelder (`textarea`), Dropdowns (`select`, `option`) und Schaltflächen (`buttons`).
 
 
 ```html
 <textarea rows="10" cols="4"></textarea>
+
+<select name="anrede">
+    <option value="Frau">Frau</option>
+    <option value="Herr">Herr</option>
+</select>
 
 <button type="submit">Formular absenden</button>
 ```

@@ -1,4 +1,4 @@
-# Der Flex-Items
+# Die Flex-Items
 Die folgende Liste von Eigenschaften für die Flex-Items ist nicht abschliessend, zeigt jedoch die wichtigten Elemente.
 
 ![Flex Items](./src/flex-items.svg)
@@ -6,11 +6,13 @@ Die folgende Liste von Eigenschaften für die Flex-Items ist nicht abschliessend
 ## Flex-Items: `order`
 Standardmässig befinden sich die Flex-Items in der Reihenfolge, wie sie im Code auftauchen. Mit der `order`-Eigenschaft kann man auf dieses Standardverhalten Einfluss nehmen.
 
+Der Browser sortiert die Elemente aufsteigend, gemäss des `order` Werts.
+
 ![Order](src/order.svg)
 
 ```css
 .item {
-  order: <integer>; /* Standard ist 0 */
+  order: 5; /* Standard ist 0, Wert darf auch kleiner als 0 sein */
 }
 ```
 

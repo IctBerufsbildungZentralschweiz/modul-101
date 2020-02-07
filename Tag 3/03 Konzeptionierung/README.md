@@ -60,7 +60,7 @@ Mögliche Fragestellungen für die Erstellung einer Persona:
 * Wie nutzen die Besucher die Website und welche Ziele verfolgen sie?
 * Welche Inhalte, Funktionen und Services wünschen sich die Nutzer?
 
-[Beispiele für Personas](res/personas.jpg) von https://blog.seibert-media.net
+[Beispiele für Personas](src/persona.png) von https://www.banctracsolutions.com
 
 ## Informationsarchitektur
 
@@ -116,4 +116,4 @@ Ein Styleguide kann unter anderem Folgendes beinhalten:
 * [Styleguide von Styletil.es](http://styletil.es/downloads/Style_Tile_Template.psd.zip) - PSD Vorlage
 
 ## Testing
-Die Konzeption des Testing dient dazu, die Website vor oder im Betrieb testen zu können um Fehler und Pannen zu vermindern. Wie so ein Testing aussehen könnte, werden wir am Kurstag 3 anhand eines Beispieles erarbeiten.
+Die Konzeption des Testing dient dazu, die Website vor oder im Betrieb testen zu können um Fehler und Pannen zu vermindern.

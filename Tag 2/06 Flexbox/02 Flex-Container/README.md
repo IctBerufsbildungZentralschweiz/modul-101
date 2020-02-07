@@ -19,7 +19,7 @@ Mit der `flex-direction`-Eigenschaft kann definiert werden, ob sich die Elemente
 
 ```css
 .container {
-  flex-direction: row; // Oder: row-reverse | column | column-reverse
+  flex-direction: row; /* oder: row-reverse | column | column-reverse */
 }
 ```
 
@@ -37,7 +37,7 @@ Standardmässig passt der Flex-Container sämtliche Flex-Items in eine Linie ein
 
 ```css
 .container {
-  flex-wrap: nowrap; // Oder: wrap | wrap-reverse
+  flex-wrap: nowrap; /* oder: wrap | wrap-reverse */
 }
 ```
 
@@ -55,7 +55,7 @@ Diese Eigenschaft definiert die Ausrichtung der Items einer einer Linie. Ebenfal
 
 ```css
 .container {
-  justify-content: flex-start; // Oder: flex-end | center | space-between | space-around | space-evenly
+  justify-content: flex-start; /* oder: flex-end | center | space-between | space-around | space-evenly */
 }
 ```
 
@@ -77,7 +77,7 @@ Diese Eigenschaft definiert die Ausrichtung der Linien entlang der vertikalen Ac
 
 ```css
 .container {
-  align-content: stretch; // Oder: flex-start | flex-end | center | space-between | space-around
+  align-content: stretch; /* oder: flex-start | flex-end | center | space-between | space-around */
 }
 ```
 
