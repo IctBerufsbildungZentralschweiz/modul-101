@@ -7,24 +7,24 @@ Unter folgendem Link findest du einige Code-Beispiele und Besonderheiten im Zusa
 
 ## Steuerelemente
 
-In HTML werden Formularfelder mit dem `input` Tag deklariert. Mit dem `type` Attribut können verschiedene Typen spezifiziert werden.
+In HTML werden Formularfelder mit dem `input` Tag deklariert. Mit dem `type` Attribut können verschiedene Typen spezifiziert werden. Jedes Feld muss zwingend ein `name` Attribut haben, sonst wird das Feld beim Versenden nicht mitgeschickt. 
 
 ```html
-<input type="text">
+<input type="text" name="address">
 ```
 
 Zusätzlich zu einfachen Text-Inputs gibt es noch mehrzeilige Textfelder (`textarea`), Dropdowns (`select`, `option`) und Schaltflächen (`buttons`).
 
 
 ```html
-<textarea rows="10" cols="4"></textarea>
+<textarea name="remarks" rows="10" cols="4"></textarea>
 
 <select name="anrede">
     <option value="Frau">Frau</option>
     <option value="Herr">Herr</option>
 </select>
 
-<button type="submit">Formular absenden</button>
+<button type="submit" name="submit">Formular absenden</button>
 ```
 
 Damit die Daten korrekt an den Server übermittelt werden, benötigt jedes Formularelement ein `name` Attribut.
@@ -87,11 +87,11 @@ Es gibt zwei Schreibwesen für einen Submit-Button. Beide können verwendet werd
 
     <!-- ====================================== -->
     
-    <input type="submit" value="Formular absenden">
+    <input type="submit" name="submit" value="Formular absenden">
     
     <!-- oder -->
     
-    <button type="submit">Formular absenden</button>
+    <button type="submit" name="submit">Formular absenden</button>
     
     <!-- ====================================== -->
 

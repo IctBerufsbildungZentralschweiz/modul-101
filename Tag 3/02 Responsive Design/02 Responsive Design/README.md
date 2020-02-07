@@ -24,7 +24,7 @@ Dann, als das Internet auch für Smartphones und Tablets zugänglich wurde, ware
 
 Dies war definitiv keine perfekte Lösung - aber eine schnelle.
 
-[Hier ein Beispiel dazu: Gehe dazu in den Device-Emulator.](https://www.w3schools.com/css/example_withoutviewport.htm)
+[Hier ein Beispiel dazu: Gehe dazu in den Device-Emulator. (funktioniert mit Chrome, mit IE11 und Firefox nur teilweise)](https://www.w3schools.com/css/example_withoutviewport.htm)
 
 ### Kontrolle über den Viewport
 HTML5 hat eine Methode eingeführt, wie wir als Webdesigner die Kontrolle über den Viewport zurückerhalten - mit einem `<meta>`-Tag.

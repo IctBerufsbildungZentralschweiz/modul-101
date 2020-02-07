@@ -16,7 +16,7 @@ Der Text im `alt`-Attribut wird angezeigt, wenn das Bild nicht geladen werden ka
 ![Alt Tag eines <img>](src/img-alt.jpg)
 
 ## Überschriften
-Mit Überschriftelementen können bestimmte Teile des Inhaltes als Überschrift deklariert werden. Wie ein Buch einen Hauptitel und Kapitelüberschriften haben kann, können HTML Dokumente eine Hauptüberschrift und weitere Überschriften haben.
+Mit Überschriftelementen können bestimmte Teile des Inhaltes als Überschrift deklariert werden. Wie ein Buch einen Hauptitel und Kapitelüberschriften haben kann, können HTML Dokumente eine Hauptüberschrift und weitere Überschriften haben. Jede Seite sollte genau eine `<h1>Hauptüberschrift</h1>` haben und beliebig viele `<h2>Unterüberschriften</h2>`. Es darf keine Überschriftsstufe übersprungen werden (`<h1>` und `<h3>` ohne `<h2>` wäre falsch).
 
 HTML besitzt sechs Überschrifttypen, wobei meist nur 3-4 gebraucht werden: `<h1>–<h6>`
 
