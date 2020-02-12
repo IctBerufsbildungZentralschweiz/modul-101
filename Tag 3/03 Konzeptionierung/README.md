@@ -26,10 +26,10 @@ Viele Unternehmen neigen dazu, den eigentlichen «Webauftritt» als Ziel zu habe
 | Bereich    | Mögliche Ziele / Beispiele                                                                                                                    |
 |------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | Marketing  | Mehr Besucher-Verkehr, Bedürfnisse wecken,   Leads generieren & reaktivierung bestehender Kunden                                              |
-|            | Beispiel: Sechs Monate nach dem Relaunch der neuen Webseite sollen   täglich 35 Besucher Ihre Website besuchen.                               |
+|            | Beispiel: Sechs Monate nach dem Relaunch der neuen Webseite sollen  täglich 350 Besucher Ihre Website besuchen.                               |
 |            |                                                                                                                                               |
 | Verkauf    | Mehr Verkäufe, höherer Umwandlungssatz von Interessenten zu Käufern &   bessere Verkaufsuntersützung                                          |
-|            | Beispiel: Innerhalb der nächsten drei Jahre nach dem Launch sollen täglich   mindestens 1000 Franken Umsatz über den Webshop generiert werden. |
+|            | Beispiel: Innerhalb der nächsten drei Jahre nach dem Launch sollen täglich  mindestens 1000 Franken Umsatz über den Webshop generiert werden. |
 |            |                                                                                                                                               |
 | Support    | Verbesserung des Kundensupports & Verringerung der Telefonanfragen                                                                            |
 |            | Beispiel: Innerhalb von drei Monaten nach dem Relaunch sollen täglich   zwei Personen weniger die Hotline anrufen.                            |

@@ -18,7 +18,7 @@ Als Starthilfe wird dir folgendes CSS für deinen Container vorgegeben.
 ## Aufgabenstellung
 
 1. Erstelle das unten dargestellte Layout mit einem CSS Grid.
-2. Was bedeutet `margin: 0 auto`?
+2. Was bedeutet `margin: 0 auto` und was bewirkt es?
 3. Füge zwischen allen Zeilen und Spalten einen Abstand von `80px` ein.
 4. Füge eine horizontale Navigation an der entsprechenden Stelle ins Layout ein.
 

@@ -7,7 +7,7 @@ Erstelle ein CSS-Grid für folgende Startseite des Blogs «blog.ict-bz.ch». Jed
 1. Der Container ist `1200px` breit und zentriert.
 1. Es werden `9` Elemente platziert.
 1. Die Elemente werden auf vier `1fr` breite Spalten verteilt. `1fr` bedeuetet `1 fraction`, also jeweils ein "Bruchteil" des verfügbaren Platzes (gleiches Prinzip wie bei `flex-grow`).
-1. Die Elemente werden auf drei `400px` hohe Spalten verteilt.
+1. Die Elemente werden auf drei `400px` hohe Zeilen verteilt.
 1. Der Abstand zwischen den einzelnen Elementen beträgt `40px`.
 1. Der neuste Artikel wird immer etwas grösser über zwei Spalten und zwei Zeilen dargestellt.
 

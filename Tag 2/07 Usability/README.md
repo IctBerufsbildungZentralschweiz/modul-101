@@ -52,8 +52,10 @@ Mögliche Grundsätze für eine gute Navigation sind:
 
 Die Übergreifende Regel ist einfach: Verlange nie von einem Besucher, dass er nachdenken muss, wie er seine Informationen findet – **Don’t make me think!**
 
-### 5. Flash und Animationen
-Flash-Animationen können Aufmerksamkeit erzeugen. Genauso können sie Seitenbesucher von einer Webseite verjagen. Viele Leute  fühlen sich durch unerwartete Geräusche und Animationen gestört - vor allem am Arbeitsplatz. Animationen sollten nur dann eingesetzt werden wenn Sie wirklich nötig und sinnvoll sind.
+### 5. Animationen
+Animationen (mit CSS oder Flash) können Aufmerksamkeit erzeugen. Genauso können sie Seitenbesucher von einer Webseite verjagen. Viele Leute fühlen sich durch unerwartete Geräusche und Animationen gestört - vor allem am Arbeitsplatz. 
+
+Animationen sollten sparsam und schlicht eingesetzt werden, z.B. für Hover-Effekte bei Menüs und Bildern. Flash-Aminationen werden inzwischen von den meisten Browsern aus Sicherheitsgründen blockiert. 
 
 ### 6. Zugänglichkeit sicher stellen
 Es muss sichergestellt werden, dass wirklich jeder Ihre Seite besuchen kann, unabhängig vom Browser (ausgenommen extrem alte Versionen) oder Gerät. Mittlerweile erfolgt fast jeder zweite Internetzugriff über ein mobiles Gerät. Es wäre sehr schade, wenn die Hälfte der potenziellen Website-Besucher abspringen, weil die Webseite via Smartphones und Tablets nicht optimal funktioniert.

@@ -16,7 +16,7 @@ Der Text im `alt`-Attribut wird angezeigt, wenn das Bild nicht geladen werden ka
 ![Alt Tag eines <img>](src/img-alt.jpg)
 
 ## Überschriften
-Mit Überschriftelementen können bestimmte Teile des Inhaltes als Überschrift deklariert werden. Wie ein Buch einen Hauptitel und Kapitelüberschriften haben kann, können HTML Dokumente eine Hauptüberschrift und weitere Überschriften haben.
+Mit Überschriftelementen können bestimmte Teile des Inhaltes als Überschrift deklariert werden. Wie ein Buch einen Hauptitel und Kapitelüberschriften haben kann, können HTML Dokumente eine Hauptüberschrift und weitere Überschriften haben. 
 
 HTML besitzt sechs Überschrifttypen, wobei meist nur 3-4 gebraucht werden: `<h1>–<h6>`
 
@@ -27,7 +27,8 @@ HTML besitzt sechs Überschrifttypen, wobei meist nur 3-4 gebraucht werden: `<h1
 <h4>Ich bin eine weitere Unterüberschrift</h4>
 ```
 
-Um eine logische Dokumentenstruktur zu erhalten, sollten keine Ebenen übersprungen werden (z. B. `h3` gefolgt von `h5`).
+Jede Seite sollte genau eine Hauptüberschrift `<h1>` und beliebig viele Unterüberschriften `<h2>`-`<h6>` haben.
+Um eine logische Dokumentenstruktur zu erhalten, sollten keine Ebenen übersprungen werden (z. B. `<h3>` gefolgt von `<h5>`).
 
 ## Links
 Links sind sehr wichtig. Sie sind, was das Internet zu einem **NETZ/WEB** macht. Um einen Link zu implementieren, müssen wir das `<a>`-Element verwenden. Das `a` ist die Kurzform für "Anker" (engl."anchor"). Um einen Text innerhalb des Absatzes in einen Link zu verwandeln, führen wir folgende Schritte aus:
@@ -44,5 +45,5 @@ Heute ist ein <a>schöner Tag</a> in Luzern.
 Nun definieren wir mit dem `href`-Attribut, wo der Link hinzeigen soll.
 
 ```html
-Heute ist ein <a href="https://tourismus-luzern.ch">schöner Tag</a> in Luzern.
+Heute ist ein <a href="https://luzerntourismus.roundshot.com/">schöner Tag</a> in Luzern.
 ```
