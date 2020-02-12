@@ -37,3 +37,5 @@ Ein beliebter FTP-Client für Windows ist [`WinSCP`](https://winscp.net/eng/down
 ## Aufgabe
 
 Veröffentliche eine Datei auf den FTP Server der ICT-BZ und rufe sie auf deinem Smartphone auf.
+
+Die Daten findest du auf deinem [Moodle-Portal](https://kurse.ict-bz.ch/) auf der Kurs-Startseite unten.

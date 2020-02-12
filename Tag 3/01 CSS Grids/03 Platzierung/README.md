@@ -40,7 +40,14 @@ Für ein Element wird dann jeweils der Start und Endpunkt in CSS angegeben:
 
 Siehe [https://codepen.io/anon/pen/EbWMyK](https://codepen.io/anon/pen/EbWMyK)
 
-Mit diesen vier Eigenschaften kannst du die Elemente beliebig platzieren. Es gibt noch diverse andere Schreibweisen für die `grid-column` und `grid-row` Eigenschaften, die etwas kürzer sind. Für diesen ÜK können diese jedoch vernachlässigt werden, da sie keine erweiterte Funktionalität bieten.
+Mit diesen vier Eigenschaften kannst du die Elemente beliebig platzieren. Es gibt noch diverse andere Schreibweisen für die `grid-column` und `grid-row` Eigenschaften, die etwas kürzer sind: 
+
+```css
+.item-1 {
+  grid-column: 2 / 4; /* Entspricht grid-column-start: 2; grid-column-end: 3; */
+  grid-row:    1 / 2; /* Entspricht grid-column-start: 1; grid-column-end: 2; */
+}
+```
 
 Eine Übersicht aller verfügbarer Varianten findest du unter [https://css-tricks.com/snippets/css/complete-guide-grid/](https://css-tricks.com/snippets/css/complete-guide-grid/).
 
