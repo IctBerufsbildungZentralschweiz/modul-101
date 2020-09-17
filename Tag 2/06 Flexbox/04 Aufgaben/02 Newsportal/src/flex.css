@@ -3,7 +3,7 @@
 /** ...bis hier CSS-Regeln hinzufügen. **/
 
 @media screen and (max-width: 768px) {
-    /* Der Code innerhalb dieser Klammern wird nur auf Bildschimren
+    /* Der Code innerhalb dieser Klammern wird nur auf Bildschirmen
        angezeigt, die weniger als 768px breit sind. */
 
     /** Für Aufgabe 2 kannst du von hier... **/
@@ -13,7 +13,7 @@
 }
 
 @media screen and (max-width: 480px) {
-    /* Der Code innerhalb dieser Klammern wird nur auf Bildschimren
+    /* Der Code innerhalb dieser Klammern wird nur auf Bildschirmen
        angezeigt, die weniger als 480px breit sind. */
 
     /** Für Aufgabe 3 kannst du von hier... **/
