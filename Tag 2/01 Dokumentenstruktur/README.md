@@ -39,7 +39,7 @@ Um das Ziel zu erreichen, umklammern wir die beiden Absätze mit einem `<div>`-S
 Schreibe das HTML & CSS deines Briefes so um, dass kein `margin` oder `padding` mehr einem `<p>`, `<img>` oder `<table>`-Tag zugewiesen ist.
 
 ## Semantische Elemente
-Semtantische Elemente sind gleichbedeutend wie `<div>`-Strukturelemente, sie haben aber einem vordefinierten Anwendungszweck.
+Semtantische Elemente sind gleichbedeutend wie `<div>`-Strukturelemente, sie haben aber einen vordefinierten Anwendungszweck.
 
 So sollte das `<header>`-Element ausschliesslich für die Strukturierung des Kopfbereichs von Sektionen und Websites verwendet werden.
 
