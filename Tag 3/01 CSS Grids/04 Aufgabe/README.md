@@ -7,6 +7,7 @@ Als Starthilfe wird dir folgendes CSS für deinen Container vorgegeben.
 ```css
 .container {
     display: grid;
+    background: lightgrey;
     margin: 0 auto;
     width: 1100px;
 
