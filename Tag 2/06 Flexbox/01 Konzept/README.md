@@ -1,5 +1,5 @@
 # Flexbox
-Das Flexbox-Layout-Modul (flexible Boxen) zielt darauf ab das Layouten, Ausrichten und Ausnutzen des Platzes innerhalb einzelner Elemente in einem Container zu vereinfachen. Dies vorallem unter der Prämisse, dass die Grösse der Elemente unbekannt und/oder dynamisch ist (darum das Wort "flex").
+Das Flexbox-Layout-Modul (flexible Boxen) zielt darauf ab das Layouten, Ausrichten und Ausnutzen des Platzes innerhalb einzelner Elemente in einem Container zu vereinfachen. Dies vorallem unter der Voraussetzung, dass die Grösse der Elemente unbekannt und/oder dynamisch ist (darum das Wort "flex").
 
 Die Grundidee hinter dem flexiblen Layout ist es dem Container die Möglichkeit zu geben, seinen Inhalt zu steuern (Höhe, Breite, Reihenfolge), dass der verfügbare Platz möglichst gut ausgenutzt werden kann (meistens in Anbetracht der verschiedenen Anzeigegeräten und den damit verbunenen Unterschieden der Anzeigegrössen). Der Flex-Container kann somit Elemente vergrössern, verkleinern und umsortierten um den vorhandenen Platz möglichst optimal auszunutzen.
 
