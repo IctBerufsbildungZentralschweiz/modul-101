@@ -2,6 +2,8 @@
 
 * [Überblick](README.md)
 * [Tag 1](tag-1/README.md)
+  * [01 Grundlagen](tag-1/01-geschichte.md)
+  * [02 Realisation](tag-1/02-realisation.md)
   * [03 HTML](tag-1/03-html/README.md)
     * [Rechnung erstellen](tag-1/03-html/06-html-aufgabe.md)
     * [HTML-Validierung](tag-1/03-html/05-html-validierung.md)
@@ -16,8 +18,6 @@
     * [CSS-Validierung](tag-1/04-css/03-css-validierung.md)
     * [Pseudoklasse](tag-1/04-css/06-pseudoklassen.md)
     * [CSS-Grundlagen](tag-1/04-css/01-grundlagen.md)
-  * [README](tag-1/01-geschichte.md)
-  * [Ablauf eines Webprojektes](tag-1/02-realisation.md)
 * [Tag 2](tag-2/README.md)
   * [Testing-Workshop](tag-2/09-testing.md)
   * [08 Formulare](tag-2/08-formulare/README.md)
