@@ -1,4 +1,4 @@
-# HTML-Validierung
+# 05 HTML-Validierung
 
 Validierung ist ein Prozess, bei dem Dokumente auf die Einhaltung eines formalen Standards \(zum Beispiel die vom W3C\) überprüft werden. Ein Dokument, das so geprüft wurde und diese Prüfung bestanden hat, wird als valide bezeichnet.
 
