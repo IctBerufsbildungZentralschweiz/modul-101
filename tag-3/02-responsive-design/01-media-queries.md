@@ -1,4 +1,4 @@
-# Media Queries
+# 01 Media Queries
 
 Media Queries ermöglichen es, CSS-Regeln abhängig von gerätespezifischen Attributen \(Bildschirmgrösse, Pixeldichte\) oder Sensordaten des Geräts \(Lichtsensor\) zu definieren.
 

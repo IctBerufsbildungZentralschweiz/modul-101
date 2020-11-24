@@ -1,4 +1,4 @@
-# Konzeptionierung
+# 03 Konzeptionierung
 
 Ein Auftrag beginnt meistens nie mit der Realisation, sondern immer zuerst mit einem Konzept: Das Konzept beinhaltet die Analyse der IST-Situation, die Festlegung einer stategischen Stossrichtung, die Prüfung von möglichen Lösungsvarianten, die Planung des Vorgehens sowie Kriterien für die Kontrolle der Arbeit.
 

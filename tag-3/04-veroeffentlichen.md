@@ -1,4 +1,4 @@
-# Veröffentlichen
+# 04 Veröffentlichen
 
 Als `Veröffentlichung` oder `Deployment` einer Website bezeichnet man den Vorgang um den neusten Entwicklungsstand einer Website für die Öffentlichkeit zugänglich zu machen.
 

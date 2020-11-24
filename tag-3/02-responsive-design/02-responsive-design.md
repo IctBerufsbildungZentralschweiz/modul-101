@@ -1,4 +1,4 @@
-# Responsive Design
+# 02 Responsive Design
 
 Responsive Design bezeichnet die Fähigkeit eines Layouts sich automatisch auf verschiedene Geräteattribute anzupassen. Insbesondere ist damit die Grösse eines Displays gemeint.
 
