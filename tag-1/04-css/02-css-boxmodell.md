@@ -1,4 +1,4 @@
-# CSS-Boxmodell
+# 02 CSS-Boxmodell
 
 Wie dir bei HTML- und CSS-Code vielleicht bereits aufgefallen ist, geht es oft darum Boxen zu erstellen \(HTML\) und Boxen zu gestalten \(CSS\). Die meisten HTML-Elemente sind somit Boxen oder Schachteln, welche übereinander gestapelt wurden.
 

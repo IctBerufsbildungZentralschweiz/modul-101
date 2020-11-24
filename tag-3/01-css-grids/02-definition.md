@@ -1,4 +1,6 @@
-# Grids in CSS definieren
+# 02 Definition
+
+## Grids in CSS definieren
 
 Wir möchten folgendes Grid in CSS umsetzen. Dazu kann wie folgt vorgegangen werden:
 

@@ -1,4 +1,4 @@
-# Ordnerstruktur
+# 02 Ordnerstruktur
 
 Bei kleineren Projekten ist es noch einfach ohne sinnvolle Ordnerstruktur den Überblick zu behalten. Werden die Projekte jedoch etwas grösser, verliert man schnell den Überblick:
 

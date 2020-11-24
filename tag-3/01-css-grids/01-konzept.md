@@ -1,4 +1,6 @@
-# CSS Grids
+# 01 Konzept
+
+## CSS Grids
 
 Das `CSS Grid Layout` Modul ist die neuste Erweiterung der CSS Spezifikation um das Definieren von gridbasierten Layouts zu vereinfachen.
 
