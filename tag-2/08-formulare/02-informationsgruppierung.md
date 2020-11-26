@@ -64,7 +64,7 @@ Die Formularfeld-Gruppen erleichtern zum einen die Navigation innerhalb des Doku
 </fieldset>
 ```
 
-Als keine Illustration:
+Als kleine Illustration:
 
 ![Formularfelder](../../.gitbook/assets/Fieldset.jpg)
 
