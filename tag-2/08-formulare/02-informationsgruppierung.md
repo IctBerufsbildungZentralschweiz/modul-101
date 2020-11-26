@@ -110,7 +110,7 @@ Das `form` Tag ist auf der höchsten strukturellen Ebene eines Formulars und bei
 </form>
 ```
 
-Als keine Illustration:
+Als kleine Illustration:
 
 ![Formularfelder](../../.gitbook/assets/Form.jpg)
 
