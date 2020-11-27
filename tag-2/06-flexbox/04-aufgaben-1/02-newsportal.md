@@ -1,5 +1,9 @@
 # Aufgabe Newsportal
 
+
+
+{% file src="../../../.gitbook/assets/newsportal.zip" %}
+
 ## Aufgabe 1
 
 ![](../../../.gitbook/assets/ralph.png)
