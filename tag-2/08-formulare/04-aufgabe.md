@@ -1,5 +1,7 @@
 # 04 Aufgabe Formulare
 
+![](../../.gitbook/assets/ralph.png)
+
 Erstelle ein Anmeldeformular für den nächsten Firmenanlass deines Lehrbetriebes. Die folgenden Daten müssen für die Anmeldung eingetragen werden können:
 
 * Name

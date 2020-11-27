@@ -80,6 +80,8 @@ Zusätzlich zu den vielen verschiedenen Anzeigearten erlaubt der Wert `none` es,
 
 ## Aufgabe
 
+![](../.gitbook/assets/ralph.png)
+
 Füge neben der ersten Person im Dokument noch eine zweite Person mit Unterschrift ein. Schaue, dass die beiden Unterschriften einen genügend grossen Abstand zueinander haben.
 
 ![Rechnungsvorlage](../.gitbook/assets/rechnungsvorlage%20%283%29.jpg)

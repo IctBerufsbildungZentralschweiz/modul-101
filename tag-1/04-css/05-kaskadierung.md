@@ -87,5 +87,7 @@ p {
 
 ## Aufgabe
 
+![](../../.gitbook/assets/ralph.png)
+
 Versuche nun mit Hilfe der Kaskadierung eine CSS-Regel des `paper.css` zu überschreiben. Färbe dazu den Schatten \(`box-shadow`\) des Papiers blau.
 

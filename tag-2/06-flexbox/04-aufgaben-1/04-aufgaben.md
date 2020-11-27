@@ -2,6 +2,8 @@
 
 ## Aufgabe 1
 
+![](../../../.gitbook/assets/ralph.png)
+
 {% file src="../../../.gitbook/assets/index.html" %}
 
 {% file src="../../../.gitbook/assets/style.css" %}

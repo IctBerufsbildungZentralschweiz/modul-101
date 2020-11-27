@@ -2,6 +2,8 @@
 
 ## Aufgabe 1
 
+![](../../../.gitbook/assets/ralph.png)
+
 Lade die HTML- und CSS-Dateien `index.html`, `style.css` und `flex.css` herunter. Ergänze die Datei `flex.css` nun mit den nötigen CSS-Regeln, damit folgendes Layout angezeigt wird:
 
 ### Bildschirmbreite: 1300px

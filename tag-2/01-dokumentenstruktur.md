@@ -38,6 +38,8 @@ Um das Ziel zu erreichen, umklammern wir die beiden Absätze mit einem `<div>`-S
 
 ### Aufgabe
 
+![](../.gitbook/assets/ralph%20%281%29.png)
+
 Schreibe das HTML & CSS deines Briefes so um, dass kein `margin` oder `padding` mehr einem `<p>`, `<img>` oder `<table>`-Tag zugewiesen ist.
 
 ## Semantische Elemente
@@ -60,6 +62,8 @@ Die semantischen Elemente erleichtern vorallem die Human-Readability des HTML- u
 **Darum gilt:** Generische `<div>`-Elemente sollten nur genutzt werden, wenn kein semantisches Element geeignet ist.
 
 ## Aufgabe
+
+![](../.gitbook/assets/ralph.png)
 
 Unterteile deinen Brief mit den entsprechenden semantischen Elementen in einen Kopf-, Haupt- und Fussbereich.
 

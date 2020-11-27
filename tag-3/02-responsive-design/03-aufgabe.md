@@ -1,5 +1,7 @@
 # 03 Aufgabe
 
+![](../../.gitbook/assets/ralph.png)
+
 ## Desktop-Layout
 
 Erstelle ein CSS-Grid für folgende Startseite des Blogs «blog.ict-bz.ch». Jedes Rechteck wird später mit einem Blog-Artikel mit Bild, Überschrift und Text ersetzt. Vorerst konzentrieren wir uns jedoch nur aufs Layout.
@@ -28,6 +30,8 @@ Erstelle ein CSS-Grid für folgende Startseite des Blogs «blog.ict-bz.ch». Jed
 ![](../../.gitbook/assets/smartphone.png)
 
 ## Zusatzaufgabe
+
+![](../../.gitbook/assets/ralph.png)
 
 1. Wie kannst du folgende Regel weniger umständlich schreiben?
 

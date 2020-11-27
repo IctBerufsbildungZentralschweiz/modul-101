@@ -1,6 +1,6 @@
-# 04 Aufgabe
+# 04 Aufgabe Rechnung gestalten
 
-## Rechnung gestalten
+![](../../.gitbook/assets/ralph.png)
 
 ## Aufgabenstellung
 

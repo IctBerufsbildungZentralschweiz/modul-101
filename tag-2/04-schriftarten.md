@@ -109,5 +109,7 @@ Wird die CSS-Datei direkt aufgerufen, sehen wir die soeben besprochenen `@font-f
 
 ## Aufgabe
 
+![](../.gitbook/assets/ralph.png)
+
 Wähle eine Schrift von Google-Font aus und binde diese in die Rechnungsvorlage `invoice.html` ein. Ändere anschliessend die Standardschrift per CSS auf die ausgewählte Schriftart.
 

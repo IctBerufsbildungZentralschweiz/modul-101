@@ -15,7 +15,7 @@
     * [01 Grundlagen](tag-1/04-css/01-grundlagen.md)
     * [02 CSS-Boxmodell](tag-1/04-css/02-css-boxmodell.md)
     * [03 CSS-Validierung](tag-1/04-css/03-css-validierung.md)
-    * [04 Aufgabe](tag-1/04-css/04-css-aufgabe.md)
+    * [04 Aufgabe Rechnung gestalten](tag-1/04-css/04-css-aufgabe.md)
     * [05 CSS-Kaskadierung](tag-1/04-css/05-kaskadierung.md)
     * [06 Pseudoklassen](tag-1/04-css/06-pseudoklassen.md)
 * [Tag 2](tag-2/README.md)

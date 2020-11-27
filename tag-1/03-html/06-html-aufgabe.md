@@ -2,6 +2,8 @@
 
 ## Rechnung erstellen
 
+![](../../.gitbook/assets/ralph.png)
+
 ## Aufgabenstellung
 
 1. Suche dir eine Firma aus und lade deren Logo als Bild herunter.

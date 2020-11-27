@@ -29,6 +29,8 @@ Vorallem bei Links \(`<a>`\) sind die Pseudoklassen wichtig, um den Website-Besu
 
 ## Aufgabe
 
+![](../../.gitbook/assets/ralph.png)
+
 1. Füge nach der Unterschrift deinen Namen hinzu. Verlinke den Namen mit einem Social-Media-Profil \(Facebook, Instagram, Twitter, XING, LinkedIn\) von dir und style jeden möglichen Zustand des Links mit den entsprechenden CSS-Pseudoklassen.
 2. Färbe die erste Spalte der Tabelle mit Hilfe einer Pseudoklasse hellgrau ein. Achte dabei darauf, dass die letzte Reihe mit dem Total keinen Hintergrund erhält.
 

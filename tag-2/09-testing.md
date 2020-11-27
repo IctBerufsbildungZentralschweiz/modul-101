@@ -4,5 +4,7 @@ Bevor eine Website online geschaltet wird, sollte diese entsprechend getestet we
 
 ## Aufgabe
 
+![](../.gitbook/assets/ralph.png)
+
 Nehmt euch ein Flipchart und schreibt Punkte auf, welche ihr vor dem GoLive einer Website testen würdet. Am Schluss tragen wir die einzelnen Punkte zusammen und erstellen daraus eine universelle Checkliste.
 
