@@ -1,8 +1,10 @@
 # Aufgabe Newsportal
 
+{% file src="../../../.gitbook/assets/newsportal.zip" caption="Gesamtes Newsportal" %}
 
-
-{% file src="../../../.gitbook/assets/newsportal.zip" %}
+{% hint style="info" %}
+Die einzelnen Dateien findest du auf [Github](https://github.com/IctBerufsbildungZentralschweiz/modul-101/tree/master/Tag%202/06%20Flexbox/04%20Aufgaben/02%20Newsportal/src)
+{% endhint %}
 
 ## Aufgabe 1
 
