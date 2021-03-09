@@ -13,14 +13,6 @@ p {
 Via CSS können auch bestimmte Attribute aus dem HTML-Quellcode angesprochen werden. Um Elemente nach ihrer Klasse (`class`) auszuwählen 
 muss der Selektor mit einem Punkt `.` beginnen. Um Elemente nach Ihrer `ID` auszuwählen, muss der Selektor mit `#` beginnen.
 
-## Tipps zur Namensgebung
-
-* Versuche auf Sonderzeichen bei der Verwendung des `class`-Attributs zu verzichten. Auch wenn dies 
-  von CSS unterstützt wird, kann es zu unerwarteten Problemen führen.
-* Verwende englische Begriffe für Klassen.
-* Da die Gross- und Kleinschreibung von Klassen relevant ist, empfiehlt es sich alles in Kleinbuchstaben zu schreiben. 
-* Leerzeichen sind nicht erlaubt, verwende `-` bei Klassen mit mehreren Worten (z. B. `main-navigation`).
-
 ## CSS-Einbinden
 Probieren wir es gleich aus: Kopiere diese drei Zeilen CSS in eine neue Datei im Texteditor und speichere die Datei unter dem Namen `style.css` im gleichen Verzeichnis wie deine HTML-Datei `invoice.html` für die Rechnung.
 
@@ -267,3 +259,9 @@ a:hover {
 <a href="css.html">Wird rot wenn der Mauszeiger darüber fährt.</a>
 ```
 
+## Tipps zur Namensgebung von Klassen und IDs
+
+* Verzichte auf Sonderzeichen bei der Verwendung der `class`- und `id`- Attribute. Auch wenn dies von CSS unterstützt wird, kann es zu unerwarteten Problemen führen.
+* Verwende englische Begriffe für Klassen und IDs.
+* Da die Gross- und Kleinschreibung von Klassen und IDs relevant ist, empfiehlt es sich alles in Kleinbuchstaben zu schreiben. 
+* Leerzeichen sind nicht erlaubt, verwende `-` bei Klassen und IDs mit mehreren Worten (z. B. `main-navigation`).

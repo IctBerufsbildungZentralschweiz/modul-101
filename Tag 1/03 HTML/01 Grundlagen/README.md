@@ -67,13 +67,3 @@ Unter folgendem Link befindet sich eine Liste der HTML-Tags mit Beschreibung und
 [Liste von HTML-Tags](https://www.w3schools.com/tags/)
 
 **ACHTUNG:** Elemente mit dem Vermerk `Not supported in HTML5.` sollten nicht mehr verwendet werden.
-
-# Aufgabe
-Gehe auf [Codepen.io](https://codepen.io/pen/) und probiere folgende Tags aus:
-```html
-- <h1> bis <h6>
-- <em>
-- <a>
-- <img>
-```
-
