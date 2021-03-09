@@ -44,7 +44,7 @@ Mit diesen vier Eigenschaften kannst du die Elemente beliebig platzieren. Es gib
 
 ```css
 .item-1 {
-  grid-column: 2 / 4; /* Entspricht grid-column-start: 2; grid-column-end: 3; */
+  grid-column: 2 / 4; /* Entspricht grid-column-start: 2; grid-column-end: 4; */
   grid-row:    1 / 2; /* Entspricht grid-column-start: 1; grid-column-end: 2; */
 }
 ```

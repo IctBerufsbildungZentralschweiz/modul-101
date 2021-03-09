@@ -47,3 +47,14 @@ Nun definieren wir mit dem `href`-Attribut, wo der Link hinzeigen soll.
 ```html
 Heute ist ein <a href="https://luzerntourismus.roundshot.com/">schöner Tag</a> in Luzern.
 ```
+
+# Aufgabe
+Gehe auf [Codepen.io](https://codepen.io/pen/) und probiere folgende Tags aus:
+```html
+- <h1> bis <h6> (Überschriften - Headings)
+- <p> (Absätze - Paragraphs)
+- <strong> (wichtiger Text, fett)
+- <a> (Anchor - Link)
+- <img> (Bild)
+- Verschachtelungen: Absatz <p> mit Link <a>, Bild <img> mit Link <a>
+```

@@ -1,6 +1,6 @@
 # Veröffentlichen
 
-Als `Veröffentlichung` oder `Deployment` einer Website bezeichnet man den Vorgang um den neusten Entwicklungsstand einer Website für die Öffentlichkeit zugänglich zu machen.
+Als `Veröffentlichung` oder `Deployment` einer Website bezeichnet man den Vorgang, um den neusten Entwicklungsstand einer Website für die Öffentlichkeit zugänglich zu machen.
 
 Methoden zur Veröffentlichung von Websites gibt es wie Sand am Meer: Von der einfachen manuellen Methode bis zum vollautomatischen Testing mit anschliessender Veröffentlichung auf mehrere Server gleichzeitig.
 
@@ -16,7 +16,7 @@ Im Prinzip sind alle Methoden gleich:
 
 ## Transfer
 
-Für den Transfer gibt es ebenfalls verschiedenste Methoden um den Quellcode auf den Server zu übertragen. 
+Für den Transfer gibt es ebenfalls verschiedenste Methoden, um den Quellcode auf den Server zu übertragen. 
 
 Die meist verbreitete Methode für das manuelle Veröffentlichen ist der Upload via `FTP`.
 
@@ -38,4 +38,4 @@ Ein beliebter FTP-Client für Windows ist [`WinSCP`](https://winscp.net/eng/down
 
 Veröffentliche eine Datei auf den FTP Server der ICT-BZ und rufe sie auf deinem Smartphone auf.
 
-Die Daten findest du auf deinem [Moodle-Portal](https://kurse.ict-bz.ch/) auf der Kurs-Startseite unten.
+Die Zugangsdaten zum FTP-Server findest du auf deinem [Moodle-Portal](https://kurse.ict-bz.ch/) auf der Kurs-Startseite unten.
