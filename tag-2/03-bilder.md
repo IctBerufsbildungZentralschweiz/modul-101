@@ -12,6 +12,10 @@ Hier noch ein nützliches Werkzeug um mehrere Fotos miteinander zu verarbeiten: 
 
 -- [Beobachter Konsum](https://www.beobachter.ch/konsum/webdesign-die-sache-mit-dem-copyright)
 
+{% hint style="info" %}
+cyon hat einen guten Artikel zu den Bildrechten: [https://www.cyon.ch/blog/Bilder-im-Internet-rechtssicher-verwenden](https://www.cyon.ch/blog/Bilder-im-Internet-rechtssicher-verwenden)
+{% endhint %}
+
 Somit sollten ein Website-Betreiber immer die nötigen Rechte für Bilder haben, welche auf seiner Website gezeigt werden. Mögliche Plattformen für den Erwerb von Bild-Lizenzen:
 
 * [Fotolia](https://de.fotolia.com/)
