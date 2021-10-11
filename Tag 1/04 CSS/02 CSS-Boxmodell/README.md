@@ -5,6 +5,8 @@ CSS ist nun dafür da, deren Grösse, Farben, Position usw. zu bestimmen.
 
 ![boxmodell-gif](src/boxmodell-gif.gif)
 
+## Eigenschaften
+
 Das CSS-Layout basiert auf dem Box-Modell. Jede Box, die Platz auf einer Webseite einnimmt, hat folgende Eigenschaften:
 
 ### Innenabstand (padding)
@@ -20,3 +22,7 @@ Der Border ist der Rahmen um ein Element.
 Der Abstand vom Border bis zum nächsten benachbarten Element.
 
 ![Boxmodell](src/boxmodell.png)
+
+## Zweck bzw. Unterschied von padding und margin
+
+Wenn z.B. für ein Element ein Hintergrund (Farbe, Bild) definiert wird, wird der Bereich `padding` damit gefüllt, nicht aber `border` und `margin`.
