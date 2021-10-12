@@ -34,6 +34,12 @@ Ein beliebter FTP-Client für Windows ist [`WinSCP`](https://winscp.net/eng/down
 
 **Achte darauf, den Download von der offiziellen Projektseite [winscp.net](https://winscp.net/eng/download.php) zu verwenden. Es gibt diverse Installer für WinSCP mit gebundelter Malware im Internet zu finden.**
 
+### FileZilla
+
+[`FileZilla`](https://filezilla-project.org/) funktioniert ähnlich wie WinSCP und ist auch kostenlos und Open Source. Es hat den Vorteil, dass man unten sieht, welche Files korrekt übertragen wurden und welche nicht. 
+
+**Achtung:** Beim Standard-Setup werden weitere Tools mitinstalliert (Adware), dies sollte man im Setup ausschalten! 
+
 ## Aufgabe
 
 Veröffentliche eine Datei auf den FTP Server der ICT-BZ und rufe sie auf deinem Smartphone auf.
