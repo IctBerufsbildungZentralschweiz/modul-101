@@ -12,3 +12,12 @@ Eine klare Antwort auf «Wann verwende ich welche Methode?» gibt es nicht. Folg
 * Bei komplexeren Layouts wird das HTML Markup und der CSS Code deutlich übersichtlicher sein, wenn du mit CSS Grids arbeitest.
 * Ausgefallene Layouts lassen sich mit CSS Grids einfacher umsetzen als mit Flexbox (siehe z. B. https://codepen.io/rrenula/pen/LzLXYJ).
 * Flexbox hat aktuell den besseren Browser-Support falls alte Browser (< IE11) unterstützt werden müssen.
+
+### Aufgabe: Konzept erstellen
+Bildet Gruppen von 3 Personen und überlegt euch, wie sich das [vorgefertigte Design](./src/design_hochzeit.pdf) am besten in HTML und CSS umsetzen lässt. Macht euch Gedanken darüber...
+
+* ...wo der Einsatz von CSS Grids sinnvoll ist.
+* ...wo der Einsatz von Flexbox sinnvoll ist.
+* ...wo ihr welche semantischen Tags einsetzt.
+
+Zeichnet dazu die entsprechenden Bereiche im Design ein und notiert die dazugehörigen Tags und CSS-Attribute.
