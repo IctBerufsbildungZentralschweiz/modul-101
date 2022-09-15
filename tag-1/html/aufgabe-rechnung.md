@@ -1,6 +1,4 @@
-# 06 HTML Aufgabe
-
-## Rechnung erstellen
+# 🛠 Aufgabe Rechnung erstellen
 
 ![](../../.gitbook/assets/ralph.png)
 
@@ -19,4 +17,3 @@
 Hier findest Du die Rechnung noch als [PDF](https://github.com/johannesE/modul-101/tree/7ef76a9c9f706911092af198dd248f9a2832f329/Tag%201/03%20HTML/06%20HTML-Aufgabe/src/Rechnungsvorlage.pdf).
 
 {% file src="../../.gitbook/assets/rechnungsvorlage.pdf" %}
-
