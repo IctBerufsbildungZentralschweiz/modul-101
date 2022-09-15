@@ -1,8 +1,8 @@
 # Intro
 
-## Modul 101 - Webauftritt erstellen und veröffentlichen
+## Modul 101 - Webauftritt erstellen und veröffentlich
 
-<figure><img src=".gitbook/assets/html.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/html5_css3.jpg" alt=""><figcaption></figcaption></figure>
 
 ## Über dieses Script
 
