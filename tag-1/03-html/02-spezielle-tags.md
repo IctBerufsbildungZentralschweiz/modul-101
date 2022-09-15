@@ -12,9 +12,6 @@ Das genauso wichtige Attribut ist das `alt`-Attribut. Diese Attribut muss immer 
 
 Der Text im `alt`-Attribut wird angezeigt, wenn das Bild nicht geladen werden kann. Dies ist nützlich für Sehbehinderte, für Suchmaschinen (können keine Bilder sehen) und wenn es einen Fehler beim Laden des Bildes gibt. Dieser alternative Satz sollte dem Leser eine Informationen geben, damit er sich vorstellen kann, was auf dem Bild angezeigt ist.
 
-```
-```
-
 ![Alt Tag eines \<img>](../../.gitbook/assets/img-alt.jpg)
 
 ## Überschriften

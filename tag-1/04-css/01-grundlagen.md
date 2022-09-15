@@ -43,7 +43,7 @@ Die angegebene URI kann dabei relativ oder absolute definiert werden - dazu ein 
 
 Betrachte anschliessend die Datei `invoice.html` im Browser - die Absätze sollten nun rot eingefärbt sein.
 
-#### Relative Pfade
+### Relative Pfade
 
 Relative Pfaden haben das aktuelle Dokument als Ausgangspunkt für den angegebenen Pfad.
 
@@ -67,7 +67,7 @@ root/
 
 Beziehungen von internen Dateien werden meistens mit einem relativen Pfad angegeben. So können die Dateien problemlos verschoben werden (beispielsweise von der Entwicklungsumgebung auf den Produktivserver).
 
-#### Absolute Pfade
+### Absolute Pfade
 
 Absolute Pfade haben immer das Stammverzeichnis eines Servers (Root) als Ausgangspunkt für den angegebenen Pfad.
 

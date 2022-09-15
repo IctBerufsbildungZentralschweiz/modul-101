@@ -8,7 +8,7 @@ Mit Pseudoklassen lässt sich eine Seite nicht nur in Bezug auf die Struktur des
 
 Die Pseudoklasse wird angeführt mit einem Doppelpunkt und hinter den regulären Selektor angefügt.
 
-## Links
+## Links (\<a>)
 
 Vorallem bei Links (`<a>`) sind die Pseudoklassen wichtig, um den Website-Besucher mitzuteilen, dass es sich hier beispielswiese um klickbare Elemente handelt.
 
@@ -27,7 +27,7 @@ Vorallem bei Links (`<a>`) sind die Pseudoklassen wichtig, um den Website-Besuch
 | `:last-child`  | Dies wählt jedes Element aus, welches das letzte Kindelement seines   Elternelement ist.                                                                    |
 | `:nth-child()` | In der Klammer dieser Pseudoklasse muss noch ein Wert mitgegeben werden -   Beispiel: 2n. So wird jedes 2te Kindelement seines Elternelements   ausgewählt. |
 
-## Aufgabe
+## 🛠️ Aufgabe
 
 ![](../../.gitbook/assets/ralph.png)
 

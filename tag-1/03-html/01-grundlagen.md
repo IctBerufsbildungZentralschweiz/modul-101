@@ -70,7 +70,7 @@ Gewisse Elemente haben keinen Inhalt, diese werden leere Elemente genannt. Beisp
 
 Das `<img>`-Tag beinhaltet zwei Attribute, aber es gibt kein schliessendes `</img>`-Tag und keinen Inhalt in dem Element. Das `<img>`-Tag braucht keinen Inhalt um einen Effekt zu haben. Es bindet ein Bild an der entsprechenden Stelle in der HTML-Seite ein.
 
-### Liste mit HTML-Tags
+## Liste mit HTML-Tags
 
 Unter folgendem Link befindet sich eine Liste der HTML-Tags mit Beschreibung und Beispielen:
 
@@ -78,7 +78,7 @@ Unter folgendem Link befindet sich eine Liste der HTML-Tags mit Beschreibung und
 
 **ACHTUNG:** Elemente mit dem Vermerk `Not supported in HTML5.` sollten nicht mehr verwendet werden.
 
-## Aufgabe
+## 🛠️ Aufgabe
 
 Gehe auf [Codepen.io](https://codepen.io/pen/) und probiere folgende Tags aus:
 

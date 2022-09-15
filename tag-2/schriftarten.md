@@ -107,7 +107,7 @@ Wird die CSS-Datei direkt aufgerufen, sehen wir die soeben besprochenen `@font-f
 /* ... */
 ```
 
-## Aufgabe
+## 🛠️ Aufgabe
 
 ![](../.gitbook/assets/ralph.png)
 
