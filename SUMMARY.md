@@ -1,6 +1,7 @@
 # Table of contents
 
-* [Überblick](README.md)
+* [Intro](README.md)
+* [Organisatorisches](<README (1).md>)
 * [Tag 1](tag-1/README.md)
   * [01 Grundlagen](tag-1/01-geschichte.md)
   * [02 Realisation](tag-1/02-realisation.md)
@@ -53,4 +54,3 @@
   * [03 Konzeptionierung](tag-3/03-konzeptionierung.md)
   * [04 Veröffentlichen](tag-3/04-veroeffentlichen.md)
   * [05 Projektvorgabe](tag-3/05-projektvorgabe.md)
-

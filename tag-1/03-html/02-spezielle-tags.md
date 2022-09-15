@@ -2,7 +2,7 @@
 
 ## Bilder
 
-Das `<img>`-Tag bettet ein Bild an der Stelle der Seite ein, wo es in der HTML-Struktur eingegliedert ist. Es tut dies mit dem `src` \('src' steht für 'source'\) Attribut, welches den Pfad zum gewünschen Bild beinhaltet.
+Das `<img>`-Tag bettet ein Bild an der Stelle der Seite ein, wo es in der HTML-Struktur eingegliedert ist. Es tut dies mit dem `src` ('src' steht für 'source') Attribut, welches den Pfad zum gewünschen Bild beinhaltet.
 
 ```markup
 <img src="images/mein-logo.png" alt="Mein Firmenlogo">
@@ -10,13 +10,12 @@ Das `<img>`-Tag bettet ein Bild an der Stelle der Seite ein, wo es in der HTML-S
 
 Das genauso wichtige Attribut ist das `alt`-Attribut. Diese Attribut muss immer vorhanden sein. Es darf jedoch explizit leer gelassen werden.
 
-Der Text im `alt`-Attribut wird angezeigt, wenn das Bild nicht geladen werden kann. Dies ist nützlich für Sehbehinderte, für Suchmaschinen \(können keine Bilder sehen\) und wenn es einen Fehler beim Laden des Bildes gibt. Dieser alternative Satz sollte dem Leser eine Informationen geben, damit er sich vorstellen kann, was auf dem Bild angezeigt ist.
-
-```text
+Der Text im `alt`-Attribut wird angezeigt, wenn das Bild nicht geladen werden kann. Dies ist nützlich für Sehbehinderte, für Suchmaschinen (können keine Bilder sehen) und wenn es einen Fehler beim Laden des Bildes gibt. Dieser alternative Satz sollte dem Leser eine Informationen geben, damit er sich vorstellen kann, was auf dem Bild angezeigt ist.
 
 ```
+```
 
-![Alt Tag eines &amp;lt;img&amp;gt;](../../.gitbook/assets/img-alt.jpg)
+![Alt Tag eines \<img>](../../.gitbook/assets/img-alt.jpg)
 
 ## Überschriften
 
@@ -31,11 +30,11 @@ HTML besitzt sechs Überschrifttypen, wobei meist nur 3-4 gebraucht werden: `<h1
 <h4>Ich bin eine weitere Unterüberschrift</h4>
 ```
 
-Jede Seite sollte genau eine Hauptüberschrift `<h1>` und beliebig viele Unterüberschriften `<h2>`-`<h6>` haben. Um eine logische Dokumentenstruktur zu erhalten, sollten keine Ebenen übersprungen werden \(z. B. `<h3>` gefolgt von `<h5>`\).
+Jede Seite sollte genau eine Hauptüberschrift `<h1>` und beliebig viele Unterüberschriften `<h2>`-`<h6>` haben. Um eine logische Dokumentenstruktur zu erhalten, sollten keine Ebenen übersprungen werden (z. B. `<h3>` gefolgt von `<h5>`).
 
 ## Links
 
-Links sind sehr wichtig. Sie sind, was das Internet zu einem **NETZ/WEB** macht. Um einen Link zu implementieren, müssen wir das `<a>`-Element verwenden. Das `a` ist die Kurzform für "Anker" \(engl."anchor"\). Um einen Text innerhalb des Absatzes in einen Link zu verwandeln, führen wir folgende Schritte aus:
+Links sind sehr wichtig. Sie sind, was das Internet zu einem **NETZ/WEB** macht. Um einen Link zu implementieren, müssen wir das `<a>`-Element verwenden. Das `a` ist die Kurzform für "Anker" (engl."anchor"). Um einen Text innerhalb des Absatzes in einen Link zu verwandeln, führen wir folgende Schritte aus:
 
 Zuerst schreiben wir einen Satz.
 
@@ -54,4 +53,3 @@ Nun definieren wir mit dem `href`-Attribut, wo der Link hinzeigen soll.
 ```markup
 Heute ist ein <a href="https://luzerntourismus.roundshot.com/">schöner Tag</a> in Luzern.
 ```
-
