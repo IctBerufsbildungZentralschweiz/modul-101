@@ -12,7 +12,7 @@ Das Wichtigste: Ein Flexbox-Layout ist richtungsunabhängig, ganz im Gegensatz z
 **Achtung:** Flexbox-Layouts wurden nicht dafür konzipiert ganze Layouts zu gestalten, sondern nur für einzelne Komponenten auf einer Website. Für die Seitenlayouts wurde das CSS-Grid-Modul vorgesehen (dazu später mehr).
 {% endhint %}
 
-****
+
 
 ## Grundlagen und Begriffe
 
