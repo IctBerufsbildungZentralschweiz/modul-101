@@ -1,14 +1,14 @@
 # Aufgabe Newsportal
 
-{% file src="../../../.gitbook/assets/newsportal.zip" caption="Gesamtes Newsportal" %}
-
 {% hint style="info" %}
-Die einzelnen Dateien findest du auf [Github](https://github.com/IctBerufsbildungZentralschweiz/modul-101/tree/master/Tag%202/06%20Flexbox/04%20Aufgaben/02%20Newsportal/src)
+Die Aufgabendateien findest in der Datei «newsportal.zip». Lade die Datei herunter und entpacke das Zip-Archiv.&#x20;
 {% endhint %}
 
-## Aufgabe 1
+{% file src="../../../.gitbook/assets/newsportal.zip" %}
+Aufgabendateien zum downloaden
+{% endfile %}
 
-![](../../../.gitbook/assets/ralph.png)
+## Aufgabe 1
 
 Lade die HTML- und CSS-Dateien `index.html`, `style.css` und `flex.css` herunter. Ergänze die Datei `flex.css` nun mit den nötigen CSS-Regeln, damit folgendes Layout angezeigt wird:
 
@@ -51,4 +51,3 @@ Ergänze nun CSS-Regeln in den geschweiften Klammern, damit das Layout wie folgt
 ### Bildschirmbreite: kleiner als 480px
 
 ![Order](../../../.gitbook/assets/news-3.jpg)
-
