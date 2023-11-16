@@ -48,18 +48,21 @@ Semtantische Elemente sind gleichbedeutend wie `<div>`-Strukturelemente, sie hab
 
 So sollte das `<header>`-Element ausschliesslich für die Strukturierung des Kopfbereichs von Sektionen und Websites verwendet werden.
 
-| Semantisches   Element | Beschreibung                                                                                         | Möglicher Inhalt           |
-| ---------------------- | ---------------------------------------------------------------------------------------------------- | -------------------------- |
-| `<header>`             | Das Element beinhaltet Kopfelemente der Website oder einer Sektion.                                  | Navigation, Logo, Suchfeld |
-| `<nav>`                | Das Element beinhaltet eine Navigation.                                                              | Navigation                 |
-| `<main>`               | Das Element beinhaltet den Hauptinhalt der Website.                                                  | Hauptinhalt                |
-| `<section>`            | Das Element unterteilt ein Dokument in mehrere allgemeine Sektionen.                                 | Lead                       |
-| `<aside>`              | Das Element beinhaltet Informationen, welche mit dem Hauptinhalt der   Website in Verbindung stehen. | Sidebar                    |
-| `<footer>`             | Das Element beinhaltet Fusselemente der Website oder einer Sektion.                                  | Copyright, nützliche Links |
+| Semantisches Element | Beschreibung                                                                                       | Möglicher Inhalt           |
+| -------------------- | -------------------------------------------------------------------------------------------------- | -------------------------- |
+| `<header>`           | Das Element beinhaltet Kopfelemente der Website oder einer Sektion.                                | Navigation, Logo, Suchfeld |
+| `<nav>`              | Das Element beinhaltet eine Navigation.                                                            | Navigation                 |
+| `<main>`             | Das Element beinhaltet den Hauptinhalt der Website.                                                | Hauptinhalt                |
+| `<section>`          | Das Element unterteilt ein Dokument in mehrere allgemeine Sektionen.                               | Lead                       |
+| `<aside>`            | Das Element beinhaltet Informationen, welche mit dem Hauptinhalt der Website in Verbindung stehen. | Sidebar                    |
+| `<footer>`           | Das Element beinhaltet Fusselemente der Website oder einer Sektion.                                | Copyright, nützliche Links |
 
 Die semantischen Elemente erleichtern vorallem die Human-Readability des HTML- und CSS-Codes.
 
 **Darum gilt:** Generische `<div>`-Elemente sollten nur genutzt werden, wenn kein semantisches Element geeignet ist.
+
+Schau dazu im Browser die HTML-Struktur einer Beispielseite an: \
+[der-informationsdesigner.de/agentur-blog/allgemein/was-ist-webdesign](https://www.der-informationsdesigner.de/agentur-blog/allgemein/was-ist-webdesign/)
 
 ## 🛠️ Aufgabe
 

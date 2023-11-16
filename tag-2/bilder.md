@@ -1,16 +1,18 @@
 # 03 Bilder
 
-## Einsatz von Bildern
+## Grösse von Bildern
 
-Wichtig ist es nicht nur die Bilder im richtigen Bildformat bereitzustellen, sondern auch in einer angemessenen Grösse. Bilder sollten immer in der Grösse bereitgestellt werden, in der sie tatsächlich im Web verwendet werden.
+Wichtig ist es nicht nur die Bilder im richtigen Bildformat bereitzustellen, sondern auch in einer angemessenen Grösse. **Bilder sollten immer in der Grösse bereitgestellt werden, in der sie tatsächlich im Web verwendet werden.**
 
-Hier noch ein nützliches Werkzeug um mehrere Fotos miteinander zu verarbeiten: [Bulk Resize Photos](https://bulkresizephotos.com/).
+Hier zwei nützliche Werkzeuge: \
+Mit [Bulk Resize Photos](https://bulkresizephotos.com/) können mehrere Fotos miteinander verarbeitet werden.\
+Bit dem [Online Image Editor](https://www.online-image-editor.com/) kannst du Bilder online skalieren und zuschneiden.
 
 ## Rechte an Bildern & Inhalten
 
 > Alle Inhalte im Internet sind grundsätzlich urheberrechtlich geschützt und dürfen nicht öffentlich verbreitet werden. Das gilt für Musik, die zwar frei aus dem Web kopiert, aber nur im privaten Kreis ab­gespielt und weitergegeben werden darf, ebenso wie für Fotos: Als Desktop-Hintergrund, Schlafzimmerposter oder Illustra­tion in einer E-Mail an Freunde darf man jedes Bild verwenden. Auf einer öffentlich zugänglichen Homepage aber eben nicht.
 
--- [Beobachter Konsum](https://www.beobachter.ch/konsum/webdesign-die-sache-mit-dem-copyright)
+\-- [Beobachter Konsum](https://www.beobachter.ch/konsum/webdesign-die-sache-mit-dem-copyright)
 
 {% hint style="info" %}
 cyon hat einen guten Artikel zu den Bildrechten: [https://www.cyon.ch/blog/Bilder-im-Internet-rechtssicher-verwenden](https://www.cyon.ch/blog/Bilder-im-Internet-rechtssicher-verwenden)
@@ -33,10 +35,12 @@ Die zentrale Rolle der Ladegeschwindigkeit für eine Website zeigt folgendes Bei
 
 ![Absprungrate](../.gitbook/assets/every-second-count.png)
 
-* Nach mehr als zwei Sekunden Ladezeit erhöht sich die Absprungrate \(Personen, welche die Website verlassen\) um 12%.
+* Nach mehr als zwei Sekunden Ladezeit erhöht sich die Absprungrate (Personen, welche die Website verlassen) um 12%.
 * Nach mehr als vier Sekunden Ladezeit erhöht sich die Absprungrate um 25%.
 
-Der Grund für lange Ladezeiten sind häufig schlecht verarbeitete Medien \(Bilder, Videos\). Durchschnittlich machen Bilder mehr als **65% des Inhaltes** einer Website aus.
+Mehr dazu auf [www.tooltester.com/de/blog/website-ladezeit-statistiken ](https://www.tooltester.com/de/blog/website-ladezeit-statistiken/)
+
+Der Grund für lange Ladezeiten sind häufig schlecht verarbeitete Medien (Bilder, Videos). Durchschnittlich machen Bilder mehr als **65% des Inhaltes** einer Website aus.
 
 ![Aufteilung von Website Content](../.gitbook/assets/chart.png)
 
@@ -44,8 +48,8 @@ Der Grund für lange Ladezeiten sind häufig schlecht verarbeitete Medien \(Bild
 
 Um die Geschwindigkeit einer Website zu testen gibt es unterschiedliche Tools. Hier zwei davon:
 
-* [Google-PageSpeed-Test](https://developers.google.com/speed/pagespeed/insights/)
-* [WebPagetest](http://www.webpagetest.org/video/)
+* [Google-PageSpeed-Test](https://pagespeed.web.dev/)
+* [WebPagetest](https://www.webpagetest.org/)
 
 ## Bild-Formate
 
@@ -54,10 +58,9 @@ Um die Geschwindigkeit einer Website zu testen gibt es unterschiedliche Tools. H
 JPEG oder JPG ist ein verlustreiches Bildformat von der Joint Photographic Experts Group.
 
 * Das JPG-Format verfügt über mehr mehrere Millionen Farben. Dies macht es zur idealen Wahl für die Anzeige von Fotografien im Web.
-* JPEG ist ein verlustreiches Bildformat. Die Kompression kann also dazu benutzt werden um die Dateigrösse zu reduzieren: Die Qualität bei einer Kompression von 60% ist meistens absolut ausreichend für das Web. Bei einem Kompressionsfaktor grösser als 75% kann es zu deutlichen Qualitätsverlusten kommen.
+*   JPEG ist ein verlustreiches Bildformat. Die Kompression kann also dazu benutzt werden um die Dateigrösse zu reduzieren: Die Qualität bei einer Kompression von 60% ist meistens absolut ausreichend für das Web. Bei einem Kompressionsfaktor grösser als 75% kann es zu deutlichen Qualitätsverlusten kommen.
 
-  ![JPG-Kompression](../.gitbook/assets/compression.jpg)
-
+    ![JPG-Kompression](../.gitbook/assets/compression.jpg)
 * JPG-Bilder unterstützen keine Transparenz. Sollte ein Teil des Bildes somit transparent sein, eignet sich das JPG-Format nicht.
 
 #### Anwendungsfall
@@ -68,12 +71,11 @@ Verwende JPEG für Fotos.
 
 GIF steht für Graphics Interchange Format.
 
-* Das GIF-Format verfügt nur über 256 Farben, dadurch ist die Dateigrösse meistens entsprechend klein.
+*   Das GIF-Format verfügt nur über 256 Farben, dadurch ist die Dateigrösse meistens entsprechend klein.
 
     ![GIF-Kompression](../.gitbook/assets/gif.jpg)
-
-* Das GIF-Format ist ein verlustfreies Bildformat.
-* Das GIF-Format unterstützt Transparenz - dabei gibt es jedoch keine Halbtransparenz \(z. B. 50% weiss\), sondern immer nur ganz oder garnicht.
+* Das GIF-Format ist ein verlustfreies Bildformat, sofern das Original max. 256 Farbtöne hat.
+* Das GIF-Format unterstützt Transparenz - dabei gibt es jedoch keine Halbtransparenz (z. B. 50% weiss), sondern immer nur ganz oder garnicht.
 * Das GIF-Format unterstützt Animationen - darum kann es gut eingesetzt werden für repetierende, animierte Bilder wie Icons, Emoticons, Banner etc.
 * Eignet sich für einfache Grafiken mit wenig Farben, jedoch nicht für Fotografien.
 
@@ -89,7 +91,7 @@ PNG steht für Portable Network Graphics. Es ist eine alternative zum GIF-Format
 
 * Wie das JPEG, verfügt das PNG über Millionen von Farben.
 * Wie das GIF, handelt es sich um einen verlustfreien Kompressionsalgorithmus.
-* Das PNG-Format unterstützt Transparenz - dabei gibt es die Möglichkeit für teiltransparente Pixel \(75% - transparent; 25% - weiss\). Es eignet sich deshalb für Bilder mit unterschiedlichen Transparenzstufen.
+* Das PNG-Format unterstützt Transparenz - dabei gibt es die Möglichkeit für teiltransparente Pixel (75% - transparent; 25% - weiss). Es eignet sich deshalb für Bilder mit unterschiedlichen Transparenzstufen.
 * Es eignet sich daher für komplexe Bilder und Grafiken.
 
 #### Anwendungsfall
@@ -109,13 +111,12 @@ SVG steht für Scalable Vector Graphics und ist eine XML-basiertes Vektordatei. 
 
 Verwende SVGs dann, wenn ein Bild in verschiedenen Grössen benötigt wird oder eine geringere Dateigrösse als bei PNGs oder GIFs erreicht werden kann. Achte bei der Verwendung im Web auf den Browser-Support.
 
-### WebP \(Vorschau\)
+### WebP (Vorschau)
 
-Dieses Bildformat hat jedoch Web in seiner DNA: Es wurde für den Gebrauch im Internet \(von Google\) entwickelt.
+Dieses Bildformat hat jedoch Web in seiner DNA: Es wurde für den Gebrauch im Internet (von Google) entwickelt.
 
 > WebP is a modern **image format** that provides superior **lossless and lossy** compression for images on the web. … WebP lossless images are 26% smaller in size compared to PNGs. WebP lossy images are 25-34% smaller than comparable JPEG images … Lossless WebP supports **transparency** … at a cost of just 22% additional bytes. For cases when lossy RGB compression is acceptable, **lossy WebP also supports transparency**, typically providing 3× smaller file sizes compared to PNG. -- [WebP Website](https://developers.google.com/speed/webp/)
 
 Der Vorteil von WebP ist also, dass es die Vorzüge von JPG und PNG in einem Bildformat kombiniert - ohne dabei auf eine überdimensionale Dateigrösse zu wachsen.
 
-**ACHTUNG:** Leider ist der Browsersupport für das Format noch nicht flächendeckend gewährleistet. Aus diesem Grund sollte im Moment noch auf den Einsatz verzichtet werden. Sollten jedoch Firefox, IE/Edge und Safari auf den Zug aufspringen, hat dieses Bildformat ein grosses Potential.
-
+**ACHTUNG:** Leider ist der [Browsersupport](https://caniuse.com/?search=WebP) für das Format noch nicht flächendeckend gewährleistet, insbesondere bei Safari-Versionen vor Sept. 2022. Aus diesem Grund sollte WebP im Moment noch zurückhaltend eingesetzt werden.&#x20;
