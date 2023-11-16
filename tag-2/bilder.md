@@ -1,13 +1,5 @@
 # 03 Bilder
 
-## Grösse von Bildern
-
-Wichtig ist es nicht nur die Bilder im richtigen Bildformat bereitzustellen, sondern auch in einer angemessenen Grösse. **Bilder sollten immer in der Grösse bereitgestellt werden, in der sie tatsächlich im Web verwendet werden.**
-
-Hier zwei nützliche Werkzeuge: \
-Mit [Bulk Resize Photos](https://bulkresizephotos.com/) können mehrere Fotos miteinander verarbeitet werden.\
-Bit dem [Online Image Editor](https://www.online-image-editor.com/) kannst du Bilder online skalieren und zuschneiden.
-
 ## Rechte an Bildern & Inhalten
 
 > Alle Inhalte im Internet sind grundsätzlich urheberrechtlich geschützt und dürfen nicht öffentlich verbreitet werden. Das gilt für Musik, die zwar frei aus dem Web kopiert, aber nur im privaten Kreis ab­gespielt und weitergegeben werden darf, ebenso wie für Fotos: Als Desktop-Hintergrund, Schlafzimmerposter oder Illustra­tion in einer E-Mail an Freunde darf man jedes Bild verwenden. Auf einer öffentlich zugänglichen Homepage aber eben nicht.
@@ -50,6 +42,14 @@ Um die Geschwindigkeit einer Website zu testen gibt es unterschiedliche Tools. H
 
 * [Google-PageSpeed-Test](https://pagespeed.web.dev/)
 * [WebPagetest](https://www.webpagetest.org/)
+
+## Bild-Grössen
+
+Wichtig ist es nicht nur die Bilder im richtigen Bildformat bereitzustellen, sondern auch in einer angemessenen Grösse. **Bilder sollten immer in der Grösse bereitgestellt werden, in der sie tatsächlich im Web verwendet werden.**
+
+Hier zwei nützliche Werkzeuge: \
+Mit [Bulk Resize Photos](https://bulkresizephotos.com/) können mehrere Fotos miteinander verarbeitet werden.\
+Mit dem [Online Image Editor](https://www.online-image-editor.com/) kannst du einzelne Bilder online skalieren und zuschneiden.
 
 ## Bild-Formate
 

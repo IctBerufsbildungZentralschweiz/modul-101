@@ -107,6 +107,9 @@ Wird die CSS-Datei direkt aufgerufen, sehen wir die soeben besprochenen `@font-f
 /* ... */
 ```
 
+**Achtung:** Gemäss eines Urteils des Landgerichts München Anfang 2022 verstößt die Nutzung von Google Fonts ohne Einwilligung der User gegen die DSGVO (Europöische Datenschutz-Grundverordnung), wenn im Zuge dessen eine Verbindung zu Google-Servern in den USA aufgebaut werden muss, um die Fonts laden zu können. \
+Dies kann gelöst werden, in dem die Fonts herunter geladen und auf einem eigenen Server publiziert werden.&#x20;
+
 ## 🛠️ Aufgabe
 
 ![](../.gitbook/assets/ralph.png)
