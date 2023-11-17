@@ -6,11 +6,9 @@ Auf Bildschirmen und Beamer werden die Farben _additiv_ aus den drei Grundfarben
 
 <figure><img src="../../.gitbook/assets/rgb-farbmodell-1-1024x623.png" alt=""><figcaption><p>RGB Farbodell</p></figcaption></figure>
 
-### Farben mit CSS definieren
+In CSS können Farben mit Farbnamen oder Farbwerten Arten definiert werden.
 
-Mit CSS können Farben auf unterschiedliche Arten definiert werden:&#x20;
-
-#### Farb-Namen
+### Farben in CSS mit Farbnamen
 
 z.B. black, white, red, darkgrey, lightblue, rebeccapurple, orange.&#x20;
 
@@ -23,7 +21,7 @@ z.B. black, white, red, darkgrey, lightblue, rebeccapurple, orange.&#x20;
 
 \> [Liste aller unterstützen Farbnamen](https://www.w3schools.com/cssref/css\_colors.php)
 
-#### Farbwerte
+### Farben in CSS mit Farbwerten
 
 Es gibt viele [verschiedene Farbmodelle](https://developer.mozilla.org/en-US/docs/Web/CSS/color\_value), die in CSS genutzt werden können. Die häufigsten sind Angaben auf RGB-Basis:&#x20;
 
@@ -55,7 +53,8 @@ color: rgba(254, 233, 93, 0.5);
 color: #fee95d88;
 ```
 
-#### Links
+### Links
 
-* [Farbwerte finden und umwandeln](https://www.hexcolortool.com/)
-* [Weitere Arten von Farbwerten selber ausprobieren](https://developer.mozilla.org/en-US/docs/Web/CSS/color)
+* [Farbwähler: Farbwerte finden und umwandeln](https://www.hexcolortool.com/) (Hexcolortool)
+* [Farbrad zum Generieren einer ganzen Farbpalette](https://color.adobe.com/de/create/color-wheel) (Adobe)
+* [Weitere Arten von Farbwerten selber ausprobieren](https://developer.mozilla.org/en-US/docs/Web/CSS/color) (Mozilla)
