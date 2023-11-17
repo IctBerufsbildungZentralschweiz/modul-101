@@ -123,4 +123,4 @@ Der Vorteil von WebP ist also, dass es die Vorzüge von JPG und PNG in einem Bil
 
 ### Links
 
-* [Das perfekte Bildformat für Websites - Bilder-Sets für verschiedene Bildschirmgrössen](https://app-bis-web.de/perfektes-bildformat-websites/)
+* [Das perfekte Bildformat für Websites und Bilder-Sets für verschiedene Bildschirmgrössen](https://app-bis-web.de/perfektes-bildformat-websites/)
