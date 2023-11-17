@@ -40,7 +40,7 @@ Um das Ziel zu erreichen, umklammern wir die beiden Absätze mit einem `<div>`-S
 
 ![](<../.gitbook/assets/ralph (1).png>)
 
-Schreibe das HTML & CSS deines Briefes so um, dass kein `margin` oder `padding` mehr einem `<p>`, `<img>` oder `<table>`-Tag zugewiesen ist.
+Schreibe das HTML & CSS deiner Rechnung so um, dass kein `margin` oder `padding` mehr einem `<p>`, `<img>` oder `<table>`-Tag zugewiesen ist.
 
 ## Semantische Elemente
 
@@ -68,4 +68,4 @@ Schau dazu im Browser die HTML-Struktur einer Beispielseite an: \
 
 ![](../.gitbook/assets/ralph.png)
 
-Unterteile deinen Brief mit den entsprechenden semantischen Elementen in einen Kopf-, Haupt- und Fussbereich.
+Unterteile deine Rechnung mit den entsprechenden semantischen Elementen in einen Kopf-, Haupt- und Fussbereich.

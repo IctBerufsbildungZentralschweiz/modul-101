@@ -111,7 +111,7 @@ SVG steht für Scalable Vector Graphics und ist eine XML-basiertes Vektordatei. 
 
 Verwende SVGs dann, wenn ein Bild in verschiedenen Grössen benötigt wird oder eine geringere Dateigrösse als bei PNGs oder GIFs erreicht werden kann. Achte bei der Verwendung im Web auf den Browser-Support.
 
-### WebP (Vorschau)
+### WebP
 
 Dieses Bildformat hat jedoch Web in seiner DNA: Es wurde für den Gebrauch im Internet (von Google) entwickelt.
 
@@ -120,3 +120,7 @@ Dieses Bildformat hat jedoch Web in seiner DNA: Es wurde für den Gebrauch im In
 Der Vorteil von WebP ist also, dass es die Vorzüge von JPG und PNG in einem Bildformat kombiniert - ohne dabei auf eine überdimensionale Dateigrösse zu wachsen.
 
 **ACHTUNG:** Leider ist der [Browsersupport](https://caniuse.com/?search=WebP) für das Format noch nicht flächendeckend gewährleistet, insbesondere bei Safari-Versionen vor Sept. 2022. Aus diesem Grund sollte WebP im Moment noch zurückhaltend eingesetzt werden.&#x20;
+
+### Links
+
+* [Das perfekte Bildformat für Websites - Bilder-Sets für verschiedene Bildschirmgrössen](https://app-bis-web.de/perfektes-bildformat-websites/)
