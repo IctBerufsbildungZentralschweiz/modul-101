@@ -53,6 +53,20 @@ color: rgba(254, 233, 93, 0.5);
 color: #fee95d88;
 ```
 
+### Farbwähler im Browser und Visual Studio Code nutzen
+
+Im Browser kannst du über Rechts-Klick > Untersuchen oder mit \[F12] in die DevTools wechseln und dort die Farbe eines Elements in CSS finden und verändern:&#x20;
+
+<figure><img src="../../.gitbook/assets/Browser-Color-Tool.png" alt=""><figcaption><p>DevTools Farbwähler</p></figcaption></figure>
+
+In Visual Studio Code gibt es beim Bearbeiten von CSS ein ähnliches Tool:&#x20;
+
+<figure><img src="../../.gitbook/assets/VSC-Color-Tool.png" alt=""><figcaption><p>Farbwähler in Visual Studio Code</p></figcaption></figure>
+
+1. Farbwähler öffnen
+2. Zwischen Farbmodellen umschalten
+3. Transparenz setzen
+
 ### Links
 
 * [Farbwähler: Farbwerte finden und umwandeln](https://www.hexcolortool.com/) (Hexcolortool)
