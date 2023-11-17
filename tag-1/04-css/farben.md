@@ -29,7 +29,7 @@ Es gibt viele [verschiedene Farbmodelle](https://developer.mozilla.org/en-US/doc
 
 ```css
 /* RGB (Red, Green, Blue): */
-color: rgba(254, 233, 93);
+color: rgb(254, 233, 93);
 
 /* RGB Hexadezimal: */
 color: #fee95d;

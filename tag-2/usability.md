@@ -51,8 +51,8 @@ Wahrscheinlich einer der wichtigsten Faktoren, die über das Verbleiben des Besu
 
 Die wichtigsten Fragen eines Besuchers sind somit:
 
-1. Wo bin ich? Was ist das? (Orientierung)   &#x20;
-2. Wie komme ich zu XY?    (Navigation)
+1. Wo bin ich? Was ist das? (Orientierung)
+2. Wie komme ich zu XY? (Navigation)
 
 Mögliche Grundsätze für eine gute Navigation sind:
 
@@ -65,9 +65,9 @@ Die Übergreifende Regel ist einfach: Verlange nie von einem Besucher, dass er n
 
 ## 5. Animationen
 
-Animationen (mit CSS oder Flash) können Aufmerksamkeit erzeugen. Genauso können sie Seitenbesucher von einer Webseite verjagen. Viele Leute fühlen sich durch unerwartete Geräusche und Animationen gestört - vor allem am Arbeitsplatz.
+Animationen (mit CSS, GIFs oder JavaScript) können Aufmerksamkeit erzeugen. Genauso können sie Seitenbesucher von einer Webseite verjagen. Viele Leute fühlen sich durch unerwartete Geräusche und Animationen gestört - vor allem am Arbeitsplatz.
 
-Animationen sollten sparsam und schlicht eingesetzt werden, z.B. für Hover-Effekte bei Menüs und Bildern. Flash-Aminationen werden inzwischen von den meisten Browsern aus Sicherheitsgründen blockiert.
+Animationen sollten sparsam und schlicht eingesetzt werden, z.B. für Hover-Effekte bei Menüs, Buttons und Bildern.
 
 ## 6. Zugänglichkeit sicher stellen
 
