@@ -1,6 +1,6 @@
 # Konzept
 
-## CSS Grids
+## CSS Grids für Layouts
 
 Das `CSS Grid Layout` Modul ist die neuste Erweiterung der CSS Spezifikation um das Definieren von gridbasierten Layouts zu vereinfachen.
 
@@ -13,10 +13,10 @@ Auch wenn das Modul aktuell noch im Entwurfs-Status ist (Stand November 2017), k
 Die Methoden zur Definition von Layouts in CSS haben in den letzten Jahren einen stetigen Wandel durchlebt. Dabei wurden folgende Varianten verwendet:
 
 * Tabellen
-* CSS-Floats
-* Flexbox und CSS Grids
+* Floats
+* Grids und Flexbox
 
-Abhängig des Alters eines Projekts wirst du eine der drei Varianten vorfinden. Wir konzentrieren uns in diesem ÜK auf die modernste Methode mit CSS Grids und Flexbox.
+Abhängig des Alters eines Projekts wirst du eine der drei Varianten vorfinden. Wir konzentrieren uns in diesem ÜK auf die modernste Methode mit Grids und Flexbox.
 
 ## Was ist ein Grid?
 

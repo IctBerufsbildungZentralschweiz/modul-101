@@ -1,4 +1,4 @@
-# 🛠 CSS Grid Aufgabe
+# 🛠 Grid Aufgabe
 
 Du weisst jetzt, wie man ein Layout mit CSS Grids definiert. Nutze dein Wissen um folgendes Layout in CSS nachzubauen.
 
@@ -9,7 +9,8 @@ Als Starthilfe wird dir folgendes CSS für deinen Container vorgegeben.
     display: grid;
     background: lightgrey;
     margin: 0 auto;
-    width: 1100px;
+    width: 100%;
+    max-width: 1100px;
 
     grid-template-columns: /* ... */;
     grid-template-rows:    /* ... */;

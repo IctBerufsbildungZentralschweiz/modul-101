@@ -2,7 +2,7 @@
 
 Elemente können in einem Grid frei platziert werden.
 
-## `grid-*-start` und `grid-*-end`
+## `grid-*-start` und `grid-*-end` _(nicht empfohlen)_
 
 Eine Variante um Elemente zu platzieren ist die Defintion via `grid-column-start` und `grid-column-end` bzw. deren Pendants `grid-row-start` und `grid-row-end`.
 
@@ -51,7 +51,7 @@ Mit diesen vier Eigenschaften kannst du die Elemente beliebig platzieren. Es gib
 
 Eine Übersicht aller verfügbarer Varianten findest du unter [https://css-tricks.com/snippets/css/complete-guide-grid/](https://css-tricks.com/snippets/css/complete-guide-grid/).
 
-## `grid-area`
+## `grid-area` _(empfohlen)_
 
 Für komplexere Grids kann die `grid-area` Property verwendet werden. Mit `grid-area` können bestimmten Bereichen im Grid spezifische Namen vergeben werden. Dies vereinfacht das Platzieren einzelner Elemente.
 
@@ -118,7 +118,9 @@ aside {
 
 Siehe [https://codepen.io/anon/pen/ooZVoG](https://codepen.io/anon/pen/ooZVoG).
 
-**Tipp:** In den Entwicklertools findest du unter `Inspect -> Layout` (Firefox) bzw. `Elements -> Layout` (Chrome) den Grid Inspector, der dir beim Arbeiten mit Grids helfen kann:
+### Unterstützung in den Browser-DevTools (F12)
+
+In den Entwicklertools findest du unter `Inspect -> Layout` (Firefox) bzw. `Elements -> Layout` (Chrome) den Grid Inspector, der dir beim Arbeiten mit Grids helfen kann:
 
 ![Grid Inspector in Firefox](../../.gitbook/assets/dev-tools-setting.png) ![Container](../../.gitbook/assets/dev-tools.png)
 

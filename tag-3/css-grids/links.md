@@ -2,8 +2,8 @@
 
 ## cssgrid.io
 
-Unter [cssgrid.io](https://cssgrid.io/) findest du einen kostenlosen Video-Kurs von Wes Bos zum Thema CSS Grids.
+Unter [cssgrid.io](https://cssgrid.io/) findest du einen kostenlosen Video-Kurs von Wes Bos zum Thema Grids.
 
-## Grid Garden&#x20;
+## Grid Garden
 
-CSS Grids spielerisch lernen: [https://codepip.com/games/grid-garden/](https://codepip.com/games/grid-garden/)
+Grids spielerisch lernen: [https://codepip.com/games/grid-garden/](https://codepip.com/games/grid-garden/)

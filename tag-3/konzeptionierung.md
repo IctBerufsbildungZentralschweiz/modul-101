@@ -11,9 +11,9 @@ Eine Website ist nur dann erfolgreich, wenn sie den gewünschten Nutzen für die
 Eine Wettbewerbsanalyse soll folgende Fragen beantwortet:
 
 * Gibt es viel Konkurrenz?
-* Wie positionieren sich andere Wettbewerber online? 
-* Was kommunizieren sie und wie sprechen sie ihre Zielgruppen an? 
-* Wie sieht das Design oder Redesign aus? 
+* Wie positionieren sich andere Wettbewerber online?
+* Was kommunizieren sie und wie sprechen sie ihre Zielgruppen an?
+* Wie sieht das Design oder Redesign aus?
 * Welche Inhalte werden vom Wettbewerber präsentiert?
 
 ## Festlegung einer Strategie
@@ -29,34 +29,34 @@ Die Festlegung der Stategie sollte somit folgende Fragen beantworten:
 
 Viele Unternehmen neigen dazu, den eigentlichen «Webauftritt» als Ziel zu haben. Dieses Ziel sollte mit dem nötigen Budget erreichbar sein. Doch geht es deutlich um mehr - in die Definition von «guten Zielen», sollte daher immer genügen Zeit investiert werden:
 
-| Bereich | Mögliche Ziele / Beispiele |
-| :--- | :--- |
-| Marketing | Mehr Besucher-Verkehr, Bedürfnisse wecken,   Leads generieren & reaktivierung bestehender Kunden |
-|  | Beispiel: Sechs Monate nach dem Relaunch der neuen Webseite sollen  täglich 350 Besucher Ihre Website besuchen. |
-|  |  |
-| Verkauf | Mehr Verkäufe, höherer Umwandlungssatz von Interessenten zu Käufern &   bessere Verkaufsuntersützung |
-|  | Beispiel: Innerhalb der nächsten drei Jahre nach dem Launch sollen täglich  mindestens 1000 Franken Umsatz über den Webshop generiert werden. |
-|  |  |
-| Support | Verbesserung des Kundensupports & Verringerung der Telefonanfragen |
-|  | Beispiel: Innerhalb von drei Monaten nach dem Relaunch sollen täglich   zwei Personen weniger die Hotline anrufen. |
-|  |  |
-| Webmaster | Vereinfacht die Verwaltung bestehender und die Veröffentlichung neuer   Inhalte auf der Website |
-|  | Beispiel: Mit der neuen Website gibt es innerhalb des nächsten Jahres   halb so viele Support-Anfragen an die Webagentur. |
-|  |  |
-| IT | Integration von Drittsystemen, höhere Sicherheit & verbesserte   Performance |
-|  | Beispiel: Innerhalb der nächsten drei Monate ist die Website zu 99.998%   online. |
-|  |  |
-| Prozesse | Kostenreduktion mit der Automatisation von Prozessen oder der   Standardisierung von Workflows |
-|  | Beispiel: Durch die Automatisierung des Prozesses XY können   durchschnittlich pro Woche 50 Franken eingespart werden. |
-|  |  |
-| Personal | Ansprache von neuen Mitarbeitern & Hilfe für bestehende Mitarbeitende |
-|  | Beispiel: 25% der Stellenanzeigen im nächsten Jahr werden durch Anfragen   über die Website besetzt. |
+| Bereich   | Mögliche Ziele / Beispiele                                                                                                                   |
+| --------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Marketing | Mehr Besucher-Verkehr, Bedürfnisse wecken, Leads generieren & reaktivierung bestehender Kunden                                               |
+|           | Beispiel: Sechs Monate nach dem Relaunch der neuen Webseite sollen täglich 350 Besucher Ihre Website besuchen.                               |
+|           |                                                                                                                                              |
+| Verkauf   | Mehr Verkäufe, höherer Umwandlungssatz von Interessenten zu Käufern & bessere Verkaufsuntersützung                                           |
+|           | Beispiel: Innerhalb der nächsten drei Jahre nach dem Launch sollen täglich mindestens 1000 Franken Umsatz über den Webshop generiert werden. |
+|           |                                                                                                                                              |
+| Support   | Verbesserung des Kundensupports & Verringerung der Telefonanfragen                                                                           |
+|           | Beispiel: Innerhalb von drei Monaten nach dem Relaunch sollen täglich zwei Personen weniger die Hotline anrufen.                             |
+|           |                                                                                                                                              |
+| Webmaster | Vereinfacht die Verwaltung bestehender und die Veröffentlichung neuer Inhalte auf der Website                                                |
+|           | Beispiel: Mit der neuen Website gibt es innerhalb des nächsten Jahres halb so viele Support-Anfragen an die Webagentur.                      |
+|           |                                                                                                                                              |
+| IT        | Integration von Drittsystemen, höhere Sicherheit & verbesserte Performance                                                                   |
+|           | Beispiel: Innerhalb der nächsten drei Monate ist die Website zu 99.998% online.                                                              |
+|           |                                                                                                                                              |
+| Prozesse  | Kostenreduktion mit der Automatisation von Prozessen oder der Standardisierung von Workflows                                                 |
+|           | Beispiel: Durch die Automatisierung des Prozesses XY können durchschnittlich pro Woche 50 Franken eingespart werden.                         |
+|           |                                                                                                                                              |
+| Personal  | Ansprache von neuen Mitarbeitern & Hilfe für bestehende Mitarbeitende                                                                        |
+|           | Beispiel: 25% der Stellenanzeigen im nächsten Jahr werden durch Anfragen über die Website besetzt.                                           |
 
 **Wichtig**: Entscheidend ist nicht nur, welche Ziele definiert, sondern wie diese überprüft werden können. Somit gehört zu jedem Ziel nicht nur die eigentliche Definition des SOLL-Zustandes, sondern auch die dazugehörige Möglichkeit den Zustand zu überprüfen.
 
 ### Personas
 
-Personas \(lat. Maske\) sind Nutzermodelle, die Personen einer Zielgruppe in ihren Merkmalen charakterisieren. Sie sollen einem Entwicklerteam aufgrund ihrer umfangreichen Beschreibung helfen, sich in die Lage der potenziellen Nutzer zu versetzen und diese Perspektive während des gesamten Designprozesses leicht zu vertreten. Sie werden mit einem Namen, einem Gesicht, einer Funktion, einem Werdegang und einem Privatleben versehen. Personas verfügen über Ziele und Verhaltensweisen, haben Vorlieben und Erwartungen.
+Personas (lat. Maske) sind Nutzermodelle, die Personen einer Zielgruppe in ihren Merkmalen charakterisieren. Sie sollen einem Entwicklerteam aufgrund ihrer umfangreichen Beschreibung helfen, sich in die Lage der potenziellen Nutzer zu versetzen und diese Perspektive während des gesamten Designprozesses leicht zu vertreten. Sie werden mit einem Namen, einem Gesicht, einer Funktion, einem Werdegang und einem Privatleben versehen. Personas verfügen über Ziele und Verhaltensweisen, haben Vorlieben und Erwartungen.
 
 Mögliche Fragestellungen für die Erstellung einer Persona:
 
@@ -86,9 +86,9 @@ Wireframe bedeutet so viel wie Drahtgerüst und ist eine schnelle und grobe Wied
 
 Mit einem Wireframe sollten folgende W-Fragen beantwortet werden:
 
-* Die wichtigsten Inhaltselemente \(WAS\)
-* Die Struktur der Informationen \(WO\)
-* Die grundlegende Visualisierung der Benutzerschnittstellen \(WIE\)
+* Die wichtigsten Inhaltselemente (WAS)
+* Die Struktur der Informationen (WO)
+* Die grundlegende Visualisierung der Benutzerschnittstellen (WIE)
 
 [Google Maps - Wireframe](https://www.google.ch/maps/place/ICT+Berufsbildung+Zentralschweiz/@47.0715163,8.3465601,17z/data=!3m1!4b1!4m5!3m4!1s0x478ffc03f44a7433:0xa693809437ac2778!8m2!3d47.0715127!4d8.3487488)
 
@@ -102,18 +102,19 @@ Wireframes werden hauptsächlich in der Anfangsphase eines Projektes verwendet u
 
 ### Hilfsmittel
 
-* [Balsamiq](https://balsamiq.com/download/) - Programm
+* [Creately](https://creately.com/de/lp/tool-fur-wireframe-erstellen/) - Webtool
 * [NinjaMock](https://ninjamock.com/) - Webtool
+* [Balsamiq](https://balsamiq.com/download/) - Programm
 
 ### Planung des Styleguides
 
-Styleguides sind definierte Rahmenbedingungen und Standards für die gestalterische Umsetzung einer Website \(oder anderen Oberfläche\). Die Styleguides werden gemeinsam mit dem Auftraggeber definiert und vereinfachen die Kommunikation.
+Styleguides sind definierte Rahmenbedingungen und Standards für die gestalterische Umsetzung einer Website (oder anderen Oberfläche). Die Styleguides werden gemeinsam mit dem Auftraggeber definiert und vereinfachen die Kommunikation.
 
 Ziel des Styleguides ist es, die Präferenzen, Ziele und Wünsche des Auftraggebers in einem möglichst frühen Projektstadium zu erfassen. Dadurch ist es möglich, zielgerichtetere Designs zu erstellen und darum die Anzahl der benötigten Varianten und Anpassungen zu verkleinern.
 
 Ein Styleguide kann unter anderem Folgendes beinhalten:
 
-* Wichtigste Schlüsselbergriffe \(meistens Adjektive\)
+* Wichtigste Schlüsselbergriffe (meistens Adjektive)
 * Logo und sonstige firmenspezifische Grafikelemente
 * Definierte Hauptfarben
 * Stil und Beispiel der Bilder
@@ -121,15 +122,14 @@ Ein Styleguide kann unter anderem Folgendes beinhalten:
 * Stil und Beispiel der verwendeten Icons
 * Stil und Beispiel der Überschriften
 * Stil und Beispiel des Fliesstextes
-* Ausgewählte Designelemente \(Buttons, Felder, Navigation etc.\)
+* Ausgewählte Designelemente (Buttons, Felder, Navigation etc.)
 
 ### Hilfsmittel
 
 ![Styletiles](../.gitbook/assets/style-tiles.jpg)
 
-* [Styleguide von Styletil.es](http://styletil.es/downloads/Style_Tile_Template.psd.zip) - PSD Vorlage
+* [Styleguide von Styletil.es](http://styletil.es/downloads/Style\_Tile\_Template.psd.zip) - PSD Vorlage
 
 ## Testing
 
 Die Konzeption des Testing dient dazu, die Website vor oder im Betrieb testen zu können um Fehler und Pannen zu vermindern.
-

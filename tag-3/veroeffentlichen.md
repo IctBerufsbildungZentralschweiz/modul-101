@@ -14,6 +14,9 @@ Im Prinzip sind alle Methoden gleich:
 * Im Idealfall wird eine Source Code Verwaltung (wie z. B. [`git`](https://git-scm.com/)) dazwischen geschaltet
 * Für unser Anwendungsfall genügt ein direktes und manuelles Veröffentlichen
 
+**Probleme mit absoluten Links:** Falls du deine links (zu Bildern, CSS etc.) nicht relativ, sondern absolut eingefügt hast, wirst du beim Veröffentlichen bemerken, dass diese nicht mehr funktionieren. Bilder, CSS und ganze Webseiten werden nicht gefunden. \
+**Lösung: Nutze möglichst immer relative Links!**&#x20;
+
 ## Transfer
 
 Für den Transfer gibt es ebenfalls verschiedenste Methoden um den Quellcode auf den Server zu übertragen.
@@ -40,4 +43,4 @@ Ein beliebter FTP-Client für Windows ist [`WinSCP`](https://winscp.net/eng/down
 
 Veröffentliche eine Datei auf den FTP Server der ICT-BZ und rufe sie auf deinem Smartphone auf.
 
-Die Daten findest du auf deinem [Moodle-Portal](https://kurse.ict-bz.ch/) auf der Kurs-Startseite unten.
+Die Daten findest du auf deinem [Moodle-Portal](https://kurse.ict-bz.ch/) auf der Kurs-Startseite.
