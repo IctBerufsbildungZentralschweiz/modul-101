@@ -56,4 +56,3 @@
     * [🛠 Aufgabe](tag-3/responsive-design/aufgabe.md)
   * [03 Konzeptionierung](tag-3/konzeptionierung.md)
   * [04 Veröffentlichen](tag-3/veroeffentlichen.md)
-  * [05 Projektvorgabe](tag-3/projektvorgabe.md)
