@@ -1,4 +1,4 @@
-# 03 Platzierung
+# Platzierung
 
 Elemente können in einem Grid frei platziert werden.
 
@@ -118,7 +118,8 @@ aside {
 
 Siehe [https://codepen.io/anon/pen/ooZVoG](https://codepen.io/anon/pen/ooZVoG).
 
-**Tipp:** Ab Firefox Version 57 findest du in den Entwicklertools unter `Inspect -> Layout` den CSS Grid Inspector, der dir beim Arbeiten mit Grids helfen kann:
+**Tipp:** In den Entwicklertools findest du unter `Inspect -> Layout` (Firefox) bzw. `Elements -> Layout` (Chrome) den Grid Inspector, der dir beim Arbeiten mit Grids helfen kann:
 
-![Container](../../.gitbook/assets/dev-tools-setting.png) ![Container](../../.gitbook/assets/dev-tools.png)
+![Grid Inspector in Firefox](../../.gitbook/assets/dev-tools-setting.png) ![Container](../../.gitbook/assets/dev-tools.png)
 
+<figure><img src="../../.gitbook/assets/ChromeDevToolsGrid.png" alt=""><figcaption><p>Grids und Flexboxen sind in Chrome leicht zu finden.</p></figcaption></figure>
