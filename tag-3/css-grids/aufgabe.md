@@ -6,7 +6,7 @@ Du weisst jetzt, wie man ein Layout mit CSS Grids definiert. Nutze dein Wissen u
 
 ![](../../.gitbook/assets/ralph.png)
 
-* Erstelle die Dateien layout.html das unten dargestellte Layout mit einem CSS Grid.
+Setze das unten dargestellte Layout mit einem CSS Grid um. Erstelle dazu in einem neuen Verzeichnis eine `layout.html` und `styles.css`.
 
 ![Aufgabe](../../.gitbook/assets/aufgabe.png)
 
@@ -32,6 +32,8 @@ body {
     background-color: lightgray;
 }
 ```
+
+Danach kannst du noch folgende Fragen beantworten:&#x20;
 
 * Was bewirkt `body { margin: 0; }`?
 * Was bedeutet `margin: 0 auto` und was bewirkt es?
