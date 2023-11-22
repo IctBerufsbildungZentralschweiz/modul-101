@@ -6,9 +6,11 @@ Du weisst jetzt, wie man ein Layout mit CSS Grids definiert. Nutze dein Wissen u
 
 ![](../../.gitbook/assets/ralph.png)
 
-Setze das unten dargestellte Layout mit einem CSS Grid um. Erstelle dazu in einem neuen Verzeichnis eine `layout.html` und `styles.css`.
+Setze das unten dargestellte Layout mit einem CSS Grid um.&#x20;
 
 ![Aufgabe](../../.gitbook/assets/aufgabe.png)
+
+Erstelle dazu ein neues Verzeichnis mit den Dateien `layout.html` und `styles.css`.&#x20;
 
 Als Starthilfe wird dir folgendes CSS vorgegeben:
 
