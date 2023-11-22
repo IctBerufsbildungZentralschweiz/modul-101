@@ -19,6 +19,10 @@ body {
     grid-template-columns: /* ... */;
     grid-template-rows:    /* ... */;
 }
+.header {
+    grid-area: /* ... */;
+    background-color: lightgray;
+}
 ```
 
 ## Aufgabenstellung
