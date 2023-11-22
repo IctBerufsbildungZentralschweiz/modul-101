@@ -102,9 +102,10 @@ Wireframes werden hauptsächlich in der Anfangsphase eines Projektes verwendet u
 
 ### Hilfsmittel
 
-* [Creately](https://creately.com/de/lp/tool-fur-wireframe-erstellen/) - Webtool
-* [NinjaMock](https://ninjamock.com/) - Webtool
-* [Balsamiq](https://balsamiq.com/download/) - Programm
+* [Creately](https://creately.com/de/lp/tool-fur-wireframe-erstellen/) - Webtool (Teils ohne Registrierung, tolle Tools für Wireframes & Mockups)
+* [draw.io](https://app.diagrams.net/) - Webtool (ohne Registrierung, gut für Sitemap, mässig für Wireframes)
+* [NinjaMock](https://ninjamock.com/) - Webtool (Registrierung nötig)
+* [Balsamiq](https://balsamiq.com/download/) - Programm (kostet, 30-tägige Testversion)
 
 ### Planung des Styleguides
 
