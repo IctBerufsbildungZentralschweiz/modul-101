@@ -2,8 +2,8 @@
 
 ### Aufgabenstellung
 
-{% embed url="https://github.com/IctBerufsbildungZentralschweiz/modul-101-projekt" %}
+Folgt an Tag 3...
 
 ### Bewertungsraster
 
-{% file src="../.gitbook/assets/Bewertung-M101-Kriterien-Punkte-2023.pdf" %}
+Folgt an Tag 3...
