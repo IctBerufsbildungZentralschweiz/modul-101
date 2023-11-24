@@ -1,4 +1,4 @@
-# 04 Schriftarten
+# Schriftarten
 
 ## Schriftarten
 
@@ -16,7 +16,7 @@ Die Verwendung von `"Anführungszeichen"` ist optional, wenn die Schriftart kein
 
 Im Web werden die Schriftarten **vom Computer des Besuchers** geladen, dies kann zu Problemen führen. Nutzt der Besucher Windows als Betriebssystem, wird die Schrift korrekt angezeigt. Besucht man die Website jedoch auf einem Mac, gibt es Darstellungsprobleme, weil die Schriftart `Calibri` auf einem Mac nicht vorinstalliert ist.
 
-![Fehlende Schriftart](../.gitbook/assets/calibri.png)
+![Fehlende Schriftart](../../.gitbook/assets/calibri.png)
 
 ### Alternative Schriftarten
 
@@ -112,6 +112,6 @@ Dies kann gelöst werden, in dem die Fonts herunter geladen und auf einem eigene
 
 ## 🛠️ Aufgabe
 
-![](../.gitbook/assets/ralph.png)
+![](../../.gitbook/assets/ralph.png)
 
 Wähle eine Schrift von Google-Font aus und binde diese in die Rechnungsvorlage `invoice.html` ein. Ändere anschliessend die Standardschrift per CSS auf die ausgewählte Schriftart.

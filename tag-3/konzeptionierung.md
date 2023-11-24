@@ -60,13 +60,13 @@ Personas (lat. Maske) sind Nutzermodelle, die Personen einer Zielgruppe in ihren
 
 Mögliche Fragestellungen für die Erstellung einer Persona:
 
-* Wer sind die typischen Nutzer auf einer Website?
+* Wer sind die typischen Nutzer auf einer Website? (3-5 Zielgruppen)
 * Wie kann man sich den typischen Besucher «bildlich» vorstellen?
 * Mit welchen Intentionen kommen die Nutzer auf die Website?
 * Wie nutzen die Besucher die Website und welche Ziele verfolgen sie?
 * Welche Inhalte, Funktionen und Services wünschen sich die Nutzer?
 
-[Beispiele für Personas](https://github.com/johannesE/modul-101/tree/7ef76a9c9f706911092af198dd248f9a2832f329/Tag%203/03%20Konzeptionierung/src/persona.png) von [https://www.banctracsolutions.com](https://www.banctracsolutions.com)
+\=> [Weitere Informationen zu Personas](https://www.webdesign-journal.de/persona-erstellen/)
 
 ## Informationsarchitektur
 
@@ -75,6 +75,8 @@ Mögliche Fragestellungen für die Erstellung einer Persona:
 Die Informationsarchitektur ist eine der zentralen Aufgaben jedes Konzeptes, wenn ein Internetauftritt geplant wird. Die Sitemap ist die Antwort auf die Frage, welche Informationen man wo auf der Site unterbringt.
 
 ![Sitemap](../.gitbook/assets/sitemap.png)
+
+\=> [Weitere Informationen (www.beyonder.ch)](https://www.beyonder.ch/blog/was-ist-eine-informationsarchitektur-die-struktur-und-der-inhalt-also-konzept-eurer-website)
 
 ## Gestaltungskonzept
 
@@ -86,28 +88,32 @@ Wireframe bedeutet so viel wie Drahtgerüst und ist eine schnelle und grobe Wied
 
 Mit einem Wireframe sollten folgende W-Fragen beantwortet werden:
 
-* Die wichtigsten Inhaltselemente (WAS)
-* Die Struktur der Informationen (WO)
-* Die grundlegende Visualisierung der Benutzerschnittstellen (WIE)
+* WAS für wichtige Inhaltselemente gibt es?
+* WO wird die Information platziert? Die Struktur bzw. Anordnung.
+* WIE wird das Element dargestellt? Die grundlegende Visualisierung der Benutzerschnittstellen.&#x20;
 
-**Aufgabe:** [Green iTech](https://green-itech.ch/) - WIe sieht ein Wireframe der Seite aus?&#x20;
+**Aufgabe:** [Green iTech](https://green-itech.ch/) - Wie sieht ein Wireframe der Seite aus?&#x20;
 
 #### Einsatz von Wireframes
 
 Wireframes werden hauptsächlich in der Anfangsphase eines Projektes verwendet um eine grobe Darstellung der Weblösung zu skizzieren. Sie können auch in einer weniger formellen Weise verwendet werden. Da sie schnell und einfach erstellt werden können, dienen sie als Skizzen für interne Besprechungen mit dem Team. Sie können Wireframes sowohl für grössere als auch für kleinere Aufgaben verwenden. Dies beseitigt Missverständnisse und ist extrem kostengünstig.
 
-### Einordnung des Wireframes
+#### Einordnung des Wireframes
 
 ![Wireframe](../.gitbook/assets/unterschied-wireframe-mockup.png)
 
-### Hilfsmittel
+#### Links
 
-* [Creately](https://creately.com/de/lp/tool-fur-wireframe-erstellen/) - Webtool (Teils ohne Registrierung, tolle Tools für Wireframes & Mockups)
-* [draw.io](https://app.diagrams.net/) - Webtool (ohne Registrierung, gut für Sitemap, mässig für Wireframes)
+* [Wireframe vs. Mockup vs. Prototype - What's the difference?](https://www.sketch.com/blog/wireframe-vs-mockup-vs-prototype/#wireframe-vs-mockup-vs-prototype)
+* [Wireframes, Mockups, Prototypes - Was ist was?](https://www.zielbar.de/magazin/wireframe-mockup-prototyp-23612/)
+
+#### Hilfsmittel
+
+* [Creately](https://creately.com/de/lp/tool-fur-wireframe-erstellen/) - Webtool (tolle Tools für Wireframes & Mockups, ohne Registrierung eingeschränkt)
 * [NinjaMock](https://ninjamock.com/) - Webtool (Registrierung nötig)
 * [Balsamiq](https://balsamiq.com/download/) - Programm (kostet, 30-tägige Testversion)
 
-### Planung des Styleguides
+### Styleguide
 
 Styleguides sind definierte Rahmenbedingungen und Standards für die gestalterische Umsetzung einer Website (oder anderen Oberfläche). Die Styleguides werden gemeinsam mit dem Auftraggeber definiert und vereinfachen die Kommunikation.
 
@@ -125,7 +131,7 @@ Ein Styleguide kann unter anderem Folgendes beinhalten:
 * Stil und Beispiel des Fliesstextes
 * Ausgewählte Designelemente (Buttons, Felder, Navigation etc.)
 
-### Hilfsmittel
+#### Hilfsmittel
 
 ![Styletiles](../.gitbook/assets/style-tiles.jpg)
 

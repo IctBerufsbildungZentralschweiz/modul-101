@@ -72,3 +72,7 @@ In Visual Studio Code gibt es beim Bearbeiten von CSS ein ähnliches Tool:&#x20;
 * [Farbwähler: Farbwerte finden und umwandeln](https://www.hexcolortool.com/) (Hexcolortool)
 * [Farbrad zum Generieren einer ganzen Farbpalette](https://color.adobe.com/de/create/color-wheel) (Adobe)
 * [Weitere Arten von Farbwerten selber ausprobieren](https://developer.mozilla.org/en-US/docs/Web/CSS/color) (Mozilla)
+
+### Aufgabe
+
+* Wähle für deine Rechnung für dein Tabellen-Kopf im Browser eine andere Farbe und kopiere den neuen Wert dann in dein CSS. Probiere die rgb(...)- und die #xxxxxx-Variante aus.
