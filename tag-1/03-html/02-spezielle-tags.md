@@ -31,22 +31,29 @@ Jede Seite sollte genau eine Hauptüberschrift `<h1>` und beliebig viele Unterü
 
 ## Links
 
-Links sind sehr wichtig. Sie sind, was das Internet zu einem **NETZ/WEB** macht. Um einen Link zu implementieren, müssen wir das `<a>`-Element verwenden. Das `a` ist die Kurzform für "Anker" (engl."anchor"). Um einen Text innerhalb des Absatzes in einen Link zu verwandeln, führen wir folgende Schritte aus:
+Links sind sehr wichtig. Sie sind, was das Internet zu einem **NETZ/WEB** macht. Um einen Link zu implementieren, müssen wir das `<a>`-Element verwenden. Das `a` ist die Kurzform für "Anker" (engl. "anchor"). Um einen Text innerhalb des Absatzes in einen Link zu verwandeln, führen wir folgende Schritte aus:
 
-Zuerst schreiben wir einen Satz.
+Zuerst schreiben wir einen Absatz mit einem Satz.
 
 ```markup
-Heute ist ein schöner Tag in Luzern.
+<p>Heute ist ein schöner Tag in Luzern.</p>
 ```
 
 Nun wählen wir die Wörter aus, welche wir als Link definieren möchten und umschliessen diesen Bereich mit einem `<a>`-Tag.
 
-```markup
-Heute ist ein <a>schöner Tag</a> in Luzern.
-```
+<pre class="language-markup"><code class="lang-markup"><strong>&#x3C;p>Heute ist ein &#x3C;a>schöner Tag&#x3C;/a> in Luzern.&#x3C;/p>
+</strong></code></pre>
 
 Nun definieren wir mit dem `href`-Attribut, wo der Link hinzeigen soll.
 
 ```markup
-Heute ist ein <a href="https://luzerntourismus.roundshot.com/">schöner Tag</a> in Luzern.
+<p>Heute ist ein <a href="https://luzerntourismus.roundshot.com/">schöner Tag</a> in Luzern.</p>
+```
+
+**Link in neuem Fenster / Tab öffnen:**
+
+Wenn ein Link auf eine externe Website oder ein PDF verweist, ist es üblich, diese in einem neuen Tab oder neuen Fenster zu öffnen. Grund ist, dass das Ziel die bisherige Navigation nicht mehr anbietet und so die Besucher nicht mehr leicht zurück finden. Dazu gibt es das Attribut `target`:
+
+```html
+<p>Heute ist ein <a href="https://luzerntourismus.roundshot.com/" target="_blank">schöner Tag</a> in Luzern.</p>
 ```
