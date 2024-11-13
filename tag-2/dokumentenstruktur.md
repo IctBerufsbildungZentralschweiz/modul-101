@@ -1,8 +1,8 @@
 # 01 Dokumentenstruktur
 
-Um Elemente innerhalb eines Dokuments besser zu strukturieren, hat HTML eigens dafür ein Strukturelement vorgesehen: das `<div>`. Das `<div>`-Element (Document Division Element) ist ein generischer Container für Inhalte, der im Grunde genommen Nichts repräsentiert. Das Element kann für die Gruppierung von Elementen genutzt werden, um sie zu stylen (mit Hilfe des `class` oder `id` Attributs).
+Um Elemente innerhalb eines Dokuments besser zu strukturieren, hat HTML das Strukturelement `<div>` vorgesehen. Das `<div>`-Element (Document Division Element) ist ein generischer Container für Inhalte, der keine eigene Bedeutung hat, ausser dass er Elemente zusammenfasst, z.B. um sie zu stylen (mit Hilfe des `class` oder `id` Attributs).
 
-Beispiel: Wir möchten das die folgenden Absätze mit einer Hintergrundfarbe hinterlegt sind, ohne einen weissen Absand dazwischen zu haben.
+Beispiel: Wir möchten, dass die folgenden Absätze mit einer Hintergrundfarbe hinterlegt sind, ohne einen weissen Absand dazwischen zu haben.
 
 ```markup
 <p>Ich bin ein erster Absatz.</p>
@@ -36,12 +36,6 @@ Um das Ziel zu erreichen, umklammern wir die beiden Absätze mit einem `<div>`-S
 
 ![Div mit Hintergrund](../.gitbook/assets/div-background.PNG)
 
-### Aufgabe
-
-![](<../.gitbook/assets/ralph (1).png>)
-
-Schreibe das HTML & CSS deiner Rechnung so um, dass kein `margin` oder `padding` mehr einem `<p>`, `<img>` oder `<table>`-Tag zugewiesen ist.
-
 ## Semantische Elemente
 
 Semtantische Elemente sind gleichbedeutend wie `<div>`-Strukturelemente, sie haben aber einen vordefinierten Anwendungszweck.
@@ -68,4 +62,6 @@ Schau dazu im Browser die HTML-Struktur einer Beispielseite an: \
 
 ![](../.gitbook/assets/ralph.png)
 
-Unterteile deine Rechnung mit den entsprechenden semantischen Elementen in einen Kopf-, Haupt- und Fussbereich.
+Unterteile deine Rechnung mit den entsprechenden semantischen Elementen in einen Kopf-, Haupt- und Fussbereich.&#x20;
+
+Schreibe das CSS deiner Rechnung so um, dass möglichst kein `margin` oder `padding` mehr einem `<p>`, `<img>` oder `<table>`-Tag zugewiesen ist, sondern den ensprechenden semantischen Elementen oder \<div> Containern.

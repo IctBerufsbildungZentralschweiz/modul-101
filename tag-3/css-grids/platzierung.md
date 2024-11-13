@@ -1,59 +1,10 @@
 # Platzierung
 
-Elemente können in einem Grid frei platziert werden.
+Elemente können in einem Grid frei platziert werden. Dazu werden Bereiche (areas) definiert:&#x20;
 
-## `grid-*-start` und `grid-*-end` _(nicht empfohlen)_
+### `grid-template-areas`
 
-Eine Variante um Elemente zu platzieren ist die Defintion via `grid-column-start` und `grid-column-end` bzw. deren Pendants `grid-row-start` und `grid-row-end`.
-
-Dabei werden alle Spalten und Zeilen beginnend mit `1` nummeriert.
-
-![Container](../../.gitbook/assets/code-example-2.png)
-
-Für ein Element wird dann jeweils der Start und Endpunkt in CSS angegeben:
-
-```markup
-<div class="container">
-  <div class="item-1">Item 1</div>
-  <div class="item-2">Item 2</div>
-</div>
-```
-
-```css
-.item-1 {
-  grid-column-start: 2;
-  grid-column-end:   4;
-
-  grid-row-start: 1;
-  grid-row-end:   2;
-}
-
-
-.item-2 {
-  grid-column-start: 1;
-  grid-column-end:   3;
-
-  grid-row-start: 2;
-  grid-row-end:   3;
-}
-```
-
-Siehe [https://codepen.io/anon/pen/EbWMyK](https://codepen.io/anon/pen/EbWMyK)
-
-Mit diesen vier Eigenschaften kannst du die Elemente beliebig platzieren. Es gibt noch diverse andere Schreibweisen für die `grid-column` und `grid-row` Eigenschaften, die etwas kürzer sind:
-
-```css
-.item-1 {
-  grid-column: 2 / 4; /* Entspricht grid-column-start: 2; grid-column-end: 3; */
-  grid-row:    1 / 2; /* Entspricht grid-column-start: 1; grid-column-end: 2; */
-}
-```
-
-Eine Übersicht aller verfügbarer Varianten findest du unter [https://css-tricks.com/snippets/css/complete-guide-grid/](https://css-tricks.com/snippets/css/complete-guide-grid/).
-
-## `grid-area` _(empfohlen)_
-
-Für komplexere Grids kann die `grid-area` Property verwendet werden. Mit `grid-area` können bestimmten Bereichen im Grid spezifische Namen vergeben werden. Dies vereinfacht das Platzieren einzelner Elemente.
+Mit `grid-template-areas` können bestimmten Bereichen im Grid spezifische Namen vergeben werden.&#x20;
 
 ![Container](../../.gitbook/assets/code-example-3.png)
 
@@ -89,6 +40,8 @@ Jetzt kann das Grid mit `grid-template-areas` aufgeteilt werden. Für jede Zeile
     ;
 }
 ```
+
+### `grid-area`
 
 Elemente im Grid lassen sich jetzt ganz einfach mit `grid-area` platzieren.
 
