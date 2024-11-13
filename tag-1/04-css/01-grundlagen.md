@@ -1,4 +1,4 @@
-# Grundlagen
+# Grundlagen: Selektoren und Einbindung
 
 Wie HTML ist auch CSS keine Programmiersprache sondern eine Stylesheet-Sprache.
 
@@ -14,11 +14,11 @@ Via CSS können auch bestimmte Attribute aus dem HTML-Quellcode angesprochen wer
 
 ## Tipps zur Namensgebung
 
-*   Versuche auf Sonderzeichen bei der Verwendung des `class`-Attributs zu verzichten. Auch wenn dies&#x20;
+*   Versuche auf Sonderzeichen bei der Verwendung des `class`-Attributs zu verzichten. Auch wenn dies
 
     von CSS unterstützt wird, kann es zu unerwarteten Problemen führen.
 * Verwende englische Begriffe für Klassen.
-* Da die Gross- und Kleinschreibung von Klassen relevant ist, empfiehlt es sich alles in Kleinbuchstaben zu schreiben.&#x20;
+* Da die Gross- und Kleinschreibung von Klassen relevant ist, empfiehlt es sich alles in Kleinbuchstaben zu schreiben.
 * Leerzeichen sind nicht erlaubt, verwende `-` bei Klassen mit mehreren Worten (z. B. `main-navigation`).
 
 ## CSS-Einbinden
@@ -177,7 +177,7 @@ Elemente mit der entprechenden Klasse werden ausgewählt. Klassen können mehrer
 Um Elemente gleichzeitig über mehrere Attribute auszuwählen, kette diese einfach aneinander:
 
 ```css
-.card.headline { /* Gilt nur für div mit .card und .headline */
+.card.headline { /* Gilt nur für Elemente mit .card und .headline */
   color: red;
 }
 ```
