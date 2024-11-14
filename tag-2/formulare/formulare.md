@@ -1,8 +1,8 @@
 # Formulare
 
-Unter folgendem Link findest du einige Code-Beispiele und Besonderheiten im Zusammenhang mit Formularen:
+Unter [w3schools.com/html/html\_forms.asp](https://www.w3schools.com/html/html\_forms.asp) findest du eine Übersicht wichtiger Elemente von Formularen und die Möglichkeit, es selber auszuprobieren. Nutze auch "[Next >](https://www.w3schools.com/html/html\_form\_elements.asp)" oben rechts.
 
-[https://offline.ch/ict/formulare.html](https://offline.ch/ict/formulare.html)
+Unter [offline.ch/ict/formulare.html](https://offline.ch/ict/formulare.html) findest du einige zusätzliche Code-Beispiele und Besonderheiten im Zusammenhang mit Formularen.&#x20;
 
 ## Steuerelemente
 
