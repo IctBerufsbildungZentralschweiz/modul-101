@@ -4,10 +4,10 @@
 
 Die Website repräsentiert ein Unternehmen und ein Angebot. Besucher, die den Auftritt zum ersten Mal sehen, beschäftigen sich typischerweise mit folgenden Fragen:
 
+* Finde ich hier, was ich suche?
 * Ist diese Seite vertrauenswürdig?
 * Wie steht es um die Professionalität des Unternehmens?
 * Fühle ich mich von der Seite angesprochen?
-* Finde ich hier, was ich suche?
 
 Tipps für einen guten ersten Eindruck:
 
@@ -39,17 +39,17 @@ Typischerweise benötigt man mindestens drei Layouts: eines für die Startseite,
 
 ## 3. Die richtigen Bilder verwenden
 
-Bilder können ein mächtiges Element einer Website sein und deshalb sollten Sie diese mit Bedacht einsetzen. Aus Bequemlichkeit verwenden zum Beispiel viele Unternehmen Stock-Images, die man auf Bilder-Portalen kaufen kann. Aber macht das wirklich Sinn?
+Bilder können ein mächtiges Element einer Website sein und deshalb sollten sie mit Bedacht eingesetzt werden. Aus Bequemlichkeit verwenden zum Beispiel viele Unternehmen Stock-Images, die man auf Bilder-Portalen kaufen kann. Aber macht das wirklich Sinn?
 
-Diverse Experimente haben die Wirkung von Stock-Bildern und echten Bildern mit Menschen aus den Unternehmen bezüglich Ihrer Wirkung bei der Lead-Generierung verglichen. Dabei ist herausgekommen, dass die echten Bilder bei der Wirkung die Stock-Bilder um 95% überragten. Wieso?
+Diverse Experimente haben die Wirkung von Stock-Bildern und echten Bildern mit Menschen aus den Unternehmen bezüglich Ihrer Wirkung bei der Lead-Generierung verglichen. Dabei ist herausgekommen, dass die echten Bilder bei der Wirkung die Stock-Bilder um 95% überragten.&#x20;
 
-Weil man Stock-Bildern ansieht, dass sie kaum Relevanz im speziellen Kontext besitzen. Achten Sie also bei der Bilderwahl auf deren Relevanz und deren Nähe zu den Texten auf der Seite.
+Wieso? Weil man Stock-Bildern ansieht, dass sie kaum Relevanz im speziellen Kontext besitzen. Achten Sie also bei der Bilderwahl auf deren Relevanz und deren Nähe zu den Texten auf der Seite.
 
 ## 4. Übersichtliche Navigation
 
-Wahrscheinlich einer der wichtigsten Faktoren, die über das Verbleiben des Besuchers auf einer Website entscheiden, ist ein klares, übersichtliches und intuitives Navigationssystem. In den meisten Fällen möchte ein Besucher möglichst schnell zu den Informationen, welche er benötigt. Mit diesem Ansatz sollte auch die Navigation realisiert werden. Denn wenn der Besucher nicht findet, was er sucht, wird er die Seite schnell wieder verlassen.
+Ein wichtiger Faktor für das Verbleiben des Besuchers auf einer Website ist eine klare, übersichtliche und intuitive Navigation. Wenn der Besucher nicht schnell findet, was er sucht, verlässt er die Seite schnell wieder.
 
-Die wichtigsten Fragen eines Besuchers sind somit:
+Die wichtigsten Fragen eines Besuchers sind:
 
 1. Wo bin ich? Was ist das? (Orientierung)
 2. Wie komme ich zu XY? (Navigation)
@@ -61,14 +61,14 @@ Mögliche Grundsätze für eine gute Navigation sind:
 * Jede Seite sollte mit maximal drei Klicks erreichbar sein
 * Der Besucher sollte jederzeit wissen, wo er sich gerade befindet
 
-Die Übergreifende Regel ist einfach: Verlange nie von einem Besucher, dass er nachdenken muss, wie er seine Informationen findet – **Don’t make me think!**
+Die übergreifende Regel ist einfach: Verlange nie von einem Besucher, dass er nachdenken muss, wie er seine Informationen findet – **Don’t make me think!**
 
 ## 5. Animationen
 
-Animationen (mit CSS, GIFs oder JavaScript) können Aufmerksamkeit erzeugen. Genauso können sie Seitenbesucher von einer Webseite verjagen. Viele Leute fühlen sich durch unerwartete Geräusche und Animationen gestört - vor allem am Arbeitsplatz.
+Animationen (mit CSS, GIFs oder JavaScript) können Aufmerksamkeit erzeugen. Genauso können sie Seitenbesucher von einer Webseite verjagen. Viele Leute fühlen sich durch unerwartete Animationen und Geräusche gestört - vor allem am Arbeitsplatz.
 
 Animationen sollten sparsam und schlicht eingesetzt werden, z.B. für Hover-Effekte bei Menüs, Buttons und Bildern.
 
 ## 6. Zugänglichkeit sicher stellen
 
-Es muss sichergestellt werden, dass wirklich jeder Ihre Seite besuchen kann, unabhängig vom Browser (ausgenommen extrem alte Versionen) oder Gerät. Mittlerweile erfolgt fast jeder zweite Internetzugriff über ein mobiles Gerät. Es wäre sehr schade, wenn die Hälfte der potenziellen Website-Besucher abspringen, weil die Webseite via Smartphones und Tablets nicht optimal funktioniert.
+Mittlerweile erfolgt fast jeder zweite Internetzugriff über ein mobiles Gerät. Es muss sichergestellt werden, dass jeder Ihre Seite besuchen kann, unabhängig vom Browser (ausgenommen extrem alte Versionen) oder Gerät.&#x20;
