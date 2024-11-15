@@ -2,11 +2,7 @@
 
 ## CSS Grids für Layouts
 
-Das `CSS Grid Layout` Modul ist die neuste Erweiterung der CSS Spezifikation um das Definieren von gridbasierten Layouts zu vereinfachen.
-
-Auch wenn das Modul aktuell noch im Entwurfs-Status ist (Stand November 2017), kann es in allen gängigen Browsern mittlerweile verwendet werden:
-
-* [Browser-Support auf caniuse.com](https://caniuse.com/#feat=css-grid)
+Das `CSS Grid Layout` Modul von CSS dient dazu, das Definieren von gridbasierten Layouts zu vereinfachen.
 
 ## Layouts in CSS
 
@@ -28,11 +24,11 @@ Grundlage für jedes Grid ist der `Container`.
 
 ![Container](../../.gitbook/assets/abstract-container.png)
 
-Der Container fixiert die Breite des Layouts. Die Höhe kann ebenfalls fixiert werden, wird aber üblicherweise flexibel gelassen. So passt sich die Höhe des Containers automatisch an die Höhe des Inhalts an.
+Der Container fixiert die Breite des Layouts. Die Höhe kann ebenfalls fixiert werden, wird aber üblicherweise flexibel gelassen.&#x20;
 
 ### Columns and Rows
 
-Im Container werden dann beliebig viele Spalten (engl. `Columns`) und Zeilen (engl. `Rows`) definiert. Alle Inhaltselemente richten sich an diesem Raster aus.
+Im Container werden beliebig viele Spalten (`Columns`) und Zeilen (`Rows`) definiert. Alle Inhaltselemente richten sich an diesem Raster aus.
 
 ![Cols](../../.gitbook/assets/abstract-rows-cols.png)
 

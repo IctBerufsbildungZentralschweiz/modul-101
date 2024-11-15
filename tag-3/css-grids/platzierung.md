@@ -1,6 +1,6 @@
 # Platzierung
 
-Elemente können in einem Grid frei platziert werden. Dazu werden Bereiche (areas) definiert:&#x20;
+Elemente können in einem Grid in Bereichen (areas) platziert werden.&#x20;
 
 ### `grid-template-areas`
 
@@ -10,17 +10,7 @@ Mit `grid-template-areas` können bestimmten Bereichen im Grid spezifische Namen
 
 In unserem Beispiel gibt es vier Areas: `header`, `social`, `content` und `sidebar`. Die Namen dieser Areas kannst du frei wählen, sie sollten aus Kleinbuchstaben bestehen.
 
-Zuerst wird im Container das Grid definiert:
-
-```css
-.container {
-    display: grid;
-    grid-template-columns: 80px auto 260px;
-    grid-template-rows:   120px auto;
-}
-```
-
-Jetzt kann das Grid mit `grid-template-areas` aufgeteilt werden. Für jede Zeile muss eine Definition erstellt werden. Jede Spalte muss einen Namen erhalten. Spalten und Zeilen mit gleichem Namen gelten als `Area`.
+Das Grid wird mit `grid-template-areas` aufgeteilt. Für jede Zeile muss eine Definition erstellt werden. Jede Spalte muss einen Namen erhalten. Spalten und Zeilen mit gleichem Namen gelten als `Area`.
 
 ```css
 .container {

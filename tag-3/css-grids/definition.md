@@ -1,8 +1,9 @@
-# 02 Definition
+# Definition
 
 ## Grids in CSS definieren
 
-Wir möchten folgendes Grid in CSS umsetzen. Dazu kann wie folgt vorgegangen werden:
+Wir möchten folgendes Grid in CSS umsetzen. \
+Dazu kann wie folgt vorgegangen werden:
 
 ![Container](../../.gitbook/assets/code-example-1.png)
 
@@ -24,24 +25,13 @@ In CSS muss dessen `display` Property auf `grid` gesetzt werden.
 }
 ```
 
-## Spalten definieren
+## Spalten und Zeilen definieren
 
-Um die Spalten zu definieren, kann die `grid-template-columns` Property verwendet werden.
+Um die Spalten zu definieren, kann die `grid-template-columns` Property verwendet werden. Für Zeilen kann die `grid-template-rows` Property verwendet werden.
 
-In userem Beispiel wird die erste Spalte auf `80px` und die dritte Spalte auf `260px` fixiert. Die zweite Spalte soll immer den restlichen Platz ausfüllen \(`auto`\).
+In userem Beispiel wird die erste Spalte auf `80px` und die dritte Spalte auf `260px` fixiert. Die zweite Spalte soll immer den restlichen Platz ausfüllen (`auto`).
 
-```css
-.container {
-    display: grid;
-    grid-template-columns: 80px auto 260px;
-}
-```
-
-## Zeilen definieren
-
-Um die Zeilen zu definieren, kann die `grid-template-rows` Property verwendet werden.
-
-In userem Beispiel wird die erste Zeile auf `100px` fixiert. Die zweite Zeile soll immer den restlichen Platz ausfüllen \(`auto`\).
+Die erste Zeile wird auf `100px` fixiert. Die zweite Zeile soll immer den restlichen Platz ausfüllen (`auto`).
 
 ```css
 .container {
@@ -67,4 +57,3 @@ Wenn du jetzt sechs Elemente in deinen Container einfügst, werden diese automat
 ```
 
 Siehe [https://codepen.io/anon/pen/ZaePGz](https://codepen.io/anon/pen/ZaePGz).
-

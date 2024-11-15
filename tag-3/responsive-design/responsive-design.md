@@ -32,17 +32,15 @@ Für einfachere Websites und Applikationen, welche oft unterwegs benutzt werden,
 
 Für komplexe Websites mit vielen Elementen oder Business-Websites, welche oft im Büro aufgerufen werden, bietet sich der Desktop-First-Ansatz an.&#x20;
 
-Mehr dazu: [https://www.softermii.com/blog/web-development-mobile-first-or-desktop-first](https://www.softermii.com/blog/web-development-mobile-first-or-desktop-first) (english)
+Mehr dazu: [www.softermii.com/blog/web-development-mobile-first-or-desktop-first](https://www.softermii.com/blog/web-development-mobile-first-or-desktop-first) (english)
 
 ## Viewport
 
-Der Viewport eines Browser ist der für den Benutzer sichtbaren Bereich einer Website.
+Der Viewport eines Browser ist der für den Benutzer sichtbaren Bereich einer Website. Er ist somit abhängig von der Fenstergrösse des Browsers und dem Anzeigegerät. Auf einem mobilen Endgerät (Smartphone, Tablets etc.) ist er somit tendenziell kleiner als auf einem Desktop Bildschirm.
 
-Der Viewport ist somit abhängig von der Fenstergrösse des Browsers und dem Anzeigegerät. Der Viewport auf einem mobilen Endgerät (Smartphone, Tablets etc.) ist somit tendenziell kleiner als auf einem Computer Bildschirm.
+Bevor es Tablets und Smartphones gab, wurden Websites einzig für die Anzeige auf Desktop Bildschirmen designed. Darum hatten diese meistens eine fixierte Breite und Höhe (Table-Designs).
 
-Bevor es Tablets und Smartphones gab, waren Websites einzig für die Anzeige auf Computer Bildschirmen designed. Es war nicht nötig, dass sich die Dimensionen einer Website dynamisch anpassen, darum hatten diese meistens eine fixierte Breite und Höhe (Table-Designs).
-
-Dann, als das Internet auch für Smartphones und Tablets zugänglich wurde, waren die Websites mit fixierter Breite zu breit um in die neuen Viewports zu passen. Um dies zu korrigieren wurden die Browser mit der Funktion erweitert, dass Websites automatisch auf die passende Grösser herunterskaliert wurden.
+Als das Internet auch für Smartphones und Tablets zugänglich wurde, waren die Websites mit fixierter Breite zu breit, um in die neuen Viewports zu passen. Um dies zu korrigieren wurden die Browser mit der Funktion erweitert, dass Websites automatisch auf die passende Grösser herunterskaliert werden.
 
 Dies war definitiv keine perfekte Lösung - aber eine schnelle.
 
