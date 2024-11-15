@@ -1,15 +1,23 @@
-# 🛠 Aufgabe Rechnung gestalten
+# 🛠️ Aufgabe Rechnung gestalten
 
 ![](../../.gitbook/assets/ralph.png)
 
 ## Aufgabenstellung
 
-1.  Verknüpfe das externe Paper-Framework mit deiner `invoice.html`.
+1.  Erstelle eine neue CSS-Datei `styles.css` , kopiere als Start schon mal folgenden Inhalt rein und verknüpfe sie in deiner `invoice.html` Datei:&#x20;
+
+    ```css
+    body {
+      border: 1px solid #888888;
+      margin: 3% auto;
+      width: 21cm;
+      min-height: 27.9cm;
+      box-shadow: -6px 6px 12px #888888;
+      padding: 2cm 2.5cm;
+    }
 
     ```
-     https://offline.ch/ict/paper.css
-    ```
-2. Style die erstelle `invoice.html` mit Hilfe deiner eigenen CSS-Datei. Das Ergebnis soll dabei möglichst ähnlich aussehen, wie die Rechnungsvorlage unten.
+2. Style die erstelle `invoice.html`, in dem du in deiner CSS-Datei neue Selektoren mit Formatierungen hinzufügst. Das Ergebnis soll dabei möglichst ähnlich aussehen, wie die Rechnungsvorlage unten.&#x20;
 3. Kopiere den Code anschliessend in den CSS-Validator und korrigiere allfällige Fehler.
 
 ## Rechnungsvorlage
