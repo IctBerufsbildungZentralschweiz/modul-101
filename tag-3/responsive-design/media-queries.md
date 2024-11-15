@@ -71,7 +71,10 @@ Die mit Abstand am meisten verwendeten Features sind `min-width` und `max-width`
 }
 ```
 
-**Achtung:** Mit der `CSS Media Queries Level 4` Spezifikation wurden viele neue Features eingeführt, die momentan [noch nicht in allen Browsern](https://caniuse.com/#feat=css-media-interaction) unterstützt werden.
+### `light-level`
+
+Mit der `CSS Media Queries Level 4` Spezifikation wurden viele neue Features eingeführt. \
+**Achtung:** Manche davon werden momentan [noch nicht in allen Browsern](https://caniuse.com/?search=CSS%20Media%20Queries%20Level%204) unterstützt.
 
 ```css
 body {
