@@ -22,7 +22,6 @@ body {
     display: grid;
     background: lightgrey;
     margin: 0 auto;
-    width: 100%;
     max-width: 1100px;
     min-height: 100vh;
 
