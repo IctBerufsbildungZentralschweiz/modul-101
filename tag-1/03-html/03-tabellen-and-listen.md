@@ -10,13 +10,13 @@ Nun erstellen wir gemeinsam die Tabelle oben:
 
 Der Inhalt jeder Tabelle wird umschlossen von diesen zwei Tags: `<table></table>`:
 
-```markup
+```html
 <table></table>
 ```
 
 Der kleinste Teil einer Tabelle ist eine Zelle. Eine Zelle wird mit dem `<td>`-Tag ('td' steht für 'table data') erstellt. Erstellen wir nun die Inhalte der Tabelle:
 
-```markup
+```html
 <table>
     <td>Name</td>
     <td>Alter</td>
@@ -35,7 +35,7 @@ Wie du jetzt feststellen wirst sind die einzelnen Reihen nicht untereinander, so
 
 Um dies zu verhindern und eine neue Reihe zu erzwingen, können wir das `<tr>`-Tag nutzen ('tr' steht für 'table row'). Deklariere nun mit dem `<tr>`-Tag das Anfang und Ende einer Tabellen-Reihe:
 
-```markup
+```html
 <table>
     <tr>
         <td>Name</td>
@@ -62,7 +62,7 @@ Um dies zu verhindern und eine neue Reihe zu erzwingen, können wir das `<tr>`-T
 
 Die erste Reihe eine Tabelle ist meistens etwas spezielles, da sich dort keine Daten befinden, sondern Überschriften. HTML hat darum dafür ein eigenes Tag vorgesehen, das `<th>`-Tag ('th' steht für 'Table Heading'). Ersetze nun die `<td>`-Tags der ersten Reihe mit `<th>`-Tags:
 
-```markup
+```html
 <table>
     <tr>
         <th>Name</th>
@@ -91,14 +91,14 @@ Die erste Reihe eine Tabelle ist meistens etwas spezielles, da sich dort keine D
 
 Wie auch Tabellen verfügen auch Listen über eine spezielle Anordnung der HTML-Elemente. So wird jede Liste mit einem `<ul>`-Tag ('ul' steht für 'unordered List') oder einem `<ol>`-Tag ('ol' steht für 'ordered List) umschlossen. Wir erstellen dazu gleich zwei Beispiele:
 
-```markup
+```html
 <ul></ul>
 <ol></ol>
 ```
 
 Der kleinste Teil einer Liste ist ein Aufzählungspunkt. Ein Aufzählungspunkt wird mit dem `<li>`-Tag erstellt. Erstellen wir nun die Inhalte der beiden Liste:
 
-```markup
+```html
 <ul>
     <li>Erster Punkt</li>
     <li>Zweiter Punkt</li>
@@ -113,7 +113,7 @@ Der kleinste Teil einer Liste ist ein Aufzählungspunkt. Ein Aufzählungspunkt w
 
 Indem man eine Liste in einen Aufzählungspunkt setzt, wird keine Unterliste erstellt:
 
-```markup
+```html
 <ul>
     <li>Erster Punkt</li>
     <li>Zweiter Punkt</li>
@@ -138,7 +138,7 @@ Indem man eine Liste in einen Aufzählungspunkt setzt, wird keine Unterliste ers
 
 Die Listen-Typen lassen sich auch beliebig miteinander kombinieren:
 
-```markup
+```html
 <ul>
     <li>Erster Punkt</li>
     <li>Zweiter Punkt</li>

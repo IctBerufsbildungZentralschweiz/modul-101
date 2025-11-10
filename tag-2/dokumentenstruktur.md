@@ -4,7 +4,7 @@ Um Elemente innerhalb eines Dokuments besser zu strukturieren, hat HTML das Stru
 
 Beispiel: Wir möchten, dass die folgenden Absätze mit einer Hintergrundfarbe hinterlegt sind, ohne einen weissen Absand dazwischen zu haben.
 
-```markup
+```html
 <p>Ich bin ein erster Absatz.</p>
 <p>Ich bin ein zweiter Absatz.</p>
 ```
@@ -21,7 +21,7 @@ Dies entspricht jedoch nicht unserem gewünschten Ergebnis:
 
 Um das Ziel zu erreichen, umklammern wir die beiden Absätze mit einem `<div>`-Strukturelement und stylen das `<div>`-Element:
 
-```markup
+```html
 <div class="red">
     <p>Ich bin ein erster Absatz.</p>
     <p>Ich bin ein zweiter Absatz.</p>

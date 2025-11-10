@@ -21,8 +21,8 @@
 
 **\<head>\</head>** — das `<head>` Element. In dieses Element ist alles eingeschlossen, was nicht auf der Seite angezeigt wird. Dies enthält Informationen wie Schlüsselwörter, eine Seitenbeschreibung, welche in Suchmaschinen erscheint, CSS um unseren Inhalt zu designen, usw.
 
-**\<body>\</body>** — das `<body>` Element. Dies beinhaltet alles, was die Betrachter sehen, wenn sie die Website besuchen, egal ob Text, Bilder, Videos, Audiodateien, usw.
-
 **\<meta charset="utf-8">** — Dieses Element setzt die Zeichenkodierung deines Dokuments auf `utf-8`, in der die Schriftzeichen von fast allen Sprachen enthalten sind. Umlaute wie Ä und Ü werden ohne dieses Tag evtl. nicht richtig angezeigt.
 
 **\<title>\</title>** — Dies setzt den Titel der Seite, welcher im Tab angezeigt wird. Dieser wird auch gebraucht, wenn jemand ein Lesezeichen erstellt.
+
+**\<body>\</body>** — das `<body>` Element. Dies beinhaltet alles, was die Betrachter sehen, wenn sie die Website besuchen, egal ob Text, Bilder, Videos, Audiodateien, usw.
