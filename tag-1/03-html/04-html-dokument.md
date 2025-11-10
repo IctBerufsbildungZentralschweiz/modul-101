@@ -2,6 +2,8 @@
 
 ## Aufbau eines HTML-Dokumentes
 
+Jedes HTML-Dokument sollte minimal die folgenden Elemente enthalten. Du kannst den Code als Gerüst für all deine neuen Seiten benutzen:&#x20;
+
 ```markup
   <!DOCTYPE html>
   <html>
@@ -10,7 +12,7 @@
       <title>Meine Testseite</title>
     </head>
     <body>
-      <img src="images/logo.png" alt="Mein Testbild">
+      Inhalt ...
     </body>
   </html>
 ```
@@ -21,8 +23,8 @@
 
 **\<head>\</head>** — das `<head>` Element. In dieses Element ist alles eingeschlossen, was nicht auf der Seite angezeigt wird. Dies enthält Informationen wie Schlüsselwörter, eine Seitenbeschreibung, welche in Suchmaschinen erscheint, CSS um unseren Inhalt zu designen, usw.
 
-**\<body>\</body>** — das `<body>` Element. Dies beinhaltet alles, was die Betrachter sehen, wenn sie die Website besuchen, egal ob Text, Bilder, Videos, Audiodateien, usw.
-
 **\<meta charset="utf-8">** — Dieses Element setzt die Zeichenkodierung deines Dokuments auf `utf-8`, in der die Schriftzeichen von fast allen Sprachen enthalten sind. Umlaute wie Ä und Ü werden ohne dieses Tag evtl. nicht richtig angezeigt.
 
 **\<title>\</title>** — Dies setzt den Titel der Seite, welcher im Tab angezeigt wird. Dieser wird auch gebraucht, wenn jemand ein Lesezeichen erstellt.
+
+**\<body>\</body>** — das `<body>` Element. Dies beinhaltet alles, was die Betrachter sehen, wenn sie die Website besuchen, egal ob Text, Bilder, Videos, Audiodateien, usw.

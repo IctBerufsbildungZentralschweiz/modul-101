@@ -21,15 +21,15 @@ In CSS werden verschiedene Einheiten verwendet, um Größenangaben für Abständ
    * "rem" ist relativ zur Schriftgröße des Root-Elements (\<html>). \
      Das Root-Element hat meist die Schriftgröße 1rem = 16px.
    * "em" ist relativ zur Schriftgröße des übergeordneten Elements. \
-     _Ist recht unberechenbar und sollte nicht mehr verwendet werden._
+     &#xNAN;_&#x49;st recht unberechenbar und sollte nicht mehr verwendet werden._
    * Wird vor allem eingesetzt für skalierbare Schriftgrössen. \
-     _Heute nicht mehr nötig, da Browser auch Pixel korrekt skalieren können._&#x20;
+     &#xNAN;_&#x48;eute nicht mehr nötig, da Browser auch Pixel korrekt skalieren können._&#x20;
    * Beispiel: `h1 { font-size: 2.5rem; }`\
      Überschrift 1 wird 2.5 mal so gross wie Standard-Text angezeigt, also 2.5x16px = 40px&#x20;
 5. **Absolute Längeneinheiten (cm, mm, in, pt, pc): => selten benutzt**
    * Absolute Einheiten, die physische Größen wie Zentimeter (cm), Millimeter (mm), Zoll (in), Punkte (pt) und Pica (pc) darstellen.
    * Für den Druck oder spezifische Ausgabeformate verwendet. \
-     _Weniger gebräuchlich für Webdesign._
+     &#xNAN;_&#x57;eniger gebräuchlich für Webdesign._
    * Beispiel: `body { width: 21cm; }`\
      Skaliert ein Dokument zum Ausdrucken auf A4-Breite
 6. **Kombinierte Masse berechnen (calc(...))**

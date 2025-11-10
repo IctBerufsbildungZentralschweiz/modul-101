@@ -1,5 +1,13 @@
 # 03 Konzeptionierung
 
+## Ablauf eines Webprojektes
+
+Natürlich gibt es nicht _den_ «Ablauf eines Webprojektes». Trotzdem zeigen die Folien exemplarisch auf, wie ein solcher Ablauf aussehen könnte
+
+
+
+{% file src="../.gitbook/assets/Erklaerung_Webprojektablauf.pdf" %}
+
 Ein Auftrag beginnt meistens nie mit der Realisation, sondern immer zuerst mit einem Konzept: Das Konzept beinhaltet die Analyse der IST-Situation, die Festlegung einer stategischen Stossrichtung, die Prüfung von möglichen Lösungsvarianten, die Planung des Vorgehens sowie Kriterien für die Kontrolle der Arbeit.
 
 Natürlich führen viele Wege nach Rom. Der Dertaillierungsgrad des Konzeptes ist meistens abhängig von der Grösse und der Komplexität des Projektes. Im Folgenden werden einige Hilfsmittel und Konzepte vorgestellt, wie man ein Website-Konzept erstellen könnte - die Liste ist jedoch nicht als vollständig und abschliessend zu betrachten.
@@ -102,7 +110,7 @@ Wireframes werden hauptsächlich in der Anfangsphase eines Projektes verwendet u
 
 ![Wireframe](../.gitbook/assets/unterschied-wireframe-mockup.png)
 
-#### Links
+#### Wireframe vs. Mockup
 
 * [Wireframe vs. Mockup vs. Prototype - What's the difference?](https://www.sketch.com/blog/wireframe-vs-mockup-vs-prototype/#wireframe-vs-mockup-vs-prototype)
 * [Wireframes, Mockups, Prototypes - Was ist was?](https://www.zielbar.de/magazin/wireframe-mockup-prototyp-23612/)
@@ -135,7 +143,7 @@ Ein Styleguide kann unter anderem Folgendes beinhalten:
 
 ![Styletiles](../.gitbook/assets/style-tiles.jpg)
 
-* [Styleguide von Styletil.es](http://styletil.es/downloads/Style\_Tile\_Template.psd.zip) - PSD Vorlage
+* [Styleguide von Styletil.es](http://styletil.es/downloads/Style_Tile_Template.psd.zip) - PSD Vorlage
 
 ## Testing
 

@@ -1,19 +1,23 @@
-# 🛠 Aufgabe Rechnung erstellen
+# 🛠️ Aufgabe "Über mich"
 
 ![](../../.gitbook/assets/ralph.png)
 
-## Aufgabenstellung
+**Erstelle eine Webseite über dich:**&#x20;
 
-1. Suche dir eine Firma aus und lade deren Logo als Bild herunter.
-2. Unterschreibe auf einem weissen Blatt Papier und fotografiere die Unterschrift mit deinem Natel und übertrage das Foto auf deinen Computer.
-3. Erstelle eine Datei mit dem HTML-Grundgerüst und speichere diese unter dem Namen `invoice.html`.
-4. Erfasse die Inhalte der Rechnung und strukturiere diese mit der HTML-Auszeichnungssprache gemäss der Rechnungsvorlage unten.
-5. Kopiere den Code anschliessend in den HTML-Validator und korrigiere allfällige Fehler.
-
-## Rechnungsvorlage
-
-![Rechnungsvorlage](../../.gitbook/assets/rechnungsvorlage.jpg)
-
-Hier findest Du die Rechnung noch als [PDF](https://github.com/johannesE/modul-101/tree/7ef76a9c9f706911092af198dd248f9a2832f329/Tag%201/03%20HTML/06%20HTML-Aufgabe/src/Rechnungsvorlage.pdf).
-
-{% file src="../../.gitbook/assets/rechnungsvorlage.pdf" %}
+1. Erstelle auf deinem Rechner einen Modul-Ordner (m101) für all deine kommenden Aufgaben, darin einen Ordner `/ueber-mich`.&#x20;
+2. Erstelle darin eine Datei `about-me.html` mit dem [HTML-Grundgerüst](04-html-dokument.md).
+3. Setze im Bereich \<head> den Inhalt des \<title>-Elementes auf "Über xy" (xy = dein Name).
+4. Füge innerhalb des \<body> folgende Angaben zu dir mit sinnvoller HTML-Auszeichnungssprache ein:&#x20;
+   * Überschrift 1, Inhalt wie im \<title>-Element
+   * Einen "Slogan" zu dir, ein kurzer Satz, der zu dir passt. Falls dir nichts einfällt, gib deinen Namen auf [sloganizer.net](http://www.sloganizer.net/) ein und schau, was raus kommt. :-)
+   * Überschrift "Adresse", gefolgt von zwei Absätzen: \
+     Deine Wohn-Adresse: Fett gedruckt "Wohnadresse", danach mit Zeilenumbrüchen eine Adresse\
+     Deine Arbeits- oder Schuladresse analog der Wohn-Adresse
+   * 3 Hobbys als Liste mit Aufzählungszeichen
+   * Eine Tabelle mit 3 Büchern oder Filmen, welche du spannend findest: \
+     Titel, Autor oder Regisseur, Jahr, Seitenzahl, 1 Satz zum Inhalt\
+     Erstelle Spaltenüberschriften und danach je Buch / Film eine Zeile in der Tabelle
+5. Erstelle ein Foto von dir oder finde ein Foto, welches zu dir passt und speichere es im Aufgaben-Ordner. Verkleinere es auf die Grösse, in der es auf der Webseite erscheinen soll (siehe [Tools](../tools.md)), z.B. auf 300px, und füge es nach der Überschift 1 ein.
+6. Unterschreibe auf einem weissen Blatt Papier und fotografiere die Unterschrift mit deinem Handy und speichere das Foto in deinen Aufgabenordner. Verkleinere es auf 200px Breite und füge es am Ende deiner Seite ein.
+7. Füge am Ende auf einer Zeile 2-3 Links zu deinen Social-Media-Profilen ein, falls du welche hast, z.B. [Instagram](https://www.instagram.com/) | [Youtube](https://www.youtube.com/) | [Discord](https://discord.com/channels/@me) - Alternativ kannst du auch auf 1-2 beliebige Websites verlinken.
+8. Kopiere den Code anschliessend in den [HTML-Validator](https://validator.w3.org/#validate_by_input) und korrigiere allfällige Fehler.

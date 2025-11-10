@@ -6,15 +6,15 @@ Eine Tabelle ist eine strukturierte Zusammenstellung von Daten in Spalten und Re
 
 ![Tabelle](../../.gitbook/assets/tabelle.png)
 
-Nun erstellen wir gemeinsam die Tabelle oben:
-
 Der Inhalt jeder Tabelle wird umschlossen von diesen zwei Tags: `<table></table>`:
 
 ```markup
 <table></table>
 ```
 
-Der kleinste Teil einer Tabelle ist eine Zelle. Eine Zelle wird mit dem `<td>`-Tag ('td' steht für 'table data') erstellt. Erstellen wir nun die Inhalte der Tabelle:
+#### Tabellen-Zellen (Daten)
+
+Der kleinste Teil einer Tabelle ist eine Zelle. Sie wird mit dem `<td>`-Tag ('td' steht für 'table data') erstellt:
 
 ```markup
 <table>
@@ -31,9 +31,14 @@ Der kleinste Teil einer Tabelle ist eine Zelle. Eine Zelle wird mit dem `<td>`-T
 </table>
 ```
 
-Wie du jetzt feststellen wirst sind die einzelnen Reihen nicht untereinander, sondern alle in einer Reihe. Geben wir somit keine weiteren Informationen mit, werden sämtliche `<td>`-Tags als eine Reihe betrachtet.
+Wenn du den Code z.B. mit [Codepen](https://codepen.io/pen/) testest, wirst du feststellen, dass die einzelnen Reihen nicht untereinander, sondern alle in einer Reihe sind:&#x20;
 
-Um dies zu verhindern und eine neue Reihe zu erzwingen, können wir das `<tr>`-Tag nutzen ('tr' steht für 'table row'). Deklariere nun mit dem `<tr>`-Tag das Anfang und Ende einer Tabellen-Reihe:
+| Name | Alter | Petra | 15 | Marion | 18 | Peter | 14 | Martin | 17 |
+| ---- | ----- | ----- | -- | ------ | -- | ----- | -- | ------ | -- |
+
+#### Tabellen-Zeilen
+
+Um eine neue Reihe zu erzwingen, nutzen wir das `<tr>`-Tag ('tr' steht für 'table row'):
 
 ```markup
 <table>
@@ -59,6 +64,8 @@ Um dies zu verhindern und eine neue Reihe zu erzwingen, können wir das `<tr>`-T
     </tr>
 </table>
 ```
+
+#### Spalten-Überschriften
 
 Die erste Reihe eine Tabelle ist meistens etwas spezielles, da sich dort keine Daten befinden, sondern Überschriften. HTML hat darum dafür ein eigenes Tag vorgesehen, das `<th>`-Tag ('th' steht für 'Table Heading'). Ersetze nun die `<td>`-Tags der ersten Reihe mit `<th>`-Tags:
 

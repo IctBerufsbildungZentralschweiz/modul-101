@@ -1,10 +1,10 @@
-# 02 Ordnerstruktur
+# Ordnerstruktur
 
 Bei kleineren Projekten ist es noch einfach ohne sinnvolle Ordnerstruktur den Überblick zu behalten. Werden die Projekte jedoch etwas grösser, verliert man schnell den Überblick:
 
-![Ordnung](../.gitbook/assets/mess.gif)
+![Ordnung](../../.gitbook/assets/mess.gif)
 
-```text
+```
 root/
    |-> affen.jpg
    |-> baeren.jpg
@@ -25,7 +25,7 @@ Bei der Ordnerstruktur gibt es kein richtig oder falsch, sondern nur ein übersi
 
 Eine mögliche Ordnerstruktur für die Dateien oben wäre beispielsweise:
 
-```text
+```
 root/
    |-> galerie.html
    |-> index.html
@@ -44,4 +44,3 @@ root/
    docs/
       |-> dokument.pdf
 ```
-
