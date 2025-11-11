@@ -1,4 +1,11 @@
-# 07 Exkurs: Usability
+# Exkurs: Usability
+
+## Aufgabe
+
+1. Lese diese Seite und überfliege den folgenden Artikel zum Thema Webdesign: \
+   [der-informationsdesigner.de/agentur-blog/allgemein/was-ist-webdesign/](https://www.der-informationsdesigner.de/agentur-blog/allgemein/was-ist-webdesign/)
+2. Suche im Netz 2 Websites: Eine, welche dir gefällt, und eine, welche du nicht ansprechend findest.&#x20;
+3. Finde zu jeder Website 5 Argumente, was bezüglich Usability und Webdesign hier gut umgesetzt sind oder was du anders machen würdest.&#x20;
 
 ## 1. Der erste Eindruck
 
