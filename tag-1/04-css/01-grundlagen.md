@@ -1,50 +1,216 @@
-# CSS Syntax
+# CSS Selektoren
 
-Wie HTML ist auch CSS keine Programmiersprache sondern eine Stylesheet-Sprache.
+## Zweck
 
-CSS erlaubt es, für Elemente auf einer Website das Aussehen festzulegen. Zum Beispiel benötigt man folgengen CSS-Code, um alle Absätze (`<p>`) auszuwählen und deren Inhalt rot einzufärben:
+Selektoren dienen dazu, in CSS bestimmte Elemente eines HTML-Dokuments zu adressieren, um sie zu gesalten:
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+## Verschiedene Arten von Selektoren
+
+* [Element-Selektor (oder Tag-Selektor)](01-grundlagen.md#element-selektor-oder-tag-selektor)
+* [ID-Selektor](01-grundlagen.md#id-selektor)
+* [Klassen-Selektor](01-grundlagen.md#klassen-selektor)
+* [Attribut-Selektor](01-grundlagen.md#attribut-selektor)
+* [Pseudoklassen-Selektor](01-grundlagen.md#pseudoklassen-selektor)
+
+Kombination von Selektoren:
+
+* [Mehrfach-Selektor](01-grundlagen.md#mehrfach-selektor)
+* [Nachfahren-Selektor](01-grundlagen.md#nachfahren-selektor)
+* [Kind-Selektor](01-grundlagen.md#kind-selektor)
+
+## Verschiedene Arten von Selektoren
+
+### Element-Selektor (oder Tag-Selektor)
+
+Auch Tag- oder Typ-Selektor genannt. Alle HTML-Elemente eines bestimmten Typs werden ausgewählt.
 
 ```css
 p {
+    color: red;
+}
+```
+
+```html
+<p>Wird ausgewählt</p>
+<p>Wird auch ausgewählt</p>
+
+<div>Wird nicht ausgewählt</div>
+```
+
+### ID-Selektor
+
+Elemente mit der entsprechenden ID werden ausgewählt. Eine ID kann immer nur einem einzigen Element innerhalb eines Dokuments zugeordnet werden.
+
+```css
+#important {
+    color: red;
+}
+```
+
+```html
+<p id="important">Wird ausgewählt</p>
+
+<p>Wird nicht ausgewählt</p>
+```
+
+### Klassen-Selektor
+
+Elemente mit der entprechenden Klasse werden ausgewählt. Klassen können mehreren Elementen innerhalb eines Dokuments zugeordnet werden.
+
+```css
+.important-text {
+    color: red;
+}
+```
+
+```html
+<p class="important-text">Wird ausgewählt</p>
+<p class="important-text">Wird auch ausgewählt</p>
+
+<p>Wird nicht ausgewählt</p>
+```
+
+### Attribut-Selektor
+
+Elemente mit entsprechendem Attribut werden ausgewählt.
+
+```css
+a[target="_blank"] {
+    color: red;
+}
+```
+
+```html
+<a href="kontakt.html target="_blank">Wird ausgewählt</p>
+<a href="kontakt.html>Wird ausgewählt</p>
+```
+
+### Pseudoklassen-Selektor
+
+Mit Pseudoklassen lässt sich eine Seite nicht nur in Bezug auf die Struktur des Inhalts gestalten, sondern auch im Bezug auf andere Faktoren wie zum Beispiel dem Browserverlauf (`:visited`), Reihenfolge der Elemente (`:first-child`) oder die Position des Mauszeigers (`:hover`).
+
+![CSS-Pseudoklasse](../../.gitbook/assets/css-pseudoklasse.jpg)
+
+Die Pseudoklasse wird angeführt mit einem Doppelpunkt und hinter den regulären Selektor angefügt.
+
+#### Links (\<a>)
+
+Vorallem bei Links (`<a>`) sind die Pseudoklassen wichtig, um den Website-Besucher mitzuteilen, dass es sich hier beispielswiese um klickbare Elemente handelt.
+
+| Pseudoklasse | Ausgewählte Elemente                                                        |
+| ------------ | --------------------------------------------------------------------------- |
+| `a:link`     | Dies wählt jeden Link aus, der bisher noch nicht besucht wurde.             |
+| `a:visited`  | Dies wählt jeden Link aus, der bereits besucht wurde.                       |
+| `a:hover`    | Dies wählt einen Link aus über dem sich der Mauszeiger gerade befindet.     |
+| `a:active`   | Dies wählt jedes Element aus, welches vom Benutzer momentan angelickt wird. |
+
+#### Sonstige nützliche Pseudoklassen
+
+| Pseudoklasse   | Ausgewählte Elemente                                                                                                                                            |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `:first-child` | Dies wählt jedes Element aus, welches das erste Kindelement seines Elternelements ist.                                                                          |
+| `:last-child`  | Dies wählt jedes Element aus, welches das letzte Kindelement seines Elternelement ist.                                                                          |
+| `:nth-child()` | In der Klammer dieser Pseudoklasse muss noch ein Wert mitgegeben werden - Beispiel: 2n. So wird jedes 2te Kindelement seines Elternelements ausgewählt.         |
+| `:has()`       | <p>Dies wählt jedes Element aus, welches einen angegebenen Nachfolger hat. <br>Diese Pseudoklasse wird erst seit 2023 von den meisten Browsern unterstützt.</p> |
+
+#### Beispiele zu Pseudoklassen
+
+<pre class="language-css"><code class="lang-css"><strong>a {
+</strong>    color: blue;
+}
+a:hover {
+    color: red;
+}
+a:nth-child(2) {
+    font-weight: bold;
+}
+a:has(img) {
+    box-shadow: 5px 5px 5px grey;
+}
+</code></pre>
+
+```html
+<p>
+  <a href="css.html">Wird rot wenn der Mauszeiger darüber fährt.</a>
+  <a href="shop.html">Ist fett</a>
+  <a href="shop.html">Ist nicht fett</a>
+</p>
+<a href="shop.html"><img src="logo.jpg" alt="Logo"><br>Mit Schatten</a>
+```
+
+### Mehrfach-Selektor
+
+Um Elemente gleichzeitig über mehrere Attribute auszuwählen, kette diese einfach aneinander:
+
+```css
+.card.headline { /* Gilt nur für Elemente mit .card und .headline */
+  color: red;
+}
+div.card {
+  /* Gilt nur für <div>-Elemente mit .card */
+  border: 1px solid blue;
+}
+```
+
+```html
+<article class="card">Ich habe eine Klasse</div>
+<article class="card headline">Ich habe zwei Klassen</div>
+<div class="card">Ich bin ein Div-ELement mit Klasse</div>
+```
+
+### Nachfahren-Selektor
+
+Beim `Nachfahren-Selektor` werden zwei Selektoren durch ein Leerzeichen voneinander getrennt. Der Selektor spricht das zuletzt erwähnte Element nur dann an, wenn es ein `Nachfahre` des vorhergehenden Elements ist.
+
+Als `Nachfahre` werden alle Elemente innerhalb eines anderen Elements bezeichnet (Kinder, Kindeskinder etc.)
+
+```css
+.sub-navi a { /* Formatiere alle a unterhalb von .sub-navi */
   color: red;
 }
 ```
 
-## Aufbau einer CSS-Regel
+```html
+<nav class="navi">
+  <a href="test.html">Dieser Link ist NICHT rot</a>
+</nav>
+<nav class="sub-navi">
+  <a href="test.html">Dieser Link ist rot</p>  
+  <div>
+    <a href="test.html">Dieser Link ist rot</a>
+  </div>
+</nav>
+```
 
-Die ganze Struktur wird Regelsatz (oder oft nur Regel) genannt:
+### Kind-Selektor
 
-![CSS-Grundgerüst](../../.gitbook/assets/css-bezeichnungen.jpg)
+Beim `Kind-Selektor` werden zwei Selektoren durch ein `>` voneinander getrennt. Der Selektor spricht das zuletzt erwähnte Element nur dann an, wenn es ein direktes `Kind` des vorhergehenden Elements ist.
 
-### Bestandteile
-
-**Selektor** - Der HTML-Elementname steht direkt am Anfang der Regel. Er wählt die Elemente, die gestaltet werden sollen (in diesem Beispiel `p`) aus. Um ein anderes Element zu gestalten, muss nur der Selektor geändern werden.
-
-**Deklaration** - Eine einzelne Regel wie `color: red;` gibt an, welche Eigenschaft des Elements gestaltet werden soll. Eine Deklaration besteht aus einer Eigenschaft (`color`) und einem Eigenschafts-Wert (`red`).
-
-**Eigenschaft (englisch: property)** - Art wie das ausgewählte HTML-Element gestaltet werden soll. In diesem Fall ist `color` eine Eigenschaft des `<p>` Elements.
-
-**Eigenschafts-Wert (englisch: property value)** - Rechts neben der Eigenschaft, nach dem Doppelpunk, steht der Wert der Eigenschaft. Dieser gibt eine von vielen Möglichkeiten wieder, wie die Eigenschaft das Aussehen eines Elements verändern kann.
-
-### Syntax
-
-* Hinter dem Selektor stehen die zugehörigen Regeln innerhalb geschwungener Klammern (`{}`).
-* Innerhalb einer Deklaration muss man einen Doppelpunkt (`:`) nutzen, um Eigenschaft und Wert zu trennen.
-* Am Ende jeder Deklaration muss ein Semikolon (;) gesetzt werden. Dieser trennt mehrere Deklarationen voneinander ab.
+Als `Kind` werden alle Elemente _direkt unterhalb_ eines anderen Elements bezeichnet.
 
 ```css
-p {
+.sub-navi > a { /* Formatiere alle a direkt unterhalb von .sub-navi */
   color: red;
-  width: 500px;
-  border: 1px solid black;
 }
 ```
 
-### Namensgebung
+```html
+<nav class="sub-navi">
+  <a href="test.html">Dieser Link ist rot</p>  
+  <div>
+    <a href="test.html">Dieser Link ist NICHT rot</a>
+  </div>
+</nav>
+```
 
-*   Versuche auf Sonderzeichen bei der Verwendung des `class`-Attributs zu verzichten. Auch wenn dies
+### Mehrere Elemente auswählen
 
-    von CSS unterstützt wird, kann es zu unerwarteten Problemen führen.
-* Verwende englische Begriffe für Klassen.
-* Da die Gross- und Kleinschreibung von Klassen relevant ist, empfiehlt es sich alles in Kleinbuchstaben zu schreiben.
-* Leerzeichen sind nicht erlaubt, verwende `-` bei Klassen mit mehreren Worten (z. B. `main-navigation`).
+Teilen sich mehrere Elemente die gleichen Regeln, können diese miteinander selektiert werden. Dazu werden einfach mehrere Selektoren hintereinander geschrieben, getrennt durch Kommas:
+
+```css
+h1, .sub-navi, footer {
+  color: red;
+}
+```
