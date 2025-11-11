@@ -13,6 +13,7 @@ Style deine Website "Über mich" und ¨berprüfe nach jedem Schritt das Ergebnis
       border: 1px solid #888888;
       background: #bbbbbb;
       box-shadow: -6px 6px 12px #888888;
+      font-family: Arial, sans-serif;
     }
     .global-wrapper {
       background: #ffffff;
@@ -26,10 +27,10 @@ Style deine Website "Über mich" und ¨berprüfe nach jedem Schritt das Ergebnis
 3.  Style die erstelle `about-me.html`, in dem du in deiner CSS-Datei neue Selektoren mit Formatierungen hinzufügst:&#x20;
 
     * Das ganze Dokument soll die Schriftart "Arial" und die Zeilenhöhe 1.5 haben
-    * Der Header soll eine andere Schrift- und Hintergrundfarbe haben als der Rest
+    * Der Header soll eine eigene Hintergrundfarbe deiner Wahl haben
     * Zeichne die Tabellenlinien in einem Hellgrau (`#aaaaaa`), 1px breit
     * Mache die Tabellen-Überschriften linksbündig und den Hintergrund der Zellen hellgrau
-    * Links sollen rot sein und ohne Unterstrich
+    * Links sollen dunkelgrau und unterstrichen sein
     * Bei Mouse-Over über die Links sollen die Schrift schwarz werden
     * Das erste Hobby soll eine fette Schrift haben, die anderen nicht (mit Pseudoselektor lösen)
     * Formatiere selber noch etwas, worauf du Lust hast

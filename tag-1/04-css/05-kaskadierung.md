@@ -34,14 +34,10 @@ Es entscheiden drei Faktoren darüber, welche CSS-Regel «gewinnt»:
 2. Spezifizierung
 3. Platzierung / Reihenfolge
 
-Als kleine Überlegungshilfe gibt es hier das [Punktesystem](https://github.com/johannesE/modul-101/tree/7ef76a9c9f706911092af198dd248f9a2832f329/Tag%201/04%20CSS/05%20Kaskadierung/src/kaskadierung\_spezifikation.pdf). \
+Als kleine Überlegungshilfe gibt es hier das [Punktesystem](https://github.com/johannesE/modul-101/tree/7ef76a9c9f706911092af198dd248f9a2832f329/Tag%201/04%20CSS/05%20Kaskadierung/src/kaskadierung_spezifikation.pdf). \
 Wenn du in Visual Studio Code über einen Selektor fährst, wird das Punktesystem angezeigt:&#x20;
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/css-specifity-small.gif" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/css-specifity-small.gif" alt=""><figcaption></figcaption></figure></div>
 
 ### Wichtigkeit
 
@@ -107,9 +103,3 @@ p {
   color: red;
 }
 ```
-
-## 🛠️ Aufgabe
-
-![](../../.gitbook/assets/ralph.png)
-
-Versuche nun mit Hilfe der Kaskadierung eine CSS-Regel des `paper.css` zu überschreiben. Färbe dazu den Schatten (`box-shadow`) des Papiers blau.

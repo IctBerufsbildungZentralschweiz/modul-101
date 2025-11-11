@@ -18,8 +18,10 @@ Kopiere den Code anschliessend in den [CSS-Validator](https://jigsaw.w3.org/css-
 
 Style deine Website "Über mich" weiter: &#x20;
 
-1. Verlinke die Titel deiner Bücher oder FIlme mit einer entsprechenden externen Seite, wo die Werke beschreben werden.&#x20;
-2. Alle Links auf deiner Webseite sollen grundsätzlich dunkelgrau und unterstrichen sein. Nur die Links im Footer (Social-Links) sollen rot sein und nicht unterstrichen.&#x20;
-3. Bei Mouse-Over über die Links im Footer sollen die Schrift rot bleiben und der Link-Text unterstrichen werden.&#x20;
+1. Versuche, die Schriftart im Header mit einer anderen Font-Famliy zu überschreiben.
+2. Bilder, welche im Header vorkommen, sollen runde Ecken haben (Radius: 10px).
+3. Überschreibe das Styling der Links im Footer (Social-Links):&#x20;
+   * Sie sollen rot sein und nicht unterstrichen.&#x20;
+   * Bei Mouse-Over über die Links im Footer sollen die Schrift rot bleiben und der Link-Text unterstrichen werden.
 
-Überprüfe den Code mit dem [CSS-Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) und korrigiere allfällige Fehler.
+Überprüfe den Code im Browser und mit dem [CSS-Validator](https://jigsaw.w3.org/css-validator/#validate_by_input), korrigiere allfällige Fehler.
