@@ -1,4 +1,4 @@
-# 02 Begriffe und Tools
+# Begriffe und Tools
 
 ## Begriffe
 
@@ -16,4 +16,4 @@ Für die **Bildbearbeitung** kann eine Software wie [Photoshop](https://www.adob
 
 Für die **Validierung** deines Codes kannst du den [HTML-Validator](https://validator.w3.org/) und den [CSS-Validator](https://jigsaw.w3.org/css-validator/) nutzen.
 
-Für das **Testen und die Fehlersuche** bietet dein Browser umfangreiche Entwicklerwerkzeuge. Nutze im Browser die Taste `F12` oder Rechts-Klick & "Untersuchen" auf ein Element einer Website.&#x20;
+Für das **Testen und die Fehlersuche** bietet dein Browser umfangreiche Developer Tools. Nutze im Browser die Taste `F12` oder Rechts-Klick & "Untersuchen" auf ein Element einer Website.&#x20;

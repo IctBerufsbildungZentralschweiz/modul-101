@@ -1,4 +1,9 @@
-# 01 Geschichte des Internets
+# Geschichte des Internets
+
+## Aufgabe
+
+Lies die Geschichte und frage dich: \
+"Welche Erfindungen sind wohl für heutige Websites immer noch wichtig? Welche nicht mehr?"&#x20;
 
 ## Internet
 
@@ -14,7 +19,9 @@ Um die Bestrebungen zu erreichen, wurde eigens dafür eine Projektgruppe gegrün
 
 Die erste Website, die online ging, wurde am 13. November 1990 von dem am CERN beschäftigten Wissenschaftler Tim Berners-Lee geschaffen und veröffentlicht. Am 30. April 1993 kündigte das CERN an, dass das World Wide Web für jedermann frei zugänglich sein werde.
 
-\{% hint style="info" %\} Erste Website von Tim Berners-Lee: [The World Wide Web project](http://info.cern.ch/hypertext/WWW/TheProject.html) \{% endhint %\}
+{% hint style="info" %}
+Erste Website von Tim Berners-Lee: [The World Wide Web project](http://info.cern.ch/hypertext/WWW/TheProject.html)
+{% endhint %}
 
 ### Webstandards <a href="#webstandards" id="webstandards"></a>
 
@@ -97,4 +104,4 @@ HTML5 wurde laufend weiter entwickelt für bessere native Audio- und Video-Unter
 
 Da CSS3 nun modular aufgebaut ist, gibt es keine kompletten neuen Versionen, sondern es werden laufend einzelne Module weiter entwickelt.
 
-<figure><img src="../.gitbook/assets/html5.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/html5_css3.jpg" alt=""><figcaption></figcaption></figure>

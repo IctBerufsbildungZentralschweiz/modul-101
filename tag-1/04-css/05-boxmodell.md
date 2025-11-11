@@ -21,8 +21,8 @@ Das CSS-Layout basiert auf dem Box-Modell. Jede Box, die Platz auf einer Webseit
 
 ### Aufgabe
 
-1. Rufe eine beliebige Website im Internet auf, öffne die "Developer Tools" (Rechtsklick auf ein Element > "Untersuchen") und suche das Tab "Computed".&#x20;
-2. Schau dir die Grafik des Box-Models unter "Computed" an und darunter, woher die Abstände in CSS kommen.&#x20;
+1. Rufe eine beliebige Website im Internet auf, öffne die "Developer Tools" (Rechtsklick auf ein Element > "Untersuchen" oder `F12`) und suche das Tab "Computed".&#x20;
+2. Schau dir die Grafik des Box-Models eines HTML-Elements unter "Computed" an und darunter, woher die Abstände in CSS kommen.&#x20;
 3. Wechsle zwischen den Tabs "Styles" und "Computed", das ist anders?&#x20;
 4. Untersuche noch ein paar andere Elemente auf der gleichen Seite.
 
@@ -137,10 +137,10 @@ header {
 
 Die `display`-Eigenschaft bestimmt, wie ein Element im Layout dargestellt wird.
 
-* **`display: block`** - Element nimmt die gesamte verfügbare Breite ein und beginnt auf einer neuen Zeile.
-* **`display: inline`** - Element nimmt nur so viel Platz ein, wie es benötigt, und erlaubt andere Elemente neben sich
-* **`display: inline-block`** - Wie display: inline, kann aber Höhe, Breite etc. haben.
 * **`display: none`** - Element wird ausgeblendet und der Platz freigegeben.&#x20;
+* **`display: block`** - Element nimmt die gesamte verfügbare Breite ein und beginnt auf einer neuen Zeile.
+* **`display: inline`** - Element nimmt nur so viel Platz ein, wie es benötigt, und erlaubt andere Elemente neben sich.
+* **`display: inline-block`** - Wie display: inline, kann aber Höhe, Breite etc. haben.
 * **`display: flex`** - [Siehe Flexbox](../../tag-2/01-flexbox/)
 * **`display: grid`** - [Siehe CSS Grid](../../tag-2/04-css-grids/)
 
