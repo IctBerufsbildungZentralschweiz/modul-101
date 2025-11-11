@@ -2,12 +2,16 @@
 
 ## Schriftarten
 
-Wähle eine Schrift von Google-Font aus und binde diese in die Seite über dich `about-me.html` ein. Ändere anschliessend die Standardschrift per CSS auf die ausgewählte Schriftart.
 
-Definiere eine alternative Schift, falls der Google-Font nicht oder langsam lädt.
 
-**Zusatzaufgabe:**\
-Datenschutz: Lade die Schriftart von Google herunter, speichere sie in einem neuen Ordner `/fonts` und binde sie von da ein, damit keine Verbingung zu Google mehr nötig ist.
+Füge deiner Webseite `about-me.html` eine individuelle Schrift hinzu:&#x20;
+
+1. Wähle eine Schrift von Google-Font aus und binde diese in die Seite ein. Ändere anschliessend die Standardschrift (`body`) per CSS auf die ausgewählte Schriftart.
+2. Definiere eine alternative Schift, falls der Google-Font nicht oder langsam lädt.
+
+**Zusatzaufgabe:**
+
+* Datenschutz: Lade die Schriftart von Google herunter, speichere sie in einem neuen Ordner `/fonts` und binde sie von da ein, damit keine Verbingung zu Google mehr nötig ist.
 
 ## Farben
 
