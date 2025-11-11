@@ -1,6 +1,6 @@
 # Spezielle Tags
 
-### Überschriften
+## Überschriften
 
 Mit Überschriftelementen können bestimmte Teile des Inhaltes als Überschrift deklariert werden. Wie ein Buch einen Hauptitel und Kapitelüberschriften haben kann, können HTML Dokumente eine Hauptüberschrift und weitere Überschriften haben.
 
@@ -16,7 +16,7 @@ HTML besitzt sechs Überschrifttypen, wobei meist nur 3-4 gebraucht werden: `<h1
 **Regel:** \
 Jede Seite sollte genau eine Hauptüberschrift `<h1>` und beliebig viele Unterüberschriften `<h2>`-`<h6>` haben. Es sollten keine Ebenen übersprungen werden (z. B. `<h3>` gefolgt von `<h5>`). Dies ist unter anderem für die Suchmaschinen-Platzierung wichtig.
 
-### Links
+## Links
 
 Links sind, was das Internet zu einem **NETZ/WEB** macht. Um einen Link zu implementieren, müssen wir das `<a>`-Element verwenden. `a` ist die Kurzform für "Anker" (engl. "anchor").&#x20;
 
@@ -45,7 +45,7 @@ Wenn ein Link auf eine externe Website oder ein PDF verweist, sollte diese in ei
 <p>Heute ist ein <a href="https://luzerntourismus.roundshot.com/" target="_blank">schöner Tag</a> in Luzern.</p>
 ```
 
-### Bilder
+## Bilder
 
 Das `<img>`-Tag bettet ein Bild an der Stelle der Seite ein, wo es in der HTML-Struktur eingegliedert ist. Es tut dies mit dem `src` ('src' steht für 'source') Attribut, welches den Pfad zum gewünschen Bild beinhaltet.
 
@@ -67,7 +67,7 @@ Die Attribute `width` und `height` können optional angegeben werden, damit der 
 in Luzern.</p>
 ```
 
-### Absatz (Paragraph) vs. Zeilenumbruch (Break)
+## Absatz (Paragraph) vs. Zeilenumbruch (Break)
 
 Ähnlich wie in einem Textverarbeitungsprogramm gibt es in HTML zwei Arten von Umbrüchen:
 
@@ -95,7 +95,7 @@ in Luzern.</p>
 
 **Resultat:** Teste mit [`codepen.io`](https://codepen.io/dosullz/pen/QNxdzd), wie das Resultat des obigen Codes im Browser aussieht.&#x20;
 
-### 🛠️ Aufgabe
+## 🛠️ Aufgabe
 
 Gehe auf [Codepen.io](https://codepen.io/pen/) und probiere folgende Tags aus:
 

@@ -16,7 +16,7 @@ Mit `<p>` können spezifizieren, das es sich um einen Absatz handelt:
 <p>Meine Katze hat zwei Pfötchen.</p>
 ```
 
-### Aufbau eines HTML-Elements (Tag)
+## Aufbau eines HTML-Elements (Tag)
 
 Das oben beschriebene Beispiel zeigt, wie ein HTML-Element aufgebaut ist:
 
@@ -40,8 +40,9 @@ Syntax von Attributen:
 * Vor dem Attribut muss immer ein **Abstand (Leerzeichen)** stehen.
 * Die **Attributnamen** sind vordefiniert, siehe [Referenz der HTML-Attribute](https://developer.mozilla.org/de/docs/Web/HTML/Reference/Attributes).
 * Nach dem Attributnamen folgt meist ein Gleichheitszeichen, gefolgt von einem **Wert** in Anführungs- und Schlusszeichen.
+* Die **Reihenfolge** bei mehreren Attributen ist egal.
 
-### Verschachtelte Elemente
+## Verschachtelte Elemente
 
 Mehrere Elemente können ineinander verschachtelt werden. Wenn wir also besonders betonen wollen, dass unsere Katze **zwei** Beine hat, können wir dieses einzelne Wort in einem `<strong>` Element verpacken.
 
@@ -55,7 +56,7 @@ Folgendes Beispiel ist **nicht richtig**, da die Elemente nicht ineinander versc
 <p>Meine Katze hat <strong>zwei Pfötchen.</p></strong>
 ```
 
-### Leere Elemente
+## Leere Elemente
 
 Gewisse Elemente haben keinen Inhalt, diese werden leere Elemente genannt. Beispielsweise das `<img>` Element:
 
@@ -65,7 +66,7 @@ Gewisse Elemente haben keinen Inhalt, diese werden leere Elemente genannt. Beisp
 
 Das `<img>`-Tag beinhaltet zwei Attribute, aber es gibt kein schliessendes `</img>`-Tag und keinen Inhalt in dem Element. Das `<img>`-Tag braucht keinen Inhalt um einen Effekt zu haben. Es bindet ein Bild an der entsprechenden Stelle in der HTML-Seite ein.
 
-### Liste mit HTML-Tags
+## Liste mit HTML-Tags
 
 Unter folgendem Link befindet sich eine Liste der HTML-Tags mit Beschreibung und Beispielen:
 

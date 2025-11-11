@@ -1,4 +1,14 @@
-# 02 Tools
+# 02 Begriffe und Tools
+
+## Begriffe
+
+Einige Begriffe sollten auseinander gehlaten werden:
+
+* **Website**: Gesamtheit aller Seiten, welche zu einem Webauftritt gehören
+* **Webseite**: Eine einzelne Seite innerhalb eines Webauftrittes
+* **Homepage**: Startseite einer Website
+
+## Tools
 
 Für Bearbeitung von **HTML & CSS** wird im Prinzip nur ein Texteditor benötigt, z.B. [Notepad++](https://notepad-plus-plus.org/downloads/). Hilfreicher ist aber eine Entwicklungsumgebung, z.B. [Visual Studio Code](https://code.visualstudio.com/download).&#x20;
 

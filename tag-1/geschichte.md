@@ -10,7 +10,7 @@ Um die Bestrebungen zu erreichen, wurde eigens dafür eine Projektgruppe gegrün
 
 1965 wurde dieses Netzwerk auch für nicht militärische Zwecke geöffnet, sodass auch einige Universitäten in den USA mit dem ARPAnet verbunden wurden. Im Jahre 1969 wurde es dann der Öffentlichkeit vor- und freigestellt.
 
-### Website <a href="#website" id="website"></a>
+## Website <a href="#website" id="website"></a>
 
 Die erste Website, die online ging, wurde am 13. November 1990 von dem am CERN beschäftigten Wissenschaftler Tim Berners-Lee geschaffen und veröffentlicht. Am 30. April 1993 kündigte das CERN an, dass das World Wide Web für jedermann frei zugänglich sein werde.
 

@@ -1,8 +1,8 @@
-# 🛠️ Aufgabe "Über mich" gestalten
+# 🛠️ Aufgabe "Über mich" gestalten (1)
 
 ![](../../.gitbook/assets/ralph.png)
 
-## Aufgabenstellung
+## Aufgabenstellung zu Einbindung und Selektoren
 
 Style deine Website "Über mich" und ¨berprüfe nach jedem Schritt das Ergebnis im Browser.&#x20;
 
@@ -23,17 +23,21 @@ Style deine Website "Über mich" und ¨berprüfe nach jedem Schritt das Ergebnis
     }
     ```
 2. Packe den ganzen Inhalt des `<body>`-Elementes in einen Container `<div class="global-wrapper">` . Schau dir das Ergebins im Browser an.
-3. Style die erstelle `about-me.html`, in dem du in deiner CSS-Datei neue Selektoren mit Formatierungen hinzufügst:&#x20;
-   * Das ganze Dokument soll die Schriftart "Arial" und die Zeilenhöhe 1.5 haben.
-   * Der Hauptcontainer (global-wrapper) soll einen Innenabstand von 40px haben.
-   * Der Header soll 200px hoch sein und eine andere Schrift- und Hintergrundfarbe haben als der Rest.
-   * Die Blöcke im Inhalt (Artikel) sollen jeweils 40px Abstand (margin) unterhalb haben, also zum nächsten Artikel.
-   * Die beiden Adresse sollen nebeneinander stehen: \
-     Definiere für beide Adress-Blöcke jeweils eine Breite von 50% und setze jeweils `float: left;`&#x20;
-   * Zeichne die Tabellenlinien in einem Hellgrau (`#aaaaaa`), 1px breit.&#x20;
-   * Mache die Tabellen-Überschriften linksbündig und den Hintergrund der Zellen hellgrau.
-   * Links sollen rot sein und ohne Unterstrich.
-   * Formatiere selber noch etwas, worauf du Lust hast.
+3.  Style die erstelle `about-me.html`, in dem du in deiner CSS-Datei neue Selektoren mit Formatierungen hinzufügst:&#x20;
+
+    * Das ganze Dokument soll die Schriftart "Arial" und die Zeilenhöhe 1.5 haben
+    * Der Header soll eine andere Schrift- und Hintergrundfarbe haben als der Rest
+    * Zeichne die Tabellenlinien in einem Hellgrau (`#aaaaaa`), 1px breit
+    * Mache die Tabellen-Überschriften linksbündig und den Hintergrund der Zellen hellgrau
+    * Links sollen rot sein und ohne Unterstrich
+    * Bei Mouse-Over über die Links sollen die Schrift schwarz werden
+    * Das erste Hobby soll eine fette Schrift haben, die anderen nicht (mit Pseudoselektor lösen)
+    * Formatiere selber noch etwas, worauf du Lust hast
+
+    Zustzaufgaben für schnelle Lernende:
+
+    * Färbe mit dem geeigneten Pseudoselektor den Hintergrund jeder 2. Zeile der Tabelle hellgelb.&#x20;
+    * Wende einen Filter auf dein Bild an: Normal soll es blass/heller oder sogar schwarz-weiss sein, wenn die Maus drüber fährt, soll es in den richtigen Farben erscheinen.&#x20;
 4. Schreibe das CSS so, dass möglichst kein `margin` oder `padding` einem `<p>`, `<img>` oder `<table>`-Tag zugewiesen ist, sondern den ensprechenden semantischen Elementen oder `<div>` Containern.
 5. Schau, dass möglichst kein Code doppelt ist, z.B. dass für die 2 Adressen.&#x20;
 6. Kopiere den Code anschliessend in den [CSS-Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) und korrigiere allfällige Fehler.
