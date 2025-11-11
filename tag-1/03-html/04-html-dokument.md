@@ -10,6 +10,7 @@ Jedes HTML-Dokument sollte minimal die folgenden Elemente enthalten. Du kannst d
     <head>
       <meta charset="utf-8">
       <title>Meine Testseite</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
       Inhalt ...
@@ -26,5 +27,7 @@ Jedes HTML-Dokument sollte minimal die folgenden Elemente enthalten. Du kannst d
 **\<meta charset="utf-8">** — Dieses Element setzt die Zeichenkodierung deines Dokuments auf `utf-8`, in der die Schriftzeichen von fast allen Sprachen enthalten sind. Umlaute wie Ä und Ü werden ohne dieses Tag evtl. nicht richtig angezeigt.
 
 **\<title>\</title>** — Dies setzt den Titel der Seite, welcher im Tab angezeigt wird. Dieser wird auch gebraucht, wenn jemand ein Lesezeichen erstellt.
+
+**\<meta name="viewport" content="...">** — Dieses Element sorgt dafür, dass Elemente auf verschiedenen Bildschirmgrössen und Zoomlevels korrekt skaliert werden. Siehe [Responsive Design](../../tag-3/responsive-design/responsive-design.md#viewport).
 
 **\<body>\</body>** — das `<body>` Element. Dies beinhaltet alles, was die Betrachter sehen, wenn sie die Website besuchen, egal ob Text, Bilder, Videos, Audiodateien, usw.

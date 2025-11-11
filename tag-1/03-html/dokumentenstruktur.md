@@ -1,4 +1,4 @@
-# Strukturelemente (Container)
+# Strukturelemente & semantische Tags
 
 ### Strukturelement \<div>
 
@@ -61,4 +61,5 @@ Die semantischen Elemente erleichtern vorallem die Human-Readability des HTML- u
 **Darum gilt:** Generische `<div>`-Elemente sollten nur genutzt werden, wenn kein semantisches Element geeignet ist.
 
 Schau dazu im Browser die HTML-Struktur einer Beispielseite an: \
-[der-informationsdesigner.de/agentur-blog/allgemein/was-ist-webdesign](https://www.der-informationsdesigner.de/agentur-blog/allgemein/was-ist-webdesign/)
+[der-informationsdesigner.de/agentur-blog/allgemein/was-ist-webdesign](https://www.der-informationsdesigner.de/agentur-blog/allgemein/was-ist-webdesign/)\
+[https://www.w3schools.com/html/html5\_semantic\_elements.asp](https://www.w3schools.com/html/html5_semantic_elements.asp)

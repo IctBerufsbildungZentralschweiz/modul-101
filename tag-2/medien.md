@@ -1,4 +1,4 @@
-# 03 Bilder
+# 03 Medien: Bilder, Video, Audio
 
 ## Rechte an Bildern & Inhalten
 
@@ -20,36 +20,6 @@ Daneben gibt es auch noch komplett kostenlose Bildportale. Meistens sind die Auf
 * [Unsplash](https://unsplash.com)
 * [Pixabay](https://pixabay.com/de/)
 * [Pixelio](https://www.pixelio.de/)
-
-## Ladegeschwindigkeit
-
-Die zentrale Rolle der Ladegeschwindigkeit für eine Website zeigt folgendes Beispiel:
-
-![Absprungrate](../.gitbook/assets/every-second-count.png)
-
-* Nach mehr als zwei Sekunden Ladezeit erhöht sich die Absprungrate (Personen, welche die Website verlassen) um 12%.
-* Nach mehr als vier Sekunden Ladezeit erhöht sich die Absprungrate um 25%.
-
-Mehr dazu auf [www.tooltester.com/de/blog/website-ladezeit-statistiken ](https://www.tooltester.com/de/blog/website-ladezeit-statistiken/)
-
-Der Grund für lange Ladezeiten sind häufig schlecht verarbeitete Medien (Bilder, Videos). Durchschnittlich machen Bilder mehr als **65% des Inhaltes** einer Website aus.
-
-![Aufteilung von Website Content](../.gitbook/assets/chart.png)
-
-### Geschwindigkeitstests
-
-Um die Geschwindigkeit einer Website zu testen gibt es unterschiedliche Tools. Hier zwei davon:
-
-* [Google-PageSpeed-Test](https://pagespeed.web.dev/)
-* [WebPagetest](https://www.webpagetest.org/)
-
-## Bild-Grössen
-
-Wichtig ist es nicht nur die Bilder im richtigen Bildformat bereitzustellen, sondern auch in einer angemessenen Grösse. **Bilder sollten immer in der Grösse bereitgestellt werden, in der sie tatsächlich im Web verwendet werden.**
-
-Hier zwei nützliche Werkzeuge: \
-Mit [Bulk Resize Photos](https://bulkresizephotos.com/) können mehrere Fotos miteinander verarbeitet werden.\
-Mit dem [Online Image Editor](https://www.online-image-editor.com/) kannst du einzelne Bilder online skalieren und zuschneiden.
 
 ## Bild-Formate
 
@@ -146,3 +116,161 @@ AVIF eignet sich hervorragend für Szenarien, in denen **maximale Bildqualität 
 ### Links
 
 * [Das perfekte Bildformat für Websites und Bilder-Sets für verschiedene Bildschirmgrössen](https://app-bis-web.de/perfektes-bildformat-websites/)
+
+## Ladegeschwindigkeit
+
+Die zentrale Rolle der Ladegeschwindigkeit für eine Website zeigt folgendes Beispiel:
+
+![Absprungrate](../.gitbook/assets/every-second-count.png)
+
+* Nach mehr als zwei Sekunden Ladezeit erhöht sich die Absprungrate (Personen, welche die Website verlassen) um 12%.
+* Nach mehr als vier Sekunden Ladezeit erhöht sich die Absprungrate um 25%.
+
+Mehr dazu auf [www.tooltester.com/de/blog/website-ladezeit-statistiken ](https://www.tooltester.com/de/blog/website-ladezeit-statistiken/)
+
+Der Grund für lange Ladezeiten sind häufig schlecht verarbeitete Medien (Bilder, Videos). Durchschnittlich machen Bilder mehr als **65% des Inhaltes** einer Website aus.
+
+![Aufteilung von Website Content](../.gitbook/assets/chart.png)
+
+### Geschwindigkeitstests
+
+Um die Geschwindigkeit einer Website zu testen gibt es unterschiedliche Tools. Hier zwei davon:
+
+* [Google-PageSpeed-Test](https://pagespeed.web.dev/)
+* [WebPagetest](https://www.webpagetest.org/)
+
+### Lazy-Loading
+
+Werden auf einer Seite viele Bilder angezeigt, ein Teil ev. erst beim Scrollen, können diese erst bei Bedarf nachgeladen werden. So wird nicht die ganze Seiten-Ladezeit ausgebremst. Dazu gibt es das Attribut `loading="lazy"`:&#x20;
+
+```html
+<!-- Sofort geladene Bilder -->
+<img src="/images/wedding.jpg" alt="Wedding">
+<img src="/images/rocks.jpg" alt="Rocks">
+
+<!-- Off-screen Bilder (beim Scrollen) -->
+<img src="/images/nature.jpg" alt="Nature" loading="lazy">
+<img src="/images/underwater.jpg" alt="Underwater" loading="lazy">
+<img src="/images/ocean.jpg" alt="Ocean" loading="lazy">
+```
+
+## Bild-Grössen
+
+Wichtig ist es nicht nur die Bilder im richtigen Bildformat bereitzustellen, sondern auch in einer angemessenen Grösse. **Bilder sollten immer in der Grösse bereitgestellt werden, in der sie tatsächlich im Web verwendet werden.**
+
+Hier zwei nützliche Werkzeuge: \
+Mit [Bulk Resize Photos](https://bulkresizephotos.com/) können mehrere Fotos miteinander verarbeitet werden.\
+Mit dem [Online Image Editor](https://www.online-image-editor.com/) kannst du einzelne Bilder online skalieren und zuschneiden.
+
+### Responsive Bildgrössen
+
+Für unterschiedliche Geräte kannst du seit ... unterschiedliche Bildgrössen und Auflösungen anbieten.&#x20;
+
+Dazu gibt es verschiedene Möglichkeiten. Eine empfehlenswerte ist das `<picture>`-Element:
+
+```
+<picture>
+  <source media="(max-width: 799px)" srcset="person-480w-portrait.jpg">
+  <source media="(min-width: 800px)" srcset="person-800w.jpg">
+  <img src="person-800w.jpg">
+</picture>
+<!-- Seit 2023 kann man die neue Range Syntax benutzen: --> 
+<picture>
+  <source media="(width < 800px)" srcset="person-480w-portrait.jpg" />
+  <source media="(width >= 800px)" srcset="person-800w.jpg" />
+  <img src="person-800w.jpg" alt="Chris standing up holding his daughter Elva" />
+</picture>
+```
+
+Das \<img>-Element wird genutzt, falls keine der gegebenen Media-Bedingungen zutrifft.
+
+* `loading="lazy"` bei Bildern
+* `<picture>` + `srcset` + `sizes` für responsive Images
+* Moderne Meta-Tags (`<meta name="viewport">`)
+
+## Videos
+
+### Eigene Videodateien einbinden
+
+HTML5 bietet für die Integration das `<video>`-Element. \
+Dazu musst du dein Video in ein Format konvertieren, welches möglichst von allen Browsern unterstützt wird. Es empfiehlt sich mp4 oder seit 2024 auch WebM.&#x20;
+
+Du kannst alternative Formate angeben für Browser, welche dein bevorzugtes Format nicht kennen, plus einen Text, falls ein Browser gar nichts versteht:
+
+```html
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+```
+
+**Vorteile:**&#x20;
+
+* Du bist unabhängig von externen Plattformen
+* Besserer Datenschutz
+
+**Nachteile:**&#x20;
+
+* Videos brauchen viel Platz auf deinem Server&#x20;
+* Du musst dich selber um Browser-Kompatibilität kümmern, ev. mehrere Versionen hochladen
+
+### Externe Videos von einbinden
+
+Viele Plattformen wie Youtube, Vimeo etc. bieten fertigen Code an, um ein Video einzubetten:&#x20;
+
+* **Youtube, Vimeo:** Klicke auf "Teilen > Einbetten", wähle die gewünschten Optionen und kopiere den Coode in deine Website.
+* **Instagram:** Hat leider keine direkte Embed-Funktion, man braucht etwas JavaScript, um einen Post in die eigene Website zu integrieren.
+
+**Vorteile:**&#x20;
+
+* Das Video belegt keinen Platz auf deinem Server und wird performant ausgeliefert
+* Du musst dich nicht um Browser-Kompatibilität kümmern
+
+**Nachteile:**&#x20;
+
+* Ein Video muss erst auf einer anderen Plattform veräffentlich werden
+* Der Datenschutz ist meist deutlisch schlechter
+
+### Responsive Videos - Grösse anpassen
+
+**Wie passe ich ein eingebettetes Video an mein Layout an?**&#x20;
+
+Der Embed-Code von Youtube & Vimeo enthält eine fixe Grösse in Pixeln. Im folgenden Video siehst du, wie du das an deinen vorhandenen Platz im Layout anpassen und responsive machen kannst:&#x20;
+
+{% embed url="https://www.youtube.com/watch?v=2h9CqRlHzrc" %}
+
+## Audio
+
+Ähnlich die bei Videos kannst  ein Audio-Beitrag selber gehostet oder von einer Plattform eingebunden werden. Die Vor- & Nachteile sind analog der Videos.&#x20;
+
+### Eigene Audiodatei einbinden
+
+Folgendes Beispiel spielt einen Beitrag direkt beim Laden der Seite ab, aber erst mal "gemutet" (still):&#x20;
+
+```
+<audio controls autoplay muted>
+  <source src="podcast-episode-1.ogg" type="audio/ogg">
+  <source src="podcast-episode-1.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+```
+
+### Externen Audiobeitrag einbetten
+
+* Vimeo: [https://help.soundcloud.com/hc/en-us/articles/115003453587-Embedded-players](https://help.soundcloud.com/hc/en-us/articles/115003453587-Embedded-players)
+* Spotify: [https://developer.spotify.com/documentation/embeds/tutorials/creating-an-embed](https://developer.spotify.com/documentation/embeds/tutorials/creating-an-embed)
+
+## 🛠️ Aufgabe
+
+Erstelle eine neue HTML-Datei `media.html` mit dem bekannten [HTML-Grundgerüst](../tag-1/03-html/04-html-dokument.md) und probiere darin die oben beschriebenen Elemente aus:&#x20;
+
+* Bilder einbinden, inkl. Lazy-Loading
+* Responsive Bilder
+* Eigenes & externes Video
+* Eigenes & externes Audio
+* Video responsive an Layout & Bildschirmgrösse anpassen
+
+Zusatzaufgabe:&#x20;
+
+* Erstelle eine Galerie mit Bildbreite 33%. Schau im Internet nach, wie sie automatisch sinnvoll nebeneinander / untereinander angeordnet werden können.&#x20;
