@@ -23,6 +23,17 @@ Daneben gibt es auch noch komplett kostenlose Bildportale. Meistens sind die Auf
 
 ## Bild-Formate
 
+### Recherche-Aufgabe
+
+Es sollen Bilder für eine Firmen-Website aufbereitet werden, welche Handys repariert.  \
+Recherchiere zu den gängigen Bildformaten und überlege, welche Formate für folgende Bilder geeignet sind (+), welche nicht (-), und warum:&#x20;
+
+1. Oben soll ein zweifarbiges Logo eingefügt werden. Die Anzeigegrösse ist je nach Gerät anders.&#x20;
+2. Auf der Teamseite sind Portraits aller Angestellten gewünscht.&#x20;
+3. Auf der Seite "Statistik" soll ein Kuchen-Diagramm angezeigt werden mit den Anteilen der reparierten Marken. Je nach Display kann es grösser oder kleiner dargestellt sein.
+4. Auf der Seite "Technik" soll das Innenleben eines Handys mit Zoom-Funktion gezeigt werden.&#x20;
+5. Auf "Kontakt" soll ein animierter Briefkasten sein, wo ein Brief eingeworfen wird.
+
 ### JPEG
 
 JPEG oder JPG ist ein verlustreiches Bildformat von der Joint Photographic Experts Group.

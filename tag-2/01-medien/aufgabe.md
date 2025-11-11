@@ -4,7 +4,7 @@
 2. Erstelle darin ein `<main>`-Element mit einer Überschrift 1 und drei `<article>`-Elementen. Diese Elemente sollen jeweils eine Überschrift 2 enthalten ("Bilder", "Videos", "Audios").&#x20;
 3. Probiere darin die beschriebenen Medien-Elemente aus:&#x20;
    * Bilder einbinden, inkl. Lazy-Loading
-   * Responsive Bilder
+   * Responsive Bilder: Teste `<picture>` mit WebP- und JPEG-Versionen
    * Externes Video
    * Externer Audiobeitrag
    * Video responsive an Layout & Bildschirmgrösse anpassen
