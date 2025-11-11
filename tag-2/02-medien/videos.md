@@ -28,7 +28,7 @@ Du kannst alternative Formate angeben für Browser, welche dein bevorzugtes Form
 
 Viele Plattformen wie Youtube, Vimeo etc. bieten fertigen Code an, um ein Video einzubetten:&#x20;
 
-* **Youtube, Vimeo:** Klicke auf "Teilen > Einbetten", wähle die gewünschten Optionen und kopiere den Coode in deine Website.
+* **Youtube, Vimeo, Dailymotion:** Klicke auf "Teilen > Einbetten", wähle die gewünschten Optionen und kopiere den Coode in deine Website.
 * **Instagram:** Hat leider keine direkte Embed-Funktion, man braucht etwas JavaScript, um einen Post in die eigene Website zu integrieren.
 
 **Vorteile:**&#x20;
