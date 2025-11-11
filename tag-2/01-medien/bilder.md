@@ -1,38 +1,23 @@
 # Bilder
 
-## Rechte an Bildern & Inhalten
+## Aktivierungs-Fragen
 
-> Alle Inhalte im Internet sind grundsätzlich urheberrechtlich geschützt und dürfen nicht öffentlich verbreitet werden. Das gilt für Musik, die zwar frei aus dem Web kopiert, aber nur im privaten Kreis ab­gespielt und weitergegeben werden darf, ebenso wie für Fotos: Als Desktop-Hintergrund, Schlafzimmerposter oder Illustra­tion in einer E-Mail an Freunde darf man jedes Bild verwenden. Auf einer öffentlich zugänglichen Homepage aber eben nicht.
+Es sollen Bilder für eine Firmen-Website aufbereitet und eingefügt werden, welche Handys repariert. &#x20;
 
-\-- [Beobachter Konsum](https://www.beobachter.ch/konsum/webdesign-die-sache-mit-dem-copyright)
-
-{% hint style="info" %}
-cyon hat einen guten Artikel zu den Bildrechten: [https://www.cyon.ch/blog/Bilder-im-Internet-rechtssicher-verwenden](https://www.cyon.ch/blog/Bilder-im-Internet-rechtssicher-verwenden)
-{% endhint %}
-
-Somit sollten ein Website-Betreiber immer die nötigen Rechte für Bilder haben, welche auf seiner Website gezeigt werden. Mögliche Plattformen für den Erwerb von Bild-Lizenzen:
-
-* [Fotolia](https://de.fotolia.com/)
-* [Shutterstock](https://www.shutterstock.com)
-
-Daneben gibt es auch noch komplett kostenlose Bildportale. Meistens sind die Aufnahmen von Amateur- und Hobbyfotografen, die aber deshalb nicht schlechter sein müssen:
-
-* [Unsplash](https://unsplash.com)
-* [Pixabay](https://pixabay.com/de/)
-* [Pixelio](https://www.pixelio.de/)
-
-## Bild-Formate
-
-### Recherche-Aufgabe
-
-Es sollen Bilder für eine Firmen-Website aufbereitet werden, welche Handys repariert.  \
 Recherchiere zu den gängigen Bildformaten und überlege, welche Formate für folgende Bilder geeignet sind (+), welche nicht (-), und warum:&#x20;
 
 1. Oben soll ein zweifarbiges Logo eingefügt werden. Die Anzeigegrösse ist je nach Gerät anders.&#x20;
 2. Auf der Teamseite sind Portraits aller Angestellten gewünscht.&#x20;
 3. Auf der Seite "Statistik" soll ein Kuchen-Diagramm angezeigt werden mit den Anteilen der reparierten Marken. Je nach Display kann es grösser oder kleiner dargestellt sein.
 4. Auf der Seite "Technik" soll das Innenleben eines Handys mit Zoom-Funktion gezeigt werden.&#x20;
-5. Auf "Kontakt" soll ein animierter Briefkasten sein, wo ein Brief eingeworfen wird.
+5. Auf der Seite "Kontakt" soll ein animierter Briefkasten sein, wo ein Brief eingeworfen wird.
+
+Weitere Fragen:&#x20;
+
+1. Auf der Seite "Produkte" sollen Original-Bilder von Geräte-Herstellern eingefügt werden. Worauf ist dabei zu achten?&#x20;
+2. Was sind Vor- und Nachteile, wenn du die Bilder in sehr hoher Qualität und Auflösung einfügst?&#x20;
+
+## Bild-Formate
 
 ### JPEG
 
@@ -127,6 +112,27 @@ AVIF eignet sich hervorragend für Szenarien, in denen **maximale Bildqualität 
 ### Links
 
 * [Das perfekte Bildformat für Websites und Bilder-Sets für verschiedene Bildschirmgrössen](https://app-bis-web.de/perfektes-bildformat-websites/)
+
+## Rechte an Bildern & Inhalten
+
+> Alle Inhalte im Internet sind grundsätzlich urheberrechtlich geschützt und dürfen nicht öffentlich verbreitet werden. Das gilt für Musik, die zwar frei aus dem Web kopiert, aber nur im privaten Kreis ab­gespielt und weitergegeben werden darf, ebenso wie für Fotos: Als Desktop-Hintergrund, Schlafzimmerposter oder Illustra­tion in einer E-Mail an Freunde darf man jedes Bild verwenden. Auf einer öffentlich zugänglichen Homepage aber eben nicht.
+
+\-- [Beobachter Konsum](https://www.beobachter.ch/konsum/webdesign-die-sache-mit-dem-copyright)
+
+{% hint style="info" %}
+cyon hat einen guten Artikel zu den Bildrechten: [https://www.cyon.ch/blog/Bilder-im-Internet-rechtssicher-verwenden](https://www.cyon.ch/blog/Bilder-im-Internet-rechtssicher-verwenden)
+{% endhint %}
+
+Somit sollten ein Website-Betreiber immer die nötigen Rechte für Bilder haben, welche auf seiner Website gezeigt werden. Mögliche Plattformen für den Erwerb von Bild-Lizenzen:
+
+* [Fotolia](https://de.fotolia.com/)
+* [Shutterstock](https://www.shutterstock.com)
+
+Daneben gibt es auch noch komplett kostenlose Bildportale. Meistens sind die Aufnahmen von Amateur- und Hobbyfotografen, die aber deshalb nicht schlechter sein müssen:
+
+* [Unsplash](https://unsplash.com)
+* [Pixabay](https://pixabay.com/de/)
+* [Pixelio](https://www.pixelio.de/)
 
 ## Ladegeschwindigkeit
 
