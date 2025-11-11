@@ -36,6 +36,7 @@
     * [Die Flex-Items](tag-2/02-flexbox/flex-items.md)
     * [🛠️ Aufgaben](tag-2/02-flexbox/aufgaben/README.md)
       * [Aufgabe Boxen](tag-2/02-flexbox/aufgaben/aufgabe-boxen.md)
+      * [Aufgabe Navigation](tag-2/02-flexbox/aufgaben/aufgabe-navigation.md)
       * [Aufgabe Newsportal](tag-2/02-flexbox/aufgaben/aufgabe-newsportal.md)
     * [Weiterführende Links](tag-2/02-flexbox/weiterfuehrende-links.md)
   * [Gestaltung](tag-2/03-gestaltung/README.md)
