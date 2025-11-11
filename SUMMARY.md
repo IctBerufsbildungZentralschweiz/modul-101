@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Intro](README.md)
-  * [🗓️ Organisatorisches](<README (1).md>)
+  * [🗓️ Organisatorisches](readme/organisatorisches.md)
 * [Tag 1](tag-1/README.md)
   * [Geschichte des Internets](tag-1/01-geschichte.md)
   * [Begriffe und Tools](tag-1/02-begriffe-und-tools.md)
@@ -43,7 +43,6 @@
     * [Schriftarten](tag-2/03-gestaltung/01-schriftarten.md)
     * [Farben](tag-2/03-gestaltung/02-farben.md)
     * [Einheiten](tag-2/03-gestaltung/03-eineiten.md)
-  * [Exkurs: Usability](tag-2/usability.md)
   * [CSS Grids](tag-2/04-css-grids/README.md)
     * [Konzept](tag-2/04-css-grids/konzept.md)
     * [Definition](tag-2/04-css-grids/definition.md)
@@ -56,7 +55,9 @@
     * [Media Queries](tag-2/05-responsive-design/media-queries.md)
     * [Responsive Design](tag-2/05-responsive-design/responsive-design.md)
     * [🛠️ Aufgabe](tag-2/05-responsive-design/aufgabe.md)
+  * [Veröffentlichen](tag-2/veroeffentlichen.md)
 * [Tag 3](tag-3/README.md)
+  * [Exkurs: Usability](tag-3/usability.md)
   * [Formulare](tag-3/formulare/README.md)
     * [Formulare](tag-3/formulare/formulare.md)
     * [Informationsgruppierung](tag-3/formulare/informationsgruppierung.md)
@@ -64,5 +65,4 @@
     * [🛠️ Aufgabe Formulare](tag-3/formulare/aufgabe.md)
   * [🛠️ Testing-Workshop](tag-3/testing.md)
   * [Konzeptionierung](tag-3/konzeptionierung.md)
-  * [Veröffentlichen](tag-3/veroeffentlichen.md)
   * [Projektarbeit](tag-3/projektarbeit.md)

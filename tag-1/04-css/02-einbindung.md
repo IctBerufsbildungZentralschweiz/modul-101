@@ -4,16 +4,15 @@
 
 CSS-Regeln können an 3 Orten geschrieben werden:&#x20;
 
-* **Externe CSS-Datei** _(empfohlen)_: \
-  Kann von mehreren HTML-Dateien gemeinsam genutzt werden.\
+* **Extern** mittels `<link>`-Element **(empfohlen)**: \
+  Saubere Trennung von HTML & CSS, CSS kann von mehrere HTML-Dateien genutzt werden.\
   `<link href="css/style.css" rel="stylesheet">`&#x20;
-* **`<style>`-Abschnitt** im `<head>` des HTML-Dokuments _(nicht empfohlen)_: \
+* **Intern** mittels `<style>`-Abschnitt im `<head>` des HTML-Dokuments (nicht empfohlen): \
   Styles, welche nur auf dieser Seite verfügbar sind.\
   `<style>`\
   `.navi { color: green; }`\
-  `p { font-family: Arial; }`\
-  `</stale>`
-* **Inline als Style-Attribut** im HTML-Tag _(nicht empfohlen)_: \
+  `</style>`
+* **Inline** als `style` Attribut im HTML-Tag (nicht empfohlen): \
   `<p style="font-weight: bold;">`
 
 ## CSS-Datei einbinden
