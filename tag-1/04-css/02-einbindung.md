@@ -32,7 +32,7 @@ Probieren wir es gleich aus: Kopiere diese drei Zeilen CSS in eine neue Datei im
 
 Nun haben wir zwar diese beiden Dateien, diese wissen jedoch noch nichts voneinder. Dies können wir ändern, in dem wir das CSS mit dem HTML-Dokument verknüpfen.
 
-Öffne die Datei `invoice.html` und füge die folgende Zeile irgenwo in den `<head>`-Bereich ein:
+Öffne die Datei `ueber-mich.html` und füge die folgende Zeile irgenwo in den `<head>`-Bereich ein:
 
 ```markup
 <link href="style.css" rel="stylesheet">
@@ -46,7 +46,9 @@ Nun haben wir zwar diese beiden Dateien, diese wissen jedoch noch nichts voneind
 
 Die angegebene URI kann dabei relativ oder absolute definiert werden - dazu ein kleiner [Exkurs](https://github.com/johannesE/modul-101/tree/7ef76a9c9f706911092af198dd248f9a2832f329/Tag%201/04%20CSS/01%20Grundlagen/src/relativ-absolut.pdf).
 
-Betrachte anschliessend die Datei `invoice.html` im Browser - die Absätze sollten nun rot eingefärbt sein.
+Betrachte anschliessend die Datei `ueber-mich.html` im Browser - die Absätze sollten nun rot eingefärbt sein.
+
+Verschiebe nun das CSS in ein neues Unterverzeichnis `/css` und passe die Adresse im HTML-Head an.
 
 ### Relative Pfade
 
@@ -83,8 +85,4 @@ Beispiel für absoluter Pfad für die gleiche Ordnersturktur wie oben:
 <link href="https://www.example.com/root/css/frontpage/style.css" rel="stylesheet">
 ```
 
-Werden Beziehungen zu externen Dateien (Frameworks, Schriften etc.) hergestellt, wird der Pfad meistens mit einem absoluten Pfad angegeben. Dabei sollte der Anbieter sicherstellen, dass sich der Pfad nicht ändert.
-
-## 🛠️ Aufgabe
-
-Erstelle eine neue CSS-Datei `styles.css`  in deinem Projekt-Verzeichnis `/ueber-mich/css`, verknüpfe sie in deiner `about-me.html` Datei und definiere für den Selektor `body` eine Hintergrundfarbe.&#x20;
+Werden Beziehungen zu externen Dateien (Frameworks, Schriften etc.) hergestellt, wird der Pfad meistens mit einem absoluten Pfad angegeben. Dabei sollte der Anbieter sicherstellen, dass sich der Pfad nicht ändert.&#x20;
