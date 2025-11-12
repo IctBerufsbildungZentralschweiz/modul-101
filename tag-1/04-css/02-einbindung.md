@@ -26,7 +26,7 @@ Styles, welche nur auf dieser Seite verfügbar sind.\
 
 ## CSS-Datei einbinden
 
-**🛠️ Praxis**
+### **🛠️ Praxis**
 
 Probieren wir es gleich aus: Kopiere diese drei Zeilen CSS in eine neue Datei im Texteditor und speichere die Datei unter dem Namen `style.css` im gleichen Verzeichnis wie deine HTML-Datei `ueber-mich.html`.
 
@@ -49,6 +49,8 @@ Die angegebene URI kann dabei relativ oder absolute definiert werden - dazu ein 
 Betrachte anschliessend die Datei `ueber-mich.html` im Browser - die Absätze sollten nun rot eingefärbt sein.
 
 Verschiebe nun das CSS in ein neues Unterverzeichnis `/css` und passe die Adresse im HTML-Head an.
+
+Um das CSS zu testen, setze für das ganze Dokument (`<body>`) eine Schrift ([`font-family`](https://www.w3schools.com/cssref/pr_font_font-family.php)) und einen Hintergrund ([`background-color`](https://www.w3schools.com/cssref/pr_background-color.php))
 
 ### Relative Pfade
 
