@@ -18,8 +18,7 @@ Style deine Website "Über mich" und ¨berprüfe nach jedem Schritt das Ergebnis
       padding: 20px;
     }
     ```
-2. Packe den ganzen Inhalt des `<body>`-Elementes in einen Container `<div class="global-wrapper">` . Schau dir das Ergebins im Browser an.
-3.  Style die erstelle `about-me.html`, in dem du in deiner CSS-Datei neue Selektoren mit Formatierungen hinzufügst:&#x20;
+2.  Style die erstelle `about-me.html`, in dem du in deiner CSS-Datei neue Selektoren mit Formatierungen hinzufügst:&#x20;
 
     * Das ganze Dokument soll die Schriftart "Arial" und die Zeilenhöhe 1.5 haben
     * Der Header soll eine eigene Hintergrundfarbe deiner Wahl haben
@@ -34,6 +33,6 @@ Style deine Website "Über mich" und ¨berprüfe nach jedem Schritt das Ergebnis
 
     * Färbe mit dem geeigneten Pseudoselektor den Hintergrund jeder 2. Zeile der Tabelle hellgelb.&#x20;
     * Wende einen Filter auf dein Bild an: Normal soll es blass/heller oder sogar schwarz-weiss sein, wenn die Maus drüber fährt, soll es in den richtigen Farben erscheinen.&#x20;
-4. Schreibe das CSS so, dass möglichst kein `margin` oder `padding` einem `<p>`, `<img>` oder `<table>`-Tag zugewiesen ist, sondern den ensprechenden semantischen Elementen oder `<div>` Containern.
-5. Schau, dass möglichst kein Code doppelt ist, z.B. dass für die 2 Adressen.&#x20;
-6. Kopiere den Code anschliessend in den [CSS-Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) und korrigiere allfällige Fehler.
+3. Schreibe das CSS so, dass möglichst kein `margin` oder `padding` einem `<p>`, `<img>` oder `<table>`-Tag zugewiesen ist, sondern den ensprechenden semantischen Elementen oder `<div>` Containern.
+4. Schau, dass möglichst kein Code doppelt ist, z.B. dass für die 2 Adressen.&#x20;
+5. Kopiere den Code anschliessend in den [CSS-Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) und korrigiere allfällige Fehler.
