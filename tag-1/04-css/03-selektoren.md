@@ -1,33 +1,18 @@
-# CSS Selektoren
+# Selektoren
 
-## Zweck
+## Übersicht
 
-Selektoren dienen dazu, in CSS bestimmte Elemente eines HTML-Dokuments zu adressieren, um sie zu gesalten:
+Selektoren-Arten:
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
-## Verschiedene Arten von Selektoren
-
-Einfache Selektoren:
-
-* [Element-Selektor (oder Tag-Selektor)](03-selektoren.md#element-selektor-oder-tag-selektor)
+* [Element-Selektor (Tag-Selektor)](03-selektoren.md#element-selektor-oder-tag-selektor)
 * [Klassen-Selektor](03-selektoren.md#klassen-selektor)
 * [ID-Selektor](03-selektoren.md#id-selektor)
-
-Fortgeschrittene Selektoren:
-
-* [Attribut-Selektor](03-selektoren.md#attribut-selektor)
 * [Pseudoklassen-Selektor](03-selektoren.md#pseudoklassen-selektor)
+* [Attribut-Selektor](03-selektoren.md#attribut-selektor)
 
-Selektoren kombinieren und verschachteln:
+## Selektoren-Arten
 
-* [Mehrfach-Selektor](03-selektoren.md#mehrfach-selektor)
-* [Nachfahren-Selektor](03-selektoren.md#nachfahren-selektor)
-* [Kind-Selektor](03-selektoren.md#kind-selektor)
-
-## Einfache Selektoren
-
-### Element-Selektor (oder Tag-Selektor)
+### Element-Selektor (Tag-Selektor)
 
 Auch Tag- oder Typ-Selektor genannt. Alle HTML-Elemente eines bestimmten Typs werden ausgewählt.
 
@@ -77,29 +62,14 @@ Elemente mit der entprechenden Klasse werden ausgewählt. Klassen können mehrer
 <p>Wird nicht ausgewählt</p>
 ```
 
-### 🛠️ Aufgaben
+### Namensgebung
 
-1. Definiere in der Seite "Über mich" für alle `<h1>` eine Farbe und eine Schriftart.
-2. Füge den beiden Adressblöcken uin HTML eine Klasse `class="address"` hinzu und definiere dafür in CSS, dass diese links etwas eingerückt sind ([`margin-left`](https://www.w3schools.com/css/css_margin.asphttps://www.w3schools.com/css/css_margin.asp)) und kursiv ([`font-style`](https://www.w3schools.com/css/css_font_style.asp)) sein sollen.
-3. Definiere für alle Tabellen-Header `<th>`, dass sie Linksbündig ([`text-align`](https://www.w3schools.com/css/css_text_align.asp)) sein sollen und eine helle Hintergrundfarbe ([`background-color`](https://www.w3schools.com/css/css_background.asp)) haben.
-4. Definiere für alle Tabellen-Zellen `<th>` und `<td>` einen Innenabstand ([`padding`](https://www.w3schools.com/css/css_padding.asp)) von 5px.
+*   Verzichte auf Sonderzeichen bei der Verwendung des `class`- und des `id`-Attributs. Auch wenn dies
 
-## Forteschrittene Selektoren
-
-### Attribut-Selektor
-
-Elemente mit entsprechendem Attribut werden ausgewählt.
-
-```css
-a[target="_blank"] {
-    color: red;
-}
-```
-
-```html
-<a href="kontakt.html" target="_blank">Wird ausgewählt</p>
-<a href="kontakt.html">Wird ausgewählt</p>
-```
+    von CSS unterstützt wird, kann es zu unerwarteten Problemen führen.
+* Verwende englische Begriffe.
+* Da die Gross- und Kleinschreibung relevant ist, empfiehlt es sich, alles in Kleinbuchstaben zu schreiben.
+* Leerzeichen sind nicht erlaubt, verwende `-` bei Klassen oder IDs mit mehreren Worten (z. B. `main-navigation`).
 
 ### Pseudoklassen-Selektor
 
@@ -154,88 +124,17 @@ a:has(img) {
 <a href="shop.html"><img src="logo.jpg" alt="Logo"><br>Mit Schatten</a>
 ```
 
-### 🛠️ Aufgabe
+### Attribut-Selektor
 
-* Teste den obigen Code in [Codepen.io](https://codepen.io/pen/) oder in einem eigenen HTML-Dokument.
-* Definiere für deine Links einen Hover-Effekt.
-
-## Selektoren kombinieren und verschachteln
-
-### Mehrfach-Selektor
-
-Um Elemente gleichzeitig über mehrere Attribute auszuwählen, kette diese einfach aneinander:
+Elemente mit entsprechendem Attribut werden ausgewählt.
 
 ```css
-.card.headline { /* Gilt nur für Elemente mit .card und .headline */
-  color: red;
-}
-div.card {
-  /* Gilt nur für <div>-Elemente mit .card */
-  border: 1px solid blue;
+a[target="_blank"] {
+    color: red;
 }
 ```
 
 ```html
-<article class="card">Ich habe eine Klasse</div>
-<article class="card headline">Ich habe zwei Klassen</div>
-<div class="card">Ich bin ein Div-ELement mit Klasse</div>
+<a href="kontakt.html" target="_blank">Wird ausgewählt</p>
+<a href="kontakt.html">Wird ausgewählt</p>
 ```
-
-### Nachfahren-Selektor
-
-Beim `Nachfahren-Selektor` werden zwei Selektoren durch ein Leerzeichen voneinander getrennt. Der Selektor spricht das zuletzt erwähnte Element nur dann an, wenn es ein `Nachfahre` des vorhergehenden Elements ist.
-
-Als `Nachfahre` werden alle Elemente innerhalb eines anderen Elements bezeichnet (Kinder, Kindeskinder etc.)
-
-```css
-.sub-navi a { /* Formatiere alle a unterhalb von .sub-navi */
-  color: red;
-}
-```
-
-```html
-<nav class="navi">
-  <a href="test.html">Dieser Link ist NICHT rot</a>
-</nav>
-<nav class="sub-navi">
-  <a href="test.html">Dieser Link ist rot</p>  
-  <div>
-    <a href="test.html">Dieser Link ist rot</a>
-  </div>
-</nav>
-```
-
-### Kind-Selektor
-
-Beim `Kind-Selektor` werden zwei Selektoren durch ein `>` voneinander getrennt. Der Selektor spricht das zuletzt erwähnte Element nur dann an, wenn es ein direktes `Kind` des vorhergehenden Elements ist.
-
-Als `Kind` werden alle Elemente _direkt unterhalb_ eines anderen Elements bezeichnet.
-
-```css
-.sub-navi > a { /* Formatiere alle a direkt unterhalb von .sub-navi */
-  color: red;
-}
-```
-
-```html
-<nav class="sub-navi">
-  <a href="test.html">Dieser Link ist rot</p>  
-  <div>
-    <a href="test.html">Dieser Link ist NICHT rot</a>
-  </div>
-</nav>
-```
-
-### Mehrere Elemente auswählen
-
-Teilen sich mehrere Elemente die gleichen Regeln, können diese miteinander selektiert werden. Dazu werden einfach mehrere Selektoren hintereinander geschrieben, getrennt durch Kommas:
-
-```css
-h1, .sub-navi, footer {
-  color: red;
-}
-```
-
-### 🛠️ Aufgabe
-
-* Gebe nur Links, die in einer Tabelle vorkommen, eine andere Farbe.

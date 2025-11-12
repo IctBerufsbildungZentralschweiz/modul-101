@@ -6,16 +6,40 @@ Es sollen Bilder für eine Firmen-Website aufbereitet und eingefügt werden, wel
 
 Recherchiere zu den gängigen Bildformaten und überlege, welche Formate für folgende Bilder geeignet sind (+), welche nicht (-), und warum:&#x20;
 
-1. Oben soll ein zweifarbiges Logo eingefügt werden. Die Anzeigegrösse ist je nach Gerät anders.&#x20;
+1. Es soll ein zweifarbiges Logo eingefügt werden. Die Anzeigegrösse ist je nach Gerät anders.&#x20;
 2. Auf der Teamseite sind Portraits aller Angestellten gewünscht.&#x20;
-3. Auf der Seite "Statistik" soll ein Kuchen-Diagramm angezeigt werden mit den Anteilen der reparierten Marken. Je nach Display kann es grösser oder kleiner dargestellt sein.
-4. Auf der Seite "Technik" soll das Innenleben eines Handys mit Zoom-Funktion gezeigt werden.&#x20;
-5. Auf der Seite "Kontakt" soll ein animierter Briefkasten sein, wo ein Brief eingeworfen wird.
+3. Auf der Seite "Kontakt" soll ein animierter Briefkasten sein, wo ein Brief eingeworfen wird.
+4. Im Footer werden Partner-Logos angezeigt. Die Grösse ist immer gleich.&#x20;
 
 Weitere Fragen:&#x20;
 
 1. Auf der Seite "Produkte" sollen Original-Bilder von Geräte-Herstellern eingefügt werden. Worauf ist dabei zu achten?&#x20;
-2. Was sind Vor- und Nachteile, wenn du die Bilder in sehr hoher Qualität und Auflösung einfügst?&#x20;
+2. Was sind Vor- und Nachteile, wenn du die Bilder in hoher Qualität und Auflösung einfügst?&#x20;
+
+
+
+## Rechte an Bildern & Inhalten
+
+> Alle Inhalte im Internet sind grundsätzlich urheberrechtlich geschützt und dürfen nicht öffentlich verbreitet werden. Das gilt für Musik, die zwar frei aus dem Web kopiert, aber nur im privaten Kreis ab­gespielt und weitergegeben werden darf, ebenso wie für Fotos: Als Desktop-Hintergrund, Schlafzimmerposter oder Illustra­tion in einer E-Mail an Freunde darf man jedes Bild verwenden. Auf einer öffentlich zugänglichen Homepage aber eben nicht.
+
+\-- [Beobachter Konsum](https://www.beobachter.ch/konsum/webdesign-die-sache-mit-dem-copyright)
+
+{% hint style="info" %}
+cyon hat einen guten Artikel zu den Bildrechten: [https://www.cyon.ch/blog/Bilder-im-Internet-rechtssicher-verwenden](https://www.cyon.ch/blog/Bilder-im-Internet-rechtssicher-verwenden)
+{% endhint %}
+
+Somit sollten ein Website-Betreiber immer die nötigen Rechte für Bilder haben, welche auf seiner Website gezeigt werden. Mögliche Plattformen für den Erwerb von Bild-Lizenzen:
+
+* [Fotolia](https://de.fotolia.com/)
+* [Shutterstock](https://www.shutterstock.com)
+
+Daneben gibt es auch noch komplett kostenlose Bildportale. Meistens sind die Aufnahmen von Amateur- und Hobbyfotografen, die aber deshalb nicht schlechter sein müssen:
+
+* [Unsplash](https://unsplash.com)
+* [Pixabay](https://pixabay.com/de/)
+* [Pixelio](https://www.pixelio.de/)
+
+
 
 ## Bild-Formate
 
@@ -113,71 +137,17 @@ AVIF eignet sich hervorragend für Szenarien, in denen **maximale Bildqualität 
 
 * [Das perfekte Bildformat für Websites und Bilder-Sets für verschiedene Bildschirmgrössen](https://app-bis-web.de/perfektes-bildformat-websites/)
 
-## Rechte an Bildern & Inhalten
 
-> Alle Inhalte im Internet sind grundsätzlich urheberrechtlich geschützt und dürfen nicht öffentlich verbreitet werden. Das gilt für Musik, die zwar frei aus dem Web kopiert, aber nur im privaten Kreis ab­gespielt und weitergegeben werden darf, ebenso wie für Fotos: Als Desktop-Hintergrund, Schlafzimmerposter oder Illustra­tion in einer E-Mail an Freunde darf man jedes Bild verwenden. Auf einer öffentlich zugänglichen Homepage aber eben nicht.
 
-\-- [Beobachter Konsum](https://www.beobachter.ch/konsum/webdesign-die-sache-mit-dem-copyright)
-
-{% hint style="info" %}
-cyon hat einen guten Artikel zu den Bildrechten: [https://www.cyon.ch/blog/Bilder-im-Internet-rechtssicher-verwenden](https://www.cyon.ch/blog/Bilder-im-Internet-rechtssicher-verwenden)
-{% endhint %}
-
-Somit sollten ein Website-Betreiber immer die nötigen Rechte für Bilder haben, welche auf seiner Website gezeigt werden. Mögliche Plattformen für den Erwerb von Bild-Lizenzen:
-
-* [Fotolia](https://de.fotolia.com/)
-* [Shutterstock](https://www.shutterstock.com)
-
-Daneben gibt es auch noch komplett kostenlose Bildportale. Meistens sind die Aufnahmen von Amateur- und Hobbyfotografen, die aber deshalb nicht schlechter sein müssen:
-
-* [Unsplash](https://unsplash.com)
-* [Pixabay](https://pixabay.com/de/)
-* [Pixelio](https://www.pixelio.de/)
-
-## Ladegeschwindigkeit
-
-Die zentrale Rolle der Ladegeschwindigkeit für eine Website zeigt folgendes Beispiel:
-
-![Absprungrate](../../.gitbook/assets/every-second-count.png)
-
-* Nach mehr als zwei Sekunden Ladezeit erhöht sich die Absprungrate (Personen, welche die Website verlassen) um 12%.
-* Nach mehr als vier Sekunden Ladezeit erhöht sich die Absprungrate um 25%.
-
-Mehr dazu auf [www.tooltester.com/de/blog/website-ladezeit-statistiken ](https://www.tooltester.com/de/blog/website-ladezeit-statistiken/)
-
-Der Grund für lange Ladezeiten sind häufig schlecht verarbeitete Medien (Bilder, Videos). Durchschnittlich machen Bilder mehr als **65% des Inhaltes** einer Website aus.
-
-![Aufteilung von Website Content](../../.gitbook/assets/chart.png)
-
-### Geschwindigkeitstests
-
-Um die Geschwindigkeit einer Website zu testen gibt es unterschiedliche Tools. Hier zwei davon:
-
-* [Google-PageSpeed-Test](https://pagespeed.web.dev/)
-* [WebPagetest](https://www.webpagetest.org/)
-
-### Lazy-Loading
-
-Werden auf einer Seite viele Bilder angezeigt, ein Teil ev. erst beim Scrollen, können diese erst bei Bedarf nachgeladen werden. So wird nicht die ganze Seiten-Ladezeit ausgebremst. Dazu gibt es das Attribut `loading="lazy"`:&#x20;
-
-```html
-<!-- Sofort geladene Bilder -->
-<img src="/images/wedding.jpg" alt="Wedding">
-<img src="/images/rocks.jpg" alt="Rocks">
-
-<!-- Off-screen Bilder (beim Scrollen) -->
-<img src="/images/nature.jpg" alt="Nature" loading="lazy">
-<img src="/images/underwater.jpg" alt="Underwater" loading="lazy">
-<img src="/images/ocean.jpg" alt="Ocean" loading="lazy">
-```
-
-## Bild-Grössen
+## Bild-Grössen & Qualität
 
 Wichtig ist es nicht nur die Bilder im richtigen Bildformat bereitzustellen, sondern auch in einer angemessenen Grösse. **Bilder sollten immer in der Grösse bereitgestellt werden, in der sie tatsächlich im Web verwendet werden.**
 
 Hier zwei nützliche Werkzeuge: \
 Mit [Bulk Resize Photos](https://bulkresizephotos.com/) können mehrere Fotos miteinander verarbeitet werden.\
 Mit dem [Online Image Editor](https://www.online-image-editor.com/) kannst du einzelne Bilder online skalieren und zuschneiden.
+
+Bei den meisten Bildformaten kann die **Qualität = Komprimierung** gewählt werden. Mit ca. 70% werden die Bilder meist deutlich kleiner, aber es ist noch kaum ein Qualitätsverlust sichtbar.
 
 ### Responsive Bildgrössen
 
@@ -200,3 +170,93 @@ Dazu gibt es verschiedene Möglichkeiten. Eine empfehlenswerte ist das `<picture
 ```
 
 Das \<img>-Element wird genutzt, falls keine der gegebenen Media-Bedingungen zutrifft.
+
+
+
+## Ladegeschwindigkeit
+
+Die zentrale Rolle der Ladegeschwindigkeit für eine Website zeigt folgendes Beispiel:
+
+![Absprungrate](../../.gitbook/assets/Website-Page-Load-Time-vs-Bounce-Rate-2025-Industry-Benchmarks.png)
+
+* Nach mehr als zwei Sekunden Ladezeit erhöht sich die Absprungrate (Personen, welche die Website verlassen) um 12%.
+* Nach mehr als vier Sekunden Ladezeit erhöht sich die Absprungrate um 25%.
+
+Mehr dazu auf [www.tooltester.com/de/blog/website-ladezeit-statistiken ](https://www.tooltester.com/de/blog/website-ladezeit-statistiken/)
+
+Der Grund für lange Ladezeiten sind häufig schlecht verarbeitete Medien (Bilder, Videos). Durchschnittlich machen Bilder mehr als **65% des Inhaltes** einer Website aus.
+
+![Aufteilung von Website Content](../../.gitbook/assets/chart.png)
+
+### Geschwindigkeitstests
+
+Um die Geschwindigkeit einer Website zu testen gibt es unterschiedliche Tools. Hier zwei davon:
+
+* [Google-PageSpeed-Test](https://pagespeed.web.dev/)
+* [WebPagetest](https://www.webpagetest.org/)
+
+### Optimierungsmöglichkeiten
+
+* [Geeignetes Bildformat](bilder.md#bild-formate) wählen
+* [Auflösung](bilder.md#bild-grossen) auf wirklich benutzte Grösse ändern
+* [Responsive Bildgrössen](bilder.md#responsive-bildgrossen): Für kleine Geräte kleinere Bilder anbieten
+* Komprimierung erhöhen
+* [Lazy-Loading](bilder.md#lazy-loading)
+* CDN: Content Delivery Network nutzen
+
+### Lazy-Loading
+
+Werden auf einer Seite viele Bilder angezeigt, ein Teil ev. erst beim Scrollen, können diese erst bei Bedarf nachgeladen werden. So wird nicht die ganze Seiten-Ladezeit ausgebremst. Dazu gibt es das Attribut `loading="lazy"`:&#x20;
+
+```html
+<!-- Sofort geladene Bilder -->
+<img src="/images/wedding.jpg" alt="Wedding">
+<img src="/images/rocks.jpg" alt="Rocks">
+
+<!-- Off-screen Bilder (beim Scrollen) -->
+<img src="/images/nature.jpg" alt="Nature" loading="lazy">
+<img src="/images/underwater.jpg" alt="Underwater" loading="lazy">
+<img src="/images/ocean.jpg" alt="Ocean" loading="lazy">
+```
+
+
+
+## Bild als Hintergrund
+
+In Seiten-Headern oder für spezielle Effekte können Bilder als Hintergrund eingefügt werden.&#x20;
+
+**Gestaltung:** Hinter Text sollte aus Lesbarkeitsgründen meist kein Bild oder nur ein sehr kontrastarmes sein.&#x20;
+
+Detailierte Beschreibung der Möglichkeiten: \
+[drweb.de/background-image](https://www.drweb.de/background-image/)
+
+### Beispiel Bannerbild
+
+Ein Bannerbild dient als Stimmungsbild und sollte im Querformat möglichst die ganze Breite.&#x20;
+
+**Ausprobieren auf** [codepen.io](https://codepen.io/sternenvogel/pen/raeVEeZ)
+
+```html
+<header>
+    <div class="banner">
+        <img class="logo" src="logo.svg" alt="Logo">
+    </div>
+</header>
+```
+
+Ein Hintergrundbild nimmt nicht automatisch Platz ein. Deshalb definieren wir hier explizit die Höhe des Banners, danach das Hintergrundbild so, dass es die ganze Fläche des Containers abdeckt:
+
+```css
+.banner {
+    width: 100%;
+    height: 150px;
+    background-image: url("banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+```
