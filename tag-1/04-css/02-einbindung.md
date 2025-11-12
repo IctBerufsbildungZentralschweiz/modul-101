@@ -1,4 +1,4 @@
-# CSS Einbindung
+# CSS-Datei einbinden
 
 ## Wo kann CSS definiert werden?
 
@@ -28,14 +28,25 @@ Styles, welche nur auf dieser Seite verfügbar sind.\
 
 ### **🛠️ Praxis**
 
-Probieren wir es gleich aus: Kopiere diese drei Zeilen CSS in eine neue Datei im Texteditor und speichere die Datei unter dem Namen `style.css` im gleichen Verzeichnis wie deine HTML-Datei `ueber-mich.html`.
+Erstelle eine neue CSS-Datei `styles.css`  in deinem Projekt-Verzeichnis `/ueber-mich/css`, kopiere als Start schon mal folgenden Inhalt rein und verknüpfe sie in deiner `about-me.html` Datei:&#x20;
+
+```css
+body {
+  background-color: #fbf8e2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+header, main, footer {
+  padding: 20px;
+}
+```
 
 Nun haben wir zwar diese beiden Dateien, diese wissen jedoch noch nichts voneinder. Dies können wir ändern, in dem wir das CSS mit dem HTML-Dokument verknüpfen.
 
 Öffne die Datei `ueber-mich.html` und füge die folgende Zeile irgenwo in den `<head>`-Bereich ein:
 
 ```markup
-<link href="style.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
 ```
 
 **`<link>`** - Mit dem `<link>` kann das HTML-Dokument mit anderen Dokumenten verlinkt werden - es entsteht eine Beziehung (Link) zum angegebenen Dokument.
