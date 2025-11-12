@@ -4,12 +4,12 @@
 
 CSS-Regeln können an 3 Orten geschrieben werden:&#x20;
 
-**Extern** mittels `<link>`-Element **(empfohlen)**: \
+**Extern in CSS-Datei(en)** mittels `<link>`-Element **(empfohlen)**: \
 Saubere Trennung von HTML & CSS, CSS kann von mehrere HTML-Dateien genutzt werden.\
 `<link href="css/style.css" rel="stylesheet">` \
 
 
-**Intern** mittels `<style>`-Abschnitt im `<head>` des HTML-Dokuments (nicht empfohlen): \
+**Intern** im HTML-Dokument mittels `<style>`-Abschnitt im `<head>` (nicht empfohlen): \
 Styles, welche nur auf dieser Seite verfügbar sind.\
 `<style>`\
 `.navi { color: green; }`\
