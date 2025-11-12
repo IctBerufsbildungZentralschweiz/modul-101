@@ -44,13 +44,12 @@ Nun haben wir zwar diese beiden Dateien, diese wissen jedoch noch nichts voneind
 
 **`href`** - Das `href`-Attribut zeigt das Ziel der Beziehung. Das `href`-Attribut (href = hyper reference = Hyper(text) -Referenz) gibt somit an, welches andere Dokument in Bezug zum aktuellen steht. Als Wert wird ein gültiger URI erwartet.
 
-Die angegebene URI kann dabei relativ oder absolute definiert werden - dazu ein kleiner [Exkurs](https://github.com/johannesE/modul-101/tree/7ef76a9c9f706911092af198dd248f9a2832f329/Tag%201/04%20CSS/01%20Grundlagen/src/relativ-absolut.pdf).
-
-Betrachte anschliessend die Datei `ueber-mich.html` im Browser - die Absätze sollten nun rot eingefärbt sein.
-
-Verschiebe nun das CSS in ein neues Unterverzeichnis `/css` und passe die Adresse im HTML-Head an.
-
 Um das CSS zu testen, setze für das ganze Dokument (`<body>`) eine Schrift ([`font-family`](https://www.w3schools.com/cssref/pr_font_font-family.php)) und einen Hintergrund ([`background-color`](https://www.w3schools.com/cssref/pr_background-color.php))
+
+Betrachte anschliessend die Datei `ueber-mich.html` im Browser - Hintergrund und Schrift sollten nun angepasst sein.
+
+Verschiebe nun das CSS in ein neues Unterverzeichnis `/css` und passe die Adresse im HTML-Head an.\
+Die angegebene URI kann dabei relativ oder absolute definiert werden - dazu ein kleiner Exkurs.
 
 ### Relative Pfade
 
