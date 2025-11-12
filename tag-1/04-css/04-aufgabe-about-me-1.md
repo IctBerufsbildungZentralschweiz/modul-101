@@ -1,4 +1,4 @@
-# 🛠️ Aufgabe "Über mich" gestalten (1)
+# 🛠️ Aufgabe "Über mich" gestalten
 
 ![](../../.gitbook/assets/ralph.png)
 
@@ -6,7 +6,7 @@
 
 Style deine Website "Über mich" und ¨berprüfe nach jedem Schritt das Ergebnis im Browser.&#x20;
 
-1.  Erstelle eine neue CSS-Datei `styles.css`  in deinem Projekt-Verzeichnis `/ueber-mich/css`, kopiere als Start schon mal folgenden Inhalt rein und verknüpfe sie in deiner `about-me.html` Datei:&#x20;
+1.  Falls noch nicht gemacht: Erstelle eine neue CSS-Datei `styles.css`  in deinem Projekt-Verzeichnis `/ueber-mich/css`, kopiere als Start schon mal folgenden Inhalt rein und verknüpfe sie in deiner `about-me.html` Datei:&#x20;
 
     ```css
     body {

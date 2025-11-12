@@ -80,9 +80,9 @@ Elemente mit der entprechenden Klasse werden ausgewählt. Klassen können mehrer
 ### 🛠️ Aufgaben
 
 1. Definiere in der Seite "Über mich" für alle `<h1>` eine Farbe und eine Schriftart.
-2. Füge den beiden Adressblöcken uin HTML eine Klasse "address" hinzu und definiere dafür in CSS, dass diese Kursiv und dunkelgrau statt schwarz sein sollen.
-3. Definiere für alle Tabellen-Header `<th>`, dass sie Linksbündig sein sollen und eine helle Hintergrundfarbe haben.
-4. Definiere für alle Tabellen-Zellen `<th>` und `<td>` einen Innenabstand (`padding`) von 5px.
+2. Füge den beiden Adressblöcken uin HTML eine Klasse `class="address"` hinzu und definiere dafür in CSS, dass diese links etwas eingerückt sind ([`margin-left`](https://www.w3schools.com/css/css_margin.asphttps://www.w3schools.com/css/css_margin.asp)) und kursiv ([`font-style`](https://www.w3schools.com/css/css_font_style.asp)) sein sollen.
+3. Definiere für alle Tabellen-Header `<th>`, dass sie Linksbündig ([`text-align`](https://www.w3schools.com/css/css_text_align.asp)) sein sollen und eine helle Hintergrundfarbe ([`background-color`](https://www.w3schools.com/css/css_background.asp)) haben.
+4. Definiere für alle Tabellen-Zellen `<th>` und `<td>` einen Innenabstand ([`padding`](https://www.w3schools.com/css/css_padding.asp)) von 5px.
 
 ## Forteschrittene Selektoren
 
@@ -156,6 +156,7 @@ a:has(img) {
 
 ### 🛠️ Aufgabe
 
+* Teste den obigen Code in [Codepen.io](https://codepen.io/pen/) oder in einem eigenen HTML-Dokument.
 * Definiere für deine Links einen Hover-Effekt.
 
 ## Selektoren kombinieren und verschachteln

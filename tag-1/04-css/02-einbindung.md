@@ -84,3 +84,7 @@ Beispiel für absoluter Pfad für die gleiche Ordnersturktur wie oben:
 ```
 
 Werden Beziehungen zu externen Dateien (Frameworks, Schriften etc.) hergestellt, wird der Pfad meistens mit einem absoluten Pfad angegeben. Dabei sollte der Anbieter sicherstellen, dass sich der Pfad nicht ändert.
+
+## 🛠️ Aufgabe
+
+Erstelle eine neue CSS-Datei `styles.css`  in deinem Projekt-Verzeichnis `/ueber-mich/css`, verknüpfe sie in deiner `about-me.html` Datei und definiere für den Selektor `body` eine Hintergrundfarbe.&#x20;
