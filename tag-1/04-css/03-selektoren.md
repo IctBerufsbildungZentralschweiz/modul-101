@@ -77,12 +77,12 @@ Elemente mit der entprechenden Klasse werden ausgewählt. Klassen können mehrer
 <p>Wird nicht ausgewählt</p>
 ```
 
-### Aufgaben
+### 🛠️ Aufgaben
 
-* Definiere in der Seite "Über mich" für alle `<h1>` eine Farbe und eine Schriftart.
-* Füge den beiden Adressblöcken uin HTML eine Klasse "address" hinzu und definiere dafür in CSS, dass diese Kursiv und dunkelgrau statt schwarz sein sollen.
-* Definiere für alle Tabellen-Header `<th>`, dass sie Linksbündig sein sollen und eine helle Hintergrundfarbe haben.
-* Definiere für alle Tabellen-Zellen `<th>` und `<td>` einen Innenabstand (`padding`) von 5px.
+1. Definiere in der Seite "Über mich" für alle `<h1>` eine Farbe und eine Schriftart.
+2. Füge den beiden Adressblöcken uin HTML eine Klasse "address" hinzu und definiere dafür in CSS, dass diese Kursiv und dunkelgrau statt schwarz sein sollen.
+3. Definiere für alle Tabellen-Header `<th>`, dass sie Linksbündig sein sollen und eine helle Hintergrundfarbe haben.
+4. Definiere für alle Tabellen-Zellen `<th>` und `<td>` einen Innenabstand (`padding`) von 5px.
 
 ## Forteschrittene Selektoren
 
@@ -153,6 +153,10 @@ a:has(img) {
 </p>
 <a href="shop.html"><img src="logo.jpg" alt="Logo"><br>Mit Schatten</a>
 ```
+
+### 🛠️ Aufgabe
+
+* Definiere für deine Links einen Hover-Effekt.
 
 ## Selektoren kombinieren und verschachteln
 
@@ -230,3 +234,7 @@ h1, .sub-navi, footer {
   color: red;
 }
 ```
+
+### 🛠️ Aufgabe
+
+* Gebe nur Links, die in einer Tabelle vorkommen, eine andere Farbe.

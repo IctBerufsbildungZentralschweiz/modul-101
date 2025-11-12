@@ -19,7 +19,7 @@ Das CSS-Layout basiert auf dem Box-Modell. Jede Box, die Platz auf einer Webseit
 
 ![Boxmodell](../../.gitbook/assets/boxmodell.png)
 
-### Aufgabe
+### 🛠️ Aufgaben
 
 1. Rufe eine beliebige Website im Internet auf, öffne die "Developer Tools" (Rechtsklick auf ein Element > "Untersuchen" oder `F12`) und suche das Tab "Computed".&#x20;
 2. Schau dir die Grafik des Box-Models eines HTML-Elements unter "Computed" an und darunter, woher die Abstände in CSS kommen.&#x20;
@@ -51,7 +51,7 @@ Die Abstände und Rahmen einer Box können für alle 4 Seiten einzeln oder zusam
 }
 ```
 
-### Aufgabe
+### 🛠️ Aufgabe
 
 Probier die Möglichkeiten aus: [w3schools.com/css/tryit.asp?filename=trycss\_boxmodel](https://www.w3schools.com/css/tryit.asp?filename=trycss_boxmodel)
 
