@@ -13,10 +13,17 @@ Suche im Netz nach wesentlichen neuen Features, welche seit 1-2 Jahren von allen
 
 Recherchiere zu Effekten wie [Transition](https://www.w3schools.com/css/css3_transitions.asp), [2D Transform](https://www.w3schools.com/css/css3_2dtransforms.asp), [3D Transform](https://www.w3schools.com/css/css3_3dtransforms.asp), [Shadows](https://www.w3schools.com/css/css3_shadows.asp) und [Image-Filters](https://www.w3schools.com/css/css3_image_filters.asp)
 
-Implementiere folgende Effekte
+Implementiere auf deiner Medien-Seite folgende Effekte bei Hover über ein Bild. Die Webseite sollte mind. 6 Fotos enthalten:
 
-1. Rotate bei Hover
+1. Opacity (Transparenz)
+2. Änderung von Grau zu Farbe
+3. Helligkeit bei Hover
+4. Rotate
+5. Leichtes Zoom (`scale()`) etc.
+
+Weitere Effekte:
+
+1. Schatten bei Fotos (`box-shadow`)
 2. Slide-In von Untermenüs
-3. Foto-Effekte bei Hover: Änderung von Grau-Farbe, Helligkeit, leichtes Zoom (`scale()`) etc.
-4. Leichter Schatten bei Fotos
+3. Weitere 1-2 Effekte deiner Wahl
 
