@@ -10,17 +10,12 @@ Style deine Website "Über mich" und ¨berprüfe nach jedem Schritt das Ergebnis
 
     ```css
     body {
-      border: 1px solid #888888;
-      background: #bbbbbb;
-      box-shadow: -6px 6px 12px #888888;
+      background-color: #fbf8e2;
       font-family: Arial, sans-serif;
+      margin: 0;
     }
-    .global-wrapper {
-      background: #ffffff;
-      margin: 0 auto;
-      width: 900px;
-      max-width: 100%;
-      min-height: 100vh;
+    header, main, footer {
+      padding: 20px;
     }
     ```
 2. Packe den ganzen Inhalt des `<body>`-Elementes in einen Container `<div class="global-wrapper">` . Schau dir das Ergebins im Browser an.
