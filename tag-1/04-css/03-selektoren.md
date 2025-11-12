@@ -11,8 +11,8 @@ Selektoren dienen dazu, in CSS bestimmte Elemente eines HTML-Dokuments zu adress
 Einfache Selektoren:
 
 * [Element-Selektor (oder Tag-Selektor)](03-selektoren.md#element-selektor-oder-tag-selektor)
-* [ID-Selektor](03-selektoren.md#id-selektor)
 * [Klassen-Selektor](03-selektoren.md#klassen-selektor)
+* [ID-Selektor](03-selektoren.md#id-selektor)
 
 Fortgeschrittene Selektoren:
 
@@ -97,8 +97,8 @@ a[target="_blank"] {
 ```
 
 ```html
-<a href="kontakt.html target="_blank">Wird ausgewählt</p>
-<a href="kontakt.html>Wird ausgewählt</p>
+<a href="kontakt.html" target="_blank">Wird ausgewählt</p>
+<a href="kontakt.html">Wird ausgewählt</p>
 ```
 
 ### Pseudoklassen-Selektor
