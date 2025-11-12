@@ -19,7 +19,7 @@ Nutze die [1. Flexbox-Aufgabe](../01-flexbox/aufgaben/) für folgende Experiment
 
 1. Mische eine Hintergrundfarbe für das ganze Dokument (\<body>-Element) mitteld der rgb()-Funktion.
 2. Ändere die Transparenz der Quader in der Flexbox einmal mittels rgb()-Funktion und danach mittels #hex-wert, und schau, welche anderen Farbmodelle ev. noch Transparenz erlauben.&#x20;
-3. Teste das Farbmodell [LAB](02-farben.md#lab-cielab)
+3. Untersuche ein Flexbox-Element mit den Developer Tools im Browser und teste direkt in den DevTools das Farbmodell [LAB](02-farben.md#lab-cielab).
 
 **Zusatzaufgabe:**
 
