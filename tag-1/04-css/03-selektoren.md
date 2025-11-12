@@ -8,19 +8,24 @@ Selektoren dienen dazu, in CSS bestimmte Elemente eines HTML-Dokuments zu adress
 
 ## Verschiedene Arten von Selektoren
 
-* [Element-Selektor (oder Tag-Selektor)](01-grundlagen.md#element-selektor-oder-tag-selektor)
-* [ID-Selektor](01-grundlagen.md#id-selektor)
-* [Klassen-Selektor](01-grundlagen.md#klassen-selektor)
-* [Attribut-Selektor](01-grundlagen.md#attribut-selektor)
-* [Pseudoklassen-Selektor](01-grundlagen.md#pseudoklassen-selektor)
+Einfache Selektoren:
 
-Kombination von Selektoren:
+* [Element-Selektor (oder Tag-Selektor)](03-selektoren.md#element-selektor-oder-tag-selektor)
+* [ID-Selektor](03-selektoren.md#id-selektor)
+* [Klassen-Selektor](03-selektoren.md#klassen-selektor)
 
-* [Mehrfach-Selektor](01-grundlagen.md#mehrfach-selektor)
-* [Nachfahren-Selektor](01-grundlagen.md#nachfahren-selektor)
-* [Kind-Selektor](01-grundlagen.md#kind-selektor)
+Fortgeschrittene Selektoren:
 
-## Verschiedene Arten von Selektoren
+* [Attribut-Selektor](03-selektoren.md#attribut-selektor)
+* [Pseudoklassen-Selektor](03-selektoren.md#pseudoklassen-selektor)
+
+Selektoren kombinieren und verschachteln:
+
+* [Mehrfach-Selektor](03-selektoren.md#mehrfach-selektor)
+* [Nachfahren-Selektor](03-selektoren.md#nachfahren-selektor)
+* [Kind-Selektor](03-selektoren.md#kind-selektor)
+
+## Einfache Selektoren
 
 ### Element-Selektor (oder Tag-Selektor)
 
@@ -71,6 +76,15 @@ Elemente mit der entprechenden Klasse werden ausgewählt. Klassen können mehrer
 
 <p>Wird nicht ausgewählt</p>
 ```
+
+### Aufgaben
+
+* Definiere in der Seite "Über mich" für alle `<h1>` eine Farbe und eine Schriftart.
+* Füge den beiden Adressblöcken uin HTML eine Klasse "address" hinzu und definiere dafür in CSS, dass diese Kursiv und dunkelgrau statt schwarz sein sollen.
+* Definiere für alle Tabellen-Header `<th>`, dass sie Linksbündig sein sollen und eine helle Hintergrundfarbe haben.
+* Definiere für alle Tabellen-Zellen `<th>` und `<td>` einen Innenabstand (`padding`) von 5px.
+
+## Forteschrittene Selektoren
 
 ### Attribut-Selektor
 
@@ -139,6 +153,8 @@ a:has(img) {
 </p>
 <a href="shop.html"><img src="logo.jpg" alt="Logo"><br>Mit Schatten</a>
 ```
+
+## Selektoren kombinieren und verschachteln
 
 ### Mehrfach-Selektor
 
