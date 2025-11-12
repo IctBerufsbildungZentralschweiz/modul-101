@@ -8,7 +8,7 @@ Einige Begriffe sollten auseinander gehlaten werden:
 * **Web / WWW:** Weltweit mit Hyperlinks vernetzte HTML-Dokumente, die übers Internet-Protokoll HTTP/HTTPs übertragen werden.&#x20;
 * **Website**: Gesamtheit aller Seiten, welche zu einem Webauftritt gehören
 * **Webseite**: Eine einzelne Seite innerhalb eines Webauftrittes
-* **Homepage**: Startseite einer Website
+* **Homepage**: Startseite einer Website (Home)
 
 ## Tools
 

@@ -65,7 +65,7 @@
     * [Informationsgruppierung](tag-3/formulare/informationsgruppierung.md)
     * [Design- und Strukturgrundlagen](tag-3/formulare/design-und-strukturgrundlagen.md)
     * [🛠️ Aufgabe Formulare](tag-3/formulare/aufgabe.md)
-  * [Ausblick: Weitere Features](tag-3/ausblick-weitere-features.md)
+  * [Neuere Features & Effekte](tag-3/neuere-features-and-effekte.md)
   * [🛠️ Testing-Workshop](tag-3/testing.md)
   * [Konzeptionierung](tag-3/konzeptionierung.md)
   * [Projektarbeit](tag-3/projektarbeit.md)
