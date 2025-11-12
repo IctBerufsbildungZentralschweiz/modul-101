@@ -4,7 +4,7 @@
 
 Jedes HTML-Dokument sollte minimal die folgenden Elemente enthalten. Du kannst den Code als Gerüst für all deine neuen Seiten benutzen:&#x20;
 
-```markup
+```html
   <!DOCTYPE html>
   <html>
     <head>
