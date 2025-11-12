@@ -4,16 +4,25 @@
 
 CSS-Regeln können an 3 Orten geschrieben werden:&#x20;
 
-* **Extern** mittels `<link>`-Element **(empfohlen)**: \
-  Saubere Trennung von HTML & CSS, CSS kann von mehrere HTML-Dateien genutzt werden.\
-  `<link href="css/style.css" rel="stylesheet">`&#x20;
-* **Intern** mittels `<style>`-Abschnitt im `<head>` des HTML-Dokuments (nicht empfohlen): \
-  Styles, welche nur auf dieser Seite verfügbar sind.\
-  `<style>`\
-  `.navi { color: green; }`\
-  `</style>`
-* **Inline** als `style` Attribut im HTML-Tag (nicht empfohlen): \
-  `<p style="font-weight: bold;">`
+**Extern** mittels `<link>`-Element **(empfohlen)**: \
+Saubere Trennung von HTML & CSS, CSS kann von mehrere HTML-Dateien genutzt werden.\
+`<link href="css/style.css" rel="stylesheet">` \
+
+
+**Intern** mittels `<style>`-Abschnitt im `<head>` des HTML-Dokuments (nicht empfohlen): \
+Styles, welche nur auf dieser Seite verfügbar sind.\
+`<style>`\
+`.navi { color: green; }`\
+`</style>`\
+\
+\
+
+
+**Inline** als `style` Attribut im HTML-Tag (nicht empfohlen): \
+`<p style="font-weight: bold;">` \
+
+
+**Wichtig:** Inline-Styling sollte vermieden werden! Zweck von CSS ist es, Inhalt (HTML) und Styling (CSS) auseinander zu halten und Styles möglichst über die ganze Website einheitlich zu halten.&#x20;
 
 ## CSS-Datei einbinden
 
