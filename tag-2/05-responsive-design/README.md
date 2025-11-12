@@ -2,5 +2,38 @@
 description: Adaptives Webdesign.
 ---
 
-# 02 Responsive Design
+# Responsive Design
 
+Responsive Design bezeichnet die Fähigkeit eines Layouts sich automatisch auf verschiedene Geräteattribute anzupassen. Insbesondere ist damit die Grösse eines Displays gemeint.
+
+## Beispiel
+
+Rufe die Website [https://www.smashingmagazine.com/](https://www.smashingmagazine.com/) auf und verändere die Fenstergrösse.
+
+## Grundsätze
+
+Grundsätzlich wird oft zwischen drei Bildschirmgrössen unterschieden: `Desktop`, `Tablet` und `Mobile`. Diese Grössen bieten dir eine gute Basis zum Designen deiner Website, jedoch solltest du dein Layout nicht auf gewisse Bildschirmgrössen fixieren:
+
+Vor einigen Jahren konnte man seine Website für ein iPhone (320x480), ein iPad (768x1024) und Desktops (1920x1080) auslegen. Heute gibt es jedoch so viele unterschiedliche Bildschirmgrössen, dass eine Ausrichtung auf diese Bildschirmauflösungen weniger Sinn macht.
+
+Stattdessen solltest du dein Layout immer bei diesen Grössen verändern, wo dein Inhalt nicht mehr genügend Platz hat um korrekt dargestellt zu werden.
+
+### Mobile first vs. Desktop first
+
+**Mobile-First-Design** ist ein Webdesign-Ansatz, bei dem die Website zuerst für Benutzer von Mobilen Geräten optimiert wird. Danach wird eine Version für grössere Bildschirme entworfen.&#x20;
+
+Im CSS werden zuerst die Definitionen für kleine Bildschirme geschrieben, danach mittels Media-Queries für grosse Displays überschrieben.&#x20;
+
+**Desktop-First-Design** ist ein Webdesign-Ansatz, bei dem das Desktop- oder Laptop-Erlebnis im Vordergrund steht. Die Website wird zunächst für den Desktop-Nutzer entworfen und dann an kleinere Bildschirme angepasst.
+
+Im CSS werden zuerst die Definitionen für grosse Bildschirme geschrieben, danach mittels Media-Queries für kleine Displays übersteuert.&#x20;
+
+**Welchen Ansatz soll ich wählen?**&#x20;
+
+Das hängt von der Zielgruppe und der Komplexität der Website ab:&#x20;
+
+Für einfachere Websites und Applikationen, welche oft unterwegs benutzt werden, bringt Mobile-First ein besseres Nutzererlebnis.&#x20;
+
+Für komplexe Websites mit vielen Elementen oder Business-Websites, welche oft im Büro aufgerufen werden, bietet sich der Desktop-First-Ansatz an.&#x20;
+
+Mehr dazu: [www.softermii.com/blog/web-development-mobile-first-or-desktop-first](https://www.softermii.com/blog/web-development-mobile-first-or-desktop-first) (english)

@@ -1,4 +1,4 @@
-# CSS Kaskadierung
+# Kaskadierung - Wer gewinnt?
 
 An einem Punkt wird es dazu kommen, dass mehrerere CSS-Regeln das gleiche Element ansprechen.
 
@@ -20,36 +20,34 @@ p {
 }
 ```
 
-In diesen Fällen stellt sich die Frage: Welche CSS Regel «gewinnt» und wird auf das angesteuerte Element angewendet? Dies wird nicht einfach dem Zufall überlassen, sondern über einen Mechanismus namens «Cascading» oder Kaskadierung bestimmt.
-
-## Kaskadierung
+In diesen Fällen stellt sich die Frage: Welche CSS Regel «gewinnt»? Dies wird über einen Mechanismus namens «Cascading» oder Kaskadierung bestimmt.
 
 CSS ist ein Akronym für **\*Cascading** Style Sheet\*. Bei der Kaskadierung geht es darum, dass der Style einmal gestalteter Elemente an anderer Stelle überschrieben werden kann.&#x20;
 
-**Beispiel:** Ein Link bekommt generell eine bestimmte Farbe, in der Navigation soll sie aber mit einer anderen Farbe überschrieben werden.&#x20;
-
 Es entscheiden drei Faktoren darüber, welche CSS-Regel «gewinnt»:
 
-1. Wichtigkeit
-2. Spezifizierung
-3. Platzierung / Reihenfolge
+1. [Wichtigkeit](07-kaskadierung.md#wichtigkeit)
+2. [Spezifizierung](07-kaskadierung.md#spezifizierung)
+3. [Platzierung / Reihenfolge](07-kaskadierung.md#platzierung-reihenfolge)
+
+**Beispiel:** Ein Link bekommt generell eine bestimmte Farbe, in der Navigation soll sie aber mit einer anderen Farbe überschrieben werden. Wer gewinnt?&#x20;
 
 Als kleine Überlegungshilfe gibt es hier das [Punktesystem](https://github.com/johannesE/modul-101/tree/7ef76a9c9f706911092af198dd248f9a2832f329/Tag%201/04%20CSS/05%20Kaskadierung/src/kaskadierung_spezifikation.pdf). \
 Wenn du in Visual Studio Code über einen Selektor fährst, wird das Punktesystem angezeigt:&#x20;
 
-<div align="left"><figure><img src="../../.gitbook/assets/css-specifity-small.gif" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/css-specifity-small.gif" alt=""><figcaption></figcaption></figure></div>
 
 ### Wichtigkeit
 
 In CSS kann man mit einem Schlüsselwort sicher stellen, dass einige Deklarationen _immer_ wichtiger sind als andere, also immer «gewinnt»: `!important`.
 
-#### index.html
+index.html:
 
 ```markup
 <p class="red">Mein roter Text.</p>
 ```
 
-#### style.css
+style.css:
 
 ```css
 p {
@@ -103,3 +101,24 @@ p {
   color: red;
 }
 ```
+
+## **🛠️** Aufgaben
+
+Style deine Website "Über mich" weiter: &#x20;
+
+1. Versuche, die Schriftart im Header mit einer anderen Font-Famliy zu überschreiben.
+2. Bilder, welche im Header vorkommen, sollen runde Ecken haben (Radius: 10px).
+3. Überschreibe das Styling der Links im Footer (Social-Links):&#x20;
+   * Sie sollen rot sein und nicht unterstrichen.&#x20;
+   * Bei Mouse-Over über die Links im Footer sollen die Schrift rot bleiben und der Link-Text unterstrichen werden.
+
+Überprüfe das Resultat im Browser und den Code mit dem [CSS-Validator](https://jigsaw.w3.org/css-validator/#validate_by_input), korrigiere allfällige Fehler.\
+
+
+**Zusatzaufgaben für schnellere Lernende:**
+
+Auf Wunsch des Kunden soll ein alternatives Theme für die Website gewählt werden können.&#x20;
+
+1. Erstelle eine neue CSS-Datei `color-theme.css`  und binde sie in deinem HTML-Dokument NACH `styles.css` ein.&#x20;
+2. Versuche nun in der neuen CSS-Datei einige Hintergrund- und Textfarben des Layouts zu überschneiden.
+3. Teste die Webseite mal mit, mal ohne zusätzliches `color-theme.css`  und schau dir den Unterschied an.

@@ -54,3 +54,51 @@ Die Abstände und Rahmen einer Box können für alle 4 Seiten einzeln oder zusam
 ### 🛠️ Ausprobieren
 
 Probier die Möglichkeiten aus: [w3schools.com/css/tryit.asp?filename=trycss\_boxmodel](https://www.w3schools.com/css/tryit.asp?filename=trycss_boxmodel)
+
+## Höhe, Breite
+
+Für jede Box kann die Breite und Höhe definiert werden. Häufige Masseinheiten sind Pixel oder Prozent, manchmal auch `vw`/`vh` , selten `rem/em`.
+
+```css
+.container {
+    width: 200px; // Breite 
+    max-width: 50%; // Maximum 50% der übergeordneten Box breit
+    height: 600px; // Höhe
+    min-height: 50vh; // Minimal halbe Viewporthöhe (Fensterhöhe)
+}
+```
+
+**Hinweis:** Standardmässig beziehen sich `width` und `height` nur auf den Inhaltsbereich. Padding und Border kommen zusätzlich dazu. Mit `box-sizing: border-box;` kann das Verhalten geändert werden, sodass `width` und `height` den gesamten Bereich inkl. Padding und Border umfassen.
+
+## Übergroser Inhalt (`overflow`)
+
+Wenn der Inhalt einer Box grässer ist als die angegebene Breite oder Höhe der Box, kannst du bestimmen, was passieren soll:&#x20;
+
+* `overflow: visible`: Inhalt soll über die Box hinausragen
+* `overflow: hidden`: Zu grosser Teil soll ausgeblendet werden
+* `overflow: scroll`: Scrollbalken anzeigen
+
+Genauere Beschreibungen findest du z.B. auf [https://css-tricks.com/css-is-awesome/](https://css-tricks.com/css-is-awesome/)
+
+## 🛠️ Aufgaben zum Boxmodell
+
+Style deine Website "Über mich" weiter und ¨berprüfe nach jedem Schritt das Ergebnis im Browser.&#x20;
+
+1.  Semantische Strukturelemente:&#x20;
+
+    * Stelle sicher, dass deine Seite die Strukturelemente `<header>`, `<main>` und `<footer>` enthält. Sie sollen direkt unter dem \<body>-Element sein, also nicht tiefer verschachtelt. \
+      Die drei Blöcke sollen unterschiedliche Hintergrundfarben haben.&#x20;
+    * Die drei Strukturelemente soll einen Innenabstand von 40px haben.
+    * Der Header soll 200px hoch sein.
+
+    Teste im Browser mit den Entsicklungswerkzeugen (Untersuchen / F12), ob die Abstände richtig angezeigt werden.
+2. Die beiden Adresse sollen nebeneinander stehen: \
+   Definiere für beide Adress-Blöcke jeweils eine Breite von 50% und setze jeweils die Eigenschaft `display: inline;`&#x20;
+
+Überprüfe den Code anschliessend mit dem [CSS-Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) und korrigiere allfällige Fehler.\
+
+
+**Zusatzaufgaben für schnelle Lernende:**
+
+1. Fixiere den Footer so, dass es immer ganz unten am Fensterrand ist, unabhängig von Fenstergrösse und Scrolling.
+2. Probiere selber noch was aus.

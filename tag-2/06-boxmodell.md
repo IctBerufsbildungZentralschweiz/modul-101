@@ -1,29 +1,6 @@
-# Weitere Eigenschaften von Boxen / Containern
+# Header / Footer: Positionierung
 
-## Höhe, Breite
-
-Für jede Box kann die Breite und Höhe definiert werden. Häufige Masseinheiten sind Pixel oder Prozent, manchmal auch `vw`/`vh` , selten `rem/em`.
-
-```css
-.container {
-    width: 200px; // Breite 
-    max-width: 50%; // Maximum 50% der übergeordneten Box breit
-    height: 600px; // Höhe
-    min-height: 50vh; // Minimal halbe Viewporthöhe (Fensterhöhe)
-}
-```
-
-**Hinweis:** Standardmässig beziehen sich `width` und `height` nur auf den Inhaltsbereich. Padding und Border kommen zusätzlich dazu. Mit `box-sizing: border-box;` kann das Verhalten geändert werden, sodass `width` und `height` den gesamten Bereich inkl. Padding und Border umfassen.
-
-## Übergroser Inhalt (`overflow`)
-
-Wenn der Inhalt einer Box grässer ist als die angegebene Breite oder Höhe der Box, kannst du bestimmen, was passieren soll:&#x20;
-
-* `overflow: visible`: Inhalt soll über die Box hinausragen
-* `overflow: hidden`: Zu grosser Teil soll ausgeblendet werden
-* `overflow: scroll`: Scrollbalken anzeigen
-
-Genauere Beschreibungen findest du z.B. auf [https://css-tricks.com/css-is-awesome/](https://css-tricks.com/css-is-awesome/)
+Praktisch jede Webseite hat einen Header- und einen Footer-Bereich. Um sie nice zu gestalten, brauchen wir ein paar Positionierungs-Features:&#x20;
 
 ## Positionierung
 
@@ -75,7 +52,23 @@ Mit `z-index` kannst du die Stapelreihenfolge von positionierten Elementen steue
 
 **Wichtig:** `z-index` funktioniert nur bei Elementen mit einer `position`-Eigenschaft (außer `static`).
 
-## Display-Eigenschaft
+## 🛠️ Aufgaben
+
+Stelle sicher, dass deine Seite "Über mich" mindestens die drei Strukturelemente `<header>`, `<main>` und `<footer>` enthält. Sie sollen direkt unter dem \<body>-Element sein, nicht tiefer verschachtelt.&#x20;
+
+**Gestalte nun den Header:**&#x20;
+
+* Positioniere ein Logo darin absolut, 30px von oben und 30px von links.
+* Positioniere einen Slogan im Header absolut, 40px von oben und 30px von rechts.
+
+**Gestalte den Footer:**&#x20;
+
+* Fixiere den Footer so, dass er immer am unteren Rand ist, 80px hoch und über dem Inhalt der Website (`z-index`).
+* Stelle sicher, dass die Inhalte ganz am Ende der Seite nicht vom Footer überdeckt werden. Wie? Du kannst z.B. dem Bereich `<main>` unterhalb einen Abstand (`margin`) von 80px geben.
+
+
+
+## Optional: Display-Eigenschaft
 
 Die `display`-Eigenschaft bestimmt, wie ein Element im Layout dargestellt wird.
 
@@ -83,8 +76,7 @@ Die `display`-Eigenschaft bestimmt, wie ein Element im Layout dargestellt wird.
 * **`display: block`** - Element nimmt die gesamte verfügbare Breite ein und beginnt auf einer neuen Zeile.
 * **`display: inline`** - Element nimmt nur so viel Platz ein, wie es benötigt, und erlaubt andere Elemente neben sich.
 * **`display: inline-block`** - Wie display: inline, kann aber Höhe, Breite etc. haben.
-* **`display: flex`** - [Siehe Flexbox](../../tag-2/01-flexbox/)
-* **`display: grid`** - [Siehe CSS Grid](../../tag-2/04-css-grids/)
+* **`display: flex`** - [Siehe Flexbox](01-flexbox/)
+* **`display: grid`** - [Siehe CSS Grid](../tag-3/04-css-grids/)
 
 **`display: none`** / **`display: block`** kann somit genutzt werden, um Elemente je nach Belieben ein- oder auszublenden, z.B. bei kleinen Bildschirmen, bei Hover-Effekten oder für die Druck-Version einer Seite.
-
