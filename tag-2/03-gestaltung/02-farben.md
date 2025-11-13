@@ -60,29 +60,29 @@ color: #fee95d88;
 #### HSL (Hue, Saturation, Lightness)&#x20;
 
 * **Beschreibung:** Beschreibt Farben auf einer intuitiveren Weise: Farbton (Hue), Sättigung (Saturation) und Helligkeit (Lightness).
-* **Syntax:** [hsl(Farbton, Sättigung, Helligkeit)](https://www.google.com/search?q=hsl%28Farbton%2C+S%C3%A4ttigung%2C+Helligkeit%29\&oq=css+Farben%3A+RGB%2C+HEX%2C+HSL%2C+HWB%2C+LAB%2C+LCH\&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDY1NzZqMGo3qAIAsAIA\&sourceid=chrome\&ie=UTF-8\&mstk=AUtExfDWZS3bYnKhLfIzXIoy1E2xfVJY4hQ5LiMohw9lPzfUCWztAAdbz6-EaPxFcr2_tVGKlPQX-YjJAqGkn1Tjb9M7aL8sUrbcr9zHG6oZchO2WQbiSwg834B2g7S3ovgvCoP7TNMoZPOdpWUcWu3oizDTvLrqFhyiWzYjMg9FPZDKiQ8\&csui=3\&ved=2ahUKEwjg_9vApuuQAxX2wAIHHWSSDqYQgK4QegQIBxAC).
-  * **Farbton (Hue):** Ein Winkel von![](data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)000bis![](data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)360360360Grad.
-  * **Sättigung (Saturation):** Ein Prozentsatz von![](data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)0%0 %0%bis![](data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)100%100 %100%.
-  * **Helligkeit (Lightness):** Ein Prozentsatz von![](data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)0%0 %0%bis![](data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)100%100 %100%.
+* **Syntax:** [hsl(Farbton, Sättigung, Helligkeit)](https://developer.mozilla.org/de/docs/Web/CSS/Reference/Values/color_value/hsl).
+  * **Farbton (Hue):** Ein Winkel von![](data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==) 0 bis 360 Grad.
+  * **Sättigung (Saturation):** Ein Prozentsatz von ![](data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)0% bis 100%.
+  * **Helligkeit (Lightness):** Ein Prozentsatz von![](data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==) 0% bis 100%.
 * **Beispiel:** `hsl(30, 100%, 50%)` für ein reines Orange.&#x20;
 
 #### HWB (Hue, White, Black)&#x20;
 
 * **Beschreibung:** Kombiniert Farbton mit Anteilen von Weiß und Schwarz.
-* **Syntax:** [hwb(Farbton, Weißanteil, Schwarzanteil)](https://www.google.com/search?q=hwb%28Farbton%2C+Wei%C3%9Fanteil%2C+Schwarzanteil%29\&oq=css+Farben%3A+RGB%2C+HEX%2C+HSL%2C+HWB%2C+LAB%2C+LCH\&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDY1NzZqMGo3qAIAsAIA\&sourceid=chrome\&ie=UTF-8\&mstk=AUtExfDWZS3bYnKhLfIzXIoy1E2xfVJY4hQ5LiMohw9lPzfUCWztAAdbz6-EaPxFcr2_tVGKlPQX-YjJAqGkn1Tjb9M7aL8sUrbcr9zHG6oZchO2WQbiSwg834B2g7S3ovgvCoP7TNMoZPOdpWUcWu3oizDTvLrqFhyiWzYjMg9FPZDKiQ8\&csui=3\&ved=2ahUKEwjg_9vApuuQAxX2wAIHHWSSDqYQgK4QegQICRAC).
+* **Syntax:** [hwb(Farbton, Weißanteil, Schwarzanteil)](https://developer.mozilla.org/de/docs/Web/CSS/Reference/Values/color_value/hwb).
 * **Beispiel:** `hwb(30, 0%, 0%)` ist reines Orange.
 * **Besonderheit:** Eine Farbe wird durch die Menge an reinem Farbton, reinem Weiß und reinem Schwarz definiert. Je mehr Weiß und Schwarz hinzugefügt wird, desto mehr wird die Farbe gedämpft.&#x20;
 
 #### LAB (CIELAB)&#x20;
 
 * **Beschreibung:** Ein Farbraum, der die menschliche Farbwahrnehmung nachbildet. Er besteht aus Helligkeit und den Achsen a (Grün-Rot) und b (Blau-Gelb).
-* **Syntax:** [lab(Helligkeit, a, b)](https://www.google.com/search?q=lab%28Helligkeit%2C+a%2C+b%29\&oq=css+Farben%3A+RGB%2C+HEX%2C+HSL%2C+HWB%2C+LAB%2C+LCH\&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDY1NzZqMGo3qAIAsAIA\&sourceid=chrome\&ie=UTF-8\&mstk=AUtExfDWZS3bYnKhLfIzXIoy1E2xfVJY4hQ5LiMohw9lPzfUCWztAAdbz6-EaPxFcr2_tVGKlPQX-YjJAqGkn1Tjb9M7aL8sUrbcr9zHG6oZchO2WQbiSwg834B2g7S3ovgvCoP7TNMoZPOdpWUcWu3oizDTvLrqFhyiWzYjMg9FPZDKiQ8\&csui=3\&ved=2ahUKEwjg_9vApuuQAxX2wAIHHWSSDqYQgK4QegQICxAE).
+* **Syntax:** [lab(Helligkeit, a, b)](https://developer.mozilla.org/de/docs/Web/CSS/Reference/Values/color_value/lab).
 * **Beispiel:** `lab(50, 50, 70)`.&#x20;
 
 #### LCH (Luminance, Chroma, Hue)&#x20;
 
 * **Beschreibung:** Auch ein geräteunabhängiger Farbraum, der auf CIELAB basiert, aber Helligkeit, Sättigung (Chroma) und Farbton verwendet.
-* **Syntax:** [lch(Helligkeit, Sättigung, Farbton)](https://www.google.com/search?q=lch%28Helligkeit%2C+S%C3%A4ttigung%2C+Farbton%29\&oq=css+Farben%3A+RGB%2C+HEX%2C+HSL%2C+HWB%2C+LAB%2C+LCH\&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDY1NzZqMGo3qAIAsAIA\&sourceid=chrome\&ie=UTF-8\&mstk=AUtExfDWZS3bYnKhLfIzXIoy1E2xfVJY4hQ5LiMohw9lPzfUCWztAAdbz6-EaPxFcr2_tVGKlPQX-YjJAqGkn1Tjb9M7aL8sUrbcr9zHG6oZchO2WQbiSwg834B2g7S3ovgvCoP7TNMoZPOdpWUcWu3oizDTvLrqFhyiWzYjMg9FPZDKiQ8\&csui=3\&ved=2ahUKEwjg_9vApuuQAxX2wAIHHWSSDqYQgK4QegQIDRAC).
+* **Syntax:** [lch(Helligkeit, Sättigung, Farbton)](https://developer.mozilla.org/de/docs/Web/CSS/Reference/Values/color_value/lch).
 * **Beispiel:** `lch(50, 70, 30)`.
 
 ## Farbwähler
@@ -103,6 +103,6 @@ In Visual Studio Code gibt es beim Bearbeiten von CSS ein ähnliches Tool:&#x20;
 
 ### Links
 
-* [Farbwähler: Farbwerte finden und umwandeln](https://www.hexcolortool.com/) (Hexcolortool)
+* [Farbwähler: Farbwerte finden und umwandeln](https://www.mediaevent.de/css/farbrechner.html) (Mediaevent)
 * [Farbrad zum Generieren einer ganzen Farbpalette](https://color.adobe.com/de/create/color-wheel) (Adobe)
 * [Weitere Arten von Farbwerten selber ausprobieren](https://developer.mozilla.org/en-US/docs/Web/CSS/color) (Mozilla)
