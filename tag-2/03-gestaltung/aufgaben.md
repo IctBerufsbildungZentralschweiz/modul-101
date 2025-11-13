@@ -25,12 +25,15 @@ Nutze die [1. Flexbox-Aufgabe](broken-reference) für folgende Experimente:&#x20
 
 * Stelle mit einem Farbwähler eine Farbkombination von 5 Farben zusammen und wende sie sinnvoll auf deine Seite "Über mich" an. Du kannst dafür CSS-Variabeln nutzen, wenn du willst.
 
-## Einheiten
+## Einheiten (optional)
 
-1. Skaliere ein Bild in deiner Seite "Über mich" mit verschiedenen Einheiten: `px, %, vw`
-2. Teste zusätzlich zu `width` die CSS-Eigenschaft `min-width: 50%` oder `max-width: 50%` an einem Element.
-3. Füge ein breites Bild ein und mache das Fenster so schmal, bis das Bild nicht mehr Platz hat. Was passiert? Teste nun das gleiche, wenn du für das Bild `max-width: 100%` definierst.
-4. Teste verschiedene Funktionen für einen Textblock oder ein Bild: `min(), max(), calc(), clamp()`&#x20;
+1. Skaliere ein Bild in deiner Seite "Über mich" mit verschiedenen Einheiten: `px, %, vw`&#x20;
+2. Füge ein breites Bild ein und mache das Fenster so schmal, bis das Bild nicht mehr Platz hat. Was passiert? Teste nun das gleiche, wenn du für das Bild `max-width: 100%` definierst.
+3. Teste zusätzlich zu `width` die CSS-Eigenschaft `min-width: 50%` oder `max-width: 50%` an einem Element.
+
+**Zusatzaufgabe:**
+
+* Teste verschiedene Funktionen für einen Textblock oder ein Bild: `min(), max(), calc(), clamp()`&#x20;
 
 ## CSS-Variablen
 
