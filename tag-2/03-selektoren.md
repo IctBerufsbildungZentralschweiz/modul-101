@@ -27,6 +27,12 @@ Abhängig davon, in welchen Übergeordneten Elementen und Containern etwas versc
 </footer>
 ```
 
+### 🛠️ Ausprobieren
+
+Erstelle eine neue Datei `selektoren-test.html` und ein neues CSS `css/selektoren-test.css` und binde das CSS ins HTML-Dokument ein. Kopiere ein [HTML-Grundgerüst](../tag-1/03-html/04-html-dokument.md#aufbau-eines-html-dokumentes) in deine neue HTML-Datei und dann innerhalb des Body den obigen HTML-Code.
+
+Testen dann im CSS die folgenden Beispiele aus.
+
 ## Mehrere Elemente auswählen
 
 Teilen sich mehrere Elemente die gleichen Regeln, sollten diese zusammengefasst werden. Dazu werden mehrere Selektoren hintereinander geschrieben, getrennt durch Kommas:&#x20;
