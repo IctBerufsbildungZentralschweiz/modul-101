@@ -5,17 +5,17 @@
 Jedes HTML-Dokument sollte minimal die folgenden Elemente enthalten. Du kannst den Code als Gerüst für all deine neuen Seiten benutzen:&#x20;
 
 ```html
-  <!DOCTYPE html>
-  <html>
-    <head>
-      <meta charset="utf-8">
-      <title>Meine Testseite</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-      Inhalt ...
-    </body>
-  </html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Meine Testseite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    Inhalt ...
+  </body>
+</html>
 ```
 
 **\<!DOCTYPE html>** — der Dokumenttyp. Diese Zeile teilt dem Webbrowser mit, in welcher Version von HTML das Dokument verfasst wurde. Die einfache `html` Definition steht für `HTML5`. Für ältere Versionen wurden längere und spezifischere Tags verwendet. (siehe [thoughtco.com](https://www.thoughtco.com/list-of-doctypes-and-the-web-pages-they-generate-3467257))
