@@ -1,6 +1,6 @@
-# Kaskadierung - Wer gewinnt?
+# CSS Kaskadierung - Wer gewinnt?
 
-An einem Punkt wird es dazu kommen, dass mehrerere CSS-Regeln das gleiche Element ansprechen.
+Es wird in Projekten dazu kommen, dass mehrerere CSS-Regeln das gleiche Element ansprechen.
 
 #### index.html
 

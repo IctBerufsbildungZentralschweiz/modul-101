@@ -1,8 +1,8 @@
-# Aufgabe Newsportal
+# 🛠️ Aufgabe Newsportal
 
 Die Aufgabendateien findest in der Datei «newsportal.zip». Lade die Datei herunter und entpacke das Zip-Archiv.&#x20;
 
-{% file src="../../../.gitbook/assets/newsportal.zip" %}
+{% file src="../../.gitbook/assets/newsportal.zip" %}
 Download Aufgabendateien
 {% endfile %}
 
@@ -12,7 +12,7 @@ Lade die HTML- und CSS-Dateien `index.html`, `style.css` und `flex.css` herunter
 
 ### Bildschirmbreite: 1300px
 
-![Order](../../../.gitbook/assets/news-1.png)
+![Order](../../.gitbook/assets/news-1.png)
 
 Dabei dürfen die anderen Dateien `index.html` und `style.css` **nicht verändert werden**.
 
@@ -31,7 +31,7 @@ Ergänze nun CSS-Regeln in den geschweiften Klammern, damit das Layout wie folgt
 
 ### Bildschirmbreite: kleiner als 768px
 
-![Order](../../../.gitbook/assets/news-2.jpg)
+![Order](../../.gitbook/assets/news-2.jpg)
 
 ## Aufgabe 3
 
@@ -48,4 +48,4 @@ Ergänze nun CSS-Regeln in den geschweiften Klammern, damit das Layout wie folgt
 
 ### Bildschirmbreite: kleiner als 480px
 
-![Order](../../../.gitbook/assets/news-3.jpg)
+![Order](../../.gitbook/assets/news-3.jpg)

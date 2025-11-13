@@ -1,4 +1,4 @@
-# Boxmodell
+# 📦 Boxmodell
 
 Wie dir vielleicht bereits aufgefallen ist, geht es bei Webseiten oft darum, Boxen zu erstellen (HTML) und Boxen zu gestalten (CSS). Die meisten HTML-Elemente sind somit Boxen oder Schachteln, welche übereinander und nebeneinander gestapelt werden.
 
@@ -84,21 +84,11 @@ Genauere Beschreibungen findest du z.B. auf [https://css-tricks.com/css-is-aweso
 
 Style deine Website "Über mich" weiter und ¨berprüfe nach jedem Schritt das Ergebnis im Browser.&#x20;
 
-1.  Semantische Strukturelemente:&#x20;
+Stelle sicher, dass deine Seite die semantischen Strukturelemente `<header>`, `<main>` und `<footer>` enthält. Sie sollen direkt unter dem `<body>`-Element sein, also nicht tiefer verschachtelt. Die drei Blöcke sollen unterschiedliche Hintergrundfarben haben, damit du sie besser erkennst.&#x20;
 
-    * Stelle sicher, dass deine Seite die Strukturelemente `<header>`, `<main>` und `<footer>` enthält. Sie sollen direkt unter dem \<body>-Element sein, also nicht tiefer verschachtelt. \
-      Die drei Blöcke sollen unterschiedliche Hintergrundfarben haben.&#x20;
-    * Die drei Strukturelemente soll einen Innenabstand von 40px haben.
-    * Der Header soll 200px hoch sein.
-
-    Teste im Browser mit den Entsicklungswerkzeugen (Untersuchen / F12), ob die Abstände richtig angezeigt werden.
-2. Die beiden Adresse sollen nebeneinander stehen: \
+1. Die drei semantischen Strukturelemente soll einen Innenabstand von 40px haben.
+2. Der Header soll 200px hoch sein.
+3. Die beiden Adresse sollen nebeneinander stehen: \
    Definiere für beide Adress-Blöcke jeweils eine Breite von 50% und setze jeweils die Eigenschaft `display: inline;`&#x20;
-
-Überprüfe den Code anschliessend mit dem [CSS-Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) und korrigiere allfällige Fehler.\
-
-
-**Zusatzaufgaben für schnelle Lernende:**
-
-1. Fixiere den Footer so, dass es immer ganz unten am Fensterrand ist, unabhängig von Fenstergrösse und Scrolling.
-2. Probiere selber noch was aus.
+4. Teste im Browser mit den Entsicklungswerkzeugen (Untersuchen / F12), ob die Abstände richtig angezeigt werden.
+5. Überprüfe den Code anschliessend mit dem [CSS-Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) und korrigiere allfällige Fehler.

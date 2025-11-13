@@ -1,6 +1,6 @@
-# Strukturelemente & semantische Tags
+# 📖 Strukturelemente & semantische Tags
 
-### Strukturelement \<div>
+## Strukturelement \<div>
 
 Um Elemente innerhalb eines Dokuments besser zu strukturieren, hat HTML das Strukturelement `<div>` vorgesehen. Das `<div>`-Element (Document Division Element) ist ein generischer Container für Inhalte, der keine eigene Bedeutung hat, ausser dass er Elemente zusammenfasst, z.B. um sie zu stylen (mit Hilfe des `class` oder `id` Attributs).
 
@@ -40,7 +40,7 @@ Um das Ziel zu erreichen, umklammern wir die beiden Absätze mit einem `<div>`-S
 
 **Aufgabe:** Teste dieses \<div>-Element mit [Codepen.io](https://codepen.io/sternenvogel/pen/dPMypGe)
 
-### Semantische Strukturelemente
+## Semantische Strukturelemente
 
 Semtantische Elemente sind gleichbedeutend wie `<div>`-Strukturelemente, sie haben aber einen vordefinierten Anwendungszweck.
 
@@ -63,3 +63,4 @@ Die semantischen Elemente erleichtern vorallem die Human-Readability des HTML- u
 Schau dazu im Browser die HTML-Struktur einer Beispielseite an: \
 [der-informationsdesigner.de/agentur-blog/allgemein/was-ist-webdesign](https://www.der-informationsdesigner.de/agentur-blog/allgemein/was-ist-webdesign/)\
 [https://www.w3schools.com/html/html5\_semantic\_elements.asp](https://www.w3schools.com/html/html5_semantic_elements.asp)
+

@@ -15,7 +15,7 @@ Füge deiner Webseite `about-me.html` eine individuelle Schrift hinzu:&#x20;
 
 ## Farben
 
-Nutze die [1. Flexbox-Aufgabe](../01-flexbox/aufgaben/) für folgende Experimente:&#x20;
+Nutze die [1. Flexbox-Aufgabe](broken-reference) für folgende Experimente:&#x20;
 
 1. Mische eine Hintergrundfarbe für das ganze Dokument (\<body>-Element) mitteld der rgb()-Funktion.
 2. Ändere die Transparenz der Quader in der Flexbox einmal mittels rgb()-Funktion und danach mittels #hex-wert, und schau, welche anderen Farbmodelle ev. noch Transparenz erlauben.&#x20;

@@ -1,4 +1,4 @@
-# HTML-Grundlagen
+# 📖 HTML-Grundlagen
 
 HTML ist keine Programmiersprache, sondern eine Auszeichnungssprache; sie ist dazu gedacht, einer Website Struktur zu verleihen.
 
