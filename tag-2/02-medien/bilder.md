@@ -109,7 +109,7 @@ Dieses Bildformat hat jedoch Web in seiner DNA: Es wurde für den Gebrauch im In
 
 Der Vorteil von WebP ist also, dass es die Vorzüge von JPG und PNG in einem Bildformat kombiniert - ohne dabei auf eine überdimensionale Dateigrösse zu wachsen.
 
-**ACHTUNG:** Leider ist der [Browsersupport](https://caniuse.com/?search=WebP) für das Format noch nicht flächendeckend gewährleistet, insbesondere bei Safari-Versionen vor Sept. 2022. Aus diesem Grund sollte WebP im Moment noch zurückhaltend eingesetzt werden.&#x20;
+**Browser-Support:** WebP ist relativ neu und wird noch nicht von allen Browsern unterstützt, insbesondere Browser-Versionen vor 2022. Siehe [https://caniuse.com/webp](https://caniuse.com/webp). Dazu  kann ein Fallback auf ein anderes Bildformat wie WebP oder JPEG implementiert werden.
 
 ### **AVIF**
 
@@ -125,13 +125,11 @@ AVIF steht für **AV1 Image File Format** und ist ein modernes Bildformat, das a
 **Nachteile von AVIF:**
 
 * **Rendering-Geschwindigkeit:** Die Codierung und Decodierung von AVIF-Bildern ist derzeit rechenintensiver als bei anderen Formaten, was zu längeren Ladezeiten führen kann.
-* **Browser- und Software-Support:** Obwohl der Support für AVIF stetig zunimmt (u. a. in Chrome, Firefox und Edge), gibt es immer noch Einschränkungen, insbesondere bei älteren Browsern und Anwendungen.
+* **Browser-Support:** AVIF ist relativ neu und wird noch nicht von allen Browsern unterstützt, insbesondere Browser-Versionen vor 2023/2024. Siehe [https://caniuse.com/avif](https://caniuse.com/avif). Dazu  kann ein Fallback auf ein anderes Bildformat wie WebP oder JPEG implementiert werden.
 
 #### **Anwendungsfall**
 
-AVIF eignet sich hervorragend für Szenarien, in denen **maximale Bildqualität bei minimaler Dateigröße** gefragt ist, z. B. für Fotografien auf Websites, bei denen schnelle Ladezeiten entscheidend sind. Aufgrund der noch eingeschränkten Browser-Unterstützung sollte jedoch immer ein Fallback auf ein anderes Bildformat wie WebP oder JPEG implementiert werden.
-
-**ACHTUNG:** AVIF ist relativ neu und wird noch nicht von allen Browsern unterstützt, insbesondere Browser-Versionen vor 2023/2024. Siehe [https://caniuse.com/avif](https://caniuse.com/avif)
+AVIF eignet sich hervorragend für Szenarien, in denen **maximale Bildqualität bei minimaler Dateigröße** gefragt ist, z. B. für Fotografien auf Websites, bei denen schnelle Ladezeiten entscheidend sind.&#x20;
 
 ### Links
 

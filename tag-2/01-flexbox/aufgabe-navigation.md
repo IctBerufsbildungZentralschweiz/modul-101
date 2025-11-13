@@ -2,13 +2,17 @@
 
 ## Einfache Navigation
 
-1. Erstelle ein neues HTML-Dokument `template.html` mit dem [HTML-Grundgerüst](../../tag-1/03-html/04-html-dokument.md#aufbau-eines-html-dokumentes)  und den Strukturelementen `<header>`, `<main>` und `<footer>`.&#x20;
-2. Füge zwischen `<header>` und `<main>` ein Block mit dem Element `<nav>`  ein.
-3. Füge ein paar Links zu deinen verschiedenen Seiten ein.&#x20;
-4. Formatiere den `<nav>`-Container mit CSS als Flexbox: Nutze die Definition `display: flex`, `justify-content`, `align-items`, `flex-wrap` (und weitere nach Bedarf). Die Navigationspunkte sollen nebeneinander angeordnet werden. Wenn das Fenster zu schmal ist, sollen sie umgebrochen werden.&#x20;
-5. Verschönere die Navigation, indem du die Links formatierst: Nutze dazu padding, border, background-color, :hover etc.
-6. Teste das Layout und das Verhalten im Browser.&#x20;
-7. Wenn alles gut aussieht, kannst du diese Navigation für alle Übungsseiten kopieren.&#x20;
+{% file src="../../.gitbook/assets/aufgabe-navigation.zip" %}
+
+1. Lade das Grundgerüst herunter und entpacke es in ein neues Verzeichnis.
+2. Formatiere den `<nav>`-Container mit CSS als Flexbox: Nutze die Definition `display: flex`, `justify-content`, `align-items`, `flex-wrap` (und weitere nach Bedarf). Die Navigationspunkte sollen nebeneinander angeordnet werden. Wenn das Fenster zu schmal ist, sollen sie umgebrochen werden.&#x20;
+3. Verschönere die Navigation, indem du die Links formatierst: Nutze dazu padding, border, background-color, :hover etc.
+4. Teste das Layout und das Verhalten im Browser.&#x20;
+5. Wenn alles gut aussieht, kannst du diese Navigation für alle Übungsseiten kopieren.&#x20;
+
+Zusatzaufgabe:
+
+1. Gestalte einen "smoothen" Hover-Effekt mit der Eigenschaft `transition`.
 
 ## Zusatzaufgabe: Zweistufige aufklappende Navigation
 
