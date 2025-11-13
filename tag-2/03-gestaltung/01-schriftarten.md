@@ -49,7 +49,7 @@ body {
 }
 ```
 
-### Eigene Schriftarten einbinden
+## Eigene Schriftarten einbinden
 
 Seit CSS3 können auch eigene Schriftarten für ein Dokument verwendet werden. Hier gilt es folgende Punkte zu beachten:
 
@@ -72,11 +72,11 @@ body {
 }
 ```
 
-**Google Web Fonts**
+### **Google Web Fonts**
 
 Auf [fonts.google.com](https://fonts.google.com/) befindet sich eine grosse Sammlung von Schriftarten, die uneingschränkt im Web verwendet werden können.
 
-Die Schriftarten werden von Google gehosted und können über eine einfache CSS-Datei eingebunden werden:
+Die Schriftarten werden von Google gehosted und können über eine einfache CSS-Datei eingebunden werden. Klicke auf fonts.google.com auf "Get font" > "Get embed code":
 
 ```markup
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
@@ -107,5 +107,12 @@ Wird die CSS-Datei direkt aufgerufen, sehen wir die soeben besprochenen `@font-f
 /* ... */
 ```
 
+### Datenschutz
+
 **Achtung:** Gemäss eines Urteils des Landgerichts München Anfang 2022 verstößt die Nutzung von Google Fonts ohne Einwilligung der User gegen die DSGVO (Europöische Datenschutz-Grundverordnung), wenn im Zuge dessen eine Verbindung zu Google-Servern in den USA aufgebaut werden muss, um die Fonts laden zu können. \
 Dies kann gelöst werden, in dem die Fonts herunter geladen und auf einem eigenen Server publiziert werden.&#x20;
+
+### Google Fonts selber hosten
+
+Wähle auf fonts.google.com "Get font" > "Download all". Entpacke den Font danach aus der Zip-Datei in dein Projekt - erstelle dazu einen Ordner "/fonts". Binde sie dann mit [@font-face()](01-schriftarten.md#font-face) ein.
+

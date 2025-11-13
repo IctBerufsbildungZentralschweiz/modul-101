@@ -4,12 +4,9 @@
 
 Füge deiner Webseite `about-me.html` eine individuelle Schrift hinzu:&#x20;
 
-1. Wähle eine Schrift von Google-Font aus und binde diese in die Seite ein. Ändere anschliessend die Standardschrift (`body`) per CSS auf die ausgewählte Schriftart.
+1. Wähle eine Schrift von [Google-Fonts](https://fonts.google.com/) aus (Get font) und binde diese in die Seite ein mittels "Get embed code". Ändere anschliessend die Standardschrift (`body`) per CSS auf die ausgewählte Schriftart.
 2. Definiere eine alternative Schift, falls der Google-Font nicht oder langsam lädt.
-
-**Zusatzaufgabe:**
-
-* Datenschutz: Lade die Schriftart von Google herunter, speichere sie in einem neuen Ordner `/fonts` und binde sie von da ein, damit keine Verbingung zu Google mehr nötig ist.
+3. **Datenschutz:** Lade die Schriftart von Google herunter ("Download" statt "Get embed code"), packe  sie aus der Zip-Datei in einem neuen Ordner `/fonts` und [binde sie von da ein](01-schriftarten.md#eigene-schriftarten-einbinden), damit keine Verbingung zu Google mehr nötig ist.
 
 ## Farben
 
