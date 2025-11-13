@@ -1,4 +1,4 @@
-# Selektoren verschachteln und kombinieren
+# CSS Selektoren kombinieren
 
 Abhängig davon, in welchen Übergeordneten Elementen und Containern etwas verschachtelt ist, können wir das Aussehen steuern. Für alle Beispiele nehmen wir folgenden HTML-Code an:&#x20;
 
@@ -65,7 +65,7 @@ Wählt ein Element aus, welches unmittelbar auf ein anderes Element auf der glei
 
 ```
 h1 + p { /* Formatiert nur das nav-Element direkt nach h1 */
-  font-style: bold;
+  font-weight: bold;
 }
 ```
 
