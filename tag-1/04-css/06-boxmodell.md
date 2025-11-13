@@ -98,7 +98,5 @@ Stelle sicher, dass deine Seite die semantischen Strukturelemente `<header>`, `<
 
 1. Die drei semantischen Strukturelemente soll einen Innenabstand von 40px haben.
 2. Der Header soll 200px hoch sein.
-3. Die beiden Adresse sollen nebeneinander stehen: \
-   Definiere für beide Adress-Blöcke jeweils eine Breite von 50% und setze jeweils die Eigenschaft `display: inline;`&#x20;
-4. Teste im Browser mit den Entsicklungswerkzeugen (Untersuchen / F12), ob die Abstände richtig angezeigt werden.
-5. Überprüfe den Code anschliessend mit dem [CSS-Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) und korrigiere allfällige Fehler.
+3. Teste im Browser mit den Entsicklungswerkzeugen (Untersuchen / F12), ob die Abstände richtig angezeigt werden.
+4. Überprüfe den Code anschliessend mit dem [CSS-Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) und korrigiere allfällige Fehler.
