@@ -103,6 +103,9 @@ In Visual Studio Code gibt es beim Bearbeiten von CSS ein ähnliches Tool:&#x20;
 
 ### Links
 
-* [Farbwähler: Farbwerte finden und umwandeln](https://www.mediaevent.de/css/farbrechner.html) (Mediaevent)
-* [Farbrad zum Generieren einer ganzen Farbpalette](https://color.adobe.com/de/create/color-wheel) (Adobe)
+Farbräder:
+
+* [Farbkreis](https://www.figma.com/de-de/farbkreis/) (Figma)
+* [Color Wheel](https://www.canva.com/colors/color-wheel/) (Canva)
+* [Farbwähler & umwandeln](https://www.mediaevent.de/css/farbrechner.html) (Mediaevent)
 * [Weitere Arten von Farbwerten selber ausprobieren](https://developer.mozilla.org/en-US/docs/Web/CSS/color) (Mozilla)
