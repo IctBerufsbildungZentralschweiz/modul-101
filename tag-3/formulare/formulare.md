@@ -1,18 +1,24 @@
 # Formulare
 
-Unter [w3schools.com/html/html\_forms.asp](https://www.w3schools.com/html/html\_forms.asp) findest du eine Übersicht wichtiger Elemente von Formularen und die Möglichkeit, es selber auszuprobieren. Nutze auch "[Next >](https://www.w3schools.com/html/html\_form\_elements.asp)" oben rechts.
-
-Unter [offline.ch/ict/formulare.html](https://offline.ch/ict/formulare.html) findest du einige zusätzliche Code-Beispiele und Besonderheiten im Zusammenhang mit Formularen.&#x20;
+Unter [w3schools.com/html/html\_forms.asp](https://www.w3schools.com/html/html_forms.asp) findest du eine Übersicht wichtiger Elemente von Formularen und die Möglichkeit, es selber auszuprobieren. Nutze auch "Next >" oben rechts.
 
 ## Steuerelemente
 
-In HTML werden Formularfelder mit dem `input` Tag deklariert. Mit dem `type` Attribut können verschiedene Typen spezifiziert werden. **Jedes Feld muss zwingend ein `name` Attribut haben**, sonst wird das Feld beim Versenden nicht mitgeschickt.
+In HTML werden die meisten Formularfelder mit dem `input` Tag deklariert. Mit dem `type` Attribut können verschiedene Typen spezifiziert werden.&#x20;
+
+**Jedes Feld muss zwingend ein `name` Attribut haben**, sonst wird das Feld beim Versenden nicht mitgeschickt.
+
+Unter W3School.com findest du alle [Input-Typen](https://www.w3schools.com/html/html_form_input_types.asp) mit Beispielen.&#x20;
 
 ```markup
 <input type="text" name="address">
+<input type="email" name="mail">
+<input type="checkbox" id="coffee" name="coffee"><label for="coffee">Kaffee</label>
 ```
 
 Zusätzlich zu einfachen Text-Inputs gibt es noch mehrzeilige Textfelder (`textarea`), Dropdowns (`select`, `option`) und Schaltflächen (`buttons`).
+
+Unter W3School.com findest du zudem die [Form-Elemente](https://www.w3schools.com/html/html_form_elements.asp) mit Beispielen.&#x20;
 
 ```markup
 <textarea name="remarks" rows="10" cols="4"></textarea>
@@ -25,29 +31,32 @@ Zusätzlich zu einfachen Text-Inputs gibt es noch mehrzeilige Textfelder (`texta
 <button type="submit" name="submit">Formular absenden</button>
 ```
 
-Damit die Daten korrekt an den Server übermittelt werden, benötigt jedes Formularelement ein `name` Attribut.
+## Labels vs. Placeholder
 
-```markup
-<input type="text" name="username">
-<input type="password" name="password">
-```
+### Labels
 
-## Labels
-
-Ein alleinstehendes, unbeschriftetes Inputfeld ist für den Besucher nicht brauchbar. Was muss er darin eintragen?
-
-Um den einzelnen Feldern einen Beschreibungstext zu geben, können wir das `label` Tag verwenden.
+Ein alleinstehendes, unbeschriftetes Inputfeld ist für den Besucher nicht brauchbar. Was muss er darin eintragen? Um den Feldern einen Beschreibungstext zu geben, können wir das `label` Tag verwenden.
 
 ```markup
 <label for="name-field">Ihr Name</label>
 <input type="text" name="name" id="name-field">
 ```
 
-Das `for` Attribut im Label verweist auf die `id` des Input-Elements.&#x20;
-
+Das `for` Attribut im Label verweist auf die `id` des Input-Elements. \
 Bei einem Klick auf das Label wird somit der Cursor automatisch ins zugehörige Feld platziert wird.
 
 Diese Zuordnung ist zudem für Screenreader wichtig, da er nur so weiss, welches Label vorgelesen werden soll, wenn der Cursor ins Feld platziert wird.
+
+### Placeholder
+
+Alternatif kann innerhalb des Feldes ein Placeholder eingefügt werden. Dieser verschwindet, sobald etwas ins Feld geschrieben wird.&#x20;
+
+* **Vorteil:** Das Formular ist kompakter als mit Labels&#x20;
+* **Nachteil:** Dann ist die Feldbezeichnung also nicht mehr sichtbar.&#x20;
+
+```html
+<input type="email" name="mail" placeholder="E-Mail-Adresse">
+```
 
 ## Form-Tag
 
