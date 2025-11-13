@@ -1,4 +1,4 @@
-# Bilder
+# Medien: Bilder
 
 ## Aktivierungs-Fragen
 
@@ -50,7 +50,7 @@ JPEG oder JPG ist ein verlustreiches Bildformat von der Joint Photographic Exper
 * Das JPG-Format verfügt über mehr mehrere Millionen Farben. Dies macht es zur idealen Wahl für die Anzeige von Fotografien im Web.
 *   JPEG ist ein verlustreiches Bildformat. Die Kompression kann also dazu benutzt werden um die Dateigrösse zu reduzieren: Die Qualität bei einer Kompression von 60% ist meistens absolut ausreichend für das Web. Bei einem Kompressionsfaktor grösser als 75% kann es zu deutlichen Qualitätsverlusten kommen.
 
-    ![JPG-Kompression](../../.gitbook/assets/compression.jpg)
+    ![JPG-Kompression](../.gitbook/assets/compression.jpg)
 * JPG-Bilder unterstützen keine Transparenz. Sollte ein Teil des Bildes somit transparent sein, eignet sich das JPG-Format nicht.
 
 #### Anwendungsfall
@@ -63,13 +63,13 @@ GIF steht für Graphics Interchange Format.
 
 *   Das GIF-Format verfügt nur über 256 Farben, dadurch ist die Dateigrösse meistens entsprechend klein.
 
-    ![GIF-Kompression](../../.gitbook/assets/gif.jpg)
+    ![GIF-Kompression](../.gitbook/assets/gif.jpg)
 * Das GIF-Format ist ein verlustfreies Bildformat, sofern das Original max. 256 Farbtöne hat.
 * Das GIF-Format unterstützt Transparenz - dabei gibt es jedoch keine Halbtransparenz (z. B. 50% weiss), sondern immer nur ganz oder garnicht.
 * Das GIF-Format unterstützt Animationen - darum kann es gut eingesetzt werden für repetierende, animierte Bilder wie Icons, Emoticons, Banner etc.
 * Eignet sich für einfache Grafiken mit wenig Farben, jedoch nicht für Fotografien.
 
-![Loop](../../.gitbook/assets/loop.gif)
+![Loop](../.gitbook/assets/loop.gif)
 
 #### Anwendungsfall
 
@@ -175,7 +175,7 @@ Das \<img>-Element wird genutzt, falls keine der gegebenen Media-Bedingungen zut
 
 Die zentrale Rolle der Ladegeschwindigkeit für eine Website zeigt folgendes Beispiel:
 
-![Absprungrate](../../.gitbook/assets/Website-Page-Load-Time-vs-Bounce-Rate-2025-Industry-Benchmarks.png)
+![Absprungrate](../.gitbook/assets/Website-Page-Load-Time-vs-Bounce-Rate-2025-Industry-Benchmarks.png)
 
 * Nach mehr als zwei Sekunden Ladezeit erhöht sich die Absprungrate (Personen, welche die Website verlassen) um 12%.
 * Nach mehr als vier Sekunden Ladezeit erhöht sich die Absprungrate um 25%.
@@ -184,7 +184,7 @@ Mehr dazu auf [www.tooltester.com/de/blog/website-ladezeit-statistiken ](https:/
 
 Der Grund für lange Ladezeiten sind häufig schlecht verarbeitete Medien (Bilder, Videos). Durchschnittlich machen Bilder mehr als **65% des Inhaltes** einer Website aus.
 
-![Aufteilung von Website Content](../../.gitbook/assets/chart.png)
+![Aufteilung von Website Content](../.gitbook/assets/chart.png)
 
 ### Geschwindigkeitstests
 
@@ -258,3 +258,13 @@ Ein Hintergrundbild nimmt nicht automatisch Platz ein. Deshalb definieren wir hi
     left: 30px;
 }
 ```
+
+## **🛠️** Aufgaben
+
+* Erstelle eine neue HTML-Datei `media.html` mit dem bekannten [HTML-Grundgerüst](../tag-1/03-html/04-html-dokument.md).&#x20;
+* Erstelle darin ein `<main>`-Element mit einer Überschrift 1 und drei `<article>`-Elementen. Diese Elemente sollen jeweils eine Überschrift 2 enthalten ("Bilder", "Videos", "Audios").&#x20;
+* Probiere darin die beschriebenen Medien-Elemente aus:&#x20;
+  * Bilder einbinden, inkl. Lazy-Loading
+  * Responsive Bilder: Teste `<picture>` mit WebP- und JPEG-Versionen
+* Zusatzaufgaben für schnelle Lernende:&#x20;
+  * Erstelle eine Galerie mit Bildbreite 33%. Schau im Internet nach, wie sie automatisch sinnvoll nebeneinander / untereinander angeordnet werden können
