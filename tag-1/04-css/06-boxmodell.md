@@ -68,7 +68,17 @@ Für jede Box kann die Breite und Höhe definiert werden. Häufige Masseinheiten
 }
 ```
 
+### box-sizing
+
 **Hinweis:** Standardmässig beziehen sich `width` und `height` nur auf den Inhaltsbereich. Padding und Border kommen zusätzlich dazu. Mit `box-sizing: border-box;` kann das Verhalten geändert werden, sodass `width` und `height` den gesamten Bereich inkl. Padding und Border umfassen.
+
+Box-Sizing für ALLE Elemente auf der Website einstellen:&#x20;
+
+```css
+* {
+    box-sizing: border-box;
+}
+```
 
 ## Übergroser Inhalt (`overflow`)
 
