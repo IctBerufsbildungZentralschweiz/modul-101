@@ -41,6 +41,25 @@ Die erste Zeile wird auf `100px` fixiert. Die zweite Zeile soll immer den restli
 }
 ```
 
+## Zwischenräume definieren
+
+Zwischen den Grid-Bereichen kannst du einen Abstand definieren:&#x20;
+
+```css
+.container {
+    display: grid;
+    grid-template-columns: 80px auto 260px;
+    grid-template-rows:   120px auto;
+    
+    /* Zwischenräume zwischen Spalten und Zeilen: */
+    gap: 20px;
+    /* oder nur zwischen Spalten: */
+    column-gap: 20px;
+    /* oder nur zwischen Zeilen: */
+    row-gap: 20px;
+}
+```
+
 ## Inhalte einfügen
 
 Wenn du jetzt sechs Elemente in deinen Container einfügst, werden diese automatisch in deinem Grid platziert.
