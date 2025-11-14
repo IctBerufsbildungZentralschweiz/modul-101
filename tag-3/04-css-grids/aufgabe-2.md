@@ -1,4 +1,8 @@
-# 🛠 Grids vs. Flexbox Aufgabe
+---
+hidden: true
+---
+
+# 🛠️ Grids vs. Flexbox Aufgabe
 
 Bildet Gruppen von 3 Personen und überlegt euch, wie sich das vorgefertigte Design am besten in HTML und CSS umsetzen lässt. Macht euch Gedanken darüber...
 
