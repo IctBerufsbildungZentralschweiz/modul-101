@@ -12,7 +12,8 @@ Setze das unten dargestellte Layout mit einem CSS Grid um.&#x20;
 
 Erstelle dazu ein neues Verzeichnis `grid-aufgabe` mit den Dateien `layout.html` und `styles.css`.&#x20;
 
-Die Datei `layout.html`  soll das [HTML-Grundgerüst](../../tag-1/03-html/04-html-dokument.md#aufbau-eines-html-dokumentes) enthalten, dazu das [CSS verlinken](../../tag-1/04-css/02-einbindung.md#css-datei-einbinden) und die [semantischen Struktur-Elemente](../../tag-1/03-html/07-struktur-semantische-tags.md#semantische-strukturelemente) für das obige Layout im `<body>` enthalten: \<header>, \<nav class="main-nav">, \<nav class="sub-nav">, \<main>, \<aside> und `<footer>`.
+Die Datei `layout.html`  soll das [HTML-Grundgerüst](../../tag-1/03-html/04-html-dokument.md#aufbau-eines-html-dokumentes) enthalten, dazu das [CSS verlinken](../../tag-1/04-css/02-einbindung.md#css-datei-einbinden) und die [semantischen Struktur-Elemente](../../tag-1/03-html/07-struktur-semantische-tags.md#semantische-strukturelemente) für das Layout im `<body>` enthalten: \
+`<header>`, `<nav class="main-nav">`, `<nav class="sub-nav">`, `<main>`, `<aside>` und `<footer>`.
 
 In die Datei `styles.css` kannst du als Starthilfe schon mal dies einfügen:
 

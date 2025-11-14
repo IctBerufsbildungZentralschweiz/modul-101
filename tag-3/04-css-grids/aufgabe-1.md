@@ -1,13 +1,5 @@
-# 🛠 Grids vs. Flexbox Aufgabe
+# 🛠️ Grid mit Navigation Aufgabe
 
-Bildet Gruppen von 3 Personen und überlegt euch, wie sich das vorgefertigte Design am besten in HTML und CSS umsetzen lässt. Macht euch Gedanken darüber...
+Füge in dein Grid der letzten Aufgabe nun die Navigation ein, welche du in der Flexbox-Aufgabe erstellt hast:&#x20;
 
-* ...wo der Einsatz von Grids sinnvoll ist.
-* ...wo der Einsatz von Flexbox sinnvoll ist.
-* ...wo ihr welche semantischen Tags einsetzt.
-
-Zeichnet dazu die entsprechenden Bereiche im Design ein und notiert die dazugehörigen Tags und CSS-Attribute.
-
-{% file src="../../.gitbook/assets/221121_Design_Hochzeit.pdf" %}
-Design einer Hochzeitswebsite
-{% endfile %}
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
