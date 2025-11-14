@@ -63,7 +63,7 @@ Die mit Abstand am meisten verwendeten Features sind `min-width` und `max-width`
 **Achtung:** Gerade wenn es um die Bildschirmbreite geht möchte man diese oft nur für _Bildschirme_ anwenden, nicht etwa wenn die Website ausgedruckt wird. Aus diesem Grund macht es Sinn im Filter zwei Features mit dem `and` Operator zu verketten.
 
 ```css
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 800px) and (max-width: 1199px) {
     /** 
      * Diese Styles werden garantiert nur bei der Anzeige
      * auf Bildschirmen angewendet.
