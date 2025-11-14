@@ -63,6 +63,19 @@ Die mit Abstand am meisten verwendeten Features sind `min-width` und `max-width`
 **Achtung:** Gerade wenn es um die Bildschirmbreite geht möchte man diese oft nur für _Bildschirme_ anwenden, nicht etwa wenn die Website ausgedruckt wird. Aus diesem Grund macht es Sinn im Filter zwei Features mit dem `and` Operator zu verketten.
 
 ```css
+@media screen and (min-width: 1200px) {
+    /** 
+     * Diese Styles werden garantiert nur bei der Anzeige
+     * auf Bildschirmen angewendet.
+     */
+}
+```
+
+#### Verkettung mehrerer Bedingungen
+
+Wie schon bei `@media screen and (min-width: 1200px)` kann ich auch mehrere Bedingungen verknüpfen, z.B. um nur bestimmte Fensterbreiten anzusprechen:&#x20;
+
+```
 @media screen and (min-width: 800px) and (max-width: 1199px) {
     /** 
      * Diese Styles werden garantiert nur bei der Anzeige
@@ -71,7 +84,7 @@ Die mit Abstand am meisten verwendeten Features sind `min-width` und `max-width`
 }
 ```
 
-### Fensterbreite mit Media Query Range Syntax
+### Fensterbreite: Media Query Range Syntax
 
 Seit 2023 können auch Vergleichs-Operatoren genutzt werden, sog. media query range features:&#x20;
 
@@ -93,6 +106,18 @@ Damit können auch Bereiche einfach abgefragt werden:&#x20;
   /* … */
 }
 ```
+
+### Ausrichtung: Hoch- / Querformat
+
+Wenn ich wissen will, ob ein Bildschirm im Hoch- oder Querformat benutzt wird, kann ich dies abfragen:&#x20;
+
+```
+@media screen and (orientation: landscape) { /* Oder portrait für Hochformat */
+  /* Styling für querformat */
+}
+```
+
+Das eher unüblich, öfter wird einfach die Fensterbreite (min-width/max-width) abgefragt.&#x20;
 
 ### Helligkeit: `light-level`
 

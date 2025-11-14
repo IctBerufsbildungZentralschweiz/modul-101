@@ -259,6 +259,21 @@ Ein Hintergrundbild nimmt nicht automatisch Platz ein. Deshalb definieren wir hi
 }
 ```
 
+## **Platzhalter-Bilder**
+
+**Häufige Situation in Projekten:**&#x20;
+
+Für einen Kunden soll eine Website entworfen werden, er kann aber die Bilder noch nicht liefern. Da hast du 3 Möglichkeiten:&#x20;
+
+* Nutze vorübergehend andere Bilder vom Kunden, z.B. von der alten Website.&#x20;
+* Setze Platzhalter-Fotos (z.B. von [**picsum.photos**](https://picsum.photos/)) oder Platzhalter-Bilder mit Text (z.B. [**dummyimage.com**](https://dummyimage.com/)) ein.
+* Sage dem Kunden, dass du erst weiter machen kannst, wenn er liefert. :-)
+
+Das gleiche Problem kann mit fehlenden Texten auftreten. Dafür kannst du:&#x20;
+
+* Alte oder erfundene Texte einfügen, die zum Kunden passen.
+* Blindtexte (ohne sinnvollen Inhalt) einsetzen: [**blindtextgenerator.de**](https://www.blindtextgenerator.de/)
+
 ## **🛠️** Aufgaben
 
 * Erstelle eine neue HTML-Datei `media.html` mit dem bekannten [HTML-Grundgerüst](../tag-1/03-html/04-html-dokument.md).&#x20;

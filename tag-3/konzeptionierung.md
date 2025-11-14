@@ -1,4 +1,4 @@
-# 03 Konzeptionierung
+# Konzeptionierung
 
 ## Ablauf eines Webprojektes
 
@@ -144,6 +144,18 @@ Ein Styleguide kann unter anderem Folgendes beinhalten:
 ![Styletiles](../.gitbook/assets/style-tiles.jpg)
 
 * [Styleguide von Styletil.es](http://styletil.es/downloads/Style_Tile_Template.psd.zip) - PSD Vorlage
+
+## **Blind-Texte und Platzhalter-Bilder**
+
+**Häufige Situation in Projekten:**&#x20;
+
+Du sollst der Kundin zeigen, wie du den Text und das Layout ihrer neuen Website gestalten wirst, hast aber noch keinen Text oder keine Bilder bekommen. Da hast du 3 Möglichkeiten:&#x20;
+
+* Nutze vorübergehend alte oder erfundene Texte und alte Bilder, die zur Kundin passen.
+* Setze Blindtexte (z.B. [**blindtextgenerator.de**](https://www.blindtextgenerator.de/)) und Platzhalter-Bilder (z.B. [**picsum.photos**](https://picsum.photos/) oder [**dummyimage.com**](https://dummyimage.com/)) ein.
+* Sag der Kundin, dass du erst weiter machen kannst, wenn sie die Daten liefert.&#x20;
+
+**Wichtig:** Vergiss nicht, vor dem Veröffentlichen alle Seiten zu prüfen, dass keine Platzhaltertexte oder -bilder mehr drin sind!
 
 ## Testing
 
