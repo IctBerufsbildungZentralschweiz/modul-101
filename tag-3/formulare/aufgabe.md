@@ -1,4 +1,4 @@
-# 🛠 Aufgabe Formulare
+# 🛠️ Aufgabe Formulare
 
 ![](../../.gitbook/assets/ralph.png)
 
@@ -24,27 +24,13 @@ Achte darauf die richtigen Formularfeld-Typen zu verwenden. Zudem sollten die Fo
 Um dein Formular zu testen, kannst du die Daten an folgenden Endpunkt senden:
 
 ```
-https://formlog.offline.ch/log
+https://formlog.ict-bz.ch/
 ```
 
-Die vom Endpunkt empfangenen Daten werden [hier](https://formlog.offline.ch/) angezeigt:
-
-```
-https://formlog.offline.ch/
-```
-
-### Variante: POST
+**Wichtig:** Dieser Server fordert die Methode "post" im `<form>`-Element, "get" funktioniert nicht:
 
 ```markup
-<form action="https://formlog.offline.ch/log" method="POST">
-  [...]    
-</form>
-```
-
-### Variante: GET
-
-```markup
-<form action="https://formlog.offline.ch/log" method="GET">
+<form action="https://formlog.ict-bz.ch/" method="post">
   [...]    
 </form>
 ```

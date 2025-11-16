@@ -71,6 +71,9 @@ Alle Elemente müssen in einem `form` Tag gruppiert werden.
 
 Beim Absenden eines Formulars werden die Daten aller Elemente innerhalb des `form` Tags mit der definierten `method` an die in `action` definierte URL versendet.
 
+In diesem Kurs kann zum Testen das Ziel [https://formlog.ict-bz.ch/](https://formlog.ict-bz.ch/) verwendet werden. Deine Daten werden dort 7 Tage gespeichert und danach gelöscht. \
+**Wichtig:** Dieser Server fordert die Methode "post" im `<form>`-Element, "get" funktioniert nicht.
+
 ## Submit-Button
 
 Mit einem `submit`-Button kann das Formular versendet werden. Bei einem Klick darauf wird der Versand der Formulardaten ausgelöst.
