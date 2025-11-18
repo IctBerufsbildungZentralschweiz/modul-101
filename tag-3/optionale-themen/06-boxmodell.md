@@ -76,7 +76,7 @@ Die `display`-Eigenschaft bestimmt, wie ein Element im Layout dargestellt wird.
 * **`display: block`** - Element nimmt die gesamte verfügbare Breite ein und beginnt auf einer neuen Zeile.
 * **`display: inline`** - Element nimmt nur so viel Platz ein, wie es benötigt, und erlaubt andere Elemente neben sich.
 * **`display: inline-block`** - Wie display: inline, kann aber Höhe, Breite etc. haben.
-* **`display: flex`** - [Siehe Flexbox](../tag-2/01-flexbox/)
-* **`display: grid`** - [Siehe CSS Grid](04-css-grids/)
+* **`display: flex`** - [Siehe Flexbox](../../tag-2/01-flexbox/)
+* **`display: grid`** - [Siehe CSS Grid](../04-css-grids/)
 
 **`display: none`** / **`display: block`** kann somit genutzt werden, um Elemente je nach Belieben ein- oder auszublenden, z.B. bei kleinen Bildschirmen, bei Hover-Effekten oder für die Druck-Version einer Seite.

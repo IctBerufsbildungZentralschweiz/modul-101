@@ -4,7 +4,7 @@ Seit 2020 wird ein neues Feature von fast allen Browsern unterstützt, welches b
 
 ## Einheitliche Gestaltung von Elemente
 
-In einem [Styleguide](../../tag-3/konzeptionierung.md#styleguide) werden für eine Website üblicherweise 2-3 einheitliche Fonts und ein Farbkonzept mit 4-8 einheitlichen Farben definiert. Diese werden in der Website für verschiedene Elemente genutzt, z.B. Überschriften, Navigation, Buttons, Links etc. Um das Layout einheitlich und leicht anpassbar zu halten, sollten für solche Definitionen Variablen genutzt werden:&#x20;
+In einem [Styleguide](../../tag-3/konzeptionierung/#styleguide) werden für eine Website üblicherweise 2-3 einheitliche Fonts und ein Farbkonzept mit 4-8 einheitlichen Farben definiert. Diese werden in der Website für verschiedene Elemente genutzt, z.B. Überschriften, Navigation, Buttons, Links etc. Um das Layout einheitlich und leicht anpassbar zu halten, sollten für solche Definitionen Variablen genutzt werden:&#x20;
 
 **Früher (mühsam zu ändern):**
 

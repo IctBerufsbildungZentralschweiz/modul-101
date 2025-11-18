@@ -1,4 +1,4 @@
-# Ausblick: Weitere Features
+# Neuere Features & Effekte
 
 ## Aufgabe neue Features
 
@@ -6,8 +6,8 @@ Suche im Netz nach wesentlichen neuen Features, welche seit 1-2 Jahren von allen
 
 1. Prüfe auf [caniuse.com](https://caniuse.com/), wie weit die Features schon unterstützt werden.
 2. Wenn über 90% der Browser das Feature > 1 Jahr unterstützten, dann probiere es aus, z.B. in deinem Projekt, in Codepen oder auf W3School.
-3. Schau dir ein paar Videos wie [dieses hier](https://youtube.com/watch?v=pGgy2QFhPtU) an, schau auf [caniuse.com](https://caniuse.com/), wie die Browser-Unterstützung inzwischen ist, und teste 2 Features, welche du spannend findest. \
-   Zeige die Features der Gruppe.
+3. Schau dir ein paar Videos wie [dieses hier](https://youtube.com/watch?v=pGgy2QFhPtU) an, schau auf [caniuse.com](https://caniuse.com/), wie die Browser-Unterstützung inzwischen ist, und teste 1-2 Features, welche du spannend findest.&#x20;
+4. Zeige die Features der Gruppe.
 
 ## Aufgabe Effekte und Filter
 
