@@ -40,9 +40,14 @@ Die Schrift sollte lesbar, genug gross und in einer angenehmen Schriftfarbe sein
 
 ## 2. Konsistent bleiben
 
-Es hat sich bewährt, das Design über den ganzen Auftritt konsistent und einheitlich zu gestalten. Es empfiehlt sich, die Farben, Layouts und Schriften möglichst über alle Seiten gleich zu halten. So kann sich ein rundes Erlebnis für den User einstellen. Jedoch reicht ein einziges Layout selten für einen kompletten Internetauftritt.
+Es hat sich bewährt, das Design über den ganzen Auftritt konsistent und einheitlich zu gestalten. Es empfiehlt sich,&#x20;
 
-Typischerweise benötigt man mindestens drei Layouts: eines für die Startseite, eines für Inhaltsseiten/Folgeseite und eines für Formularseiten.
+* die Farben, die Schriften, das Logo und&#x20;
+* die Anordnung und Inhalte von Header, Navigation und Footer
+
+über alle Seiten gleich zu halten. So kann sich ein rundes Erlebnis für den User einstellen.&#x20;
+
+Jedoch reicht ein einziges Layout selten für einen kompletten Internetauftritt. Typischerweise benötigt man mindestens zwei Layouts: eines für die Startseite und eines für Inhaltsseiten/Folgeseite.
 
 ## 3. Die richtigen Bilder verwenden
 
