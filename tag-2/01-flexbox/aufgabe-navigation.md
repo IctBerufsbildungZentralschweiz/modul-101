@@ -9,7 +9,7 @@ Lade das Grundgerüst herunter und entpacke es in ein neues Verzeichnis:
 1. Formatiere den `<nav>`-Container mit CSS als Flexbox. Die Navigationspunkte sollen nebeneinander angeordnet werden, gleichmässig über die Fensterbreite verteilt. Wenn das Fenster zu schmal ist, sollen sie umgebrochen werden.&#x20;
 2. Verschönere die Navigation, indem du die Links formatierst: Nutze dazu padding, border, background-color, :hover etc.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
 
 3. Teste das Layout und das Verhalten im Browser.&#x20;
 4. Wenn alles gut aussieht, kannst du diese Navigation für alle Übungsseiten kopieren.&#x20;
