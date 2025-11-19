@@ -1,6 +1,6 @@
 # Formulare
 
-Unter [w3schools.com/html/html\_forms.asp](https://www.w3schools.com/html/html_forms.asp) findest du eine Übersicht wichtiger Elemente von Formularen und die Möglichkeit, es selber auszuprobieren. Nutze auch "Next >" oben rechts.
+Unter [w3schools.com/html/html\_forms.asp](https://www.w3schools.com/html/html_forms.asp) findest du eine Übersicht wichtiger Elemente von Formularen und die Möglichkeit, es selber auszuprobieren. Nutze auch `Next >` oben rechts.&#x20;
 
 ## Form-Tag
 
@@ -25,6 +25,8 @@ In diesem Kurs nutzen wir zum Testen das Ziel [https://formlog.ict-bz.ch/](https
 
 ## Steuerelemente
 
+### Input-Typen
+
 In HTML werden die meisten Formularfelder mit dem `input` Tag deklariert. Mit dem `type` Attribut können verschiedene Typen spezifiziert werden. Unter W3School.com findest du alle [Input-Typen](https://www.w3schools.com/html/html_form_input_types.asp) mit Beispielen.&#x20;
 
 **Jedes Feld muss zwingend ein `name` Attribut haben**, sonst wird das Feld beim Versenden nicht mitgeschickt.
@@ -34,6 +36,8 @@ In HTML werden die meisten Formularfelder mit dem `input` Tag deklariert. Mit de
 <input type="email" name="mail">
 <input type="checkbox" id="coffee" name="coffee"><label for="coffee">Kaffee</label>
 ```
+
+### Weitere Form-Elemente
 
 Zudem gibt es mehrzeilige Textfelder (`textarea`), Dropdowns (`select`, `option`) und Schaltflächen (`buttons`). Unter W3School.com findest du diese [Form-Elemente](https://www.w3schools.com/html/html_form_elements.asp) mit Beispielen.&#x20;
 

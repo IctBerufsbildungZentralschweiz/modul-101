@@ -47,9 +47,36 @@ h1, .subnavi, footer {
 
 Nachfahren sind alle Elemente innerhalb eines anderen Elements (Kinder, Kindeskinder etc.). Dieser Selektor adressiert also bestimmte Elemente, welche in HTML in einem anderen Element verschachtel sind. Die Eltern- und Nachfohr-Selektoren werden durch ein Leerzeichen getrennt:&#x20;
 
+### Anwendungsbeispiele
+
+Unterschiedliche Formatierung von Elementen je nach Container:&#x20;
+
 ```css
-header a { /* Formatiert alle Links im Header */
+nav a { /* Formatiert alle Links in der Navigation */
   color: red;
+}
+```
+
+Unterschiedliches Layout (z.B. CSS-Grid) einer Seiten:&#x20;
+
+```html
+<html>
+  <head>...<head>
+  <body class="home">
+    <div class="container">
+      <header>...</header>
+      <main>...</main>
+      <footer>...</footer>
+    </div>
+  </body>
+</home>
+```
+
+```css
+.home .container { /* Eigenes Grid für die Startseite definieren */
+  grid-template-columns: ...;
+  grid-template-rows:    ...;
+  grid-template-areas:   ...;
 }
 ```
 
@@ -89,6 +116,10 @@ a.nav-link {
   color: red;
 }
 ```
+
+## Beispiel: Anwendung für verschiedene Seiten-Layouts
+
+
 
 ## 🛠️ Aufgabe
 

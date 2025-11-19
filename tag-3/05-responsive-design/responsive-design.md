@@ -14,22 +14,35 @@ Vor einigen Jahren konnte man seine Website für ein iPhone (320x480), ein iPad 
 
 Stattdessen solltest du dein Layout immer bei diesen Grössen verändern, wo dein Inhalt nicht mehr genügend Platz hat um korrekt dargestellt zu werden.
 
-### Mobile first vs. Desktop first
+## Mobile first vs. Desktop first
+
+Jede Website sollte zwar auf Mibiles und Desktop funktionieren. Je nach Zielgruppe und Komplexität der Website wird diese aber primär für mobile oder für Desktop-Geräte entwickelt.&#x20;
+
+### Mobile first
 
 **Mobile-First-Design** ist ein Webdesign-Ansatz, bei dem die Website zuerst für Benutzer von Mobilen Geräten optimiert wird. Danach wird eine Version für grössere Bildschirme entworfen.&#x20;
 
-Im CSS werden zuerst die Definitionen für kleine Bildschirme geschrieben, danach mittels Media-Queries für grosse Displays überschrieben.&#x20;
+**Im CSS** werden zuerst die Definitionen für kleine Bildschirme geschrieben, danach mittels Media-Queries für grosse Displays überschrieben.&#x20;
+
+**Wann wähle ich diesen Ansatz?**\
+Für einfachere Websites und Applikationen, die oft unterwegs benutzt werden.&#x20;
+
+**Beispiel:** Ein B2C-Webshop (Business to Customer) für Ticket-Verkauf.
+
+### Desktop first
 
 **Desktop-First-Design** ist ein Webdesign-Ansatz, bei dem das Desktop- oder Laptop-Erlebnis im Vordergrund steht. Die Website wird zunächst für den Desktop-Nutzer entworfen und dann an kleinere Bildschirme angepasst.
 
-Im CSS werden zuerst die Definitionen für grosse Bildschirme geschrieben, danach mittels Media-Queries für kleine Displays übersteuert.&#x20;
+**Im CSS** werden zuerst die Definitionen für grosse Bildschirme geschrieben, danach mittels Media-Queries für kleine Displays übersteuert.&#x20;
 
-**Welchen Ansatz soll ich wählen?**&#x20;
+**Wann wähle ich diesen Ansatz?** \
+Für komplexe Websites mit vielen Elementen oder Business-Websites, welche oft im Büro aufgerufen werden.&#x20;
 
-Das hängt von der Zielgruppe und der Komplexität der Website ab:&#x20;
+**Beispiel:** Ein B2B-Webshop (Business to Business) für Material-Bestellung.
 
-Für einfachere Websites und Applikationen, welche oft unterwegs benutzt werden, bringt Mobile-First ein besseres Nutzererlebnis.&#x20;
 
-Für komplexe Websites mit vielen Elementen oder Business-Websites, welche oft im Büro aufgerufen werden, bietet sich der Desktop-First-Ansatz an.&#x20;
 
-Mehr dazu: [www.softermii.com/blog/web-development-mobile-first-or-desktop-first](https://www.softermii.com/blog/web-development-mobile-first-or-desktop-first) (english)
+## Nützliche Links
+
+* [softermii.com/blog/web-development-mobile-first-or-desktop-first](https://www.softermii.com/blog/web-development-mobile-first-or-desktop-first) (english)
+
