@@ -1,12 +1,17 @@
 # 📖 Strukturelemente & semantische Tags
 
+Mehrere Tags können zu zusammengehörigen Blöcken zusammengefasst werden. Dazu gibt es sog. Strukturelemente. Es gibt dafür&#x20;
+
+* das **generische Strukturelement** `<div>`, welches nichts über den Inhalt aussagt, und&#x20;
+* die **semantischen Strukturelemente** `<header>`, `<footer>`, `<nav>`, `<main>`, `<section>`, `<article>` etc., welche für bestimmte Inhalte vorgesehen sind.
+
 ## Strukturelement \<div>
 
-Um Elemente innerhalb eines Dokuments besser zu strukturieren, hat HTML das Strukturelement `<div>` vorgesehen. Das `<div>`-Element (Document Division Element) ist ein generischer Container für Inhalte, der keine eigene Bedeutung hat, ausser dass er Elemente zusammenfasst, z.B. um sie zu stylen (mit Hilfe des `class` oder `id` Attributs).
+Das Strukturelement `<div>` (Document Division Element) ist ein generischer Container für Inhalte, der keine eigene Bedeutung hat, ausser dass er Elemente zusammenfasst, z.B. um sie im Layout zu positionieren oder zu stylen (mit Hilfe von CSS).
 
-Beispiel: Wir möchten, dass die folgenden Absätze mit einer Hintergrundfarbe hinterlegt sind, ohne einen weissen Absand dazwischen zu haben.
+Beispiel: Wir möchten folgende Absätze mit einer Hintergrundfarbe hinterlegen, ohne einen weissen Absand dazwischen zu haben.
 
-```markup
+```html
 <p>Ich bin ein erster Absatz.</p>
 <p>Ich bin ein zweiter Absatz.</p>
 ```
@@ -19,11 +24,11 @@ p {
 
 Dies entspricht jedoch nicht unserem gewünschten Ergebnis:
 
-![Absätze mit Hintergrund](../../.gitbook/assets/p-background.PNG)
+<div align="left"><img src="../../.gitbook/assets/p-background (1).PNG" alt="Absätze mit Hintergrund" width="446"></div>
 
-Um das Ziel zu erreichen, umklammern wir die beiden Absätze mit einem `<div>`-Strukturelement und stylen das `<div>`-Element:
+Lösung: Wenn umklammern die beiden Absätze mit einem `<div>`-Strukturelement und stylen das `<div>`-Element:
 
-```markup
+```html
 <div class="red">
     <p>Ich bin ein erster Absatz.</p>
     <p>Ich bin ein zweiter Absatz.</p>
@@ -36,31 +41,27 @@ Um das Ziel zu erreichen, umklammern wir die beiden Absätze mit einem `<div>`-S
 }
 ```
 
-![Div mit Hintergrund](../../.gitbook/assets/div-background.PNG)
+<div align="left"><img src="../../.gitbook/assets/div-background (1).PNG" alt="Div mit Hintergrund" width="449"></div>
 
 **Aufgabe:** Teste dieses \<div>-Element mit [Codepen.io](https://codepen.io/sternenvogel/pen/dPMypGe)
 
 ## Semantische Strukturelemente
 
-Semtantische Elemente sind gleichbedeutend wie `<div>`-Strukturelemente, sie haben aber einen vordefinierten Anwendungszweck.
+Semtantische Elemente sind gleichbedeutend wie `<div>`-Strukturelemente, definieren aber klar die Bedeutung des Inhalts, welches sie umfassen.&#x20;
 
-So sollte das `<header>`-Element ausschliesslich für die Strukturierung des Kopfbereichs von Sektionen und Websites verwendet werden.
+**Semantische Elemente haben folgende Vorteile:**&#x20;
 
-| Semantisches Element | Beschreibung                                                                                       | Möglicher Inhalt                         |
-| -------------------- | -------------------------------------------------------------------------------------------------- | ---------------------------------------- |
-| `<header>`           | Das Element beinhaltet Kopfelemente der Website oder einer Sektion.                                | Navigation, Logo, Suchfeld               |
-| `<nav>`              | Das Element beinhaltet eine Navigation.                                                            | Navigation                               |
-| `<main>`             | Das Element beinhaltet den Hauptinhalt der Website.                                                | Hauptinhalt                              |
-| `<section>`          | Das Element unterteilt ein Dokument in mehrere allgemeine Sektionen.                               | <p>Produkte, <br>News</p>                |
-| `<article>`          | Eine Sektion kann mehrere Artikel umfassen.                                                        | <p>Ein Produkt, <br>ein News-Beitrag</p> |
-| `<aside>`            | Das Element beinhaltet Informationen, welche mit dem Hauptinhalt der Website in Verbindung stehen. | Sidebar                                  |
-| `<footer>`           | Das Element beinhaltet Fusselemente der Website oder einer Sektion.                                | Copyright, nützliche Links               |
+* Bessere Lesbarkeit des HTML- und CSS-Codes
+* Suchmaschinen können die Struktur der Webseite besser verstehen (SEO)
+* Bessere Barrierefreiheit für Menschen unabhängig von Einschränkungen
 
-Die semantischen Elemente erleichtern vorallem die Human-Readability des HTML- und CSS-Codes.
+**Darum gilt:** \
+Generische `<div>`-Elemente sollten nur genutzt werden, wenn kein semantisches Element geeignet ist.
 
-**Darum gilt:** Generische `<div>`-Elemente sollten nur genutzt werden, wenn kein semantisches Element geeignet ist.
+<div align="left"><figure><img src="../../.gitbook/assets/semantic-tags.webp" alt=""><figcaption></figcaption></figure></div>
 
-Schau dazu im Browser die HTML-Struktur einer Beispielseite an: \
-[der-informationsdesigner.de/agentur-blog/allgemein/was-ist-webdesign](https://www.der-informationsdesigner.de/agentur-blog/allgemein/was-ist-webdesign/)\
-[https://www.w3schools.com/html/html5\_semantic\_elements.asp](https://www.w3schools.com/html/html5_semantic_elements.asp)
+Folgende Elemente werden häufig genutzt:&#x20;
 
+<table><thead><tr><th width="196.33333333333331">Semantisches Element</th><th width="308">Beschreibung</th><th>Möglicher Inhalt</th></tr></thead><tbody><tr><td><code>&#x3C;header></code></td><td>Das Element beinhaltet Kopfelemente der Website oder einer Sektion.</td><td>Navigation, Logo, Suchfeld</td></tr><tr><td><code>&#x3C;nav></code></td><td>Das Element beinhaltet eine Navigation.</td><td>Navigation</td></tr><tr><td><code>&#x3C;main></code></td><td>Das Element beinhaltet den Hauptinhalt der Website.</td><td>Hauptinhalt</td></tr><tr><td><code>&#x3C;section></code></td><td>Das Element unterteilt ein Dokument in mehrere allgemeine Sektionen.</td><td>Produkte, <br>News</td></tr><tr><td><code>&#x3C;article></code></td><td>Eine Sektion kann mehrere Artikel umfassen.</td><td>Ein Produkt, <br>ein News-Beitrag</td></tr><tr><td><code>&#x3C;aside></code></td><td>Das Element beinhaltet Informationen, welche mit dem Hauptinhalt der Website in Verbindung stehen.</td><td>Sidebar</td></tr><tr><td><code>&#x3C;footer></code></td><td>Das Element beinhaltet Fusselemente der Website oder einer Sektion.</td><td>Copyright, nützliche Links</td></tr></tbody></table>
+
+Weitere Informationen auf [https://www.w3schools.com/html/html5\_semantic\_elements.asp](https://www.w3schools.com/html/html5_semantic_elements.asp)<br>

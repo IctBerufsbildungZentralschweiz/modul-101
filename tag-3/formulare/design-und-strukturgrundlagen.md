@@ -60,27 +60,27 @@ Das Aussehen eines Formulars ist entscheidend für dessen Benutzerfreundlichkeit
 
 * **Wörter vs. Sätze.** Ganze Sätze helfen bei komplexeren Fragestellungen. Meist rechten aber einzelne Wörter.&#x20;
 
-![Anmeldung mit Sätzen bei Amazon.](../../.gitbook/assets/04.jpg)
+![Anmeldung mit Sätzen bei Amazon.](<../../.gitbook/assets/04 (1).jpg>)
 
 Diese Anmeldeseite von Amazon nutzt ganze Sätze, obwohl einzelne Wörter absolut ausreichend wären.
 
 * **Position des Labels.** Auch hier gibt es keine abschliessende Regel und die unterschiedlichen Positionen des Labels bieten verschiedene Vor- und Nachteile.
 * **Nur eine Kolonne.** Der Aufbau eines Formulars sollte sich nicht über mehrere Spalten ziehen, sondern klar dem Verlauf von oben nach unten folgen.
 
-![Zweispaltige Layouts sind eher ungeeignet.](../../.gitbook/assets/05.jpg)
+![Zweispaltige Layouts sind eher ungeeignet.](<../../.gitbook/assets/05 (1).jpg>)
 
 #### Formularfelder
 
 * **Feldtypen richtig einsetzen.** Beim Erstellen eines Formularfeldes sollte man sich stets folgende Frage stellen: Welches Feld eignet sich am besten für die gewünschte Information?
 * **Gestaltung der Formularfelder.** HTML5 und CSS3 bieten eine Vielfalt von verschiedenen Varianten um ein Formularfeld zu gestalten. Diese sollten jedoch nur beschränkt eingesetzt werden. Es ist wichtiger dem Benutzer eine einfache und intuitive Oberfläche zu bieten als ein schön gestaltetes aber benutzerunfreundliches Formular zu designen (Beispiel Pflichtfeld mit \*).
 
-![Da hat es jemand zu gut gemeint.](../../.gitbook/assets/06.jpg)
+![Da hat es jemand zu gut gemeint.](<../../.gitbook/assets/06 (1).jpg>)
 
 #### Aktionen
 
 * **Primäre und Sekundäre Aktionen unterscheiden.** Die primäre und die sekundäre Aktion eines Formulares müssen optisch klar unterschieden werden. So wird der Button für das Versenden des Formulars anders dargestellt als der Button für das Abbrechen.
 
-![Unterscheiden der Aktionen.](../../.gitbook/assets/07.jpg)
+![Unterscheiden der Aktionen.](<../../.gitbook/assets/07 (1).jpg>)
 
 Schlechtes Beispiel: Die Aktionen auf den Buttons sind optisch nicht in eine primäre und eine sekundäre Aktion differenzierbar.
 

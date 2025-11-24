@@ -1,4 +1,4 @@
-# 📖 Spezielle Tags
+# 📖 Häufig benutzte Tags
 
 ## Überschriften
 
@@ -57,7 +57,7 @@ Das genauso wichtige Attribut ist das `alt`-Attribut. Diese Attribut muss immer 
 
 Der Text im `alt`-Attribut wird angezeigt, wenn das Bild nicht geladen werden kann. Dies ist nützlich für Sehbehinderte, für Suchmaschinen (können keine Bilder sehen) und wenn es einen Fehler beim Laden des Bildes gibt. Dieser alternative Satz sollte dem Leser eine Informationen geben, damit er sich vorstellen kann, was auf dem Bild angezeigt ist.
 
-![Alt Tag eines \<img>](../../.gitbook/assets/img-alt.jpg)
+![Alt Tag eines \<img>](<../../.gitbook/assets/img-alt (1).jpg>)
 
 Die Attribute `width` und `height` können optional angegeben werden, damit der Browser weiss, wie breit bzw. hoch die Bilder werden sollen. Die Werte sollten den wirklichen Pixel-Massen des Bildes entsprechen! Der Wert ist ohne "px". Wird nur width oder nur height angegeben, wird der andere Wert automatisch bewechnet.&#x20;
 

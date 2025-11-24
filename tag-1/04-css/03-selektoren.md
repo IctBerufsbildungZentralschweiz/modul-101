@@ -1,4 +1,4 @@
-# 📖 CSS Selektoren
+# 📖 CSS-Selektoren
 
 ## Übersicht
 
@@ -75,7 +75,7 @@ Elemente mit der entprechenden Klasse werden ausgewählt. Klassen können mehrer
 
 Mit Pseudoklassen lässt sich eine Seite nicht nur in Bezug auf die Struktur des Inhalts gestalten, sondern auch im Bezug auf andere Faktoren wie zum Beispiel dem Browserverlauf (`:visited`), Reihenfolge der Elemente (`:first-child`) oder die Position des Mauszeigers (`:hover`).
 
-![CSS-Pseudoklasse](../../.gitbook/assets/css-pseudoklasse.jpg)
+![CSS-Pseudoklasse](<../../.gitbook/assets/css-pseudoklasse (1).jpg>)
 
 Die Pseudoklasse wird angeführt mit einem Doppelpunkt und hinter den regulären Selektor angefügt.
 

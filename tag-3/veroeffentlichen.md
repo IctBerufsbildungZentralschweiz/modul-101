@@ -1,17 +1,16 @@
-# 04 Veröffentlichen
+# Veröffentlichen
 
-Als **Veröffentlichung** oder **Deployment** einer Website bezeichnet man den Vorgang, um den neusten Entwicklungsstand einer Website für die Öffentlichkeit zugänglich zu machen.
+Als **Veröffentlichung** oder **Deployment** einer Website bezeichnet man den Vorgang, um den neusten Entwicklungsstand einer Website für die Öffentlichkeit zugänglich zu machen, also auf einem Webserver zu publizieren.&#x20;
 
-Methoden zur Veröffentlichung von Websites gibt es wie Sand am Meer: Von der einfachen manuellen Methode bis zum vollautomatischen Testing mit anschliessender Veröffentlichung auf mehrere Server gleichzeitig.
+Der Webserver ist über das Internet **24/7** zugänglich. Üblicherweise nimmst du dafür die Dienstleistungen eines **Hostinganbieters** in Anspruch, der den Webserver für dich betreibt und betreut.&#x20;
 
-Im Prinzip sind alle Methoden gleich:
+Methoden zur Veröffentlichung von Websites gibt es viele: Von der einfachen manuellen Methode bis zum vollautomatischen Testing mit anschliessender Veröffentlichung auf mehrere Server gleichzeitig.
 
-![Deployment](../.gitbook/assets/schema.png)
+Im Prinzip sind alle Methoden gleich. Der Code wird entweder direkt von deinem Rechner oder über eine Code-Verwaltung auf den Server geladen:
 
-* Der Code wird von der lokalen Entwicklungsumgebung (von deiner Arbeitsstation) auf einen Webserver geladen.&#x20;
-* Der Webserver ist über das Internet zugänglich und stellt Daten **24/7** bereit. Üblicherweise nimmst du dafür die Dienstleistungen eines **Hostinganbieters** in Anspruch, der diesen Webserver für dich betreibt und betreut.&#x20;
-* Im Idealfall wird eine Source Code Verwaltung (wie z. B. [`git`](https://git-scm.com/)) dazwischen geschaltet.&#x20;
-* Für unser Anwendungsfall genügt ein direktes und manuelles Veröffentlichen.&#x20;
+![Deployment](<../.gitbook/assets/schema (1).png>)
+
+Im Idealfall wird eine Source Code Verwaltung (wie z. B. [`git`](https://git-scm.com/)) dazwischen geschaltet. Für unser Anwendungsfall genügt ein direktes und manuelles Veröffentlichen.&#x20;
 
 **Probleme mit absoluten Links:** Falls Links (zu Bildern, CSS etc.) nicht relativ, sondern absolut eingefügt wurden, werden diese nach dem Veröffentlichen nicht mehr funktionieren. Bilder, CSS und ganze Webseiten werden nicht mehr gefunden. => **Nutze möglichst immer relative Links!**&#x20;
 

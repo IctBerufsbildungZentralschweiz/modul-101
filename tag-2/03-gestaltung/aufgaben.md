@@ -4,7 +4,7 @@
 
 Füge deiner Webseite `about-me.html` eine individuelle Schrift hinzu:&#x20;
 
-1. Wähle eine Schrift von [Google-Fonts](https://fonts.google.com/) aus (Get font) und binde diese in die Seite ein mittels "Get embed code". Ändere anschliessend die Standardschrift (`body`) per CSS auf die ausgewählte Schriftart.
+1. Wähle eine Schrift von [Google-Fonts](https://fonts.google.com/) aus ("Get font" rechts oben) und binde diese mittels "Get embed code" in die Seite ein. Wähle anschliessend per CSS die ausgewählte Schriftart als Standardschrift (`body`).
 2. Definiere eine alternative Schift, falls der Google-Font nicht oder langsam lädt.
 3. **Datenschutz:** Lade die Schriftart von Google herunter ("Download" statt "Get embed code"), packe  sie aus der Zip-Datei in einem neuen Ordner `/fonts` und [binde sie von da ein](01-schriftarten.md#eigene-schriftarten-einbinden), damit keine Verbingung zu Google mehr nötig ist.
 
@@ -30,13 +30,4 @@ Nutze die [1. Flexbox-Aufgabe](broken-reference) für folgende Experimente:&#x20
 **Zusatzaufgabe:**
 
 * Teste verschiedene Funktionen für einen Textblock oder ein Bild: `min(), max(), calc(), clamp()`&#x20;
-
-## CSS-Variablen
-
-Überarbeite dein bisheriges Stylesheet (CSS):&#x20;
-
-1. Welche Werte nutzt du ev. mehrmals oder später noch noch für andere Elemente?&#x20;
-2. Definiere für sie CSS-Variablen und setze sie in den Selektoren ein.
-3. Überlege, wofür sie noch sinnvoll sind (z.B. Navigation, Buttons, Footer...) und wende sie da auch an.&#x20;
-4. Falls du verschiedene Elemente mit runden Ecken hast, kannst du den Radius auch als Variable definieren.&#x20;
 

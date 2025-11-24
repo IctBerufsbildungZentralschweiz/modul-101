@@ -5,7 +5,7 @@
 Wir möchten folgendes Grid in CSS umsetzen. \
 Dazu kann wie folgt vorgegangen werden:
 
-![Container](../../.gitbook/assets/code-example-1.png)
+![Container](<../../.gitbook/assets/code-example-1 (1).png>)
 
 ## Container definieren
 

@@ -48,4 +48,4 @@ Accessability/Barrierefreiheit: Kommunikation in einer Weise, welche von Mensche
 
 Als kleine Illustration:
 
-<div align="left"><img src="../../.gitbook/assets/Form.jpg" alt="Formularfelder" width="375"></div>
+<div align="left"><img src="../../.gitbook/assets/Form (1).jpg" alt="Formularfelder" width="375"></div>

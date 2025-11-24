@@ -20,7 +20,7 @@ Mit `<p>` können spezifizieren, das es sich um einen Absatz handelt:
 
 Das oben beschriebene Beispiel zeigt, wie ein HTML-Element aufgebaut ist:
 
-![Aufbau eines HTML-Elements](../../.gitbook/assets/html-grundlagen.jpg)
+![Aufbau eines HTML-Elements](<../../.gitbook/assets/html-grundlagen (1).jpg>)
 
 * **Das öffnende Tag:** Dieses besteht aus dem Namen des Elements (in diesem Fall ein p für _paragraph_ (engl.: Absatz)), welcher zwischen zwei spitzen Klammern eingesetzt ist. Dies zeigt an, wo das Element beginnt — in diesem Fall am Anfang unseres Absatzes.
 * **Der Inhalt:** Dies ist der Inhalt des Elements, in diesem Fall einfach nur Text.
@@ -31,7 +31,7 @@ Das oben beschriebene Beispiel zeigt, wie ein HTML-Element aufgebaut ist:
 
 Elemente können auch Attribute enthalten. Das sieht dann so aus:
 
-![Attribut eines HTML-Elements](../../.gitbook/assets/html-attribut.jpg)
+![Attribut eines HTML-Elements](<../../.gitbook/assets/html-attribut (1).jpg>)
 
 Attribute enthalten Zusatzinformationen über das Element, welche nicht als eigentlicher Inhalt anzeigt werden. Das `class`-Attribut beispielsweise kann später dazu verwendet werden, das Element mit CSS zu gestalten.
 

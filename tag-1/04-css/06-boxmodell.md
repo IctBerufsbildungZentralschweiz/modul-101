@@ -4,7 +4,7 @@ Wie dir vielleicht bereits aufgefallen ist, geht es bei Webseiten oft darum, Box
 
 Mit CSS können Grösse, Farben, Position usw. bestimmt werden.
 
-<div align="center"><img src="../../.gitbook/assets/boxmodell-gif.gif" alt="boxmodell-gif"></div>
+<div align="center"><img src="../../.gitbook/assets/boxmodell-gif (1).gif" alt="boxmodell-gif"></div>
 
 ## Eigenschaften von Boxen
 
@@ -17,7 +17,7 @@ Das CSS-Layout basiert auf dem Box-Modell. Jede Box, die Platz auf einer Webseit
 * **Innenabstand (`padding`):** \
   Das Padding ist der Raum zwischen Inhalt und Rahmen eines Elements.
 
-![Boxmodell](../../.gitbook/assets/boxmodell.png)
+![Boxmodell](<../../.gitbook/assets/boxmodell (1).png>)
 
 ### 🛠️ Erforschen
 

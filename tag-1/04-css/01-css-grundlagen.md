@@ -1,4 +1,4 @@
-# 📖 CSS Gundlagen
+# 📖 CSS-Gundlagen
 
 Wie HTML ist auch CSS keine Programmiersprache sondern eine Stylesheet-Sprache.
 
@@ -14,7 +14,7 @@ p {
 
 Die ganze Struktur wird Regelsatz (oder oft nur Regel) genannt:
 
-![CSS-Grundgerüst](../../.gitbook/assets/css-bezeichnungen.jpg)
+![CSS-Grundgerüst](<../../.gitbook/assets/css-bezeichnungen (1).jpg>)
 
 ### Bestandteile
 

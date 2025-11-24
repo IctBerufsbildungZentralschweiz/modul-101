@@ -6,7 +6,7 @@ Elemente können in einem Grid in Bereichen (areas) platziert werden.&#x20;
 
 Mit `grid-template-areas` können bestimmten Bereichen im Grid spezifische Namen vergeben werden.&#x20;
 
-![Container](../../.gitbook/assets/code-example-3.png)
+![Container](<../../.gitbook/assets/code-example-3 (1).png>)
 
 In unserem Beispiel gibt es vier Areas: `header`, `social`, `content` und `sidebar`. Die Namen dieser Areas kannst du frei wählen, sie sollten aus Kleinbuchstaben bestehen.
 
@@ -65,6 +65,6 @@ Siehe [https://codepen.io/anon/pen/ooZVoG](https://codepen.io/anon/pen/ooZVoG).
 
 In den Entwicklertools findest du unter `Inspect -> Layout` (Firefox) bzw. `Elements -> Layout` (Chrome) den Grid Inspector, der dir beim Arbeiten mit Grids helfen kann:
 
-![Grid Inspector in Firefox](../../.gitbook/assets/dev-tools-setting.png) ![Container](../../.gitbook/assets/dev-tools.png)
+![Grid Inspector in Firefox](<../../.gitbook/assets/dev-tools-setting (1).png>) ![Container](<../../.gitbook/assets/dev-tools (1).png>)
 
 <figure><img src="../../.gitbook/assets/ChromeDevToolsGrid.png" alt=""><figcaption><p>Grids und Flexboxen sind in Chrome leicht zu finden.</p></figcaption></figure>

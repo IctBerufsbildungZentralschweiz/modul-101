@@ -1,4 +1,4 @@
-# 🛠️ Aufgaben zu Selektoren
+# 🛠️ Aufgaben zu CSS
 
 ![](../../.gitbook/assets/ralph.png)
 
@@ -28,3 +28,6 @@ Style deine Website "Über mich" und ¨berprüfe nach jedem Schritt das Ergebnis
 1. Das erste Hobby soll eine fette Schrift haben, die anderen nicht (mit Pseudoselektor lösen)
 2. Färbe mit dem geeigneten Pseudoselektor den Hintergrund jeder 2. Zeile der Tabelle hellgelb.&#x20;
 3. Wende einen Filter auf dein Bild an: Normal soll es blass/heller oder sogar schwarz-weiss sein, wenn die Maus drüber fährt, soll es in den richtigen Farben erscheinen.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+

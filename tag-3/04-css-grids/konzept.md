@@ -22,7 +22,7 @@ Das Grid ist ein Raster, an dem sich alle Elemente in einem Layout ausrichten.
 
 Grundlage für jedes Grid ist der `Container`.
 
-![Container](../../.gitbook/assets/abstract-container.png)
+![Container](<../../.gitbook/assets/abstract-container (1).png>)
 
 Der Container fixiert die Breite des Layouts. Die Höhe kann ebenfalls fixiert werden, wird aber üblicherweise flexibel gelassen.&#x20;
 
@@ -30,28 +30,28 @@ Der Container fixiert die Breite des Layouts. Die Höhe kann ebenfalls fixiert w
 
 Im Container werden beliebig viele Spalten (`Columns`) und Zeilen (`Rows`) definiert. Alle Inhaltselemente richten sich an diesem Raster aus.
 
-![Cols](../../.gitbook/assets/abstract-rows-cols.png)
+![Cols](<../../.gitbook/assets/abstract-rows-cols (1).png>)
 
 ### Gaps
 
 Zwischenräume zwischen `Columns` und `Rows` bezeichnet man als `Gaps`.
 
-![Cols](../../.gitbook/assets/abstract-gaps.png)
+![Cols](<../../.gitbook/assets/abstract-gaps (1).png>)
 
 ## Beispiel: theguardian.com
 
 ### Container
 
-![Container](../../.gitbook/assets/guardian-container.png)
+![Container](<../../.gitbook/assets/guardian-container (1).png>)
 
 ### Columns
 
-![Cols](../../.gitbook/assets/guardian-cols.png)
+![Cols](<../../.gitbook/assets/guardian-cols (1).png>)
 
 ### Rows
 
-![Rows](../../.gitbook/assets/guardian-rows.png)
+![Rows](<../../.gitbook/assets/guardian-rows (1).png>)
 
 ### Grid
 
-![Rows](../../.gitbook/assets/guardian-grid.png)
+![Rows](<../../.gitbook/assets/guardian-grid (1).png>)

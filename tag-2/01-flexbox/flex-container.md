@@ -1,8 +1,8 @@
-# 02 Der Flex-Container
+# Der Flex-Container
 
 Die folgende Liste von Eigenschaften für den Flex-Container ist nicht abschliessend, zeigt jedoch die wichtigten Elemente.
 
-![Flex Container](../../.gitbook/assets/flex-container%20%281%29.svg)
+![Flex Container](<../../.gitbook/assets/flex-container (1).svg>)
 
 ## Flex-Container: `display`
 
@@ -16,9 +16,9 @@ Um zu definieren, dass es sich bei einem Element um einen Flex-Container handelt
 
 ## Flex-Container: `flex-direction`
 
-Mit der `flex-direction`-Eigenschaft kann definiert werden, ob sich die Elemente horizontal oder vertikal ausrichten sollen \(=Ausrichtungsachse\). Sprich, ob man mit einem Zeilenlayout oder einem Spaltenlayout arbeiten möchte:
+Mit der `flex-direction`-Eigenschaft kann definiert werden, ob sich die Elemente horizontal oder vertikal ausrichten sollen (=Ausrichtungsachse). Sprich, ob man mit einem Zeilenlayout oder einem Spaltenlayout arbeiten möchte:
 
-![Flex Direction](../../.gitbook/assets/flex-direction.svg)
+![Flex Direction](<../../.gitbook/assets/flex-direction (1).svg>)
 
 ```css
 .container {
@@ -26,18 +26,18 @@ Mit der `flex-direction`-Eigenschaft kann definiert werden, ob sich die Elemente
 }
 ```
 
-| Value | Beschreibung |
-| :--- | :--- |
-| row \(standard\) | links nach rechts |
-| row-reverse | rechts nach links |
-| column | oben nach unten |
-| column-reverse | unten nach oben |
+| Value          | Beschreibung      |
+| -------------- | ----------------- |
+| row (standard) | links nach rechts |
+| row-reverse    | rechts nach links |
+| column         | oben nach unten   |
+| column-reverse | unten nach oben   |
 
 ## Flex-Container: `flex-wrap`
 
 Standardmässig passt der Flex-Container sämtliche Flex-Items in eine Linie ein. Dieses Verhalten kann jedoch mit der `flex-wrap`-Eigenschaft angepasst werden.
 
-![Flex Wrap](../../.gitbook/assets/flex-wrap.svg)
+![Flex Wrap](<../../.gitbook/assets/flex-wrap (1).svg>)
 
 ```css
 .container {
@@ -45,17 +45,17 @@ Standardmässig passt der Flex-Container sämtliche Flex-Items in eine Linie ein
 }
 ```
 
-| Value | Beschreibung |
-| :--- | :--- |
-| nowrap \(standard\) | Alle Items in einer Linie |
-| wrap | Die Items werden auf mehrere Linien aufgeteilt, von oben nach unten |
-| wrap-reverse | Die Items werden auf mehrere Linien aufgeteilt, von unten nach oben |
+| Value             | Beschreibung                                                        |
+| ----------------- | ------------------------------------------------------------------- |
+| nowrap (standard) | Alle Items in einer Linie                                           |
+| wrap              | Die Items werden auf mehrere Linien aufgeteilt, von oben nach unten |
+| wrap-reverse      | Die Items werden auf mehrere Linien aufgeteilt, von unten nach oben |
 
 ## Flex-Container: `justify-content`
 
 Diese Eigenschaft definiert die Ausrichtung der Items einer einer Linie. Ebenfalls wird definiert, was mit dem restlichen Platz gemacht wird.
 
-![Justify Content](../../.gitbook/assets/justify-content.svg)
+![Justify Content](<../../.gitbook/assets/justify-content (1).svg>)
 
 ```css
 .container {
@@ -63,20 +63,20 @@ Diese Eigenschaft definiert die Ausrichtung der Items einer einer Linie. Ebenfal
 }
 ```
 
-| Value | Beschreibung |
-| :--- | :--- |
-| flex-start \(standard\) | Items werden am Anfang der Linie positioniert |
-| flex-end | Items werden ans Ende der Linie positioniert |
-| center | Items werden ins Zentrum der Linie positioniert |
-| space-between | Items werden gleichmässig auf der Linie verteilt; das erste Item ist am Anfang, das letzte Element am Ende |
-| space-around | Items werden gleichmässig auf der Linie verteilt; sämtliche Items haben rechts und links den gleichen Abstand; dies führt dazu, dass der Abstand am Anfang und am Ende nur halb so gross ist. |
-| space-evenly | Dito `space-around`, nur dass der ungleiche Abstand am Anfang und Ende der Items durch Flexbox kompensiert wird |
+| Value                 | Beschreibung                                                                                                                                                                                  |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| flex-start (standard) | Items werden am Anfang der Linie positioniert                                                                                                                                                 |
+| flex-end              | Items werden ans Ende der Linie positioniert                                                                                                                                                  |
+| center                | Items werden ins Zentrum der Linie positioniert                                                                                                                                               |
+| space-between         | Items werden gleichmässig auf der Linie verteilt; das erste Item ist am Anfang, das letzte Element am Ende                                                                                    |
+| space-around          | Items werden gleichmässig auf der Linie verteilt; sämtliche Items haben rechts und links den gleichen Abstand; dies führt dazu, dass der Abstand am Anfang und am Ende nur halb so gross ist. |
+| space-evenly          | Dito `space-around`, nur dass der ungleiche Abstand am Anfang und Ende der Items durch Flexbox kompensiert wird                                                                               |
 
 ## Flex-Container: `align-content`
 
-Diese Eigenschaft definiert die Ausrichtung der Linien entlang der vertikalen Achse \(`cross-axis`\). Ebenfalls wird definiert, was mit dem restlichen Platz gemacht wird. Somit ist diese Eigenschaft die vertikale Schwester von `justify-content`.
+Diese Eigenschaft definiert die Ausrichtung der Linien entlang der vertikalen Achse (`cross-axis`). Ebenfalls wird definiert, was mit dem restlichen Platz gemacht wird. Somit ist diese Eigenschaft die vertikale Schwester von `justify-content`.
 
-![Align Content](../../.gitbook/assets/align-content.svg)
+![Align Content](<../../.gitbook/assets/align-content (1).svg>)
 
 ```css
 .container {
@@ -84,12 +84,11 @@ Diese Eigenschaft definiert die Ausrichtung der Linien entlang der vertikalen Ac
 }
 ```
 
-| Value | Beschreibung |
-| :--- | :--- |
-| flex-start | Linien werden am Anfang des Containers angezeigt |
-| flex-end | Linien werden am Ende des Containers angezeigt |
-| center | Linien werden im Zentrum des Containers angezeigt |
-| space-between | Linien werden gleichmässig im Container verteilt; die erste Linie ist am Anfang, die letzte Linie am Ende |
-| space-around | Linien werden gleichmässig im Container verteilt, mit gleichem Abstand dazwischen |
-| stretch  \(standard\) | Die Höhe der Linien wird so definiert, dass sämtliche Linien gleich hoch sind und den ganzen Platz ausnutzen |
-
+| Value              | Beschreibung                                                                                                 |
+| ------------------ | ------------------------------------------------------------------------------------------------------------ |
+| flex-start         | Linien werden am Anfang des Containers angezeigt                                                             |
+| flex-end           | Linien werden am Ende des Containers angezeigt                                                               |
+| center             | Linien werden im Zentrum des Containers angezeigt                                                            |
+| space-between      | Linien werden gleichmässig im Container verteilt; die erste Linie ist am Anfang, die letzte Linie am Ende    |
+| space-around       | Linien werden gleichmässig im Container verteilt, mit gleichem Abstand dazwischen                            |
+| stretch (standard) | Die Höhe der Linien wird so definiert, dass sämtliche Linien gleich hoch sind und den ganzen Platz ausnutzen |

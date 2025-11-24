@@ -2,17 +2,13 @@
 
 ## Farbmodelle
 
-### RGB-Farbmodell
+Auf Bildschirmen und Beamer werden die Farben _additiv_ aus den drei Grundfarben **R**ot, **G**rün und **B**lau zusammengemischt.&#x20;
 
-Auf Bildschirmen und Beamer werden die Farben _additiv_ aus den drei Grundfarben **R**ot, **G**rün und **B**lau zusammengemischt:&#x20;
-
-<figure><img src="../../.gitbook/assets/rgb-farbmodell-1-1024x623.png" alt=""><figcaption><p>RGB Farbodell</p></figcaption></figure>
-
-In CSS können Farben mit Farbnamen oder Farbwerten Arten definiert werden.
+In CSS können Farben mit **Farbnamen** oder mit verschiedenen **Farbmodellen** definiert werden.
 
 ### Farbnamen
 
-z.B. black, white, red, darkgrey, lightblue, rebeccapurple, orange.&#x20;
+\> [Liste aller unterstützen Farbnamen](https://www.w3schools.com/cssref/css_colors.php)
 
 ```css
 .navigation {
@@ -20,8 +16,6 @@ z.B. black, white, red, darkgrey, lightblue, rebeccapurple, orange.&#x20;
     background-color: lightgrey;
 }
 ```
-
-\> [Liste aller unterstützen Farbnamen](https://www.w3schools.com/cssref/css_colors.php)
 
 ### RGB-Farbwerte
 
@@ -45,7 +39,7 @@ color: #d20; /* = #dd2200 */
 color: #000; /* = #000000 */
 ```
 
-Beide können zusätzlich eine 4. Zahl für Transparenz enthalten:&#x20;
+**Transparenz:** Beide können zusätzlich eine 4. Zahl für Transparenz enthalten:&#x20;
 
 ```css
 /* RGB (Red, Green, Blue) mit 50% Transparenz: */
@@ -57,55 +51,27 @@ color: #fee95d88;
 
 ### Andere Farbmodelle
 
-#### HSL (Hue, Saturation, Lightness)&#x20;
+* [hsl(Farbton, Sättigung, Helligkeit)](https://developer.mozilla.org/de/docs/Web/CSS/Reference/Values/color_value/hsl): Beschreibt Farben auf einer intuitiveren Weise: Farbton (Hue), Sättigung (Saturation) und Helligkeit (Lightness).
+* [hwb(Farbton, Weißanteil, Schwarzanteil)](https://developer.mozilla.org/de/docs/Web/CSS/Reference/Values/color_value/hwb): Kombiniert Farbton mit Anteilen von Weiß und Schwarz.
+* [lab(Helligkeit, a, b)](https://developer.mozilla.org/de/docs/Web/CSS/Reference/Values/color_value/lab): Ein Farbraum, der die menschliche Farbwahrnehmung nachbildet. Er besteht aus Helligkeit und den Achsen a (Grün-Rot) und b (Blau-Gelb).
+* [lch(Helligkeit, Sättigung, Farbton)](https://developer.mozilla.org/de/docs/Web/CSS/Reference/Values/color_value/lch): Auch ein geräteunabhängiger Farbraum, der auf CIELAB basiert, aber Helligkeit, Sättigung (Chroma) und Farbton verwendet.
 
-* **Beschreibung:** Beschreibt Farben auf einer intuitiveren Weise: Farbton (Hue), Sättigung (Saturation) und Helligkeit (Lightness).
-* **Syntax:** [hsl(Farbton, Sättigung, Helligkeit)](https://developer.mozilla.org/de/docs/Web/CSS/Reference/Values/color_value/hsl).
-  * **Farbton (Hue):** Ein Winkel von![](data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==) 0 bis 360 Grad.
-  * **Sättigung (Saturation):** Ein Prozentsatz von ![](data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==)0% bis 100%.
-  * **Helligkeit (Lightness):** Ein Prozentsatz von![](data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==) 0% bis 100%.
-* **Beispiel:** `hsl(30, 100%, 50%)` für ein reines Orange.&#x20;
+## Farbwähler im Browser und in Visual Studio Code
 
-#### HWB (Hue, White, Black)&#x20;
-
-* **Beschreibung:** Kombiniert Farbton mit Anteilen von Weiß und Schwarz.
-* **Syntax:** [hwb(Farbton, Weißanteil, Schwarzanteil)](https://developer.mozilla.org/de/docs/Web/CSS/Reference/Values/color_value/hwb).
-* **Beispiel:** `hwb(30, 0%, 0%)` ist reines Orange.
-* **Besonderheit:** Eine Farbe wird durch die Menge an reinem Farbton, reinem Weiß und reinem Schwarz definiert. Je mehr Weiß und Schwarz hinzugefügt wird, desto mehr wird die Farbe gedämpft.&#x20;
-
-#### LAB (CIELAB)&#x20;
-
-* **Beschreibung:** Ein Farbraum, der die menschliche Farbwahrnehmung nachbildet. Er besteht aus Helligkeit und den Achsen a (Grün-Rot) und b (Blau-Gelb).
-* **Syntax:** [lab(Helligkeit, a, b)](https://developer.mozilla.org/de/docs/Web/CSS/Reference/Values/color_value/lab).
-* **Beispiel:** `lab(50, 50, 70)`.&#x20;
-
-#### LCH (Luminance, Chroma, Hue)&#x20;
-
-* **Beschreibung:** Auch ein geräteunabhängiger Farbraum, der auf CIELAB basiert, aber Helligkeit, Sättigung (Chroma) und Farbton verwendet.
-* **Syntax:** [lch(Helligkeit, Sättigung, Farbton)](https://developer.mozilla.org/de/docs/Web/CSS/Reference/Values/color_value/lch).
-* **Beispiel:** `lch(50, 70, 30)`.
-
-## Farbwähler
-
-### Im Browser und in Visual Studio Code
-
-Im Browser kannst du über Rechts-Klick > Untersuchen oder mit \[F12] in die DevTools wechseln und dort die Farbe eines Elements in CSS finden und verändern:&#x20;
+Im Browser kannst du über Rechts-Klick > Untersuchen oder mit \[F12] in die DevTools wechseln und dort die Farbe eines Elements in CSS finden und verändern. Auch Transparenz ist möglich. Unterhalb des Farbwertes kann du das Farbmodell wecheln (HEX, RGB, etc.):&#x20;
 
 <figure><img src="../../.gitbook/assets/Browser-Color-Tool.png" alt=""><figcaption><p>DevTools Farbwähler</p></figcaption></figure>
 
-In Visual Studio Code gibt es beim Bearbeiten von CSS ein ähnliches Tool:&#x20;
+In Visual Studio Code gibt es beim Bearbeiten von CSS ein ähnliches Tool. Auch hier kannst du das Farbmodell ändern durch Klick auf den Farbwert oben:&#x20;
 
-<figure><img src="../../.gitbook/assets/VSC-Color-Tool.png" alt=""><figcaption><p>Farbwähler in Visual Studio Code</p></figcaption></figure>
+<div align="left"><figure><img src="../../.gitbook/assets/VSC-Color-Tool.png" alt=""><figcaption><p>Farbwähler in Visual Studio Code</p></figcaption></figure></div>
 
 1. Farbwähler öffnen
 2. Zwischen Farbmodellen umschalten
 3. Transparenz setzen
 
-### Links
-
-Farbräder:
+## Links
 
 * [Farbkreis](https://www.figma.com/de-de/farbkreis/) (Figma)
 * [Color Wheel](https://www.canva.com/colors/color-wheel/) (Canva)
 * [Farbwähler & umwandeln](https://www.mediaevent.de/css/farbrechner.html) (Mediaevent)
-* [Weitere Arten von Farbwerten selber ausprobieren](https://developer.mozilla.org/en-US/docs/Web/CSS/color) (Mozilla)

@@ -6,8 +6,7 @@ CSS-Regeln können an 3 Orten geschrieben werden:&#x20;
 
 **Extern in CSS-Datei(en)** mittels `<link>`-Element **(empfohlen)**: \
 Saubere Trennung von HTML & CSS, CSS kann von mehrere HTML-Dateien genutzt werden.\
-`<link href="css/style.css" rel="stylesheet">` \
-
+`<link href="css/style.css" rel="stylesheet">` <br>
 
 **Intern** im HTML-Dokument mittels `<style>`-Abschnitt im `<head>` (nicht empfohlen): \
 Styles, welche nur auf dieser Seite verfügbar sind.\
@@ -15,12 +14,10 @@ Styles, welche nur auf dieser Seite verfügbar sind.\
 `.navi { color: green; }`\
 `</style>`\
 \
-\
-
+<br>
 
 **Inline** als `style` Attribut im HTML-Tag (nicht empfohlen): \
-`<p style="font-weight: bold;">` \
-
+`<p style="font-weight: bold;">` <br>
 
 **Wichtig:** Inline-Styling sollte vermieden werden! Zweck von CSS ist es, Inhalt (HTML) und Styling (CSS) auseinander zu halten und Styles möglichst über die ganze Website einheitlich zu halten.&#x20;
 
@@ -61,40 +58,3 @@ Betrachte anschliessend die Datei `ueber-mich.html` im Browser - Hintergrund und
 
 Verschiebe nun das CSS in ein neues Unterverzeichnis `/css` und passe die Adresse im HTML-Head an.\
 Die angegebene URI kann dabei relativ oder absolute definiert werden - dazu ein kleiner Exkurs.
-
-### Relative Pfade
-
-Relative Pfaden haben das aktuelle Dokument als Ausgangspunkt für den angegebenen Pfad.
-
-Beispiel für relativer Pfad:
-
-```markup
-<link href="../../css/frontpage/style.css" rel="stylesheet">
-```
-
-`../` - Zwei Punkte und ein Frontslash vermitteln dem Interpretator des Pfades, dass dieser den aktuellen Ordner verlassen und in die nächst höhere Ebene gehen soll.
-
-```
-root/
-    html/
-       pages/
-         |-> index.html
-    css/
-       frontpage/
-         |-> style.css
-```
-
-Beziehungen von internen Dateien werden meistens mit einem relativen Pfad angegeben. So können die Dateien problemlos verschoben werden (beispielsweise von der Entwicklungsumgebung auf den Produktivserver).
-
-### Absolute Pfade
-
-Absolute Pfade haben immer das Stammverzeichnis eines Servers (Root) als Ausgangspunkt für den angegebenen Pfad.
-
-Beispiel für absoluter Pfad für die gleiche Ordnersturktur wie oben:
-
-```markup
-<link href="/root/css/frontpage/style.css" rel="stylesheet">
-<link href="https://www.example.com/root/css/frontpage/style.css" rel="stylesheet">
-```
-
-Werden Beziehungen zu externen Dateien (Frameworks, Schriften etc.) hergestellt, wird der Pfad meistens mit einem absoluten Pfad angegeben. Dabei sollte der Anbieter sicherstellen, dass sich der Pfad nicht ändert.&#x20;

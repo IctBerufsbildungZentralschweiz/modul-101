@@ -1,24 +1,39 @@
 # Schriftarten
 
-## Schriftarten
+## Wahl der Schriftarten
 
-Um die Schriftart eines Elements auf einer Website zu ändern, kann die `font-family` Property verwendet werden:
+Welche Schriften ist wofür geeignet? Für gutes Webdesign gibt es eine einfache Regel:&#x20;
+
+* **Logo:**\
+  Ziel ist Unverwechselbarkeit und Wiedererkennung. Deshalb können für Logos auch ausgefallene Fonts benutzt werden.&#x20;
+* **Überschriften:**\
+  Überschriften sind kurz und dienen der Orientierung. Sie dürfen einen starken Charakter haben, brauchen einen guten Kontrast, sollen skalierbar sein (h1-h6) und sollen ev. auch fett gut aussehen.\
+  Die Freiheit ist hier gross, auch ausgefallene Schriftwarten, Serifen-Schriften etc. sind möglich.&#x20;
+* **Lauftext:**\
+  Lauftexte sind Abschnitte, Sätze, der Hauptinhalt der Website. Wichtig sind leichte Lesbarkeit und guter Lesefluss. Deshalb sollten für Lauftext am Bildschirm schlichte, sehr gut lesbare Schriftarten gewählt werden, ohne Schnörkel und meist ohne Serifen.&#x20;
+
+Binde nicht zu viele Schriftarten und Schriftstile ein. Das Layout wird sonst unruhig und die Ladezeit der Website kann stark beinflussen werden. Oft werden 2 Schriftarten gewählt: Eine für Überschriften und eine für Lauftext.&#x20;
+
+## Schriftarten in CSS definieren
+
+Um die Schriftart eines Elements zu ändern, wird die `font-family` Property verwendet. Die Verwendung von `"Anführungszeichen"` ist optional, wenn die Schriftart keine Leerzeichen im Namen hat:
 
 ```css
 body {
-    font-family: "Calibri";
+    font-family: "Lucida Sans";
+}
+h1 {
+    font-family: Calibri;
 }
 ```
 
-Die Verwendung von `"Anführungszeichen"` ist optional, wenn die Schriftart keine Leerzeichen im Namen hat.
+## Problem: Unterschiedliche Fonts je nach Gerät
 
-### Das Problem
+Schriftarten werden **vom Computer des Besuchers** geladen. Je nach Betriebssystem und Software sind jedoch andere Schriftarten vorhanden. Calibri ist beispielsweise auf Windows installiert, auf Mac nicht. Das ergibt Darstellungsprobleme.
 
-Im Web werden die Schriftarten **vom Computer des Besuchers** geladen, dies kann zu Problemen führen. Nutzt der Besucher Windows als Betriebssystem, wird die Schrift korrekt angezeigt. Besucht man die Website jedoch auf einem Mac, gibt es Darstellungsprobleme, weil die Schriftart `Calibri` auf einem Mac nicht vorinstalliert ist.
+<div align="left"><img src="../../.gitbook/assets/calibri (1).png" alt="Fehlende Schriftart"></div>
 
-![Fehlende Schriftart](../../.gitbook/assets/calibri.png)
-
-### Alternative Schriftarten
+## Lösung 1: Alternative Schriftarten definieren
 
 Um dieses Problem zu umgehen können mehrere Schriftarten definiert werden.
 
@@ -49,13 +64,22 @@ body {
 }
 ```
 
-## Eigene Schriftarten einbinden
+## Lösung 2: Schriftarten einbinden
 
-Seit CSS3 können auch eigene Schriftarten für ein Dokument verwendet werden. Hier gilt es folgende Punkte zu beachten:
+Seit CSS3 können auch eigene Schriftarten verwendet werden. Hier gilt es folgende Punkte zu beachten:
 
 * Die Schriftart **muss auf einem Server** gehostet werden. Sie wird beim Aufruf einer Website heruntergeladen.
 * Die Lizenz der Schriftart muss die Verwendung im Web zulassen.
 * Die Einbindung einer eigenen Schriftart beeinflusst die **Ladezeit einer Website**, da mehr Daten heruntergeladen werden müssen.
+
+### Woher bekomme ich eine Schriftart?
+
+Es gibt viele Plattformen, welche Fonts anbieten. Ein paar Beispiele:&#x20;
+
+* [Google Fonts](https://fonts.google.com/)
+* [Adobe Fonts](https://fonts.adobe.com/)
+* [Fontspace](https://www.fontspace.com/)
+* [Fontshare](https://www.fontshare.com/pairs)
 
 #### `@font-face`
 
@@ -72,17 +96,13 @@ body {
 }
 ```
 
-### **Google Web Fonts**
+### **Beispiel: Google Web Fonts**
 
-Auf [fonts.google.com](https://fonts.google.com/) befindet sich eine grosse Sammlung von Schriftarten, die uneingschränkt im Web verwendet werden können.
+Auf [fonts.google.com](https://fonts.google.com/) befindet sich eine grosse Sammlung von Schriftarten, die uneingschränkt im Web verwendet werden können. Die Schriftarten werden von Google gehosted und können über eine einfache CSS-Datei eingebunden werden. Klicke auf [fonts.google.com](https://fonts.google.com/) auf "Get font" > "Get embed code".
 
-Die Schriftarten werden von Google gehosted und können über eine einfache CSS-Datei eingebunden werden. Klicke auf fonts.google.com auf "Get font" > "Get embed code":
-
-```markup
+```html
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 ```
-
-Achte auch hier darauf, nicht zu viele Schriftarten und Schriftstile einzubinden, da sie die Ladezeit deiner Website stark beinflussen können.
 
 Eine spezielle Funktion von Google Fonts ist, dass überprüft wird, mit welchem Browser die Datei geladen wird und immer nur die Schriftformate (`woff2`, `ttf`, `otf`, etc.) in der CSS-Datei verwendet werden, die der Browser unterstützt.
 
@@ -107,12 +127,11 @@ Wird die CSS-Datei direkt aufgerufen, sehen wir die soeben besprochenen `@font-f
 /* ... */
 ```
 
-### Datenschutz
+#### Problem: Datenschutz
 
-**Achtung:** Gemäss eines Urteils des Landgerichts München Anfang 2022 verstößt die Nutzung von Google Fonts ohne Einwilligung der User gegen die DSGVO (Europöische Datenschutz-Grundverordnung), wenn im Zuge dessen eine Verbindung zu Google-Servern in den USA aufgebaut werden muss, um die Fonts laden zu können. \
-Dies kann gelöst werden, in dem die Fonts herunter geladen und auf einem eigenen Server publiziert werden.&#x20;
+**Achtung:** Gemäss eines Urteils des Landgerichts München von 2022 verstößt das Laden von Google Fonts direkt von Google-Servern ohne Einwilligung der User gegen die DSGVO (Europöische Datenschutz-Grundverordnung), weil eine Verbindung zu Google-Servern in den USA aufgebaut wird und die Server ohne Einwilligung diverse Daten des Besuchers abgreifen.&#x20;
 
-### Google Fonts selber hosten
+#### Lösung: Google Fonts selber hosten
 
-Wähle auf fonts.google.com "Get font" > "Download all". Entpacke den Font danach aus der Zip-Datei in dein Projekt - erstelle dazu einen Ordner "/fonts". Binde sie dann mit [@font-face()](01-schriftarten.md#font-face) ein.
+Dies kann gelöst werden, in dem die Fonts herunter geladen und auf einem eigenen Server gehostet werden. Wähle dazu auf [fonts.google.com](https://fonts.google.com/) "Get font" > "Download all". Entpacke den Font danach aus der Zip-Datei in dein Projekt - erstelle dazu einen Ordner "/fonts". Binde sie dann mit [@font-face()](01-schriftarten.md#font-face) ein.
 
