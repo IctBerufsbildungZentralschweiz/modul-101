@@ -23,9 +23,9 @@ Bei der Suchmaschinen-Optimierung (SEO = Search Engine Optimization) unterscheid
 **Offsite-Massnahmen:** Alles, was ausserhalb der eigenen Website gemacht wird, z.B.&#x20;
 
 * **Externe Links auf deine Website:** Qualitativ hochwertige und themenrelevante Backlinks (mit innvollen Keywords) erhöhen die Autorität einer Domain.
-* **Digital PR und Kampagnen:** Koordinierte Aktionen auf anderen Medien, Newslettern, Blogs und Portalen steigern Bekanntheit und Reichweite.
+* **Digital PR und Kampagnen:** Koordinierte Aktionen auf anderen Medien, Newslettern, Blogs und Portalen steigern die Bekanntheit und Reichweite. Auch bezahlte Ads auf Google, Youtube und Social Media sind eine Möglichkeit.&#x20;
 * **Social Signals**: Aktivität und Shares auf Social Media können indirekt Rankings unterstützen, indem sie mehr Traffic und Aufmerksamkeit erzeugen.
-* **Verzeichnisse nutzen:** Lasse dein Angebot auf Branchen-Seiten listen, erstelle bei Google & ein [Business-Profil](https://business.google.com/de/business-profile/), mach einen Eintrag auf [Google-Maps](https://www.google.com/maps) für dein Unternehmen etc.
+* **Verzeichnisse nutzen:** Liste dein Angebot auf Branchen-Verzeichnissen, erstelle bei Google & Co ein [Business-Profil](https://business.google.com/de/business-profile/), trage dein Unternehmen auf [Google-Maps](https://www.google.com/maps) ein etc.
 
 ## Aufgabe
 
