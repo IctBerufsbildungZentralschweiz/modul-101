@@ -1,5 +1,5 @@
 # Projektarbeit
 
-Der Auftrag für das Abschlussprojekt wird an Tag 4 auf Moodle freigeschaltet:
+Der Auftrag für das Abschlussprojekt wird beim Projektstart in Moodle freigeschaltet:
 
 {% embed url="https://moodle.ict-bz.ch/" %}
