@@ -7,7 +7,6 @@ Ein paar bemerkenswerte Neuerungen der letzten Jahre, welche inzwischen von alle
 * [Container-Queries](../05-responsive-design/media-queries-1.md)
 * [Media-Query Range Syntax](../05-responsive-design/media-queries.md#fensterbreite-media-query-range-syntax)
 * [`backdrop-filter`](https://www.w3schools.com/cssref/css3_pr_backdrop-filter.php)  - siehe auch das [Demo auf W3Schools](https://www.w3schools.com/cssref/playdemo.php?filename=playcss_backdrop-filter)
-* Suche selber nach ein paar [weiteren Neuerungen](neuere-features.md#aufgabe-neue-features) und prüfe auf [caniuse.com](https://caniuse.com/) die aktuelle Browser-Unterstützung.
 
 ## CSS-Nesting
 
@@ -88,7 +87,7 @@ body {
 
 Dies wird vom Browser interpretiert wie folgendes:&#x20;
 
-```
+```css
 body {
   color: black;
 }
@@ -102,7 +101,7 @@ body .blog-post a {
 
 ## Aufgabe neue Features
 
-1. Suche im Netz nach wesentlichen neuen Features, welche seit 1-2 Jahren von allen gängigen Browsern unterstützt werden, oder schau dir ein paar Videos wie [dieses hier](https://youtube.com/watch?v=pGgy2QFhPtU) an.&#x20;
+1. Suche selber nach ein paar weiteren Neuerungen, welche seit 1-2 Jahren von allen gängigen Browsern unterstützt werden. Schau dir dazu auch ein paar [Videos](https://youtube.com/watch?v=pGgy2QFhPtU) an.&#x20;
 2. Schau auf [caniuse.com](https://caniuse.com/), wie die Browser-Unterstützung inzwischen ist.&#x20;
 3. Teste 1-2 Features, welche du spannend findest.&#x20;
 4. Optional: Zeige die Features der Gruppe.&#x20;
