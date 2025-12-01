@@ -17,7 +17,7 @@
     * [🛠️ Aufgabe "Über mich" strukturieren](tag-1/03-html/09-html-aufgabe-strukturieren.md)
   * [CSS](tag-1/04-css/README.md)
     * [📖 CSS-Gundlagen](tag-1/04-css/01-css-grundlagen.md)
-    * [🔗 CSS-Datei einbinden](tag-1/04-css/02-einbindung.md)
+    * [🔗 CSS einbinden](tag-1/04-css/02-einbindung.md)
     * [📖 CSS-Selektoren](tag-1/04-css/03-selektoren.md)
     * [📦 Boxmodell](tag-1/04-css/06-boxmodell.md)
     * [✅ CSS Validierung](tag-1/04-css/05-validierung.md)

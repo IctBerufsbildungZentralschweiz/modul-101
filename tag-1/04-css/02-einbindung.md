@@ -1,23 +1,30 @@
-# 🔗 CSS-Datei einbinden
+# 🔗 CSS einbinden
 
 ## Wo kann CSS definiert werden?
 
 CSS-Regeln können an 3 Orten geschrieben werden:&#x20;
 
 **Extern in CSS-Datei(en)** mittels `<link>`-Element **(empfohlen)**: \
-Saubere Trennung von HTML & CSS, CSS kann von mehrere HTML-Dateien genutzt werden.\
-`<link href="css/style.css" rel="stylesheet">` <br>
+CSS in einer eigenen Datei wird im HTML-Dokument im `<head>` verlinkt.Dies bringt eine saubere Trennung von HTML & CSS und CSS kann von mehrere HTML-Dateien gemeinsam genutzt werden.
+
+```html
+<link href="css/style.css" rel="stylesheet">
+```
 
 **Intern** im HTML-Dokument mittels `<style>`-Abschnitt im `<head>` (nicht empfohlen): \
-Styles, welche nur auf dieser Seite verfügbar sind.\
-`<style>`\
-`.navi { color: green; }`\
-`</style>`\
-\
-<br>
+Styles, welche nur auf dieser Seite verfügbar sind.
 
-**Inline** als `style` Attribut im HTML-Tag (nicht empfohlen): \
-`<p style="font-weight: bold;">` <br>
+```html
+<style>
+  .navi { color: green; }
+</style>
+```
+
+**Inline** als `style` Attribut im HTML-Tag (nicht empfohlen):&#x20;
+
+```html
+ <p style="font-weight: bold;">
+```
 
 **Wichtig:** Inline-Styling sollte vermieden werden! Zweck von CSS ist es, Inhalt (HTML) und Styling (CSS) auseinander zu halten und Styles möglichst über die ganze Website einheitlich zu halten.&#x20;
 
