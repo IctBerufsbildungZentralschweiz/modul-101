@@ -26,7 +26,7 @@ Das CSS-Layout basiert auf dem Box-Modell. Jede Box, die Platz auf einer Webseit
 3. Wechsle zwischen den Tabs "Styles" und "Computed", das ist anders?&#x20;
 4. Untersuche noch ein paar andere Elemente auf der gleichen Seite.&#x20;
 
-### Beispiele: 4 Seiten einer Box - top, right, bottom, left
+### Shorthand Properties: 4 Seiten - top, right, bottom, left
 
 Die Abstände und Rahmen einer Box können für alle 4 Seiten einzeln oder zusammen oder einzeln definiert werden. Ein paar Beispiele:&#x20;
 

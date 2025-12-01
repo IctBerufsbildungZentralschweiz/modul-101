@@ -20,7 +20,7 @@
     * [🔗 CSS einbinden](tag-1/04-css/02-einbindung.md)
     * [📖 CSS-Selektoren](tag-1/04-css/03-selektoren.md)
     * [📦 Boxmodell](tag-1/04-css/06-boxmodell.md)
-    * [✅ CSS Validierung](tag-1/04-css/05-validierung.md)
+    * [✅ CSS-Validierung](tag-1/04-css/05-validierung.md)
     * [🛠️ Aufgaben zu CSS](tag-1/04-css/04-aufgabe-about-me-1.md)
 * [Tag 2](tag-2/README.md)
   * [Gestaltung mit CSS](tag-2/03-gestaltung/README.md)
