@@ -51,6 +51,17 @@ Standardmässig passt der Flex-Container sämtliche Flex-Items in eine Linie ein
 | wrap              | Die Items werden auf mehrere Linien aufgeteilt, von oben nach unten |
 | wrap-reverse      | Die Items werden auf mehrere Linien aufgeteilt, von unten nach oben |
 
+## Abstand zwischen den Items: `gap`&#x20;
+
+Die Eigenschaft gap legt den minimalen Abstand zwischen den Items fest:&#x20;
+
+```css
+.container {
+    display: flex;
+    gap: 20px; /* oder gap: 1.3rem; etc */
+}
+```
+
 ## Flex-Container: `justify-content`
 
 Diese Eigenschaft definiert die Ausrichtung der Items einer einer Linie. Ebenfalls wird definiert, was mit dem restlichen Platz gemacht wird.

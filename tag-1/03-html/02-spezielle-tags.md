@@ -95,6 +95,25 @@ in Luzern.</p>
 
 **Resultat:** Teste mit [`codepen.io`](https://codepen.io/dosullz/pen/QNxdzd), wie das Resultat des obigen Codes im Browser aussieht.&#x20;
 
+## Kommentare
+
+Kommentare in HTML helfen, Code besser zu verstehen:&#x20;
+
+```html
+<!-- Main content -->
+<main> ... </main>
+
+<!-- Teasers for current events -->
+<aslide> ... </aslide>
+```
+
+Mit Kommentaren kann auch HTML-Code (temporär) deaktiviert werden. Dadurch wird er vom Browser nicht interpretiert (parsed):&#x20;
+
+```html
+<article> Neuer Beitrag...</article>
+<!-- <article> Dieser Beitrag ist noch nicht fertig </article> -->
+```
+
 ## 🛠️ Aufgabe
 
 Gehe auf [Codepen.io](https://codepen.io/pen/) und probiere folgende Tags aus:
@@ -107,6 +126,7 @@ Gehe auf [Codepen.io](https://codepen.io/pen/) und probiere folgende Tags aus:
 - <a>
 - <img>
 - <br>
+- <!-- Kommentar -->
 - Neue Zeile in HTML (ohne <br>)
 ```
 
