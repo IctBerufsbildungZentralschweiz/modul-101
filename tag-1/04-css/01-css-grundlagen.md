@@ -41,3 +41,29 @@ p {
   border: 1px solid black;
 }
 ```
+
+## Kommentare
+
+Wie in HTML können auch in CSS Kommentare zur besseren Verständlichkeit des Codes hinzugefügt werden:&#x20;
+
+```css
+/* Styles for Buttons */
+button {
+    border-radius: 5px;
+}
+```
+
+CSS-Code kann auch auskommentiert werden, wenn er aktuell nicht interpretiert werden soll:&#x20;
+
+```css
+button {
+    border-radius: 5px;
+    /*font-weight: bold; */
+}
+```
+
+In diesem Beispiel wird eine Formatierung aktuell nicht berücksichtigt.&#x20;
+
+**I**m Browser in den DevTools > Styles erkennt der Browser dann zwar die Deklaration, deaktiviert sie jedoch:&#x20;
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure></div>

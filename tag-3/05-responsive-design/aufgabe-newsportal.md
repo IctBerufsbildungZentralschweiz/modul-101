@@ -14,6 +14,7 @@ Lade die HTML- und CSS-Dateien `index.html`, `style.css` und `flex.css` herunter
 
 ![Order](../../.gitbook/assets/news-1.png)
 
+Die Elemente (cards) sollen einen Abstand von `20px` (oder `1.3rem`) haben. x\
 Dabei dürfen die anderen Dateien `index.html` und `style.css` **nicht verändert werden**.
 
 ## Aufgabe 2

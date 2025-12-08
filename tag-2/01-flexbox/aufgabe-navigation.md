@@ -24,7 +24,7 @@ Erstelle eine 2-stufige Navigation mit ausklappenden Untermenüs nur mit HTML & 
 
 1.  Erstelle im HTML-Dokument eine 2-stufige verschachtelte Navigation mit Listen-Elementen aufgebaut ist, oder nutze das folgende Gerüst und studiere die Verschachtelung!&#x20;
 
-    ```
+    ```html
     <nav>
       <ul>
         <li>
@@ -40,7 +40,7 @@ Erstelle eine 2-stufige Navigation mit ausklappenden Untermenüs nur mit HTML & 
     ```
 2.  Im CSS sollen erst mal die Aufzählungszeichen der Liste entfernt werden:&#x20;
 
-    ```
+    ```css
     nav ul {
       margin: 0;
       padding: 0;
