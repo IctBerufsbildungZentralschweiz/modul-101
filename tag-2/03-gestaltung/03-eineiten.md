@@ -18,6 +18,16 @@ In CSS werden verschiedene Einheiten verwendet, um Größenangaben für Abständ
 * Beispiel: `.map-container { width: 50%; }`\
   Einen Kartenausschnitt auf die halbe Breite des umgebenden Containers skalieren.
 
+**Relative Einheiten (`rem` und `em`)**
+
+* "rem" ist relativ zur Schriftgröße des Root-Elements (\<html>).\
+  Das Root-Element hat meist die Schriftgröße 1rem = 16px.
+* "em" ist relativ zur Schriftgröße des übergeordneten Elements.\
+  &#xNAN;_&#x49;st recht unberechenbar und sollte nur in Ausnahmen verwendet werden._
+* **Anwendungsbereich:** Wird vor allem eingesetzt für skalierbare Schriftgrössen und Abstände. Ist relevant für Accessability: Wird die Standard-Schriftgrösse des Browsers verändert, dann werden rem-Einheiten proportional dazu skaliert.&#x20;
+* **Beispiel:** `h1 { font-size: 2.5rem; }`\
+  Überschrift 1 wird 2.5 mal so gross wie Standard-Text angezeigt, also 2.5x16px = 40px
+
 **Viewport Height (`vh`) und Viewport Width (`vw`)**
 
 * Relativ zur Höhe bzw. Breite des Browserfensters.
@@ -43,18 +53,7 @@ In CSS werden verschiedene Einheiten verwendet, um Größenangaben für Abständ
 
 **min(), max(), clamp()** sind anschaulich beschrieben auf [https://web.dev/articles/min-max-clamp](https://web.dev/articles/min-max-clamp).
 
-## Veraltete oder selten genutzte Einheiten
-
-**Relative Einheiten (`em` und `rem`)**
-
-* "rem" ist relativ zur Schriftgröße des Root-Elements (\<html>).\
-  Das Root-Element hat meist die Schriftgröße 1rem = 16px.
-* "em" ist relativ zur Schriftgröße des übergeordneten Elements.\
-  &#xNAN;_&#x49;st recht unberechenbar und sollte nicht mehr verwendet werden._
-* **Anwendungsbereich:** Wird vor allem eingesetzt für skalierbare Schriftgrössen.\
-  &#xNAN;_&#x48;eute nicht mehr nötig, da Browser auch Pixel korrekt skalieren können._
-* **Beispiel:** `h1 { font-size: 2.5rem; }`\
-  Überschrift 1 wird 2.5 mal so gross wie Standard-Text angezeigt, also 2.5x16px = 40px
+## Selten genutzte Einheiten
 
 **Absolute Längeneinheiten (`cm`, `mm`, `in`, `pt`, `pc`)**
 
