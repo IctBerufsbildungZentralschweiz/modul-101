@@ -23,6 +23,7 @@
     * [📦 Boxmodell](tag-1/04-css/06-boxmodell.md)
     * [✅ CSS-Validierung](tag-1/04-css/05-validierung.md)
     * [🛠️ Aufgaben zu CSS](tag-1/04-css/04-aufgabe-about-me-1.md)
+    * [🛠️ Website veröffentlichen](tag-1/04-css/website-veroffentlichen.md)
 * [Tag 2](tag-2/README.md)
   * [Gestaltung mit CSS](tag-2/03-gestaltung/README.md)
     * [Schriftarten](tag-2/03-gestaltung/01-schriftarten.md)
