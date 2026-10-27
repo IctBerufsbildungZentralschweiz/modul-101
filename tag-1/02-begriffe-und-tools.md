@@ -22,3 +22,5 @@ Hilfreicher ist aber eine Entwicklungsumgebung, z.B. [Visual Studio Code](https:
 **Validierung:** [HTML-Validator](https://validator.w3.org/) und [CSS-Validator](https://jigsaw.w3.org/css-validator/)
 
 **Testen und Fehlersuche:** Dein Browser bietet dir umfangreiche Developer Tools. Nutze im Browser die Taste `F12` oder Rechts-Klick & "Untersuchen" auf ein Element einer Website.&#x20;
+
+**Veröffentlichung:** FTP-Tools wie [WinSCP](https://winscp.net/eng/download.php) oder [FileZilla](https://filezilla-project.org/).

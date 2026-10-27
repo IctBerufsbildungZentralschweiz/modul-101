@@ -72,12 +72,12 @@ in Luzern.</p>
 Ähnlich wie in einem Textverarbeitungsprogramm gibt es in HTML zwei Arten von Umbrüchen:
 
 * Das **`<p>`-Element** definiert einen neuen **Absatz (Paragraph)**. \
-  &#xNAN;_&#x53;emantik:_ Inhaltlich beginnt hier etwas neues.\
-  &#xNAN;_&#x4C;ayout:_ Zwischen Absätzen erzeugt der Browser einen kleinen Abstand.&#x20;
+  _&#x53;emantik:_ Inhaltlich beginnt hier etwas neues.\
+  _&#x4C;ayout:_ Zwischen Absätzen erzeugt der Browser einen kleinen Abstand.&#x20;
 * Das **`<br>`-Element** definiert einen **Zeilenumbruch (Break)** innerhalb eines Absatzes. \
   Das `<br>`-Element  ist ein **leerer Tag**, hat also keinen Inhalt und kein schliessendes Tag. \
-  &#xNAN;_&#x53;eminatik:_ Der Text gehört noch zum gleichen Inhalt, soll aber auf einer neuen Zeile stehen.\
-  &#xNAN;_&#x4C;ayout:_ Der Browser erzeugt keinen Abstand zwischen den Zeilen. \
+  _&#x53;eminatik:_ Der Text gehört noch zum gleichen Inhalt, soll aber auf einer neuen Zeile stehen.\
+  _&#x4C;ayout:_ Der Browser erzeugt keinen Abstand zwischen den Zeilen. \
   **Nutze dieses Tag sparsam!**&#x20;
 * Eine **neue Zeile in HTML** wird vom Browser ignoriert und dient nur dazu, den HTML-Code für den Programmierer übersichtlich zu gestalten.
 
