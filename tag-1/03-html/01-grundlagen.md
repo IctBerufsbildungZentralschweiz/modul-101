@@ -66,6 +66,9 @@ Gewisse Elemente haben keinen Inhalt, diese werden leere Elemente genannt. Beisp
 
 Das `<img>`-Tag beinhaltet zwei Attribute, aber es gibt kein schliessendes `</img>`-Tag und keinen Inhalt in dem Element. Das `<img>`-Tag braucht keinen Inhalt um einen Effekt zu haben. Es bindet ein Bild an der entsprechenden Stelle in der HTML-Seite ein.
 
+**Frage:** Welche andere Beispiele findest du in einer Website? \
+Tipp: Schau dir einzelne Texte mit Umbrüchen und auch den HTML `<head>` an.
+
 ## Liste mit HTML-Tags
 
 Unter folgendem Link befindet sich eine Liste der HTML-Tags mit Beschreibung und Beispielen:
