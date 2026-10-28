@@ -24,7 +24,7 @@ In CSS werden verschiedene Einheiten verwendet, um Größenangaben für Abständ
   Das Root-Element hat meist die Schriftgröße 1rem = 16px.
 * "em" ist relativ zur Schriftgröße des übergeordneten Elements.\
   _&#x49;st recht unberechenbar und sollte nur in Ausnahmen verwendet werden._
-* **Anwendungsbereich:** Wird vor allem eingesetzt für skalierbare Schriftgrössen und Abstände. Ist relevant für Accessability: Wird die Standard-Schriftgrösse des Browsers verändert, dann werden rem-Einheiten proportional dazu skaliert.&#x20;
+* **Anwendungsbereich:** Wird vor allem eingesetzt für skalierbare Schriftgrössen, Masse und Abstände für barrierefreie Websites. Wird die Standard-Schriftgrösse des Browsers verändert, dann werden rem-Einheiten proportional dazu skaliert.&#x20;
 * **Beispiel:** `h1 { font-size: 2.5rem; }`\
   Überschrift 1 wird 2.5 mal so gross wie Standard-Text angezeigt, also 2.5x16px = 40px
 
@@ -62,3 +62,14 @@ In CSS werden verschiedene Einheiten verwendet, um Größenangaben für Abständ
   _&#x57;eniger gebräuchlich für Webdesign._
 * **Beispiel:** `body { width: 21cm; }`\
   Skaliert ein Dokument zum Ausdrucken auf A4-Breite
+
+## 🛠️ Aufgaben (optional)
+
+1. **Skaliere** ein Bild in deiner Seite "Über mich" mit verschiedenen Einheiten: `px, %, vw`&#x20;
+2. Teste, was `border-radius: 50%;` mit deinem Portraitbild macht.
+3. **Zu breite Bilder:** Füge ein breites Bild ein und mache das Fenster so schmal, bis das Bild nicht mehr Platz hat. Was passiert? Teste nun das gleiche, wenn du für alle Bilder `max-width: 100%` definierst. Welchen Selektor brauchst du, damit die Regel für alle Bilder gilt?&#x20;
+4. Teste zusätzlich zu `width` die CSS-Eigenschaft `min-width: 50%` oder `max-width: 50%` an einem Element.
+
+**Zusatzaufgabe:**
+
+* Teste verschiedene Funktionen für einen Textblock oder ein Bild: `min(), max(), calc(), clamp()`&#x20;

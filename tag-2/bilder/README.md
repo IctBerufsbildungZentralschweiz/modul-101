@@ -18,8 +18,6 @@ Weitere Fragen:&#x20;
 1. Auf der Seite "Produkte" sollen Original-Bilder von Geräte-Herstellern eingefügt werden. Worauf ist dabei zu achten?&#x20;
 2. Was sind Vor- und Nachteile, wenn du die Bilder in hoher Qualität und Auflösung einfügst?&#x20;
 
-
-
 ## Rechte an Bildern & Inhalten
 
 > Alle Inhalte im Internet sind grundsätzlich urheberrechtlich geschützt und dürfen nicht öffentlich verbreitet werden. Das gilt für Musik, die zwar frei aus dem Web kopiert, aber nur im privaten Kreis ab­gespielt und weitergegeben werden darf, ebenso wie für Fotos: Als Desktop-Hintergrund, Schlafzimmerposter oder Illustra­tion in einer E-Mail an Freunde darf man jedes Bild verwenden. Auf einer öffentlich zugänglichen Homepage aber eben nicht.
@@ -40,8 +38,6 @@ Daneben gibt es auch noch komplett kostenlose Bildportale. Meistens sind die Auf
 * [Unsplash](https://unsplash.com)
 * [Pixabay](https://pixabay.com/de/)
 * [Pixelio](https://www.pixelio.de/)
-
-
 
 ## Bild-Formate
 
@@ -137,8 +133,6 @@ AVIF eignet sich hervorragend für Szenarien, in denen **maximale Bildqualität 
 
 * [Das perfekte Bildformat für Websites und Bilder-Sets für verschiedene Bildschirmgrössen](https://app-bis-web.de/perfektes-bildformat-websites/)
 
-
-
 ## Bild-Grössen & Qualität
 
 Wichtig ist es nicht nur die Bilder im richtigen Bildformat bereitzustellen, sondern auch in einer angemessenen Grösse. **Bilder sollten immer in der Grösse bereitgestellt werden, in der sie tatsächlich im Web verwendet werden.**
@@ -186,8 +180,6 @@ img {
 
 Dies verhindert, dass ein Bild jemals grösser werden kann als der Container, in welchen es rein passen sollte. Probiere es aus!&#x20;
 
-
-
 ## Ladegeschwindigkeit
 
 Die zentrale Rolle der Ladegeschwindigkeit für eine Website zeigt folgendes Beispiel:
@@ -234,8 +226,6 @@ Werden auf einer Seite viele Bilder angezeigt, ein Teil ev. erst beim Scrollen, 
 <img src="/images/ocean.jpg" alt="Ocean" loading="lazy">
 ```
 
-
-
 ## Bild als Hintergrund
 
 In Seiten-Headern oder für spezielle Effekte können Bilder als Hintergrund eingefügt werden.&#x20;
@@ -276,24 +266,20 @@ Ein Hintergrundbild nimmt nicht automatisch Platz ein. Deshalb definieren wir hi
 }
 ```
 
-
-
 ## **Platzhalter-Bilder**
-
-
 
 **Häufige Situation in Projekten:**&#x20;
 
 Für einen Kunden soll eine Website entworfen werden, er kann aber die Bilder noch nicht liefern. Da hast du 3 Möglichkeiten:&#x20;
 
-* Nutze vorübergehend andere Bilder vom Kunden, z.B. von der alten Website.&#x20;
-* Setze Platzhalter-Fotos (z.B. von [**picsum.photos**](https://picsum.photos/)) oder Platzhalter-Bilder mit Text (z.B. [**dummyimage.com**](https://dummyimage.com/)) ein.
-* Sage dem Kunden, dass du erst weiter machen kannst, wenn er liefert. :-)
+1. Nutze vorübergehend andere Bilder vom Kunden, z.B. von der alten Website.&#x20;
+2. Setze Platzhalter-Fotos (z.B. von [**picsum.photos**](https://picsum.photos/)), Platzhalter-Avatare (z.B. von [**pravatar.cc**](https://pravatar.cc/)) oder Platzhalter-Bilder mit Text (z.B. [**dummyimage.com**](https://dummyimage.com/)) ein.
+3. Sage dem Kunden, dass du erst weiter machen kannst, wenn er liefert. :-)
 
 Das gleiche Problem kann mit fehlenden Texten auftreten. Dafür kannst du:&#x20;
 
-* Alte oder erfundene Texte einfügen, die zum Kunden passen.
-* Blindtexte (ohne sinnvollen Inhalt) einsetzen: [**blindtextgenerator.de**](https://www.blindtextgenerator.de/)
+1. Alte oder erfundene Texte einfügen, die zum Kunden passen.
+2. Blindtexte (ohne sinnvollen Inhalt) einsetzen: [**blindtextgenerator.de**](https://www.blindtextgenerator.de/)
 
 
 

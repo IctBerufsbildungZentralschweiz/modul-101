@@ -121,7 +121,7 @@ a.nav-link {
 
 
 
-## 🛠️ Aufgabe
+## 🛠️ Aufgaben
 
 Auf deiner Seite "Über mich":
 

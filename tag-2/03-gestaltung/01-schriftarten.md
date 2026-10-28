@@ -135,3 +135,10 @@ Wird die CSS-Datei direkt aufgerufen, sehen wir die soeben besprochenen `@font-f
 
 Dies kann gelöst werden, in dem die Fonts herunter geladen und auf einem eigenen Server gehostet werden. Wähle dazu auf [fonts.google.com](https://fonts.google.com/) "Get font" > "Download all". Entpacke den Font danach aus der Zip-Datei in dein Projekt - erstelle dazu einen Ordner "/fonts". Binde sie dann mit [@font-face()](01-schriftarten.md#font-face) ein.
 
+## 🛠️ Aufgaben
+
+Füge deiner Webseite `about-me.html` eine individuelle Schrift hinzu:&#x20;
+
+1. Wähle eine Schrift von [Google-Fonts](https://fonts.google.com/) aus ("Get font" rechts oben) und binde diese mittels "Get embed code" in die Seite ein. Wähle anschliessend per CSS die ausgewählte Schriftart als Standardschrift (`body`).
+2. Definiere eine alternative Schift, falls der Google-Font nicht oder langsam lädt.
+3. **Datenschutz:** Lade die Schriftart von Google herunter ("Download" statt "Get embed code"), packe  sie aus der Zip-Datei in einem neuen Ordner `/fonts` und [binde sie von da ein](01-schriftarten.md#eigene-schriftarten-einbinden), damit keine Verbingung zu Google mehr nötig ist.

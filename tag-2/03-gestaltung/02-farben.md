@@ -75,3 +75,16 @@ In Visual Studio Code gibt es beim Bearbeiten von CSS ein ähnliches Tool. Auch 
 * [Farbkreis](https://www.figma.com/de-de/farbkreis/) (Figma)
 * [Color Wheel](https://www.canva.com/colors/color-wheel/) (Canva)
 * [Farbwähler & umwandeln](https://www.mediaevent.de/css/farbrechner.html) (Mediaevent)
+
+## 🛠️ Aufgaben
+
+Nutze die letzte Aufgabe für folgende Experimente:&#x20;
+
+1. Untersuche **im Browser** ein Element mit Hintergrundfarbe, wähle eine andere Farbe mit dem Farbmischer und kopiere den neuen Wert in dein CSS. Probiere die rgb(...)- und die #xxxxxx-Variante aus.
+2. Mische eine Hintergrundfarbe für das ganze Dokument (`<body>`-Element) mittels der rgb()-Funktion.
+3. Ändere die Transparenz einmal mittels rgb()-Funktion und danach mittels #hex-wert, und schau, welche anderen Farbmodelle ev. noch Transparenz erlauben.&#x20;
+4. Untersuche direkt in den DevTools das Farbmodell [LAB](02-farben.md#lab-cielab).
+
+**Zusatzaufgabe:**
+
+* Stelle mit einem Farbwähler eine Farbkombination von 5 Farben zusammen und wende sie sinnvoll auf deine Seite "Über mich" an. Du kannst dafür CSS-Variabeln nutzen, wenn du willst.
