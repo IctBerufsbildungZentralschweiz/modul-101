@@ -15,3 +15,18 @@ Nutzt die Entwickler-Tools eures Browsers und findet Beispiele, wie folgendes um
 * 1-2 Effekte oder Interaktionen: Nur grob, wo findest du sie im Code?&#x20;
 
 Stellt eure Erkenntnisse vor.&#x20;
+
+{% hint style="info" %}
+**Entwicklertools öffnen**
+
+* In fast allen Browsern mit Rechtsklick + "Untersuchen"
+
+Oder:&#x20;
+
+* Windows (Firefox + Chrome): F12
+* Mac (Firefox + Chrome): Cmd + Option (Alt) + I
+* Safari: Das Entwicklermenü muss oft erst aktiviert werden: \
+  Einstellungen > Erweitert > "Funktionen für Webentwickler anzeigen".\
+  Danach: Cmd + Option (Alt) + C \
+  (oder über das Menü "Entwickler > Web-Inspektor einblenden")
+{% endhint %}
