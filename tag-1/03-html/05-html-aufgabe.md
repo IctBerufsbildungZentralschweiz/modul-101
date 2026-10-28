@@ -9,7 +9,7 @@
 3. Setze im Bereich \<head> den Inhalt des \<title>-Elementes auf "Über xy" (xy = dein Name).
 4. Füge innerhalb des \<body> folgende Angaben zu dir mit sinnvoller HTML-Auszeichnungssprache ein:&#x20;
    * Überschrift 1, Inhalt wie im \<title>-Element
-   * Einen "Slogan" zu dir, ein kurzer Satz, der zu dir passt. Falls dir nichts einfällt, gib deinen Namen auf [sloganizer.net](http://www.sloganizer.net/) ein und schau, was raus kommt. :-)
+   * Einen "Slogan" zu dir, ein kurzer Satz, der zu dir passt. Falls dir nichts einfällt, gib deinen Namen auf [sloganizer.de](https://sloganizer.de/) ein und schau, was raus kommt. :-)
    * Überschrift 2 "Adresse", gefolgt von zwei Absätzen: \
      Deine Wohn-Adresse: Fett gedruckt "Wohnadresse", danach mit Zeilenumbrüchen eine Adresse.\
      Deine Arbeits- oder Schuladresse analog der Wohn-Adresse.
