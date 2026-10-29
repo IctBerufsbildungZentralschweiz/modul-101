@@ -6,4 +6,4 @@
    * Bilder einbinden, inkl. Lazy-Loading
    * Responsive Bilder: Teste `<picture>` mit WebP- und JPEG-Versionen
 4. Zusatzaufgaben für schnelle Lernende:&#x20;
-   * Erstelle eine Galerie mit Bildbreite 33%. Schau im Internet nach, wie sie automatisch sinnvoll nebeneinander / untereinander angeordnet werden können
+   * Erstelle eine Galerie mit Bildbreite 33%. Schau im Internet nach, wie sie automatisch sinnvoll nebeneinander / untereinander angeordnet werden können.
