@@ -1,6 +1,6 @@
 # Drucklayout (Print)
 
-Mittels der [@media-Query](../05-responsive-design/media-queries.md#medien-typen) kann festgestellt werden, ob die Webseite gerade ausgedruckt wird. Entsprechend können in CSS für den Druck andere Formatierungen überschrieben werden.
+Mittels der [@media-Query](../../tag-2/05-responsive-design/media-queries.md#medien-typen) kann festgestellt werden, ob die Webseite gerade ausgedruckt wird. Entsprechend können in CSS für den Druck andere Formatierungen überschrieben werden.
 
 **Aufgabe:**&#x20;
 

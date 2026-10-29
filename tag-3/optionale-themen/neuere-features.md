@@ -4,8 +4,8 @@ Ein paar bemerkenswerte Neuerungen der letzten Jahre, welche inzwischen von alle
 
 * [CSS-Nesting](neuere-features.md#css-nesting)
 * [Preudo-Selektor `:has()`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:has) - auch beschrieben auf [css-tricks.com/the-css-has-selector](https://css-tricks.com/the-css-has-selector/)
-* [Container-Queries](../05-responsive-design/media-queries-1.md)
-* [Media-Query Range Syntax](../05-responsive-design/media-queries.md#fensterbreite-media-query-range-syntax)
+* [Container-Queries](../../tag-2/05-responsive-design/media-queries-1.md)
+* [Media-Query Range Syntax](../../tag-2/05-responsive-design/media-queries.md#fensterbreite-media-query-range-syntax)
 * [`backdrop-filter`](https://www.w3schools.com/cssref/css3_pr_backdrop-filter.php)  - siehe auch das [Demo auf W3Schools](https://www.w3schools.com/cssref/playdemo.php?filename=playcss_backdrop-filter)
 
 ## CSS-Nesting

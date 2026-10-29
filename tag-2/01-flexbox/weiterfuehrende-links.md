@@ -1,6 +1,4 @@
-# Weiterführende Links
-
-## Flexbox Froggy
+# 🛠️ Flexbox Froggy
 
 CSS Flexbox spielerisch lernen: [https://flexboxfroggy.com/](https://flexboxfroggy.com/)
 

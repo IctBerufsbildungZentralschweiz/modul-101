@@ -2,17 +2,11 @@
 
 ## CSS Grids für Layouts
 
-Das `CSS Grid Layout` Modul von CSS dient dazu, das Definieren von gridbasierten Layouts zu vereinfachen.
+Das `CSS Grid Layout` dient dazu, Elemente zweidimensional anzuordnen, z.B. für ein gridbasierten Layout oder für komplexere Elemente innerhalb einer Seite.
 
-## Layouts in CSS
+Alternativ können einfache Layouts auch mit Flexbox erstellt werden, für komplexere Layouts sind aber Grids deutlich effizienter.&#x20;
 
-Die Methoden zur Definition von Layouts in CSS haben in den letzten Jahren einen stetigen Wandel durchlebt. Dabei wurden folgende Varianten verwendet:
-
-* Tabellen
-* Floats
-* Grids und Flexbox
-
-Abhängig des Alters eines Projekts wirst du eine der drei Varianten vorfinden. Wir konzentrieren uns in diesem ÜK auf die modernste Methode mit Grids und Flexbox.
+Früher wurden auch Tabellen oder Floats für Layouts verwendet, selten siehst du sie noch in älteren Websites.
 
 ## Was ist ein Grid?
 

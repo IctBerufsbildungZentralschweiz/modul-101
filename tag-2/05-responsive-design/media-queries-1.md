@@ -66,7 +66,7 @@ nav ul {
 
 ## 🛠️ Aufgabe
 
-Wende die Container Queries auf deine Navigation auf "Über mich" an:&#x20;
+Wende die Container Queries auf deine Navigation der Aufgabe "Navigation" an:&#x20;
 
 * "Mobile first" heisst, dass die Standard-Anordnung der Menülinks vertikal (übereinander) ist.&#x20;
 * Entscheide, ab welcher Containerbreite auf horizontale Anordnung umgeschaltet werden soll.&#x20;

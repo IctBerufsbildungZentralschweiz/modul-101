@@ -64,12 +64,11 @@ Elemente mit der entprechenden Klasse werden ausgewählt. Klassen können mehrer
 
 ### Namensgebung
 
-*   Verzichte auf Sonderzeichen bei der Verwendung des `class`- und des `id`-Attributs. Auch wenn dies
-
-    von CSS unterstützt wird, kann es zu unerwarteten Problemen führen.
+* Klassen und IDs sollen nur aus Buchstaben, Zahlen und -/\_ bestehen und dürfen NICHT mit einer Zahl beginnen.&#x20;
+* Verzichte auf Sonderzeichen bei der Verwendung des `class`- und des `id`-Attributs. Auch wenn dies von CSS unterstützt wird, kann es zu unerwarteten Problemen führen.
 * Verwende englische Begriffe.
 * Da die Gross- und Kleinschreibung relevant ist, empfiehlt es sich, alles in Kleinbuchstaben zu schreiben.
-* Leerzeichen sind nicht erlaubt, verwende `-` bei Klassen oder IDs mit mehreren Worten (z. B. `main-navigation`).
+* Leerzeichen sind nicht erlaubt, verwende `-` bei Klassen oder IDs mit mehreren Worten (z.B. `main-navigation`).
 
 ### Pseudoklassen-Selektor
 
