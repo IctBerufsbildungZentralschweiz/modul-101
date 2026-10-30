@@ -23,7 +23,7 @@ In `layout.html`  kannst du als Grundgerüst folgenden Code benutzen:&#x20;
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <header>Header<header>
+    <header>Header</header>
     <nav class="main-nav">Menü</nav>
     <nav class="sub-nav">Untermenü</nav>
     <main>Inhalt</main>
