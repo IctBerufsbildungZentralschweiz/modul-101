@@ -1,6 +1,6 @@
-# 🛠 Testing-Workshop
+# Testing-Workshop
 
-## Aufgabe&#x20;
+## Aufgabe
 
 ![](../.gitbook/assets/ralph.png)
 

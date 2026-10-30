@@ -1,6 +1,6 @@
 # Gestaltung & Usability
 
-## Aufgabe
+## 🛠️ Aufgabe
 
 1. Lese diese Seite und überfliege den folgenden Artikel zum Thema Webdesign: \
    [der-informationsdesigner.de/agentur-blog/allgemein/was-ist-webdesign/](https://www.der-informationsdesigner.de/agentur-blog/allgemein/was-ist-webdesign/)
@@ -102,5 +102,5 @@ Animationen sollten sparsam und schlicht eingesetzt werden, z.B. für Hover-Effe
 
 ## 8. Zugänglichkeit sicher stellen
 
-Mobile Geräte sollen genau so wie Desktop-Bildschirme bedient werden. Auch auf [Barrierefreiheit](../optionale-themen/barrierefreiheit.md) sollte geachtet werden.&#x20;
+Mobile Geräte sollen genau so wie Desktop-Bildschirme bedient werden. Auch auf [Barrierefreiheit](optionale-themen/barrierefreiheit.md) sollte geachtet werden.&#x20;
 
