@@ -57,8 +57,28 @@ body {
 
 1. Im HTML-`head` solltest du noch das [CSS verlinken](../../../tag-1/04-css/02-einbindung.md#css-datei-einbinden).&#x20;
 2. Damit die Bereiche besser sichtbar sind, gib den Menüs, der Sidebar und dem Footer eine neue Hintergrundfarbe, z.B. `darkgray`.
-3. Erstelle nun das Grid gemäss obiger Grafik.
+3. Erstelle nun das Grid gemäss obiger Grafik. Ersetze dazu die Kommentarzeichen `/* ... */` mit den Angaben zu Spaltenbreite bzw. Zeilenhöhe.
 4. Füge zwischen allen Spalten einen Abstand von `20px` ein. Zeilen sollen keinen Abstand haben.
+
+**Platzierung**
+
+Aktuell werden die Elemente noch nicht richtig angeordnet. Dafür geben wir nun den Grid-Areas namen und platzieren die Elemente:&#x20;
+
+1. Kopiere aus dem Kapitel Platzierung das Beispiel für `grid-template-areas: ...` und passe die Feld-Namen an, wie du es in deinem Layout brauchst.
+2. Für jedes Element kannst du nun mit `grid-area` definieren, in welches Feld es platzier werden soll.
+
+```css
+header {
+    grid-area: /* ... */;
+}
+.main-nav {
+    grid-area: /* ... */;
+}
+.sub-nav {
+    grid-area: /* ... */;
+}
+/* etc. */
+```
 
 **Danach kannst du noch folgende Fragen beantworten:**&#x20;
 
