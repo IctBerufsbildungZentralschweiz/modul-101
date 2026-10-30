@@ -17,7 +17,15 @@ Nutze dafür folgendes Gerüst:&#x20;
 ```css
 @media (width < 1100px) {
   .container {
-    /* Hier kommt dein Code für Tablets (Breite, Grid etc.)... */
+    width: /* Breite für Tablets... */
+  
+    /* Tablet-Layout */
+    grid-template-columns: /* ... */;
+    grid-template-rows:    /* ... */;
+    grid-template-areas: 
+        /* S1 */   /* S2 */
+        /* ... */ 
+    ;
   }
 }
 ```
