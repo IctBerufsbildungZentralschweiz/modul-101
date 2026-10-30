@@ -30,7 +30,7 @@ In `layout.html`  kannst du als Grundgerüst folgenden Code benutzen:&#x20;
       <main>Inhalt</main>
       <aside>Sidebar</aside>
       <footer>Footer</footer>
-    </container>
+    </div>
   </body>
 </html>
 ```
