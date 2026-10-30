@@ -67,7 +67,7 @@
     * [Informationsgruppierung](tag-3/formulare/informationsgruppierung.md)
     * [🛠️ Aufgabe Formulare](tag-3/formulare/aufgabe.md)
   * [Konzeptionierung](tag-3/konzeptionierung/README.md)
-    * [Exkurs: Usability](tag-3/konzeptionierung/usability.md)
+    * [Gestaltung & Usability](tag-3/konzeptionierung/usability.md)
   * [🛠️ Testing-Workshop](tag-3/testing.md)
   * [Optionale Themen](tag-3/optionale-themen/README.md)
     * [Neuere Features](tag-3/optionale-themen/neuere-features.md)

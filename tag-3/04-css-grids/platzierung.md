@@ -45,18 +45,10 @@ Elemente im Grid lassen sich jetzt ganz einfach mit `grid-area` platzieren.
 ```
 
 ```css
-header {
-    grid-area: header;
-}
-main {
-    grid-area: content;
-}
-aside {
-    grid-area: sidebar;
-}
-.social {
-    grid-area: social;
-}
+header  { grid-area: header;  }
+main    { grid-area: content; }
+aside   { grid-area: sidebar; }
+.social { grid-area: social;  }
 ```
 
 Siehe [https://codepen.io/anon/pen/ooZVoG](https://codepen.io/anon/pen/ooZVoG).

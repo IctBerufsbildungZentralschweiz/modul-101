@@ -1,4 +1,4 @@
-# Exkurs: Usability
+# Gestaltung & Usability
 
 ## Aufgabe
 
@@ -38,7 +38,27 @@ Die Schrift sollte lesbar, genug gross und in einer angenehmen Schriftfarbe sein
 
 [Webschriften für die kommerzielle Verwendung](https://fonts.google.com/)
 
-## 2. Konsistent bleiben
+## 2. Lesbarkeit, Texte
+
+Für optimale Lesbarkeit sind wichtig:&#x20;
+
+* **Schriftart**: Wähle für Fliesstext eine schlichte klare Schrift ohne Serifen
+* **Schriftgrösse**
+* **Zeilenlänge**: Lange Zeilen über den ganzen Bildschirm sind schwer lesbar, die Breite eines Text-Blockes sollte begrenzt sein.
+* Genügend **Kontrast** zum Hintergrund (Vorsicht mit Hintergrund-Bildern)
+* **Weniger ist mehr**: Schreibe nur so viel Text, wie du auch selber lesen würdest! Schreibe nur, was wirklich Information bringt.&#x20;
+
+## 3. Lenkung der Aufmerksamkeit
+
+Wo willst du die Aufmerksamkeit der Besuchenden hinlenken? \
+Ein paar Elemente, mit welchen du die Aufmerksamkeit steuern kannst:&#x20;
+
+* **Platzierung**: Elemente in der Mitte bekommen mehr Aufmerksamkeit als Elemente unten oder an der Seite.
+* Mehr **Kontrast** bringt mehr Aufmerksamkeit
+* **Sattere Farben** ebenfalls (z.B. "Call to action"-Buttons)
+* Video, **Animation** (sparsam einsetzen)!
+
+## 4. Konsistent bleiben
 
 Es hat sich bewährt, das Design über den ganzen Auftritt konsistent und einheitlich zu gestalten. Es empfiehlt sich,&#x20;
 
@@ -49,38 +69,38 @@ Es hat sich bewährt, das Design über den ganzen Auftritt konsistent und einhei
 
 Jedoch reicht ein einziges Layout selten für einen kompletten Internetauftritt. Typischerweise benötigt man mindestens zwei Layouts: eines für die Startseite und eines für Inhaltsseiten/Folgeseite.
 
-## 3. Die richtigen Bilder verwenden
+## 5. Die richtigen Bilder verwenden
 
-Bilder können ein mächtiges Element einer Website sein und deshalb sollten sie mit Bedacht eingesetzt werden. Aus Bequemlichkeit verwenden zum Beispiel viele Unternehmen Stock-Images, die man auf Bilder-Portalen kaufen kann. Aber macht das wirklich Sinn?
+Bilder können ein mächtiges Element einer Website sein und deshalb sollten sie bewusst eingesetzt werden.&#x20;
 
-Diverse Experimente haben die Wirkung von Stock-Bildern und echten Bildern mit Menschen aus den Unternehmen bezüglich Ihrer Wirkung bei der Lead-Generierung verglichen. Dabei ist herausgekommen, dass die echten Bilder bei der Wirkung die Stock-Bilder um 95% überragten.&#x20;
+Diverse Experimente haben die Wirkung von **Stock-Bildern** und echten Bildern mit Menschen aus den Unternehmen bezüglich Ihrer Wirkung bei der Lead-Generierung verglichen. Dabei ist herausgekommen, dass die **echten Bilder** bei der Wirkung die Stock-Bilder um 95% überragten.&#x20;
 
 Wieso? Weil man Stock-Bildern ansieht, dass sie kaum Relevanz im speziellen Kontext besitzen. Achten Sie also bei der Bilderwahl auf deren Relevanz und deren Nähe zu den Texten auf der Seite.
 
-## 4. Übersichtliche Navigation
+## 6. Übersichtliche Navigation
 
-Ein wichtiger Faktor für das Verbleiben des Besuchers auf einer Website ist eine klare, übersichtliche und intuitive Navigation. Wenn der Besucher nicht schnell findet, was er sucht, verlässt er die Seite schnell wieder.
+Wichtig ist eine klare, übersichtliche und intuitive Navigation. Wenn der Besucher nicht schnell findet, was er sucht, verlässt er die Seite schnell wieder.
 
 Die wichtigsten Fragen eines Besuchers sind:
 
 1. Wo bin ich? Was ist das? (Orientierung)
 2. Wie komme ich zu XY? (Navigation)
 
-Mögliche Grundsätze für eine gute Navigation sind:
+Ein paar Grundsätze für eine gute Navigation sind:
 
-* Der Navigationslink sollte offensichtlich und unmissverständlich sein
 * Maximal sieben Navigationspunkte pro Ebene
 * Jede Seite sollte mit maximal drei Klicks erreichbar sein
 * Der Besucher sollte jederzeit wissen, wo er sich gerade befindet
 
-Die übergreifende Regel ist einfach: Verlange nie von einem Besucher, dass er nachdenken muss, wie er seine Informationen findet – **Don’t make me think!**
+**Don’t make me think!** Die übergreifende Regel ist einfach: Verlange nie von einem Besucher, dass er nachdenken muss, wie er seine Informationen findet – die Navigation sollte intuitiv klar sein.
 
-## 5. Animationen
+## 7. Animationen
 
-Animationen (mit CSS, GIFs oder JavaScript) können Aufmerksamkeit erzeugen. Genauso können sie Seitenbesucher von einer Webseite verjagen. Viele Leute fühlen sich durch unerwartete Animationen und Geräusche gestört - vor allem am Arbeitsplatz.
+Animationen (mit CSS, GIFs oder JavaScript) können Aufmerksamkeit erzeugen. Genauso können sie Seitenbesucher von einer Webseite verjagen.
 
 Animationen sollten sparsam und schlicht eingesetzt werden, z.B. für Hover-Effekte bei Menüs, Buttons und Bildern.
 
-## 6. Zugänglichkeit sicher stellen
+## 8. Zugänglichkeit sicher stellen
 
-Mittlerweile erfolgt fast jeder zweite Internetzugriff über ein mobiles Gerät. Es muss sichergestellt werden, dass jeder Ihre Seite besuchen kann, unabhängig vom Browser (ausgenommen extrem alte Versionen) oder Gerät.&#x20;
+Mobile Geräte sollen genau so wie Desktop-Bildschirme bedient werden. Auch auf [Barrierefreiheit](../optionale-themen/barrierefreiheit.md) sollte geachtet werden.&#x20;
+
