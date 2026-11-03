@@ -6,7 +6,7 @@ Natürlich gibt es nicht _den_ «Ablauf eines Webprojektes». Trotzdem zeigen di
 
 
 
-{% file src="../../.gitbook/assets/Erklaerung_Webprojektablauf.pdf" %}
+{% file src="../.gitbook/assets/Erklaerung_Webprojektablauf.pdf" %}
 
 Ein Auftrag beginnt meistens nie mit der Realisation, sondern immer zuerst mit einem Konzept: Das Konzept beinhaltet die Analyse der IST-Situation, die Festlegung einer stategischen Stossrichtung, die Prüfung von möglichen Lösungsvarianten, die Planung des Vorgehens sowie Kriterien für die Kontrolle der Arbeit.
 
@@ -82,7 +82,7 @@ Mögliche Fragestellungen für die Erstellung einer Persona:
 
 Die Informationsarchitektur ist eine der zentralen Aufgaben jedes Konzeptes, wenn ein Internetauftritt geplant wird. Die Sitemap ist die Antwort auf die Frage, welche Informationen man wo auf der Site unterbringt.
 
-![Sitemap](<../../.gitbook/assets/sitemap (1).png>)
+![Sitemap](<../.gitbook/assets/sitemap (1).png>)
 
 \=> [Weitere Informationen (www.beyonder.ch)](https://www.beyonder.ch/blog/was-ist-eine-informationsarchitektur-die-struktur-und-der-inhalt-also-konzept-eurer-website)
 
@@ -92,7 +92,7 @@ Die Informationsarchitektur ist eine der zentralen Aufgaben jedes Konzeptes, wen
 
 Wireframe bedeutet so viel wie Drahtgerüst und ist eine schnelle und grobe Wiedergabe eines Designs.
 
-![Wireframe](<../../.gitbook/assets/wireframe (1).jpg>)
+![Wireframe](<../.gitbook/assets/wireframe (1).jpg>)
 
 Mit einem Wireframe sollten folgende W-Fragen beantwortet werden:
 
@@ -108,7 +108,7 @@ Wireframes werden hauptsächlich in der Anfangsphase eines Projektes verwendet u
 
 #### Einordnung des Wireframes
 
-![Wireframe](<../../.gitbook/assets/unterschied-wireframe-mockup (1).png>)
+![Wireframe](<../.gitbook/assets/unterschied-wireframe-mockup (1).png>)
 
 #### Wireframe vs. Mockup
 
@@ -117,8 +117,11 @@ Wireframes werden hauptsächlich in der Anfangsphase eines Projektes verwendet u
 
 #### Hilfsmittel
 
-* [Creately](https://creately.com/de/lp/tool-fur-wireframe-erstellen/) - Webtool (tolle Tools für Wireframes & Mockups, ohne Registrierung eingeschränkt)
-* [NinjaMock](https://ninjamock.com/) - Webtool (Registrierung nötig)
+* [Figma](https://www.figma.com/de-de/design/) - Professionelle Tools für Design, Prototypen und viel mehr (Registrierung nötig)
+* Adobe XD - Leider nicht mehr weiterentwickelt
+* [Creately](https://creately.com/de/lp/tool-fur-wireframe-erstellen/) - Online-Wireframe-Tool (tolle Tools für Wireframes & Mockups, ohne Registrierung eingeschränkt)
+* [NinjaMock](https://ninjamock.com/) - Wireframes-Webtool (Registrierung nötig)
+* [draw.io](https://www.draw.io/) - Sehr einfaches Tool für Diagramme, Sitemaps, Wireframes u.v.m. (gratis)
 * [Balsamiq](https://balsamiq.com/download/) - Programm (kostet, 30-tägige Testversion)
 
 ### Styleguide
@@ -141,7 +144,7 @@ Ein Styleguide kann unter anderem Folgendes beinhalten:
 
 #### Hilfsmittel
 
-![Styletiles](<../../.gitbook/assets/style-tiles (1).jpg>)
+![Styletiles](<../.gitbook/assets/style-tiles (1).jpg>)
 
 * [Styleguide von Styletil.es](http://styletil.es/downloads/Style_Tile_Template.psd.zip) - PSD Vorlage
 

@@ -72,9 +72,8 @@ In Visual Studio Code gibt es beim Bearbeiten von CSS ein ähnliches Tool. Auch 
 
 ## Links
 
-* [Farbkreis](https://www.figma.com/de-de/farbkreis/) (Figma)
+* [Color palette generator](https://color.adobe.com/) (Adobe)
 * [Color Wheel](https://www.canva.com/colors/color-wheel/) (Canva)
-* [Farbwähler & umwandeln](https://www.mediaevent.de/css/farbrechner.html) (Mediaevent)
 
 ## 🛠️ Aufgaben
 
