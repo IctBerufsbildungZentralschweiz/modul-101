@@ -38,7 +38,7 @@ root/
       |-> zebras.jpg
    css/
       |-> framework.css
-      |-> style.css
+      |-> styles.css
    docs/
       |-> dokument.pdf
 ```

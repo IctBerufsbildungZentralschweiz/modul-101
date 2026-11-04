@@ -58,7 +58,7 @@ Semtantische Elemente sind gleichbedeutend wie `<div>`-Strukturelemente, definie
 **Darum gilt:** \
 Generische `<div>`-Elemente sollten nur genutzt werden, wenn kein semantisches Element geeignet ist.
 
-<div align="left"><figure><img src="../../.gitbook/assets/semantic-tags.webp" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../../.gitbook/assets/semantic-tags.webp" alt=""><figcaption></figcaption></figure>
 
 Folgende Elemente werden häufig genutzt:&#x20;
 

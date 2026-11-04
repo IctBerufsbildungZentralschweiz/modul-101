@@ -8,7 +8,7 @@ CSS-Regeln können an 3 Orten geschrieben werden:&#x20;
 CSS in einer eigenen Datei wird im HTML-Dokument im `<head>` verlinkt.Dies bringt eine saubere Trennung von HTML & CSS und CSS kann von mehrere HTML-Dateien gemeinsam genutzt werden.
 
 ```html
-<link href="css/style.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet">
 ```
 
 **Intern** im HTML-Dokument mittels `<style>`-Abschnitt im `<head>` (nicht empfohlen): \
@@ -32,7 +32,7 @@ Styles, welche nur auf dieser Seite verfügbar sind.
 
 ### **🛠️ Praxis**
 
-Erstelle eine neue CSS-Datei `styles.css`  in deinem Projekt-Verzeichnis `/ueber-mich/css`, kopiere als Start schon mal folgenden Inhalt rein und verknüpfe sie in deiner `about-me.html` Datei:&#x20;
+Erstelle eine neue CSS-Datei `styles.css`  in deinem Projekt-Verzeichnis, kopiere als Start schon mal folgenden Inhalt rein und verknüpfe sie in deiner `about-me.html` Datei:&#x20;
 
 ```css
 body {
@@ -50,7 +50,7 @@ Nun haben wir zwar diese beiden Dateien, diese wissen jedoch noch nichts voneind
 Öffne die Datei `ueber-mich.html` und füge die folgende Zeile irgenwo in den `<head>`-Bereich ein:
 
 ```markup
-<link href="css/style.css" rel="stylesheet">
+<link href="styles.css" rel="stylesheet">
 ```
 
 **`<link>`** - Mit dem `<link>` kann das HTML-Dokument mit anderen Dokumenten verlinkt werden - es entsteht eine Beziehung (Link) zum angegebenen Dokument.
@@ -62,6 +62,3 @@ Nun haben wir zwar diese beiden Dateien, diese wissen jedoch noch nichts voneind
 Um das CSS zu testen, setze für das ganze Dokument (`<body>`) eine Schrift ([`font-family`](https://www.w3schools.com/cssref/pr_font_font-family.php)) und einen Hintergrund ([`background-color`](https://www.w3schools.com/cssref/pr_background-color.php))
 
 Betrachte anschliessend die Datei `ueber-mich.html` im Browser - Hintergrund und Schrift sollten nun angepasst sein.
-
-Verschiebe nun das CSS in ein neues Unterverzeichnis `/css` und passe die Adresse im HTML-Head an.\
-Die angegebene URI kann dabei relativ oder absolute definiert werden - dazu ein kleiner Exkurs.

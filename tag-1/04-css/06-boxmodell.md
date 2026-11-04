@@ -55,7 +55,7 @@ Die Abstände und Rahmen einer Box können für alle 4 Seiten einzeln oder zusam
 
 Probier die Möglichkeiten aus: [w3schools.com/css/tryit.asp?filename=trycss\_boxmodel](https://www.w3schools.com/css/tryit.asp?filename=trycss_boxmodel)
 
-## Höhe, Breite
+### Höhe, Breite
 
 Für jede Box kann die Breite und Höhe definiert werden. Häufige Masseinheiten sind Pixel oder Prozent, manchmal auch `vw`/`vh` , selten `rem/em`.
 
@@ -80,7 +80,7 @@ Box-Sizing für ALLE Elemente auf der Website einstellen:&#x20;
 }
 ```
 
-## Übergroser Inhalt (`overflow`)
+### Übergroser Inhalt (`overflow`)
 
 Wenn der Inhalt einer Box grässer ist als die angegebene Breite oder Höhe der Box, kannst du bestimmen, was passieren soll:&#x20;
 

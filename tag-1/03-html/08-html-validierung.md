@@ -13,3 +13,7 @@ Validierung ist ein Prozess, bei dem Dokumente auf die Einhaltung eines formalen
 ## Wie kann man den Code überprüfen?
 
 Ganz einfach mit dem [W3C-HTML-Validator](https://validator.w3.org/) oder einem anderen HTML-Validator.
+
+## 🛠️ Aufgabe
+
+Überprüfe deine Aufgabe "Über mich" mit dem HTML-Validator und behebe alle Fehler. Warnungen musst du nicht beheben.&#x20;
