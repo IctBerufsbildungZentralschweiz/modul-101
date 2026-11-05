@@ -117,9 +117,47 @@ a.nav-link {
 }
 ```
 
-## Beispiel: Anwendung für verschiedene Seiten-Layouts
+## Beispiel-Anwendung: Verschiedene Seiten-Layouts
 
+Oft hat z.B. die Startseite ein anderes Layout als die restlichen Seiten. Damit wir trotzdem eine gemeinsame CSS-Datei für alles nutzen können, kannst du jeder Seite eine Klasse ins Body-Element geben und darüber das Layout steuern:&#x20;
 
+```html
+<!-- index.html (Startseite) -->
+<!doctype html>
+<html>
+    <head>...</head>
+    <body class="home">
+        <div class="container">
+            <h1>Home</h1>
+        </div>
+    </body>
+</html>
+```
+
+```html
+<!-- contact.html (Konraktseite) -->
+<!doctype html>
+<html>
+    <head>...</head>
+    <body class="contact">
+        <div class="container">
+            <h1>Kontakt</h1>
+        </div>
+    </body>
+</html>
+```
+
+```css
+/* Grid für alle Seiten */
+.container {
+    display: grid;
+    grid-template-rows: 150px 50px auto 150px;
+}
+/* Für die Startseite das Grid überschreiben */
+.home .container {
+    grid-template-rows: 300px 50px 300px auto 150px;
+}
+```
 
 ## 🛠️ Aufgaben
 

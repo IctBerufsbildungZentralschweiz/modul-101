@@ -8,11 +8,10 @@ Lade das Grundgerüst herunter und entpacke es in ein neues Verzeichnis:
 
 1. Formatiere den `<nav>`-Container mit CSS als Flexbox. Die Navigationspunkte sollen nebeneinander angeordnet werden, gleichmässig über die Fensterbreite verteilt. Wenn das Fenster zu schmal ist, sollen sie umgebrochen werden.&#x20;
 2. Verschönere die Navigation, indem du die Links formatierst: Nutze dazu padding, border, background-color, :hover etc.
-
-<div align="left"><figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
-
 3. Teste das Layout und das Verhalten im Browser.&#x20;
 4. Wenn alles gut aussieht, kannst du diese Navigation für alle Übungsseiten kopieren.&#x20;
+
+<div align="left"><figure><img src="../../.gitbook/assets/aufgabe-flexbox.png" alt=""><figcaption></figcaption></figure></div>
 
 **Zusatzaufgabe:**
 
@@ -25,7 +24,7 @@ Erstelle eine 2-stufige Navigation mit ausklappenden Untermenüs nur mit HTML & 
 1.  Erstelle im HTML-Dokument eine 2-stufige verschachtelte Navigation mit Listen-Elementen aufgebaut ist, oder nutze das folgende Gerüst und studiere die Verschachtelung!&#x20;
 
     ```html
-    <nav>
+    <nav>    
       <ul>
         <li>
           <a href="...">Hauptmenü 1</a>

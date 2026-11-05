@@ -18,27 +18,6 @@ Weitere Fragen:&#x20;
 1. Auf der Seite "Produkte" sollen Original-Bilder von Geräte-Herstellern eingefügt werden. Worauf ist dabei zu achten?&#x20;
 2. Was sind Vor- und Nachteile, wenn du die Bilder in hoher Qualität und Auflösung einfügst?&#x20;
 
-## Rechte an Bildern & Inhalten
-
-> Alle Inhalte im Internet sind grundsätzlich urheberrechtlich geschützt und dürfen nicht öffentlich verbreitet werden. Das gilt für Musik, die zwar frei aus dem Web kopiert, aber nur im privaten Kreis ab­gespielt und weitergegeben werden darf, ebenso wie für Fotos: Als Desktop-Hintergrund, Schlafzimmerposter oder Illustra­tion in einer E-Mail an Freunde darf man jedes Bild verwenden. Auf einer öffentlich zugänglichen Homepage aber eben nicht.
-
-\-- [Beobachter Konsum](https://www.beobachter.ch/konsum/webdesign-die-sache-mit-dem-copyright)
-
-{% hint style="info" %}
-cyon hat einen guten Artikel zu den Bildrechten: [https://www.cyon.ch/blog/Bilder-im-Internet-rechtssicher-verwenden](https://www.cyon.ch/blog/Bilder-im-Internet-rechtssicher-verwenden)
-{% endhint %}
-
-Somit sollten ein Website-Betreiber immer die nötigen Rechte für Bilder haben, welche auf seiner Website gezeigt werden. Mögliche Plattformen für den Erwerb von Bild-Lizenzen:
-
-* [Fotolia](https://de.fotolia.com/)
-* [Shutterstock](https://www.shutterstock.com)
-
-Daneben gibt es auch noch komplett kostenlose Bildportale. Meistens sind die Aufnahmen von Amateur- und Hobbyfotografen, die aber deshalb nicht schlechter sein müssen:
-
-* [Unsplash](https://unsplash.com)
-* [Pixabay](https://pixabay.com/de/)
-* [Pixelio](https://www.pixelio.de/)
-
 ## Bild-Formate
 
 ### JPEG
@@ -265,6 +244,27 @@ Ein Hintergrundbild nimmt nicht automatisch Platz ein. Deshalb definieren wir hi
     left: 30px;
 }
 ```
+
+## Rechte an Bildern & Inhalten
+
+> Alle Inhalte im Internet sind grundsätzlich urheberrechtlich geschützt und dürfen nicht öffentlich verbreitet werden. Das gilt für Musik, die zwar frei aus dem Web kopiert, aber nur im privaten Kreis ab­gespielt und weitergegeben werden darf, ebenso wie für Fotos: Als Desktop-Hintergrund, Schlafzimmerposter oder Illustra­tion in einer E-Mail an Freunde darf man jedes Bild verwenden. Auf einer öffentlich zugänglichen Homepage aber eben nicht.
+
+\-- [Beobachter Konsum](https://www.beobachter.ch/konsum/webdesign-die-sache-mit-dem-copyright)
+
+{% hint style="info" %}
+cyon hat einen guten Artikel zu den Bildrechten: [https://www.cyon.ch/blog/Bilder-im-Internet-rechtssicher-verwenden](https://www.cyon.ch/blog/Bilder-im-Internet-rechtssicher-verwenden)
+{% endhint %}
+
+Somit sollten ein Website-Betreiber immer die nötigen Rechte für Bilder haben, welche auf seiner Website gezeigt werden. Mögliche Plattformen für den Erwerb von Bild-Lizenzen:
+
+* [Fotolia](https://de.fotolia.com/)
+* [Shutterstock](https://www.shutterstock.com)
+
+Daneben gibt es auch noch komplett kostenlose Bildportale. Meistens sind die Aufnahmen von Amateur- und Hobbyfotografen, die aber deshalb nicht schlechter sein müssen:
+
+* [Unsplash](https://unsplash.com)
+* [Pixabay](https://pixabay.com/de/)
+* [Pixelio](https://www.pixelio.de/)
 
 ## **Platzhalter-Bilder**
 
