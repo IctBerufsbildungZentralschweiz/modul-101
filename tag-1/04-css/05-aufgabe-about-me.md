@@ -15,7 +15,7 @@ Style deine Website "Über mich" und ¨berprüfe nach jedem Schritt das Ergebnis
 **Blöcke stylen:**
 
 1. Der **Header** soll eine eigene Hintergrundfarbe deiner Wahl haben.
-2. Füge den beiden **Adressblöcken** in HTML eine Klasse `class="address"` hinzu und definiere dafür in CSS, dass diese links etwas eingerückt sind ([`margin-left`](https://www.w3schools.com/css/css_margin.asphttps://www.w3schools.com/css/css_margin.asp)) und kursiv ([`font-style`](https://www.w3schools.com/css/css_font_style.asp)) sein sollen.&#x20;
+2. Füge den beiden **Adressblöcken** in HTML eine Klasse `class="address"` hinzu und definiere dafür in CSS, dass diese links 5% eingerückt sind ([`margin-left`](https://www.w3schools.com/css/css_margin.asphttps://www.w3schools.com/css/css_margin.asp)) und kursiv ([`font-style`](https://www.w3schools.com/css/css_font_style.asp)) sein sollen.&#x20;
 3. Style die **Tabelle**:&#x20;
    1. Definiere für alle Tabellen-Header `<th>`, dass sie Linksbündig ([`text-align`](https://www.w3schools.com/css/css_text_align.asp)) sein sollen und eine helle Hintergrundfarbe ([`background-color`](https://www.w3schools.com/css/css_background.asp)) haben.
    2. Definiere für alle Tabellen-Zellen `<th>` und `<td>` einen Innenabstand ([`padding`](https://www.w3schools.com/css/css_padding.asp)) von 8px.
@@ -25,9 +25,11 @@ Style deine Website "Über mich" und ¨berprüfe nach jedem Schritt das Ergebnis
 
 **Zustzaufgaben für schnelle Lernende:**
 
-1. Das erste Hobby soll eine fette Schrift haben, die anderen nicht (mit Pseudoselektor lösen)
-2. Färbe mit dem geeigneten Pseudoselektor den Hintergrund jeder 2. Zeile der Tabelle hellgelb.&#x20;
-3. Setze für die Adressblöcke die Eigenschaft `display` auf `inline-block` und die Breite auf unter 40%. Was passiert?&#x20;
-4. Wende einen Filter auf dein Bild an: Normal soll es blass/heller oder sogar schwarz-weiss sein, wenn die Maus drüber fährt, soll es in den richtigen Farben erscheinen.&#x20;
+1. Setze im Header ein Hintergrundbild, welches immer den ganzen Bereich oben ausfüllt (Tipp: Nach "cover" suchen).
+2. Das erste Hobby soll eine fette Schrift haben, die anderen nicht (mit Pseudoselektor lösen)
+3. Färbe mit dem geeigneten Pseudoselektor den Hintergrund jeder 2. Zeile der Tabelle hellgelb.&#x20;
+4. Setze für die Adressblöcke die Eigenschaft `display` auf `inline-block` und die Breite auf 40%. Was passiert?&#x20;
+5. Wende einen Filter auf dein Bild an: Normal soll es blass/heller oder sogar schwarz-weiss sein, wenn die Maus drüber fährt, soll es in den richtigen Farben erscheinen.&#x20;
+6. Teste weitere Style-Möglichkeiten, z.B. runde Ecken, runde Bilder, halbtransparente Hintergrund etc.
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
