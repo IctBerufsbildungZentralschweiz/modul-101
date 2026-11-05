@@ -82,7 +82,7 @@ Nutze die letzte Aufgabe für folgende Experimente:&#x20;
 1. Untersuche **im Browser** ein Element mit Hintergrundfarbe, wähle eine andere Farbe mit dem Farbmischer und kopiere den neuen Wert in dein CSS. Probiere die rgb(...)- und die #xxxxxx-Variante aus.
 2. Mische eine Hintergrundfarbe für das ganze Dokument (`<body>`-Element) mittels der rgb()-Funktion.
 3. Ändere die Transparenz einmal mittels rgb()-Funktion und danach mittels #hex-wert, und schau, welche anderen Farbmodelle ev. noch Transparenz erlauben.&#x20;
-4. Untersuche direkt in den DevTools das Farbmodell [LAB](02-farben.md#lab-cielab).
+4. Untersuche direkt in den DevTools das Farbmodell [LAB](01-farben.md#lab-cielab).
 
 **Zusatzaufgabe:**
 

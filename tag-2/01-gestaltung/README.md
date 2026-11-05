@@ -6,6 +6,6 @@ In diesem Modul liegt der Schwerpunkt auf der Umsetzung eines vorher entworfenen
 
 In den folgenden Kapiteln wenden wir uns der Umsetzung spezieller Themen zu:&#x20;
 
-* [Farben](02-farben.md)
-* [Schriftarten](01-schriftarten.md)
+* [Farben](01-farben.md)
+* [Schriftarten](02-schriftarten.md)
 * [Einheiten](03-eineiten.md)
