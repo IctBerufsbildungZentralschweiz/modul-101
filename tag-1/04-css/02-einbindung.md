@@ -62,3 +62,10 @@ Nun haben wir zwar diese beiden Dateien, diese wissen jedoch noch nichts voneind
 Um das CSS zu testen, setze für das ganze Dokument (`<body>`) eine Schrift ([`font-family`](https://www.w3schools.com/cssref/pr_font_font-family.php)) und einen Hintergrund ([`background-color`](https://www.w3schools.com/cssref/pr_background-color.php))
 
 Betrachte anschliessend die Datei `ueber-mich.html` im Browser - Hintergrund und Schrift sollten nun angepasst sein.
+
+## 🛠️ Aufgabe
+
+Erstelle zur Seite "Über mich" eine neue Datei "styles.css", binde sie in dein HTML-Dokument ein und schreibe in CSS 2-3 Formatierungen deiner Wahl. Z.B. Hintergrundfarbe, Schirftfarbe, Grösse, Font etc. für Überschriften oder Text.&#x20;
+
+Werden deine neuen Stile auf die HTML-Seite angewandt? \
+Falls nicht, wie kannst du die Fehler finden? Schau im Browser in den Entwicklungswerkzeugen nach.&#x20;

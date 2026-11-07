@@ -47,77 +47,32 @@ h1, .subnavi, footer {
 
 Nachfahren sind alle Elemente innerhalb eines anderen Elements (Kinder, Kindeskinder etc.). Dieser Selektor adressiert also bestimmte Elemente, welche in HTML in einem anderen Element verschachtel sind. Die Eltern- und Nachfohr-Selektoren werden durch ein Leerzeichen getrennt:&#x20;
 
-### Anwendungsbeispiele
-
-Unterschiedliche Formatierung von Elementen je nach Container:&#x20;
-
 ```css
-nav a { /* Formatiert alle Links in der Navigation */
-  color: red;
+main h1 { /* Formatiert die Überschrift 1 im <main>-Container */
+  letter-spacing: 2px;
 }
 ```
 
-Unterschiedliches Layout (z.B. CSS-Grid) einer Seiten:&#x20;
+### Beispiel: Links je nach Kontext anders gestalten&#x20;
 
 ```html
-<html>
-  <head>...<head>
-  <body class="home">
-    <div class="container">
-      <header>...</header>
-      <main>...</main>
-      <footer>...</footer>
-    </div>
-  </body>
-</home>
+<nav>
+      <a href="home.html">Home</a>
+      <a href="kontakt.html">Kontakt</a>
+</nav>
+<main>
+      <p>Text mit <a href="produkt.html">Link</a></p>
+</main>
 ```
 
 ```css
-.home .container { /* Eigenes Grid für die Startseite definieren */
-  grid-template-columns: ...;
-  grid-template-rows:    ...;
-  grid-template-areas:   ...;
-}
+/* Links generell gestalten */
+a { color: gray; text-decoration: underline; }
+/* Links in der Navigation anders darstellen */
+nav a { color: black; text-decoration: none; }
 ```
 
-## Kind-Selektor (direkte Nachfahren)
-
-Beim Kind-Selektor werden zwei Selektoren durch ein `>` voneinander getrennt. Der Selektor spricht das zuletzt erwähnte Element nur dann an, wenn es ein direktes Kind des vorhergehenden Elements ist.
-
-Als Kind werden alle Elemente _direkt unterhalb_ eines anderen Elements bezeichnet.
-
-```css
-.navi > a {/* Formatiert nur "Home" und "Services", aber nicht "Reparaturen" */
-  color: red;
-}
-```
-
-## Next-Sibling-Kombinator
-
-Wählt ein Element aus, welches unmittelbar auf ein anderes Element auf der gleichen Ebene folgt.
-
-```
-h1 + p { /* Formatiert nur das nav-Element direkt nach h1 */
-  font-weight: bold;
-}
-```
-
-## Mehrfach-Selektoren
-
-Um Elemente auszuwählen, welche mehrere Selektoren gleichzeitig erfüllen, kette die Selektoren einfach aneinander **ohne Leerzeichen** dazwischen:
-
-```css
-/* Gilt nur für Links mit der Klasse "nav-link" */
-a.nav-link {
-  text-decoration: none;
-}
-/* Gilt nur für Elemente mit Klassen "subnav-link" UND "active" in einem Element */
-.nav-link.active {
-  color: red;
-}
-```
-
-## Beispiel-Anwendung: Verschiedene Seiten-Layouts
+### Beispiel: Verschiedene Seiten-Layouts
 
 Oft hat z.B. die Startseite ein anderes Layout als die restlichen Seiten. Damit wir trotzdem eine gemeinsame CSS-Datei für alles nutzen können, kannst du jeder Seite eine Klasse ins Body-Element geben und darüber das Layout steuern:&#x20;
 
@@ -156,6 +111,66 @@ Oft hat z.B. die Startseite ein anderes Layout als die restlichen Seiten. Damit 
 /* Für die Startseite das Grid überschreiben */
 .home .container {
     grid-template-rows: 300px 50px 300px auto 150px;
+}
+```
+
+## CSS Nesting
+
+{% hint style="info" %}
+**Achtung neues Feature:** CSS Nesting wird von den meisten Browsern seit Dezember 2023 unterstützt, von einzelnen mobilen Browsern aber erst kurz (Android-Browser seit Okt./Nov. 2026) oder teils gar nicht. \
+⇒ Noch zurückhaltend verwenden.
+
+Siehe [caniuse.com](https://caniuse.com/?search=CSS+Nesting)
+{% endhint %}
+
+Verschachtelte Nachfahren-Selektoren können schnell zu unübersichtlichem CSS-Code führen und Änderungen an Selektoren mühsam machen. Abhilfe bietet das "CSS Nesting".&#x20;
+
+CSS Nesting war lange nur mit speziellem CSS-Compiler (LESS/SASS) möglich. Seit kurzem wird das Nesting auch ohne Compiler von den meisten Browsern nativ unterstützt:&#x20;
+
+```css
+/* Obiges Beispiel mit CSS Nesting */
+.home {
+    .container {
+        grid-template-rows: 300px 50px 300px auto 150px;
+    }
+    /* weitere Deklarationen für die Startseite... */
+}
+```
+
+## Kind-Selektor (direkte Nachfahren)
+
+Beim Kind-Selektor werden zwei Selektoren durch ein `>` voneinander getrennt. Der Selektor spricht das zuletzt erwähnte Element nur dann an, wenn es ein direktes Kind des vorhergehenden Elements ist.
+
+Als Kind werden alle Elemente _direkt unterhalb_ eines anderen Elements bezeichnet.
+
+```css
+.navi > a {/* Formatiert nur "Home" und "Services", aber nicht "Reparaturen" */
+  color: red;
+}
+```
+
+## Next-Sibling-Kombinator
+
+Wählt ein Element aus, welches unmittelbar auf ein anderes Element auf der gleichen Ebene folgt.
+
+```
+h1 + p { /* Formatiert nur das nav-Element direkt nach h1 */
+  font-weight: bold;
+}
+```
+
+## Mehrfach-Selektoren
+
+Um Elemente auszuwählen, welche mehrere Selektoren gleichzeitig erfüllen, kette die Selektoren einfach aneinander **ohne Leerzeichen** dazwischen:
+
+```css
+/* Gilt nur für Links mit der Klasse "nav-link" */
+a.nav-link {
+  text-decoration: none;
+}
+/* Gilt nur für Elemente mit Klassen "subnav-link" UND "active" in einem Element */
+.nav-link.active {
+  color: red;
 }
 ```
 

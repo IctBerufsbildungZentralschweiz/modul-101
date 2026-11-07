@@ -4,7 +4,7 @@
 
 ## Styling von "Über mich"
 
-Style deine Website "Über mich" und ¨berprüfe nach jedem Schritt das Ergebnis im Browser.&#x20;
+Style deine Website "Über mich" und überprüfe nach jedem Schritt das Ergebnis im Browser. Nutze dazu die früher erstellte "styles.css".
 
 **Typografie:**
 
