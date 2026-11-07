@@ -48,7 +48,7 @@ Siehe [Useability](../../tag-3/usability.md#id-5.-die-richtigen-bilder-verwenden
 
 **Rechte:** Bei eigenen Bildern muss das Einverständnis der Menschen auf dem Bild eingeholt werden, dass sie mit der Bildnutzung einverstanden sind. Am besten schriftlich. Ausser es handelt sich um öffentliche Personen oder sie sind auf dem Bild kaum zu identifizieren.&#x20;
 
-## Bild-Formate
+## Bildformate
 
 ### JPEG
 
