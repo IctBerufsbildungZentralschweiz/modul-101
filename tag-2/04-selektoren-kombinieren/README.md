@@ -31,7 +31,7 @@ Abhängig davon, in welchen Übergeordneten Elementen und Containern etwas versc
 
 Erstelle eine neue Datei `selektoren-test.html` und ein neues CSS `css/selektoren-test.css` und binde das CSS ins HTML-Dokument ein. Kopiere ein [HTML-Grundgerüst](../../tag-1/03-html/04-html-dokument.md#aufbau-eines-html-dokumentes) in deine neue HTML-Datei und dann innerhalb des Body den obigen HTML-Code.
 
-Testen dann im CSS die folgenden Beispiele aus.
+Testen dann im CSS die folgenden Beispiele aus:
 
 ## Mehrere Elemente auswählen
 
@@ -55,64 +55,50 @@ main h1 { /* Formatiert die Überschrift 1 im <main>-Container */
 
 ### Beispiel: Links je nach Kontext anders gestalten&#x20;
 
-```html
-<nav>
-      <a href="home.html">Home</a>
-      <a href="kontakt.html">Kontakt</a>
-</nav>
-<main>
-      <p>Text mit <a href="produkt.html">Link</a></p>
-</main>
-```
-
 ```css
 /* Links generell gestalten */
 a { color: gray; text-decoration: underline; }
 /* Links in der Navigation anders darstellen */
 nav a { color: black; text-decoration: none; }
+/* Links im Footer nochmal anders darstellen */
+footer a { color: red; }
 ```
 
-### Beispiel: Verschiedene Seiten-Layouts
+### Beispiel: Unterschiedliche Seiten-Layouts
 
-Oft hat z.B. die Startseite ein anderes Layout als die restlichen Seiten. Damit wir trotzdem eine gemeinsame CSS-Datei für alles nutzen können, kannst du jeder Seite eine Klasse ins Body-Element geben und darüber das Layout steuern:&#x20;
+Oft hat z.B. die Startseite ein anderes Layout als die restlichen Seiten. Damit wir trotzdem eine gemeinsame CSS-Datei für alles nutzen können, kannst du jeder Seite eine Klasse ins `<body>`-Element geben und darüber das Layout steuern:&#x20;
 
 ```html
 <!-- index.html (Startseite) -->
-<!doctype html>
-<html>
-    <head>...</head>
-    <body class="home">
-        <div class="container">
-            <h1>Home</h1>
-        </div>
-    </body>
-</html>
+<body class="home">
+    <header>
+        <h1>Home</h1>
+    </header>
+</body>
 ```
 
 ```html
 <!-- contact.html (Konraktseite) -->
-<!doctype html>
-<html>
-    <head>...</head>
-    <body class="contact">
-        <div class="container">
-            <h1>Kontakt</h1>
-        </div>
-    </body>
-</html>
+<body class="contact">
+    <header>
+        <h1>Kontakt</h1>
+    </header>
+</body>
 ```
 
 ```css
-/* Grid für alle Seiten */
-.container {
-    display: grid;
-    grid-template-rows: 150px 50px auto 150px;
+/* Basis-Layout für alle Seiten */
+header {
+    background-color: darkblue;
+    height: 200px;
 }
-/* Für die Startseite das Grid überschreiben */
-.home .container {
-    grid-template-rows: 300px 50px 300px auto 150px;
+/* Für die Startseite einige Styles überschreiben */
+.home header {
+    height: 400px;
 }
 ```
+
+**Hinweis:** An Tag 3 werden wir Grids für Seiten-Layouts einsetzen. Da wirst du das wieder brauchen können, um je nach Seite unterschiedliche Grid-Layouts zu definieren.&#x20;
 
 ## CSS Nesting
 
