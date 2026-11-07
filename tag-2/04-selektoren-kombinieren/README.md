@@ -123,6 +123,8 @@ CSS Nesting war lange nur mit speziellem CSS-Compiler (LESS/SASS) möglich. Seit
 }
 ```
 
+Mehr zu CSS Nesting findest du unter [Optionale Themen > Neueren Features](../../tag-3/optionale-themen/neuere-features.md#css-nesting).
+
 ## Kind-Selektor (direkte Nachfahren)
 
 Beim Kind-Selektor werden zwei Selektoren durch ein `>` voneinander getrennt. Der Selektor spricht das zuletzt erwähnte Element nur dann an, wenn es ein direktes Kind des vorhergehenden Elements ist.

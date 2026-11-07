@@ -4,16 +4,18 @@ Hinweis: Andere Medien ([Videos und Audios](../../tag-3/02-medien-video-audio.md
 
 ## Aktivierungs-Fragen
 
+Recherchiert zu zweit oder zu dritt:&#x20;
+
 Es sollen Bilder für eine Firmen-Website aufbereitet und eingefügt werden, welche Handys repariert. &#x20;
 
 Recherchiere zu den gängigen Bildformaten und überlege, welche Formate für folgende Bilder geeignet sind (+), welche nicht (-), und warum:&#x20;
 
-1. Es soll ein zweifarbiges Logo eingefügt werden. Die Anzeigegrösse ist je nach Gerät anders.&#x20;
-2. Auf der Teamseite sind Portraits aller Angestellten gewünscht.&#x20;
-3. Auf der Seite "Kontakt" soll ein animierter Briefkasten sein, wo ein Brief eingeworfen wird.
-4. Im Footer werden Partner-Logos angezeigt. Die Grösse ist immer gleich.&#x20;
+1. Ein zweifarbiges Logo. Die Anzeigegrösse ist je nach Gerät anders.&#x20;
+2. Portraits aller Angestellten auf der Teamseite.&#x20;
+3. Ein animierter Briefkasten auf der Seite "Kontakt", wo ein Brief eingeworfen wird.
+4. Partner-Logos im Footer, die Grösse ist immer gleich.&#x20;
 
-Weitere Fragen:&#x20;
+Fragen zu Bildrechten und Qualität:&#x20;
 
 1. Auf der Seite "Produkte" sollen Original-Bilder von Geräte-Herstellern eingefügt werden. Worauf ist dabei zu achten?&#x20;
 2. Was sind Vor- und Nachteile, wenn du die Bilder in hoher Qualität und Auflösung einfügst?&#x20;
@@ -185,7 +187,18 @@ img {
 }
 ```
 
-Dies verhindert, dass ein Bild jemals grösser werden kann als der Container, in welchen es rein passen sollte. Probiere es aus!&#x20;
+Dies verhindert, dass ein Bild jemals grösser werden kann als der Container, in welchen es rein passen sollte.&#x20;
+
+## 🛠️Aufgaben Bildformate, Grösse, Qualität
+
+Mache ein Foto und füge es als JPG auf der Seite "Über mich" ein. Probiere dabei folgendes aus:&#x20;
+
+1. Speichere das Foto als JPG mit einem Bildbearbeitungs-Programm in unterschieldicher Qualität (Komprimierung) und schau, ab wann du einen klaren Qualitätsverlust sehen kannst. Vergleiche die Dateigrössen mit der Grösse des Originalbildes. Wo ist der ideale Kompromiss zwischen Qualität und Dateigrösse?&#x20;
+2. Speichere das Foto in unterschiedlichen Formaten und schau dir die Dateigrösse und die Qualität an: \
+   JPG, PNG, WebP und GIF.
+3. Verkleinere das Bild im JPG-Format auf die Grösse, wie du es in der Website haben willst. Wähle die oben gefundene optimale Komprimierung. Wie gross ist die Datei jetzt?&#x20;
+4. Suche im Internet ein Logo, welches im SVG-Format gespeichert ist. Füge es auf deiner Seite ein und skaliere es auf mind. 300px. Schau, ob du ein Qualitätsunterschied siehst.
+5. Teste, was passiert, wenn du das Browser-Fenster schmaler machst als das Bild (mobile Ansicht). Wenn das Bild das Layout sprengt, teste die [Lösung oben](./#tipp-wenn-bilder-das-layout-sprengen).
 
 ## Ladegeschwindigkeit
 
@@ -288,5 +301,9 @@ Das gleiche Problem kann mit fehlenden Texten auftreten. Dafür kannst du:&#x20;
 1. Alte oder erfundene Texte einfügen, die zum Kunden passen.
 2. Blindtexte (ohne sinnvollen Inhalt) einsetzen: [**blindtextgenerator.de**](https://www.blindtextgenerator.de/)
 
+## 🛠️Aufgaben
 
-
+1. Füge in der Aufgabe "Über mich" im Header ein Hintergrundbild ein. Sorge dafür, dass es den ganzen Header-Bereich abgeckt, egal wie breit das Bworser-Fenster ist.&#x20;
+2. Füge ein [Platzhalter-Bild](./#platzhalter-bilder) ein.
+3. Bonus-Aufgabe: Wie stellst du ein Bild nur mit CSS als kreisrundes Bild dar? Suche online nach einer einfachen Lösung.&#x20;
+4. Optional: Im Header soll ein Text über dem Hintergrund mit halbtransparentem Container versehen (Lesbarkeit des Textes) angezeigt werden.  Verpacke dafür den Text in einen Container (`<div>`). Probiere im Browser (DevTools) eine passende Transparenz einzustellen und dann ins CSS kopieren kann
