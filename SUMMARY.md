@@ -54,7 +54,7 @@
     * [Grids vs. Flexbox](tag-3/04-css-grids/css-grids-vs-flexbox/README.md)
       * [🛠️ Grids vs. Flexbox Aufgabe](tag-3/04-css-grids/css-grids-vs-flexbox/aufgabe.md)
     * [Definition](tag-3/04-css-grids/definition.md)
-    * [Platzierung](tag-3/04-css-grids/platzierung.md)
+    * [CSS Grid Layouts & Platzierung](tag-3/04-css-grids/platzierung.md)
     * [🛠️ Aufgaben](tag-3/04-css-grids/aufgaben/README.md)
       * [🛠️ Aufgabe Grid](tag-3/04-css-grids/aufgaben/aufgabe.md)
       * [🛠️ Aufgabe Grid mit Navigation](tag-3/04-css-grids/aufgaben/aufgabe-1.md)
