@@ -60,6 +60,7 @@
       * [🛠️ Aufgabe Grid mit Navigation](tag-3/04-css-grids/aufgaben/aufgabe-1.md)
       * [🛠️ Aufgabe Responsive Grid](tag-3/04-css-grids/aufgaben/aufgabe-2.md)
       * [🛠️ Aufgabe Responsive Grid](tag-3/04-css-grids/aufgaben/aufgabe-3.md)
+    * [Ergänzung: Dynamische Grids](tag-3/04-css-grids/erganzung-dynamische-grids.md)
     * [Weiterführende Links](tag-3/04-css-grids/links.md)
   * [Medien: Videos, Audio](tag-3/02-medien-video-audio.md)
   * [Formulare](tag-3/formulare/README.md)
