@@ -8,6 +8,8 @@ Untersuche folgende 3 Websites mit den Browser-Entwicklerwerkzeugen und finde he
 2. [www.vaude.com](https://www.vaude.com/)
 3. [www.berufsberatung.ch/de/berufe/mediamatiker-in-efz](https://www.berufsberatung.ch/de/berufe/mediamatiker-in-efz)
 
+
+
 ## Arten von Grid-Layouts
 
 Es gibt viele Arten, wie Grids für Layouts genutzt werden können. \
@@ -114,9 +116,9 @@ In den Elementen kann dann die Start- und End-Spalte angegeben werden:&#x20;
 }
 ```
 
-**Automatische Platzierung:**
+**Platzierung einer dynamischen Anzahl von Elementen:**
 
-Bei groben Rastern kann das Platzieren der Elemente auch dynamisch passieren, das heisst, die einzelnen Elemente brauchen kein Defintion, sie werden einfach der Reihne nach eingefüllt:&#x20;
+Ein Grid kann auch eine dynamische Anzahl von Elementen enthalten. Dann werden nur die Spalten (columns) definiert, die Zeilen (rows) nicht. Z.B. ein vierspaltiges Grid mit variablen Zeilen:&#x20;
 
 ```html
 <div class="container">
@@ -131,12 +133,25 @@ Bei groben Rastern kann das Platzieren der Elemente auch dynamisch passieren, da
 
 ```css
 .container {
-    display: grid; 
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
 ```
 
-Fertig. Siehe z.B. [www.vaude.com](https://www.vaude.com/de/de/)&#x20;
+Für die dynamischen Anzahl Zeilen können optional Eigenschaften gesetzt werden:&#x20;
+
+```css
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 100px;
+}
+```
+
+Beispiel: [www.vaude.com](https://www.vaude.com/de/de/)&#x20;
+
+Mehr zu dynamischen Grids: \
+[https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid\_layout/Auto-placement](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Auto-placement)
 
 
 

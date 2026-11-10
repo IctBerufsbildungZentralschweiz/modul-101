@@ -2,30 +2,6 @@
 
 ## Videos
 
-### Eigene Videodateien einbinden
-
-HTML5 bietet für die Integration das `<video>`-Element. Dazu musst du dein Video in ein Format konvertieren, welches möglichst von allen Browsern unterstützt wird. Es empfiehlt sich mp4 oder seit 2024 auch WebM. Videos kannst du z.B. mit dem [VLC-Player](https://www.videolan.org/) konvertieren oder einen [Online-Konverter](https://www.google.com/search?q=Video+online+konvertieren) nutzen.&#x20;
-
-Du kannst alternative Formate angeben für Browser, welche dein bevorzugtes Format nicht kennen, plus einen Text, falls ein Browser gar nichts versteht:
-
-```html
-<video width="320" height="240" controls>
-  <source src="movie.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
-  Your browser does not support the video tag.
-</video>
-```
-
-**Vorteile:**&#x20;
-
-* Du bist unabhängig von externen Plattformen
-* Besserer Datenschutz
-
-**Nachteile:**&#x20;
-
-* Videos brauchen viel Platz auf deinem Server&#x20;
-* Du musst dich selber um Browser-Kompatibilität kümmern, ev. mehrere Versionen hochladen
-
 ### Externe Videos von einbinden
 
 Viele Plattformen wie Youtube, Vimeo etc. bieten fertigen Code an, um ein Video einzubetten:&#x20;
@@ -51,9 +27,40 @@ Der Embed-Code von Youtube & Vimeo enthält eine fixe Grösse in Pixeln. Im folg
 
 {% embed url="https://www.youtube.com/watch?v=2h9CqRlHzrc" %}
 
+### Eigene Videodateien einbinden
+
+HTML5 bietet für die Integration das `<video>`-Element. Dazu musst du dein Video in ein Format konvertieren, welches möglichst von allen Browsern unterstützt wird. Es empfiehlt sich mp4 oder seit 2024 auch WebM. Videos kannst du z.B. mit dem [VLC-Player](https://www.videolan.org/) konvertieren oder einen [Online-Konverter](https://www.google.com/search?q=Video+online+konvertieren) nutzen.&#x20;
+
+Du kannst alternative Formate angeben für Browser, welche dein bevorzugtes Format nicht kennen, plus einen Text, falls ein Browser gar nichts versteht:
+
+```html
+<video width="320" height="240" controls>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+```
+
+**Vorteile:**&#x20;
+
+* Du bist unabhängig von externen Plattformen
+* Besserer Datenschutz
+
+**Nachteile:**&#x20;
+
+* Videos brauchen viel Platz auf deinem Server&#x20;
+* Du musst dich selber um Browser-Kompatibilität kümmern, ev. mehrere Versionen hochladen
+
 ## Audio
 
 Ähnlich die bei Videos kannst  ein Audio-Beitrag selber gehostet oder von einer Plattform eingebunden werden. Die Vor- & Nachteile sind analog der Videos.&#x20;
+
+### Externen Audiobeitrag einbetten
+
+* Vimeo: [https://help.soundcloud.com/hc/en-us/articles/115003453587-Embedded-players](https://help.soundcloud.com/hc/en-us/articles/115003453587-Embedded-players)
+* Spotify: [https://developer.spotify.com/documentation/embeds/tutorials/creating-an-embed](https://developer.spotify.com/documentation/embeds/tutorials/creating-an-embed)
+
+
 
 ### Eigene Audiodatei einbinden
 
@@ -69,12 +76,9 @@ Folgendes Beispiel spielt einen Beitrag direkt beim Laden der Seite ab, aber ers
 </audio>
 ```
 
-### Externen Audiobeitrag einbetten
 
-* Vimeo: [https://help.soundcloud.com/hc/en-us/articles/115003453587-Embedded-players](https://help.soundcloud.com/hc/en-us/articles/115003453587-Embedded-players)
-* Spotify: [https://developer.spotify.com/documentation/embeds/tutorials/creating-an-embed](https://developer.spotify.com/documentation/embeds/tutorials/creating-an-embed)
 
-## **🛠️** Aufgabe
+## **🛠️** Aufgaben
 
 Ergänze die HTML-Datei `media.html` au den Bilder-Aufgaben: &#x20;
 
