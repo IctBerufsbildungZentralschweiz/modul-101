@@ -11,15 +11,21 @@ Untersuche folgende 3 Websites mit den Browser-Entwicklerwerkzeugen und finde he
 ## Arten von Grid-Layouts
 
 Es gibt viele Arten, wie Grids für Layouts genutzt werden können. \
-Wir schauen hier zwei verbreitete Varianten an:&#x20;
+Wir schauen hier folgende verbreitete Varianten an:&#x20;
 
-#### [**Layout mit benannten Grid Areas (Named Grid Areas)**](platzierung.md#layout-mit-benannten-grid-areas-named-grid-areas)
+[**Layout mit benannten Grid Areas (Named Grid Areas)**](platzierung.md#layout-mit-benannten-grid-areas-named-grid-areas)
 
 ![](../../.gitbook/assets/named-grid-areas.png)
 
-#### [**Layout mit Grid-Linien (Grid Line Placement)**](platzierung.md#layout-mit-grid-linien-grid-line-placement)
+[**Layout mit Grid-Linien (Grid Line Placement)**](platzierung.md#layout-mit-grid-linien-grid-line-placement)
 
 ![](../../.gitbook/assets/guardian-grid.png)
+
+[**Kombination von beiden**](platzierung.md#kombination)
+
+![](../../.gitbook/assets/grafik.png)
+
+
 
 ## Benannte Grid Areas (Named Grid Areas)
 
@@ -72,6 +78,8 @@ aside   { grid-area: sidebar; }
 ```
 
 Siehe [https://codepen.io/anon/pen/ooZVoG](https://codepen.io/anon/pen/ooZVoG).
+
+
 
 ## Grid-Linien (Grid Line Placement)
 
@@ -130,11 +138,15 @@ Bei groben Rastern kann das Platzieren der Elemente auch dynamisch passieren, da
 
 Fertig. Siehe z.B. [www.vaude.com](https://www.vaude.com/de/de/)&#x20;
 
+
+
 ## Kombination
 
 Es kann z.B. das Grundlayout mit Named Grid Areas erstellt sein, im Content (`<main>)`  kann ein Linien-Grid eingesetzt werden:&#x20;
 
 <figure><img src="../../.gitbook/assets/grafik.png" alt=""><figcaption></figcaption></figure>
+
+
 
 ## Welche Variante soll ich nutzen? Vor- und Nachteile?
 
@@ -150,6 +162,8 @@ Der Ansatz der benannten Grid Areas ist da robuster und leichter lesbar. Wir kö
 
 Ist die Anzahl Items ähnlich wie bei einer Flexbox variabel, können keine festen Namen zugeteilt werden. Da bietet sich das Grid Line Placement an.&#x20;
 
+
+
 ## Unterstützung in den Browser-DevTools (F12)
 
 In den Entwicklertools findest du unter `Inspect -> Layout` (Firefox) bzw. `Elements -> Layout` (Chrome) den Grid Inspector, der dir beim Arbeiten mit Grids helfen kann:
@@ -157,6 +171,8 @@ In den Entwicklertools findest du unter `Inspect -> Layout` (Firefox) bzw. `Elem
 ![Grid Inspector in Firefox](<../../.gitbook/assets/dev-tools-setting (1).png>) ![Container](<../../.gitbook/assets/dev-tools (1).png>)
 
 <figure><img src="../../.gitbook/assets/ChromeDevToolsGrid.png" alt=""><figcaption><p>Grids und Flexboxen sind in Chrome leicht zu finden.</p></figcaption></figure>
+
+
 
 ## Weiterführende Links
 
