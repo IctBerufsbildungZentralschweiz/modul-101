@@ -48,4 +48,4 @@ Zwischenräume zwischen `Columns` und `Rows` bezeichnet man als `Gaps`.
 
 ### Grid
 
-![Rows](<../../.gitbook/assets/guardian-grid (1).png>)
+![Rows](<../../.gitbook/assets/guardian-grid (1) (1).png>)
