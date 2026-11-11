@@ -30,13 +30,16 @@ Favicon kann man sich leicht erzeugen lassen mit einem Generatoren, z.B.:&#x20;
 * [realfavicongenerator.net](https://realfavicongenerator.net/)
 * [www.ionos.de/tools/favicon-generator](https://www.ionos.de/tools/favicon-generator)
 
-Danach bindest du sie im HTML-Head ein:&#x20;
+Danach bindest du sie im HTML-Head ein, je nach Gerät kannst du verschiedene Formate anbieten:&#x20;
 
 ```html
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 ```
+
+Das .ico-Format kann von fast allen Geräten angezeigt werden. \
+Das .svg-Format hat den Vorteil, dass es beliebig skaliert werden kann für verschiedene Grössen.&#x20;
 
 ### JavaScript einbinden
 
@@ -75,5 +78,5 @@ Was Social Networks wie Insta, Facebook, etc. beim Sharen als Vorschau anzeigen 
 
 ## 🛠️ Aufgaben
 
-1. Definiere ein paar OG-Tags und prüfe dann in einem Social-Media-Kanal, was angezeigt wird.
-2. Definiere ein Favicon und prüfe, ob es im Browser-Tab angezeigt wird.
+1. Definiere ein Favicon und prüfe, ob es im Browser-Tab angezeigt wird.
+2. Definiere ein paar OG-Tags und prüfe dann in einem Social-Media-Kanal, was angezeigt wird.
