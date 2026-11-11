@@ -11,7 +11,7 @@
     * [📖 HTML-Grundlagen](tag-1/03-html/01-grundlagen.md)
     * [📖 Häufig benutzte Tags](tag-1/03-html/02-spezielle-tags.md)
     * [📖 Listen & Tabellen](tag-1/03-html/03-tabellen-and-listen.md)
-    * [📄 HTML Dokument](tag-1/03-html/04-html-dokument.md)
+    * [📄 HTML-Dokument](tag-1/03-html/04-html-dokument.md)
     * [🛠️ Aufgabe "Über mich"](tag-1/03-html/05-html-aufgabe.md)
     * [📖 Strukturelemente & semantische Tags](tag-1/03-html/06-struktur-semantische-tags.md)
     * [🛠️ Aufgabe "Über mich" strukturieren](tag-1/03-html/07-html-aufgabe-strukturieren.md)

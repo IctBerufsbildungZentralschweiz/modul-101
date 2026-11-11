@@ -1,4 +1,4 @@
-# 📄 HTML Dokument
+# 📄 HTML-Dokument
 
 ## Aufbau eines HTML-Dokumentes
 
@@ -31,3 +31,7 @@ Jedes HTML-Dokument sollte minimal die folgenden Elemente enthalten. Du kannst d
 **`<meta name="viewport" content="...">`** — Dieses Element sorgt dafür, dass Elemente auf verschiedenen Bildschirmgrössen und Zoomlevels korrekt skaliert werden. Siehe [Responsive Design](../../tag-2/06-responsive-webdesign/responsive-design.md#viewport).
 
 **`<body></body>`** — das `<body>` Element. Dies beinhaltet alles, was die Betrachter sehen, wenn sie die Website besuchen, egal ob Text, Bilder, Videos, Audiodateien, usw.
+
+### Mehr zum HTML-Head
+
+Weitere Tags für den HTML-Head findest du im Kapitel [HTML-Head, Favicon, Metatags](../../tag-3/optionale-themen/html-less-than-head-greater-than-favicon-metatags.md)

@@ -114,6 +114,12 @@ Mit Kommentaren kann auch HTML-Code (temporär) deaktiviert werden. Dadurch wird
 <!-- <article> Dieser Beitrag ist noch nicht fertig </article> -->
 ```
 
+## Tags im HTML-Head
+
+Die wichtigsten Tags sind im Beitrag [HTML-Dokument](04-html-dokument.md) beschrieben.&#x20;
+
+Weitere Tags für den HTML-Head findest du im Kapitel [HTML-Head, Favicon, Metatags](../../tag-3/optionale-themen/html-less-than-head-greater-than-favicon-metatags.md)
+
 ## 🛠️ Aufgabe
 
 Gehe auf [Codepen.io](https://codepen.io/pen/) und probiere folgende Tags aus:
