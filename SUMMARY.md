@@ -69,6 +69,7 @@
     * [🛠️ Aufgabe Formulare](tag-3/formulare/aufgabe.md)
   * [Gestaltung & Usability](tag-3/usability.md)
   * [Optionale Themen](tag-3/optionale-themen/README.md)
+    * [HTML \<head>, Favicon, Metatags](tag-3/optionale-themen/html-less-than-head-greater-than-favicon-metatags.md)
     * [Neuere Features](tag-3/optionale-themen/neuere-features.md)
     * [Header / Footer: Positionierung](tag-3/optionale-themen/06-boxmodell.md)
     * [Effekte](tag-3/optionale-themen/effekte.md)
