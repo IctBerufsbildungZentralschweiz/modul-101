@@ -2,15 +2,15 @@
 
 ## Problemstellung: Gemeinsamer Code
 
-Wenn ihr in einem kleinen Projekt zu zweit oder mehr arbeitet, habt ihr gemeinsamen Code, den ihr beide / alle ändern und testen wollt, ohne einander Arbeit zu überschreiben. Wie geht das?&#x20;
+Wenn ihr in einem Projekt zu zweit oder mehr arbeitet, habt ihr gemeinsamen Code, den alle gleichzeitig ändern und testen wollen, ohne einander Arbeit zu überschreiben. Wie geht das?&#x20;
 
-Es gibt diverse Tools dafür, kostenpflichtige, komplexe oder einfache:&#x20;
+Es gibt diverse Tools und Workflows dafür, teure und kostenlose, komplexe oder einfache:&#x20;
 
-* In VS Code z.B. wird die Extension "**Live Share**" und zum Testen "Live Server" angeboten. Die beiden arbeiten leider nicht gut zusammen und "Live Share" macht oft Probleme.&#x20;
+* Extensions in VS Code, z.B. "**Live Share**" und zum Testen "**Live Server**". Die beiden arbeiten leider nicht gut zusammen und "Live Share" macht oft Probleme. Daher eher nicht empfohlen, aber ihr könnt es ausprobieren.&#x20;
 * Gemeinsame **Code-Verwaltung mit Git**: Ist der Standard für grössere Projekte, jedoch recht komplex und synchronisiert nicht sofort oder automatisch.&#x20;
-* Dateien **hin und her kopieren**: Ist möglich, aber mühsam, und die Ordner-Struktur wird nicht automatisch korrekt übernommen.&#x20;
-* **Empfehlung für dieses Modul:** \
-  **OneDrive** plus eigener CSS-Datei plus gute Absprache.
+* Dateien manuell z.B. per Teams **hin und her kopieren**: Ist möglich, aber mühsam, und die Ordner-Struktur wird nicht automatisch korrekt übernommen.&#x20;
+* **Vorschlag für dieses Modul:** \
+  **OneDrive** plus temporäre CSS-Dateien plus gute Absprache. Dies bietet keine totale Sicherheit gegen überschreiben und die Synchronisierung mit OneDrive dauert immer einige Sekunden, aber die ist sehr einfach und recht verlässlich.&#x20;
 
 ## Workflow mit **OneDrive** plus eigener CSS-Datei
 
