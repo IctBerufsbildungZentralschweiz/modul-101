@@ -23,7 +23,7 @@ Das CSS-Layout basiert auf dem Box-Modell. Jede Box, die Platz auf einer Webseit
 
 1. Rufe eine beliebige Website im Internet auf, öffne die "Developer Tools" (Rechtsklick auf ein Element > "Untersuchen" oder `F12`) und suche das Tab "Computed".&#x20;
 2. Schau dir die Grafik des Box-Models eines HTML-Elements unter "Computed" an und darunter, woher die Abstände in CSS kommen.&#x20;
-3. Wechsle zwischen den Tabs "Styles" und "Computed", das ist anders?&#x20;
+3. Wechsle zwischen den Tabs "Styles" und "Computed": Welche Informationen zeigt dir "Styles", welche "Computed"? Worin unterscheiden sich die beiden Ansichten?&#x20;
 4. Untersuche noch ein paar andere Elemente auf der gleichen Seite.&#x20;
 
 ### Shorthand Properties: 4 Seiten - top, right, bottom, left
