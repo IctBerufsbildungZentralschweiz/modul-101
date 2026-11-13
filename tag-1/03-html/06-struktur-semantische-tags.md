@@ -9,7 +9,7 @@ Mehrere Tags können zu zusammengehörigen Blöcken zusammengefasst werden. Dazu
 
 Das Strukturelement `<div>` (Document Division Element) ist ein generischer Container für Inhalte, der keine eigene Bedeutung hat, ausser dass er Elemente zusammenfasst, z.B. um sie im Layout zu positionieren oder zu stylen (mit Hilfe von CSS).
 
-Beispiel: Wir möchten folgende Absätze mit einer Hintergrundfarbe hinterlegen, ohne einen weissen Absand dazwischen zu haben.
+Beispiel: Wir möchten folgende Absätze mit einer Hintergrundfarbe hinterlegen, ohne einen weissen Abstand dazwischen zu haben.
 
 ```html
 <p>Ich bin ein erster Absatz.</p>

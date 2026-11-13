@@ -9,7 +9,7 @@ Lies die Geschichte und frage dich: \
 
 Der Vorreiter des Internets entstand in den 50iger Jahren aus der Bedrohungslage während des kalten Krieges in den Vereinigten Staaten. So wollte das US-Militär das Problem lösen, wie US-Regierungsstellen nach einem Atomanschlag sicher und effektiv miteinander kommunizieren können.
 
-Ziel war es ein dezentrales Kommunikationsnetzwerk zu erstellen, wo kein zentraler Server, sondern einzelne Computer als Netzkoten dienen. So sollte das System auch nach einem Teilausfall betrieben werden können, da die einzelnen Netzknoten unabhängig voneinander agieren können.
+Ziel war es ein dezentrales Kommunikationsnetzwerk zu erstellen, wo kein zentraler Server, sondern einzelne Computer als Netzknoten dienen. So sollte das System auch nach einem Teilausfall betrieben werden können, da die einzelnen Netzknoten unabhängig voneinander agieren können.
 
 Um die Bestrebungen zu erreichen, wurde eigens dafür eine Projektgruppe gegründet, die ARPA (Advanced Research Project Agency). Diese nahm 1957 das [ARPAnet](https://de.wikipedia.org/wiki/Arpanet) in Betrieb - das erste dezentrale Computernetzwerk.
 

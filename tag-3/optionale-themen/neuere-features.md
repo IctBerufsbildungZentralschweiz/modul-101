@@ -54,7 +54,7 @@ body .blog-post a {
 }
 ```
 
-Seit 2024 können Selektoren auch berschachtelt werden. Auch dies war vorher nur mit Precompilern (LESS, SASS) möglich:&#x20;
+Seit 2024 können Selektoren auch verschachtelt werden. Auch dies war vorher nur mit Precompilern (LESS, SASS) möglich:&#x20;
 
 ```css
 body {
