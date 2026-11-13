@@ -46,7 +46,7 @@ body {
 }
 ```
 
-Auf [cssfontstack.com](https://www.cssfontstack.com/) gibt es vordefinierte Font Stacks mit ähnlichen Schriftarten.
+Auf [modernfontstacks.com](https://modernfontstacks.com/) gibt es vordefinierte Font Stacks mit ähnlichen Schriftarten.
 
 ### Generische Schriftfamilie
 
