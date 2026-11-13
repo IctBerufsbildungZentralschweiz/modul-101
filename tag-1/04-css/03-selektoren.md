@@ -96,7 +96,7 @@ Vorallem bei Links (`<a>`) sind die Pseudoklassen wichtig, um den Website-Besuch
 | `:first-child`                         | Dies wählt jedes Element aus, welches das erste Kindelement seines Elternelements ist.                                                                          |
 | `:last-child`                          | Dies wählt jedes Element aus, welches das letzte Kindelement seines Elternelement ist.                                                                          |
 | `:nth-child()`                         | In der Klammer dieser Pseudoklasse muss noch ein Wert mitgegeben werden - Beispiel: 2n. So wird jedes 2te Kindelement seines Elternelements ausgewählt.         |
-| <p><code>:has()</code><br><br><br></p> | <p>Dies wählt jedes Element aus, welches einen angegebenen Nachfolger hat. <br>Diese Pseudoklasse wird erst seit 2023 von den meisten Browsern unterstützt.</p> |
+| <p><code>:has()</code><br><br><br></p> | <p>Dies wählt jedes Element aus, das mindestens ein Element enthält, auf welches der Selektor in der Klammer zutrifft. Beispiel: <code>article:has(img)</code> wählt jeden Artikel aus, der ein Bild enthält. <br>Diese Pseudoklasse wird erst seit 2023 von den meisten Browsern unterstützt.</p> |
 
 #### Beispiele zu Pseudoklassen
 
