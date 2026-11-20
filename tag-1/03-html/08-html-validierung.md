@@ -4,7 +4,7 @@ Validierung ist ein Prozess, bei dem Dokumente auf die Einhaltung eines formalen
 
 ## Warum sollte man validen Code erstellen?
 
-* Nicht valider Code wird von den Browsern automatisch korrigiert. Dabei kann es sein, dass der eine Browser den Code anders korrigiert, als ein anderer Browser, und anders, also du es möchtest.
+* Nicht valider Code wird von den Browsern automatisch korrigiert. Dabei kann es sein, dass der eine Browser den Code anders korrigiert, als ein anderer Browser, und anders, als du es möchtest.
 * Für die Suchmaschinenoptimierung und Online-Vermarktung ist valider Code wichtig. Nicht valider Code kann dazu führen, dass die Website auf Suchmaschinen schlecht bewertet und somit weniger gut gefunden wird.&#x20;
 * Die Ladezeiten können durch nicht validen Code verlängert werden.
 * Barrierefreiheit und Usability: Nicht valider Code kann dazu führen, dass die Barrierefreiheit sich verschlechtert und die Website nicht problemlos benutzt werden kann.

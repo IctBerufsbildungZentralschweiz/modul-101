@@ -2,10 +2,10 @@
 
 ## Begriffe
 
-Einige Begriffe sollten auseinander gehlaten werden:
+Einige Begriffe sollten auseinandergehalten werden:
 
 * **Internet:** Ein Netz von dezentral vernetzten Geräten, über welche viele Dienste laufen wie E-Mail, Video-Calls, Messenger, WWW, Streaming, Internet-Telefonie, Filetransfer etc.
-* **Web / WWW:** Weltweit mit Hyperlinks vernetzte HTML-Dokumente, die übers Internet-Protokoll HTTP/HTTPs übertragen werden.&#x20;
+* **Web / WWW:** Weltweit mit Hyperlinks vernetzte HTML-Dokumente, die über das Protokoll HTTP/HTTPS übertragen werden.&#x20;
 * **Website**: Gesamtheit aller Seiten, welche zu einem Webauftritt gehören
 * **Webseite**: Eine einzelne Seite innerhalb eines Webauftrittes
 * **Homepage**: Startseite einer Website (Home)

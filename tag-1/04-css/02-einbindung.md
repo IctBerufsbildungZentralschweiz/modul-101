@@ -5,7 +5,7 @@
 CSS-Regeln können an 3 Orten geschrieben werden:&#x20;
 
 **Extern in CSS-Datei(en)** mittels `<link>`-Element **(empfohlen)**: \
-CSS in einer eigenen Datei wird im HTML-Dokument im `<head>` verlinkt.Dies bringt eine saubere Trennung von HTML & CSS und CSS kann von mehrere HTML-Dateien gemeinsam genutzt werden.
+CSS in einer eigenen Datei wird im HTML-Dokument im `<head>` verlinkt. Dies bringt eine saubere Trennung von HTML & CSS und CSS kann von mehreren HTML-Dateien gemeinsam genutzt werden.
 
 ```html
 <link href="css/styles.css" rel="stylesheet">
@@ -26,7 +26,7 @@ Styles, welche nur auf dieser Seite verfügbar sind.
  <p style="font-weight: bold;">
 ```
 
-**Wichtig:** Inline-Styling sollte vermieden werden! Zweck von CSS ist es, Inhalt (HTML) und Styling (CSS) auseinander zu halten und Styles möglichst über die ganze Website einheitlich zu halten.&#x20;
+**Wichtig:** Inline-Styling sollte vermieden werden! Zweck von CSS ist es, Inhalt (HTML) und Styling (CSS) auseinanderzuhalten und Styles möglichst über die ganze Website einheitlich zu halten.&#x20;
 
 ## CSS-Datei einbinden
 
@@ -45,9 +45,9 @@ header, main, footer {
 }
 ```
 
-Nun haben wir zwar diese beiden Dateien, diese wissen jedoch noch nichts voneinder. Dies können wir ändern, in dem wir das CSS mit dem HTML-Dokument verknüpfen.
+Nun haben wir zwar diese beiden Dateien, diese wissen jedoch noch nichts voneinander. Dies können wir ändern, indem wir das CSS mit dem HTML-Dokument verknüpfen.
 
-Öffne die Datei `ueber-mich.html` und füge die folgende Zeile irgenwo in den `<head>`-Bereich ein:
+Öffne die Datei `about-me.html` und füge die folgende Zeile irgendwo in den `<head>`-Bereich ein:
 
 ```markup
 <link href="styles.css" rel="stylesheet">
@@ -61,11 +61,11 @@ Nun haben wir zwar diese beiden Dateien, diese wissen jedoch noch nichts voneind
 
 Um das CSS zu testen, setze für das ganze Dokument (`<body>`) eine Schrift ([`font-family`](https://www.w3schools.com/cssref/pr_font_font-family.php)) und einen Hintergrund ([`background-color`](https://www.w3schools.com/cssref/pr_background-color.php))
 
-Betrachte anschliessend die Datei `ueber-mich.html` im Browser - Hintergrund und Schrift sollten nun angepasst sein.
+Betrachte anschliessend die Datei `about-me.html` im Browser - Hintergrund und Schrift sollten nun angepasst sein.
 
 ## 🛠️ Aufgabe
 
-Erstelle zur Seite "Über mich" eine neue Datei "styles.css", binde sie in dein HTML-Dokument ein und schreibe in CSS 2-3 Formatierungen deiner Wahl. Z.B. Hintergrundfarbe, Schirftfarbe, Grösse, Font etc. für Überschriften oder Text.&#x20;
+Erstelle zur Seite "Über mich" eine neue Datei "styles.css", binde sie in dein HTML-Dokument ein und schreibe in CSS 2-3 Formatierungen deiner Wahl. Z.B. Hintergrundfarbe, Schriftfarbe, Grösse, Font etc. für Überschriften oder Text.&#x20;
 
 Werden deine neuen Stile auf die HTML-Seite angewandt? \
 Falls nicht, wie kannst du die Fehler finden? Schau im Browser in den Entwicklungswerkzeugen nach.&#x20;
