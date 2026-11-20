@@ -11,11 +11,11 @@ Vom einfachen manuellen Upload per FTP von deinem Rechner auf den Server bis zum
 
 ## Transfer
 
-Für den Transfer von Quellcode auf den Server gibt es verschiedenste Methoden. Die meist verbreitete Methode für das manuelle Veröffentlichen ist der Upload via **FTP** oder **SFTP**.
+Für den Transfer von Quellcode auf den Server gibt es verschiedenste Methoden. Die am weitesten verbreitete Methode für das manuelle Veröffentlichen ist der Upload via **FTP** oder **SFTP**.
 
 ### File Transfer Protocol
 
-Das File Transfer Protocol wurde dafür konzipiert, Dateien in einem Netzwerk von A nach B zu übertragen. Dazu wird ein FTP Server betrieben, zu dem jeder beliebige FTP-Client eine Verbindungen aufbauen kann.
+Das File Transfer Protocol wurde dafür konzipiert, Dateien in einem Netzwerk von A nach B zu übertragen. Dazu wird ein FTP Server betrieben, zu dem jeder beliebige FTP-Client eine Verbindung aufbauen kann.
 
 Mit einem Benutzernamen und Passwort oder einer Schlüsseldatei kann man sich gegenüber dem Server authentifizieren. Anschliessend können Dateien in beide Richtungen übertragen werden.
 
@@ -23,13 +23,13 @@ Mit einem Benutzernamen und Passwort oder einer Schlüsseldatei kann man sich ge
 
 Ein beliebter FTP-Client für Windows ist [**WinSCP**](https://winscp.net/eng/download.php). Die Software ist kostenlos erhältlich.
 
-**Achte darauf, den Download von der offiziellen Projektseite** [**winscp.net**](https://winscp.net/eng/download.php) **zu verwenden. Es gibt diverse Installer für WinSCP mit gebundelter Malware im Internet zu finden.**
+**Achte darauf, den Download von der offiziellen Projektseite** [**winscp.net**](https://winscp.net/eng/download.php) **zu verwenden. Im Internet sind diverse Installer für WinSCP mit gebundelter Malware zu finden.**
 
 ## 🛠️ Aufgabe
 
 ![](../.gitbook/assets/ralph.png)
 
-Veröffentliche den letzten Stand deiner Arbeit auf den FTP Server der ICT-BZ und rufe sie auf deinem Browser und auf deinem Smartphone auf.&#x20;
+Veröffentliche den letzten Stand deiner Arbeit auf den FTP Server der ICT-BZ und rufe sie in deinem Browser und auf deinem Smartphone auf.&#x20;
 
 **Achtung:** Wir nutzen alle einen gemeinsamen Server, das ist eine gute Gelegenheit, Verantwortung zu üben, sodass alle gut damit arbeiten können.&#x20;
 

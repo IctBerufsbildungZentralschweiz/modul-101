@@ -1,6 +1,6 @@
 # Kaskadierung - Wer gewinnt?
 
-Es wird in Projekten dazu kommen, dass mehrerere CSS-Regeln das gleiche Element ansprechen.
+Es wird in Projekten dazu kommen, dass mehrere CSS-Regeln das gleiche Element ansprechen.
 
 #### index.html
 
@@ -21,7 +21,7 @@ p {
 
 In diesen Fällen stellt sich die Frage: Welche CSS Regel «gewinnt»? Dies wird über einen Mechanismus namens «Cascading» oder Kaskadierung bestimmt.
 
-CSS ist ein Akronym für **\*Cascading** Style Sheet\*. Bei der Kaskadierung geht es darum, dass der Style einmal gestalteter Elemente an anderer Stelle überschrieben werden kann.&#x20;
+CSS ist ein Akronym für **\*Cascading** Style Sheets\*. Bei der Kaskadierung geht es darum, dass der Style einmal gestalteter Elemente an anderer Stelle überschrieben werden kann.&#x20;
 
 Es entscheiden drei Faktoren darüber, welche CSS-Regel «gewinnt»:
 
@@ -38,7 +38,7 @@ Wenn du in Visual Studio Code über einen Selektor fährst, wird das Punktesyste
 
 ### Wichtigkeit
 
-In CSS kann man mit einem Schlüsselwort sicher stellen, dass einige Deklarationen _immer_ wichtiger sind als andere, also immer «gewinnt»: `!important`.
+In CSS kann man mit einem Schlüsselwort sicherstellen, dass einige Deklarationen _immer_ wichtiger sind als andere, also immer «gewinnen»: `!important`.
 
 index.html:
 
@@ -59,11 +59,11 @@ p {
 
 Im oben gezeigten Beispiel wird die Schrift schwarz angezeigt, da diese CSS-Regel mit der Syntax `!important` deklariert wurde.
 
-**WICHTIG:** Es macht nur Sinn diese Syntax einzusetzen, wenn man absolut keine andere Wahl hat. Diese Syntax ändert nähmlich die Art und Weise komplett, wie die Logik der Kaskadierung normalerweise funktioniert. Die Notwendigkeit, `!important` zu verwenden, ist meist ein Hinweis auf schlecht strukturierten CSS-Code.
+**WICHTIG:** Es macht nur Sinn diese Syntax einzusetzen, wenn man absolut keine andere Wahl hat. Diese Syntax ändert nämlich die Art und Weise komplett, wie die Logik der Kaskadierung normalerweise funktioniert. Die Notwendigkeit, `!important` zu verwenden, ist meist ein Hinweis auf schlecht strukturierten CSS-Code.
 
 ### Spezifizierung
 
-Eine CSS-Regel ist umso stärker, desto spezifischer der Selektor definiert wurde.
+Eine CSS-Regel ist umso stärker, je spezifischer der Selektor definiert wurde.
 
 * Typen-Selektoren (`p`) haben die niedrigste Spezifizierung und sind deshalb am schwächsten.
 * `class`-Selektoren (`.red`) haben eine höhere Spezifizierung und sind deshalb stärker als Typen-Selektoren.
@@ -71,11 +71,11 @@ Eine CSS-Regel ist umso stärker, desto spezifischer der Selektor definiert wurd
 *   Verschachtelte Selektoren haben eine höhere Spezifizierung als nicht verschachtelte:&#x20;
 
     ```css
-    /* Diese Regel überschreibt die unten aufgeführte Regel. */
+    /* Diese Regel überschreibt die Regel für a ganz unten (höhere Spezifität). */
     .navigation a {
       color: red;
     }
-    /* a:hover ist genauer spezifiziert als a, gewinnt also beim Mouse-Over */
+    /* a:hover ist genauer spezifiziert als a. Gegenüber .navigation a (gleiche Spezifität) gewinnt a:hover beim Mouse-Over, weil es später steht. */
     a:hover {
       color: green;
     }
@@ -86,7 +86,7 @@ Eine CSS-Regel ist umso stärker, desto spezifischer der Selektor definiert wurd
 
 ### Platzierung / Reihenfolge
 
-Sind sowohl Wichtigkeit und Spezifizierung von zwei Selektoren identisch, entscheidet schlussendlich die Platzierung. Die Regel, die als letztes kommt, überschreibt die vorherigen.&#x20;
+Sind sowohl Wichtigkeit als auch Spezifizierung von zwei Selektoren identisch, entscheidet schlussendlich die Platzierung. Die Regel, die als letztes kommt, überschreibt die vorherigen.&#x20;
 
 ```css
 p {
@@ -102,11 +102,11 @@ p {
 
 **Style deine Website "Über mich" weiter:** &#x20;
 
-1. Versuche, die Schriftart im Header mit einer anderen Font-Famliy zu überschreiben.
+1. Versuche, die Schriftart im Header mit einer anderen Font-Family zu überschreiben.
 2. Bilder, welche im Header vorkommen, sollen runde Ecken haben (Radius: 10px).
 3. Überschreibe das Styling der Links im Footer (Social-Links):&#x20;
    * Sie sollen rot sein und nicht unterstrichen.&#x20;
-   * Bei Mouse-Over über die Links im Footer sollen die Schrift rot bleiben und der Link-Text unterstrichen werden.
+   * Bei Mouse-Over über die Links im Footer soll die Schrift rot bleiben und der Link-Text unterstrichen werden.
 
 Überprüfe das Resultat im Browser und den Code mit dem [CSS-Validator](https://jigsaw.w3.org/css-validator/#validate_by_input), korrigiere allfällige Fehler.<br>
 
@@ -115,5 +115,5 @@ p {
 Auf Wunsch des Kunden soll ein alternatives Theme für die Website gewählt werden können.&#x20;
 
 1. Erstelle eine neue CSS-Datei `color-theme.css`  und binde sie in deinem HTML-Dokument NACH `styles.css` ein.&#x20;
-2. Versuche nun in der neuen CSS-Datei einige Hintergrund- und Textfarben des Layouts zu überschneiden.
+2. Versuche nun in der neuen CSS-Datei einige Hintergrund- und Textfarben des Layouts zu überschreiben.
 3. Teste die Webseite mal mit, mal ohne zusätzliches `color-theme.css`  und schau dir den Unterschied an.

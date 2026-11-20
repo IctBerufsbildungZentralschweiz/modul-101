@@ -8,7 +8,7 @@ Mit CSS können Grösse, Farben, Position usw. bestimmt werden.
 
 ## Eigenschaften von Boxen
 
-Das CSS-Layout basiert auf dem Box-Modell. Jede Box, die Platz auf einer Webseite einnimmt, hat unter anderen folgende Eigenschaften:
+Das CSS-Layout basiert auf dem Box-Modell. Jede Box, die Platz auf einer Webseite einnimmt, hat unter anderem folgende Eigenschaften:
 
 * **Aussenabstand (`margin`):** \
   Der Abstand vom Border bis zum nächsten benachbarten Element.
@@ -23,12 +23,12 @@ Das CSS-Layout basiert auf dem Box-Modell. Jede Box, die Platz auf einer Webseit
 
 1. Rufe eine beliebige Website im Internet auf, öffne die "Developer Tools" (Rechtsklick auf ein Element > "Untersuchen" oder `F12`) und suche das Tab "Computed".&#x20;
 2. Schau dir die Grafik des Box-Models eines HTML-Elements unter "Computed" an und darunter, woher die Abstände in CSS kommen.&#x20;
-3. Wechsle zwischen den Tabs "Styles" und "Computed", das ist anders?&#x20;
+3. Wechsle zwischen den Tabs "Styles" und "Computed": Welche Informationen zeigt dir "Styles", welche "Computed"? Worin unterscheiden sich die beiden Ansichten?&#x20;
 4. Untersuche noch ein paar andere Elemente auf der gleichen Seite.&#x20;
 
 ### Shorthand Properties: 4 Seiten - top, right, bottom, left
 
-Die Abstände und Rahmen einer Box können für alle 4 Seiten einzeln oder zusammen oder einzeln definiert werden. Ein paar Beispiele:&#x20;
+Die Abstände und Rahmen einer Box können für alle 4 Seiten einzeln oder zusammen definiert werden. Ein paar Beispiele:&#x20;
 
 ```css
 .element-x {
@@ -61,10 +61,10 @@ Für jede Box kann die Breite und Höhe definiert werden. Häufige Masseinheiten
 
 ```css
 .container {
-    width: 200px; // Breite 
-    max-width: 50%; // Maximum 50% der übergeordneten Box breit
-    height: 600px; // Höhe
-    min-height: 50vh; // Minimal halbe Viewporthöhe (Fensterhöhe)
+    width: 200px; /* Breite */
+    max-width: 50%; /* Maximum 50% der übergeordneten Box breit */
+    height: 600px; /* Höhe */
+    min-height: 50vh; /* Minimal halbe Viewporthöhe (Fensterhöhe) */
 }
 ```
 
@@ -80,9 +80,9 @@ Box-Sizing für ALLE Elemente auf der Website einstellen:&#x20;
 }
 ```
 
-### Übergroser Inhalt (`overflow`)
+### Übergrosser Inhalt (`overflow`)
 
-Wenn der Inhalt einer Box grässer ist als die angegebene Breite oder Höhe der Box, kannst du bestimmen, was passieren soll:&#x20;
+Wenn der Inhalt einer Box grösser ist als die angegebene Breite oder Höhe der Box, kannst du bestimmen, was passieren soll:&#x20;
 
 * `overflow: visible`: Inhalt soll über die Box hinausragen
 * `overflow: hidden`: Zu grosser Teil soll ausgeblendet werden
@@ -92,11 +92,11 @@ Genauere Beschreibungen findest du z.B. auf [https://css-tricks.com/css-is-aweso
 
 ## 🛠️ Aufgaben zum Boxmodell
 
-Style deine Website "Über mich" weiter und ¨berprüfe nach jedem Schritt das Ergebnis im Browser.&#x20;
+Style deine Website "Über mich" weiter und überprüfe nach jedem Schritt das Ergebnis im Browser.&#x20;
 
 Stelle sicher, dass deine Seite die semantischen Strukturelemente `<header>`, `<main>` und `<footer>` enthält. Sie sollen direkt unter dem `<body>`-Element sein, also nicht tiefer verschachtelt. Die drei Blöcke sollen unterschiedliche Hintergrundfarben haben, damit du sie besser erkennst.&#x20;
 
-1. Die drei semantischen Strukturelemente soll einen Innenabstand von 40px haben.
+1. Die drei semantischen Strukturelemente sollen einen Innenabstand von 40px haben.
 2. Der Header soll 200px hoch sein.
-3. Teste im Browser mit den Entsicklungswerkzeugen (Untersuchen / F12), ob die Abstände richtig angezeigt werden.
+3. Teste im Browser mit den Entwicklungswerkzeugen (Untersuchen / F12), ob die Abstände richtig angezeigt werden.
 4. Überprüfe den Code anschliessend mit dem [CSS-Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) und korrigiere allfällige Fehler.

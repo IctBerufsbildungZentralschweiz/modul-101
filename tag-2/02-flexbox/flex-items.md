@@ -1,6 +1,6 @@
 # Die Flex-Items
 
-Die folgende Liste von Eigenschaften für die Flex-Items ist nicht abschliessend, zeigt jedoch die wichtigten Elemente.
+Die folgende Liste von Eigenschaften für die Flex-Items ist nicht abschliessend, zeigt jedoch die wichtigsten Elemente.
 
 ![Flex Items](<../../.gitbook/assets/flex-items (1).svg>)
 
@@ -8,7 +8,7 @@ Die folgende Liste von Eigenschaften für die Flex-Items ist nicht abschliessend
 
 Standardmässig befinden sich die Flex-Items in der Reihenfolge, wie sie im Code auftauchen. Mit der `order`-Eigenschaft kann man auf dieses Standardverhalten Einfluss nehmen.
 
-Der Browser sortiert die Elemente aufsteigend, gemäss des `order` Werts.
+Der Browser sortiert die Elemente aufsteigend, gemäss dem `order`-Wert.
 
 ![Order](<../../.gitbook/assets/order (1).svg>)
 
@@ -20,7 +20,7 @@ Der Browser sortiert die Elemente aufsteigend, gemäss des `order` Werts.
 
 ## Flex-Items: `flex-grow`
 
-Diese Eigenschaft ermöglicht es einem Flex-Item zu wachsen, falls nötig/möglich. Der Eigenschafts-Wert muss eine einheitlose Zahl sein - es handelt sich dabei um eine Proportion. Der Wert definiert, wieviel des nicht genutzten Platzes im Flex-Container, durch das Item vereinnahmt werden sollen.
+Diese Eigenschaft ermöglicht es einem Flex-Item zu wachsen, falls nötig/möglich. Der Eigenschafts-Wert muss eine einheitlose Zahl sein - es handelt sich dabei um eine Proportion. Der Wert definiert, wieviel des nicht genutzten Platzes im Flex-Container, durch das Item vereinnahmt werden soll.
 
 Zwei Beispiele mit drei Flex-Items auf einer Linie: 1. Hat jedes Flex-Item einen 'flex-grow'-Wert von 1, wird der nicht genutzte Platz durch drei geteilt und gleichmässig zwischen den Elementen aufgeteilt. 2. Hat ein Flex-Item einen 'flex-grow'-Wert von 2, wird der nicht genutzte Platz durch vier geteilt. Das Element mit dem Wert von 2 erhält dann 2/4 des nicht genutzten Platzes, die anderen beiden nur 1/4.
 
@@ -38,7 +38,7 @@ Diese Eigenschaft ermöglicht es einem Flex-Item zu schrumpfen, falls nötig.
 
 ```css
 .item {
-  flex-shrink: <number>; /* Standard ist 0 */
+  flex-shrink: <number>; /* Standard ist 1 */
 }
 ```
 

@@ -2,11 +2,11 @@
 
 ## Videos
 
-### Externe Videos von einbinden
+### Externe Videos einbinden
 
 Viele Plattformen wie Youtube, Vimeo etc. bieten fertigen Code an, um ein Video einzubetten:&#x20;
 
-* **Youtube, Vimeo, Dailymotion:** Klicke auf "Teilen > Einbetten", wähle die gewünschten Optionen und kopiere den Coode in deine Website.
+* **Youtube, Vimeo, Dailymotion:** Klicke auf "Teilen > Einbetten", wähle die gewünschten Optionen und kopiere den Code in deine Website.
 * **Instagram:** Hat leider keine direkte Embed-Funktion, man braucht etwas JavaScript, um einen Post in die eigene Website zu integrieren.
 
 **Vorteile:**&#x20;
@@ -16,8 +16,8 @@ Viele Plattformen wie Youtube, Vimeo etc. bieten fertigen Code an, um ein Video 
 
 **Nachteile:**&#x20;
 
-* Ein Video muss erst auf einer anderen Plattform veräffentlich werden
-* Der Datenschutz ist meist deutlisch schlechter
+* Ein Video muss erst auf einer anderen Plattform veröffentlicht werden
+* Der Datenschutz ist meist deutlich schlechter
 
 ### Responsive Videos - Grösse  anpassen
 
@@ -53,11 +53,11 @@ Du kannst alternative Formate angeben für Browser, welche dein bevorzugtes Form
 
 ## Audio
 
-Ähnlich die bei Videos kannst  ein Audio-Beitrag selber gehostet oder von einer Plattform eingebunden werden. Die Vor- & Nachteile sind analog der Videos.&#x20;
+Ähnlich wie bei Videos kann ein Audio-Beitrag selber gehostet oder von einer Plattform eingebunden werden. Die Vor- & Nachteile sind analog der Videos.&#x20;
 
 ### Externen Audiobeitrag einbetten
 
-* Vimeo: [https://help.soundcloud.com/hc/en-us/articles/115003453587-Embedded-players](https://help.soundcloud.com/hc/en-us/articles/115003453587-Embedded-players)
+* SoundCloud: [https://help.soundcloud.com/hc/en-us/articles/115003453587-Embedded-players](https://help.soundcloud.com/hc/en-us/articles/115003453587-Embedded-players)
 * Spotify: [https://developer.spotify.com/documentation/embeds/tutorials/creating-an-embed](https://developer.spotify.com/documentation/embeds/tutorials/creating-an-embed)
 
 
@@ -80,7 +80,7 @@ Folgendes Beispiel spielt einen Beitrag direkt beim Laden der Seite ab, aber ers
 
 ## **🛠️** Aufgaben
 
-Ergänze die HTML-Datei `media.html` au den Bilder-Aufgaben: &#x20;
+Ergänze die HTML-Datei `media.html` aus den Bilder-Aufgaben: &#x20;
 
 1. Erstelle darin ein `<main>`-Element mit einer Überschrift 1 und drei `<article>`-Elementen. Diese Elemente sollen jeweils eine Überschrift 2 enthalten ("Bilder", "Videos", "Audios").&#x20;
 2. Probiere darin die beschriebenen Medien-Elemente aus:&#x20;

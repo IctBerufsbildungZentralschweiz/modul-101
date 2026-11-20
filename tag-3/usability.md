@@ -2,10 +2,10 @@
 
 ## 🛠️ Aufgabe
 
-1. Lese diese Seite und überfliege den folgenden Artikel zum Thema Webdesign: \
+1. Lies diese Seite und überfliege den folgenden Artikel zum Thema Webdesign: \
    [der-informationsdesigner.de/agentur-blog/allgemein/was-ist-webdesign/](https://www.der-informationsdesigner.de/agentur-blog/allgemein/was-ist-webdesign/)
 2. Suche im Netz 2 Websites: Eine, welche dir gefällt, und eine, welche du nicht ansprechend findest.&#x20;
-3. Finde zu jeder Website 5 Argumente, was bezüglich Usability und Webdesign hier gut umgesetzt sind oder was du anders machen würdest.&#x20;
+3. Finde zu jeder Website 5 Argumente, was bezüglich Usability und Webdesign hier gut umgesetzt ist oder was du anders machen würdest.&#x20;
 
 ## 1. Der erste Eindruck
 
@@ -20,21 +20,21 @@ Tipps für einen guten ersten Eindruck:
 
 ### Passendes Farbkonzept
 
-Bei jedem Internetauftritt sollten Farben verwendet werden, welche zur Zielgruppe zum zum Angebot passen. Dabei ist weniger mehr, da die Besucher ansonsten schnell die Übersicht verlieren oder sogar überfordert sind. Die Farbauswahl einer Website kann daher auf 1-5 Farben geschränkt werden.
+Bei jedem Internetauftritt sollten Farben verwendet werden, welche zur Zielgruppe und zum Angebot passen. Dabei ist weniger mehr, da die Besucher ansonsten schnell die Übersicht verlieren oder sogar überfordert sind. Die Farbauswahl einer Website kann daher auf 1-5 Farben beschränkt werden.
 
-[Adobe Kuler für das Farbkonzept](https://color.adobe.com/)
+[Adobe Color für das Farbkonzept](https://color.adobe.com/)
 
 ### Animationen, Gadgets und Musik
 
-Ein Element auf der Website zu platzieren, nur weil es irgenwie cool aussieht, ist eine schwache Strategie. Der Einsatz von Animationen, Gadgets und Musik ist nur dann sinnvoll, wenn dadurch für den Nutzer ein Mehrwert entsteht.
+Ein Element auf der Website zu platzieren, nur weil es irgendwie cool aussieht, ist eine schwache Strategie. Der Einsatz von Animationen, Gadgets und Musik ist nur dann sinnvoll, wenn dadurch für den Nutzer ein Mehrwert entsteht.
 
 ### Layout und Seitenstruktur
 
-Das A und O für einen übersichtlichen Internetauftritt ist einen einfache und klare Navigationsstruktur und ein klar strukturierter Seiteninhalt, welche sich durch allen Seiten hindurch zieht. Der Besucher sollte nicht mit zu vielen Informationen überhäuft werden und Leerstellen sollten gezielt eingesetzt werden um die Seite aufzulockern.
+Das A und O für einen übersichtlichen Internetauftritt ist eine einfache und klare Navigationsstruktur und ein klar strukturierter Seiteninhalt, welche sich durch alle Seiten hindurch zieht. Der Besucher sollte nicht mit zu vielen Informationen überhäuft werden und Leerstellen sollten gezielt eingesetzt werden um die Seite aufzulockern.
 
 ### Typographie
 
-Die Schrift sollte lesbar, genug gross und in einer angenehmen Schriftfarbe sein. Auch im Web sollten übliche Text-Stilmittel wie Auflistungen, Absätze, Markerungen etc. sinnvoll eingesetzt werden. Dies steigert die Lesbarkeit und die Informationen können einfacher aufgenommen werden.
+Die Schrift sollte lesbar, genug gross und in einer angenehmen Schriftfarbe sein. Auch im Web sollten übliche Text-Stilmittel wie Auflistungen, Absätze, Markierungen etc. sinnvoll eingesetzt werden. Dies steigert die Lesbarkeit und die Informationen können einfacher aufgenommen werden.
 
 [Webschriften für die kommerzielle Verwendung](https://fonts.google.com/)
 
@@ -73,9 +73,9 @@ Jedoch reicht ein einziges Layout selten für einen kompletten Internetauftritt.
 
 Bilder können ein mächtiges Element einer Website sein und deshalb sollten sie bewusst eingesetzt werden.&#x20;
 
-Diverse Experimente haben die Wirkung von **Stock-Bildern** und echten Bildern mit Menschen aus den Unternehmen bezüglich Ihrer Wirkung bei der Lead-Generierung verglichen. Dabei ist herausgekommen, dass die **echten Bilder** bei der Wirkung die Stock-Bilder um 95% überragten.&#x20;
+Diverse Experimente haben die Wirkung von **Stock-Bildern** und echten Bildern mit Menschen aus den Unternehmen bezüglich ihrer Wirkung bei der Lead-Generierung verglichen. Dabei ist herausgekommen, dass die **echten Bilder** bei der Wirkung die Stock-Bilder um 95% überragten.&#x20;
 
-Wieso? Weil man Stock-Bildern ansieht, dass sie kaum Relevanz im speziellen Kontext besitzen. Achten Sie also bei der Bilderwahl auf deren Relevanz und deren Nähe zu den Texten auf der Seite.
+Wieso? Weil man Stock-Bildern ansieht, dass sie kaum Relevanz im speziellen Kontext besitzen. Achte also bei der Bilderwahl auf deren Relevanz und deren Nähe zu den Texten auf der Seite.
 
 ## 6. Übersichtliche Navigation
 
@@ -100,7 +100,7 @@ Animationen (mit CSS, GIFs oder JavaScript) können Aufmerksamkeit erzeugen. Gen
 
 Animationen sollten sparsam und schlicht eingesetzt werden, z.B. für Hover-Effekte bei Menüs, Buttons und Bildern.
 
-## 8. Zugänglichkeit sicher stellen
+## 8. Zugänglichkeit sicherstellen
 
-Mobile Geräte sollen genau so wie Desktop-Bildschirme bedient werden. Auch auf [Barrierefreiheit](optionale-themen/barrierefreiheit.md) sollte geachtet werden.&#x20;
+Die Website soll auf mobilen Geräten genauso gut bedienbar sein wie auf Desktop-Bildschirmen. Auch auf [Barrierefreiheit](optionale-themen/barrierefreiheit.md) sollte geachtet werden.&#x20;
 

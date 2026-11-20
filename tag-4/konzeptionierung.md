@@ -8,15 +8,15 @@ Natürlich gibt es nicht _den_ «Ablauf eines Webprojektes». Trotzdem zeigen di
 
 {% file src="../.gitbook/assets/Erklaerung_Webprojektablauf.pdf" %}
 
-Ein Auftrag beginnt meistens nie mit der Realisation, sondern immer zuerst mit einem Konzept: Das Konzept beinhaltet die Analyse der IST-Situation, die Festlegung einer stategischen Stossrichtung, die Prüfung von möglichen Lösungsvarianten, die Planung des Vorgehens sowie Kriterien für die Kontrolle der Arbeit.
+Ein Auftrag beginnt meistens nicht mit der Realisation, sondern zuerst mit einem Konzept: Das Konzept beinhaltet die Analyse der IST-Situation, die Festlegung einer strategischen Stossrichtung, die Prüfung von möglichen Lösungsvarianten, die Planung des Vorgehens sowie Kriterien für die Kontrolle der Arbeit.
 
-Natürlich führen viele Wege nach Rom. Der Dertaillierungsgrad des Konzeptes ist meistens abhängig von der Grösse und der Komplexität des Projektes. Im Folgenden werden einige Hilfsmittel und Konzepte vorgestellt, wie man ein Website-Konzept erstellen könnte - die Liste ist jedoch nicht als vollständig und abschliessend zu betrachten.
+Natürlich führen viele Wege nach Rom. Der Detaillierungsgrad des Konzeptes ist meistens abhängig von der Grösse und der Komplexität des Projektes. Im Folgenden werden einige Hilfsmittel und Konzepte vorgestellt, wie man ein Website-Konzept erstellen könnte - die Liste ist jedoch nicht als vollständig und abschliessend zu betrachten.
 
 ## Analyse der Ist-Situation: Wettbewerbsanalyse
 
 Eine Website ist nur dann erfolgreich, wenn sie den gewünschten Nutzen für die Zielgruppe und das Unternehmen bringt. Dafür ist es wichtig, dass wir uns von der Konkurrenz abheben können. Eine Analyse der Anderen hilft uns somit bei der eigenen Positionierung. Ein Alleinstellungsmerkmal, das die eigenen Dienste von anderen unterscheidet, ist der Aufhänger um in Zukunft Orientierung zu stiften.
 
-Eine Wettbewerbsanalyse soll folgende Fragen beantwortet:
+Eine Wettbewerbsanalyse soll folgende Fragen beantworten:
 
 * Gibt es viel Konkurrenz?
 * Wie positionieren sich andere Wettbewerber online?
@@ -28,27 +28,27 @@ Eine Wettbewerbsanalyse soll folgende Fragen beantwortet:
 
 Der Erfolg einer Website bedeutet, Ziele zu erreichen. Diese Ziele müssen erstmal definiert werden.
 
-Die Festlegung der Stategie sollte somit folgende Fragen beantworten:
+Die Festlegung der Strategie sollte somit folgende Fragen beantworten:
 
 * Welche Ziele wollen wir mit der Website erreichen?
 * Welche Zielgruppen wollen wir mit der Website ansprechen? Warum?
 
 ### Zieldefinition
 
-Viele Unternehmen neigen dazu, den eigentlichen «Webauftritt» als Ziel zu haben. Dieses Ziel sollte mit dem nötigen Budget erreichbar sein. Doch geht es deutlich um mehr - in die Definition von «guten Zielen», sollte daher immer genügen Zeit investiert werden:
+Viele Unternehmen neigen dazu, den eigentlichen «Webauftritt» als Ziel zu haben. Dieses Ziel sollte mit dem nötigen Budget erreichbar sein. Doch es geht um deutlich mehr - in die Definition von «guten Zielen», sollte daher immer genügend Zeit investiert werden:
 
 | Bereich   | Mögliche Ziele / Beispiele                                                                                                                   |
 | --------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| Marketing | Mehr Besucher-Verkehr, Bedürfnisse wecken, Leads generieren & reaktivierung bestehender Kunden                                               |
-|           | Beispiel: Sechs Monate nach dem Relaunch der neuen Webseite sollen täglich 350 Besucher Ihre Website besuchen.                               |
+| Marketing | Mehr Besucher-Verkehr, Bedürfnisse wecken, Leads generieren & Reaktivierung bestehender Kunden                                               |
+|           | Beispiel: Sechs Monate nach dem Relaunch der neuen Webseite sollen täglich 350 Besucher die Website besuchen.                               |
 |           |                                                                                                                                              |
-| Verkauf   | Mehr Verkäufe, höherer Umwandlungssatz von Interessenten zu Käufern & bessere Verkaufsuntersützung                                           |
+| Verkauf   | Mehr Verkäufe, höherer Umwandlungssatz von Interessenten zu Käufern & bessere Verkaufsunterstützung                                           |
 |           | Beispiel: Innerhalb der nächsten drei Jahre nach dem Launch sollen täglich mindestens 1000 Franken Umsatz über den Webshop generiert werden. |
 |           |                                                                                                                                              |
 | Support   | Verbesserung des Kundensupports & Verringerung der Telefonanfragen                                                                           |
 |           | Beispiel: Innerhalb von drei Monaten nach dem Relaunch sollen täglich zwei Personen weniger die Hotline anrufen.                             |
 |           |                                                                                                                                              |
-| Webmaster | Vereinfacht die Verwaltung bestehender und die Veröffentlichung neuer Inhalte auf der Website                                                |
+| Webmaster | Vereinfachte Verwaltung bestehender und Veröffentlichung neuer Inhalte auf der Website                                                |
 |           | Beispiel: Mit der neuen Website gibt es innerhalb des nächsten Jahres halb so viele Support-Anfragen an die Webagentur.                      |
 |           |                                                                                                                                              |
 | IT        | Integration von Drittsystemen, höhere Sicherheit & verbesserte Performance                                                                   |
@@ -60,7 +60,7 @@ Viele Unternehmen neigen dazu, den eigentlichen «Webauftritt» als Ziel zu habe
 | Personal  | Ansprache von neuen Mitarbeitern & Hilfe für bestehende Mitarbeitende                                                                        |
 |           | Beispiel: 25% der Stellenanzeigen im nächsten Jahr werden durch Anfragen über die Website besetzt.                                           |
 
-**Wichtig**: Entscheidend ist nicht nur, welche Ziele definiert, sondern wie diese überprüft werden können. Somit gehört zu jedem Ziel nicht nur die eigentliche Definition des SOLL-Zustandes, sondern auch die dazugehörige Möglichkeit den Zustand zu überprüfen.
+**Wichtig**: Entscheidend ist nicht nur, welche Ziele definiert werden, sondern wie diese überprüft werden können. Somit gehört zu jedem Ziel nicht nur die eigentliche Definition des SOLL-Zustandes, sondern auch die dazugehörige Möglichkeit den Zustand zu überprüfen.
 
 ### Personas
 
@@ -104,7 +104,7 @@ Mit einem Wireframe sollten folgende W-Fragen beantwortet werden:
 
 #### Einsatz von Wireframes
 
-Wireframes werden hauptsächlich in der Anfangsphase eines Projektes verwendet um eine grobe Darstellung der Weblösung zu skizzieren. Sie können auch in einer weniger formellen Weise verwendet werden. Da sie schnell und einfach erstellt werden können, dienen sie als Skizzen für interne Besprechungen mit dem Team. Sie können Wireframes sowohl für grössere als auch für kleinere Aufgaben verwenden. Dies beseitigt Missverständnisse und ist extrem kostengünstig.
+Wireframes werden hauptsächlich in der Anfangsphase eines Projektes verwendet um eine grobe Darstellung der Weblösung zu skizzieren. Sie können auch in einer weniger formellen Weise verwendet werden. Da sie schnell und einfach erstellt werden können, dienen sie als Skizzen für interne Besprechungen mit dem Team. Du kannst Wireframes sowohl für grössere als auch für kleinere Aufgaben verwenden. Dies beseitigt Missverständnisse und ist extrem kostengünstig.
 
 #### Einordnung des Wireframes
 
@@ -126,13 +126,13 @@ Wireframes werden hauptsächlich in der Anfangsphase eines Projektes verwendet u
 
 ### Styleguide
 
-Styleguides sind definierte Rahmenbedingungen und Standards für die gestalterische Umsetzung einer Website (oder anderen Oberfläche). Die Styleguides werden gemeinsam mit dem Auftraggeber definiert und vereinfachen die Kommunikation.
+Styleguides sind definierte Rahmenbedingungen und Standards für die gestalterische Umsetzung einer Website (oder einer anderen Oberfläche). Die Styleguides werden gemeinsam mit dem Auftraggeber definiert und vereinfachen die Kommunikation.
 
 Ziel des Styleguides ist es, die Präferenzen, Ziele und Wünsche des Auftraggebers in einem möglichst frühen Projektstadium zu erfassen. Dadurch ist es möglich, zielgerichtetere Designs zu erstellen und darum die Anzahl der benötigten Varianten und Anpassungen zu verkleinern.
 
 Ein Styleguide kann unter anderem Folgendes beinhalten:
 
-* Wichtigste Schlüsselbergriffe (meistens Adjektive)
+* Wichtigste Schlüsselbegriffe (meistens Adjektive)
 * Logo und sonstige firmenspezifische Grafikelemente
 * Definierte Hauptfarben
 * Stil und Beispiel der Bilder

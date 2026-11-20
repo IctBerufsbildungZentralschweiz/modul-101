@@ -3,7 +3,7 @@
 Ein paar bemerkenswerte Neuerungen der letzten Jahre, welche inzwischen von allen verbreiteten Browsern unterstützt werden, sind folgende:&#x20;
 
 * [CSS-Nesting](neuere-features.md#css-nesting)
-* [Preudo-Selektor `:has()`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:has) - auch beschrieben auf [css-tricks.com/the-css-has-selector](https://css-tricks.com/the-css-has-selector/)
+* [Pseudo-Klasse `:has()`](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:has) - auch beschrieben auf [css-tricks.com/the-css-has-selector](https://css-tricks.com/the-css-has-selector/)
 * [Container-Queries](../../tag-2/06-responsive-webdesign/media-queries-1.md)
 * [Media-Query Range Syntax](../../tag-2/06-responsive-webdesign/media-queries.md#fensterbreite-media-query-range-syntax)
 * [`backdrop-filter`](https://www.w3schools.com/cssref/css3_pr_backdrop-filter.php)  - siehe auch das [Demo auf W3Schools](https://www.w3schools.com/cssref/playdemo.php?filename=playcss_backdrop-filter)
@@ -36,7 +36,7 @@ Neu (seit 2024) geht dies auch umgekehrt:&#x20;
 }
 ```
 
-Dies war vorher nur mit Precompilern (LESS, SASS) möglich.&#x20;
+Dies war vorher nur mit Präprozessoren (LESS, SASS) möglich.&#x20;
 
 ### Nesting und der Nesting Selektor `&`
 
@@ -54,7 +54,7 @@ body .blog-post a {
 }
 ```
 
-Seit 2024 können Selektoren auch berschachtelt werden. Auch dies war vorher nur mit Precompilern (LESS, SASS) möglich:&#x20;
+Seit 2024 können Selektoren auch verschachtelt werden. Auch dies war vorher nur mit Präprozessoren (LESS, SASS) möglich:&#x20;
 
 ```css
 body {
@@ -96,6 +96,9 @@ body .blog-post {
 }
 body .blog-post a {
   color: red;
+}
+body .blog-post a:hover {
+  text-decoration: underline;
 }
 ```
 

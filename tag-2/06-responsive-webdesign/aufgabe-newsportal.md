@@ -1,6 +1,6 @@
 # 🛠️ Aufgabe Newsportal
 
-Die Aufgabendateien findest in der Datei «newsportal.zip». Lade die Datei herunter und entpacke das Zip-Archiv.&#x20;
+Die Aufgabendateien findest du in der Datei «newsportal.zip». Lade die Datei herunter und entpacke das Zip-Archiv.&#x20;
 
 {% file src="../../.gitbook/assets/newsportal.zip" %}
 Download Aufgabendateien

@@ -62,10 +62,10 @@ body {
 
 **Platzierung**
 
-Aktuell werden die Elemente noch nicht richtig angeordnet. Dafür geben wir nun den Grid-Areas namen und platzieren die Elemente:&#x20;
+Aktuell werden die Elemente noch nicht richtig angeordnet. Dafür geben wir nun den Grid-Areas Namen und platzieren die Elemente:&#x20;
 
 1. Kopiere aus dem Kapitel Platzierung das Beispiel für `grid-template-areas: ...` und passe die Feld-Namen an, wie du es in deinem Layout brauchst.
-2. Für jedes Element kannst du nun mit `grid-area` definieren, in welches Feld es platzier werden soll.
+2. Für jedes Element kannst du nun mit `grid-area` definieren, in welches Feld es platziert werden soll.
 
 ```css
 header {

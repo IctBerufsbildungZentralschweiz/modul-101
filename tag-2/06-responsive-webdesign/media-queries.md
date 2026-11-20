@@ -36,7 +36,7 @@ body {
 ## Medien-Features
 
 Media Queries lassen sich auf diverse `Features` anwenden. \
-Eine Liste aller verfügbarer Features befindet sich hier: [developer.mozilla.org/en-US/docs/Web/CSS/@media#Media\_features](https://developer.mozilla.org/en-US/docs/Web/CSS/@media#Media_features).
+Eine Liste aller verfügbaren Features befindet sich hier: [developer.mozilla.org/en-US/docs/Web/CSS/@media#Media\_features](https://developer.mozilla.org/en-US/docs/Web/CSS/@media#Media_features).
 
 Die Syntax setzt sich zusammen aus `(feature-name: Wert)`.
 
@@ -50,10 +50,10 @@ Die mit Abstand am meisten verwendeten Features sind `min-width` und `max-width`
 }
 
 /**
- * Sobald das Browserfenster weniger Breit wird als
- * 1200px, soll der Container nur noch 600px Breit sein.
+ * Sobald das Browserfenster weniger breit wird als
+ * 1200px, soll der Container nur noch 600px breit sein.
  */
-@media (min-width: 1200px) {
+@media (max-width: 1199px) {
     .container {
         width: 600px;
     }
@@ -93,7 +93,7 @@ Seit 2023 können auch Vergleichs-Operatoren genutzt werden, sog. media query ra
 @media (width < 1200px) {
   /* … */
 }
-@media (width => 1200px) {
+@media (width >= 1200px) {
   /* … */
 }
 ```
@@ -101,7 +101,7 @@ Seit 2023 können auch Vergleichs-Operatoren genutzt werden, sog. media query ra
 Damit können auch Bereiche einfach abgefragt werden:&#x20;
 
 ```css
-/* statt screen and (max-width: 800px) and (max-width: 1199px): */
+/* statt screen and (min-width: 800px) and (max-width: 1199px): */
 @media screen and (800px <= width < 1200px) {
   /* … */
 }
@@ -113,16 +113,18 @@ Wenn ich wissen will, ob ein Bildschirm im Hoch- oder Querformat benutzt wird, k
 
 ```
 @media screen and (orientation: landscape) { /* Oder portrait für Hochformat */
-  /* Styling für querformat */
+  /* Styling für Querformat */
 }
 ```
 
-Das eher unüblich, öfter wird einfach die Fensterbreite (min-width/max-width) abgefragt.&#x20;
+Das ist eher unüblich, öfter wird einfach die Fensterbreite (min-width/max-width) abgefragt.&#x20;
 
 ### Helligkeit: `light-level`
 
 Mit der `CSS Media Queries Level 4` Spezifikation wurden viele neue Features eingeführt. \
 **Achtung:** Manche davon werden momentan [noch nicht in allen Browsern](https://caniuse.com/?search=CSS%20Media%20Queries%20Level%204) unterstützt.
+
+**Hinweis:** Das Feature `light-level` wird aktuell von keinem Browser unterstützt. Das folgende Beispiel dient nur zur Veranschaulichung.
 
 ```css
 body {
@@ -132,7 +134,7 @@ body {
 
 @media (light-level: dim) {
     /**
-     * Bei dunkeln Lichtverhältnissen soll der Website-Hintergrund
+     * Bei dunklen Lichtverhältnissen soll der Website-Hintergrund
      * zu schwarz wechseln.
      */
     body {
