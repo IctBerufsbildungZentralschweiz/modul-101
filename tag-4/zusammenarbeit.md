@@ -2,7 +2,7 @@
 
 ## Problemstellung: Gemeinsamer Code
 
-Wenn ihr in einem Projekt zu zweit oder mehr arbeitet, habt ihr gemeinsamen Code, den alle gleichzeitig ändern und testen wollen, ohne einander Arbeit zu überschreiben. Wie geht das?&#x20;
+Wenn ihr in einem Projekt zu zweit oder mehr arbeitet, habt ihr gemeinsamen Code, den alle gleichzeitig ändern und testen wollen, ohne die Arbeit der anderen zu überschreiben. Wie geht das?&#x20;
 
 Es gibt diverse Tools und Workflows dafür, teure und kostenlose, komplexe oder einfache:&#x20;
 
@@ -10,19 +10,19 @@ Es gibt diverse Tools und Workflows dafür, teure und kostenlose, komplexe oder 
 * Gemeinsame **Code-Verwaltung mit Git**: Ist der Standard für grössere Projekte, jedoch recht komplex und synchronisiert nicht sofort oder automatisch.&#x20;
 * Dateien manuell z.B. per Teams **hin und her kopieren**: Ist möglich, aber mühsam, und die Ordner-Struktur wird nicht automatisch korrekt übernommen.&#x20;
 * **Vorschlag für dieses Modul:** \
-  **OneDrive** plus temporäre CSS-Dateien plus gute Absprache. Dies bietet keine totale Sicherheit gegen überschreiben und die Synchronisierung mit OneDrive dauert immer einige Sekunden, aber die ist sehr einfach und recht verlässlich.&#x20;
+  **OneDrive** plus temporäre CSS-Dateien plus gute Absprache. Dies bietet keine totale Sicherheit gegen Überschreiben und die Synchronisierung mit OneDrive dauert immer einige Sekunden, aber dies ist sehr einfach und recht verlässlich.&#x20;
 
 ## Workflow mit **OneDrive** plus eigener CSS-Datei
 
 1. Erstellt das Projekt auf OneDrive und teilt es miteinander.&#x20;
 2. Besprecht, wie ihr sicherstellt, dass nicht beide gleichzeitig an der gleichen Datei arbeiten.&#x20;
-   * Erstellt zuerst zusammen ein `template.html`, welches eine HTML-Grundstruktur plus Header, Navigation, leeres Mail und Footer enthält. Kopiert dieses Datei dann für alle geplanten Seiten (index.html, unterseite-xy.html...).&#x20;
-   * Bei HTML-Dateiein könnt ihr euch nun leicht absprechen, wer aktuell an welcher arbeitet und wer nicht.&#x20;
-   * Bei einer zentralen CSS-Datei ist das schwieriger: SIe wird oft von beiden (fast) gleichzeitig bearbeitet. Eine Möglichkeit sind temporäre CSS-Dateien für weitere Team-Mitglieder:&#x20;
+   * Erstellt zuerst zusammen ein `template.html`, welches eine HTML-Grundstruktur plus Header, Navigation, leeres `<main>` und Footer enthält. Kopiert diese Datei dann für alle geplanten Seiten (index.html, unterseite-xy.html...).&#x20;
+   * Bei HTML-Dateien könnt ihr euch nun leicht absprechen, wer aktuell an welcher arbeitet und wer nicht.&#x20;
+   * Bei einer zentralen CSS-Datei ist das schwieriger: Sie wird oft von beiden (fast) gleichzeitig bearbeitet. Eine Möglichkeit sind temporäre CSS-Dateien für weitere Team-Mitglieder:&#x20;
      1. Die 1. Person kann an der Haupt-Datei (z.B. `styles.css`) arbeiten, die 2. (oder 3.) Person erstellt für sich eine temporäre zusätzliche Datei (z.B. `temp-styles.css` oder `temp-mein-name.css`) und arbeitet darin.&#x20;
      2. In allen HTML-Dokumenten bindet ihr im `<head>` zuerst die `styles.css`, danach die `temp-styles.css` ein.&#x20;
      3. Immer wenn die 2. (oder 3.) Person etwas fertig hat, könnt ihr zusammen den Code aus `temp-styles.css` an sinnvolle Stellen in `styles.css` rein kopieren und dann aus `temp-styles.css` löschen.&#x20;
-     4. Das `temp-styles.css` kann bei Projektabschluss gelöscht werden, wenn alles in die Haupt-CSS transferiert ist, danach die Links in den HTML-Dateien entfernt werden.&#x20;
+     4. Das `temp-styles.css` kann bei Projektabschluss gelöscht werden, wenn alles in die Haupt-CSS transferiert ist; danach müssen die Links in den HTML-Dateien entfernt werden.&#x20;
 
 ## **🛠️** Aufgabe
 

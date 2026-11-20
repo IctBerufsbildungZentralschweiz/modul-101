@@ -9,7 +9,7 @@ Dazu kann wie folgt vorgegangen werden:
 
 ## Container definieren
 
-Als aller erstes muss ein Container definiert werden:
+Als Allererstes muss ein Container definiert werden:
 
 ```markup
 <div class="container">
@@ -29,9 +29,9 @@ In CSS muss dessen `display` Property auf `grid` gesetzt werden.
 
 Um die Spalten zu definieren, kann die `grid-template-columns` Property verwendet werden. Für Zeilen kann die `grid-template-rows` Property verwendet werden.&#x20;
 
-In userem Beispiel wird die erste Spalte auf `80px` und die dritte Spalte auf `260px` fixiert. Die zweite Spalte soll immer den restlichen Platz ausfüllen (`auto`).
+In unserem Beispiel wird die erste Spalte auf `80px` und die dritte Spalte auf `260px` fixiert. Die zweite Spalte soll immer den restlichen Platz ausfüllen (`auto`).
 
-Die erste Zeile wird auf `100px` fixiert. Die zweite Zeile soll immer den restlichen Platz ausfüllen (`auto`).
+Die erste Zeile wird auf `120px` fixiert. Die zweite Zeile soll immer den restlichen Platz ausfüllen (`auto`).
 
 ```css
 .container {

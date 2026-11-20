@@ -16,8 +16,7 @@ Mit der `position`-Eigenschaft kannst du bestimmen, wie ein Element im Dokumente
       left: 10px;
     }
     ```
-*   **`position: absolute`** - Das Element wird aus dem normalen Dokumentenfluss entfernt und relativ zum nächsten positionierten Elternelement platziert. z.B. ein Mobile-Menu:\
-    .mobile-menu {
+*   **`position: absolute`** - Das Element wird aus dem normalen Dokumentenfluss entfernt und relativ zum nächsten positionierten Elternelement platziert. z.B. ein Mobile-Menu:
 
     ```
     .mobile-menu {
@@ -50,7 +49,7 @@ Mit `z-index` kannst du die Stapelreihenfolge von positionierten Elementen steue
 }
 </code></pre>
 
-**Wichtig:** `z-index` funktioniert nur bei Elementen mit einer `position`-Eigenschaft (außer `static`).
+**Wichtig:** `z-index` funktioniert nur bei Elementen mit einer `position`-Eigenschaft (ausser `static`) sowie bei Flex- und Grid-Items.
 
 ## 🛠️ Aufgaben
 

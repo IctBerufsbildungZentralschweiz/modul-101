@@ -25,7 +25,7 @@ Ein "Favicon" ist das kleine Icon, welches im Browser-Tab und bei Suchresultaten
 
 <div align="left"><figure><img src="../../.gitbook/assets/grafik (2).png" alt=""><figcaption></figcaption></figure></div>
 
-Favicon kann man sich leicht erzeugen lassen mit einem Generatoren, z.B.:&#x20;
+Favicons kann man sich leicht mit einem Generator erzeugen lassen, z.B.:&#x20;
 
 * [realfavicongenerator.net](https://realfavicongenerator.net/)
 * [www.ionos.de/tools/favicon-generator](https://www.ionos.de/tools/favicon-generator)
@@ -49,14 +49,14 @@ Das .svg-Format hat den Vorteil, dass es beliebig skaliert werden kann für vers
 
 ### Für Suchmaschinen: Description und Canonical
 
-**Meta-Tag Description:** Liefert den Text, den die Suchmaschinen bei der Trefferbeschreibung anzeigen kann (aber nicht muss). Sollte 140-160 Zeichen lang sein und wichtige Keywords enthalten, welche auch auf im Seiteninhalt vorkommen.&#x20;
+**Meta-Tag Description:** Liefert den Text, den die Suchmaschine bei der Trefferbeschreibung anzeigen kann (aber nicht muss). Sollte 140-160 Zeichen lang sein und wichtige Keywords enthalten, welche auch im Seiteninhalt vorkommen.&#x20;
 
 ```html
 <meta name="description" 
       content="Informationen zu wichtigen Tags im HTML-Head für professionelle Websites.">
 ```
 
-**Canonical URL:** Sagt dem Browser bei mehrfach vorkommenden Inhalten, welches die bevorzugte Variante ist. Ist nur nötig, wenn unter mehreren URLs teilweise der gleiche Text erscheint:&#x20;
+**Canonical URL:** Sagt den Suchmaschinen bei mehrfach vorkommenden Inhalten, welches die bevorzugte Variante ist. Ist nur nötig, wenn unter mehreren URLs teilweise der gleiche Text erscheint:&#x20;
 
 ```html
 <link rel="canonical" href="https://example.com/seite/">

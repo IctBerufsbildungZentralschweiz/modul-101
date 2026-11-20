@@ -10,11 +10,11 @@ Formularelemente lassen sich in drei hierarchische Stufen unterteilen:
 
 ## Formularfeld-Gruppen (Fieldset)
 
-Das Tag `fieldset` ermöglicht es dem Benutzer die Formularfelder in Sets/Gruppen zu strukturieren. Ausschlaggebend für die Unterteilung ist die thematische Zusammengehörigkeit der einzelnen Felder.
+Das Tag `fieldset` ermöglicht es, die Formularfelder in Sets/Gruppen zu strukturieren. Ausschlaggebend für die Unterteilung ist die thematische Zusammengehörigkeit der einzelnen Felder.
 
-Die Formularfeld-Gruppen erleichtern zum einen die Navigation innerhalb des Dokuments und erhöhen gleichzeitig die Accessability der Seite.&#x20;
+Die Formularfeld-Gruppen erleichtern zum einen die Navigation innerhalb des Dokuments und erhöhen gleichzeitig die Accessibility der Seite.&#x20;
 
-Accessability/Barrierefreiheit: Kommunikation in einer Weise, welche von Menschen mit Behinderung und von älteren Menschen in gleicher Weise genutzt werden kann wie von Menschen ohne Behinderung.
+Accessibility/Barrierefreiheit: Kommunikation in einer Weise, welche von Menschen mit Behinderung und von älteren Menschen in gleicher Weise genutzt werden kann wie von Menschen ohne Behinderung.
 
 ```markup
 <form action="https://formlog.ict-bz.ch/" method="post">

@@ -1,6 +1,6 @@
 # Design- und Strukturgrundlagen
 
-Zum Einstieg ein kleines Video wieso User Experience und User Design wichtig sind: [User Experience beim SBB-Automaten.](https://www.youtube.com/watch?v=2HdIflrLSLg)
+Zum Einstieg ein kleines Video wieso User Experience und User Interface Design wichtig sind: [User Experience beim SBB-Automaten.](https://www.youtube.com/watch?v=2HdIflrLSLg)
 
 ## User Experience
 
@@ -10,7 +10,7 @@ Zum Einstieg ein kleines Video wieso User Experience und User Design wichtig sin
 
 ## UX in Formularen besonders wichtig!
 
-Die User Experience bei Formularen ist wichtig, da zwischen dem Ziel des Benutzers (Kaufen, Beitreten, Bloggen) und dem Ziel des Unternehmen (Verkaufen, hohe Mitgliederzahl, mehr Content) oft ein Formular steht.
+Die User Experience bei Formularen ist wichtig, da zwischen dem Ziel des Benutzers (Kaufen, Beitreten, Bloggen) und dem Ziel des Unternehmens (Verkaufen, hohe Mitgliederzahl, mehr Content) oft ein Formular steht.
 
 * Ein **Formular** macht somit eine Website **nutzbar**.
 * Ein **Formular** muss somit **nützlich** sein.
@@ -20,15 +20,15 @@ Die User Experience bei Formularen ist wichtig, da zwischen dem Ziel des Benutze
 Jedes Webformular besteht grundsätzlich aus drei Komponenten. Um eine positive User Experience zu schaffen muss sich die positive Erfahrung bei der Interaktion mit dem Formular durch sämtliche drei Ebenen ziehen.
 
 1. [**Beziehung**](design-und-strukturgrundlagen.md#beziehung) - Formulare ermöglichen eine Beziehung zwischen Benutzer und Unternehmen.
-2. [**Dialog**](design-und-strukturgrundlagen.md#dialoge) - Formulare ermögilchen eine Konversation zwischen Benutzer und Unternehmen.
-3. [**Aussehen**](design-und-strukturgrundlagen.md#aussehen) - Erst mit dem richtigen Aussehen und einer logischen Struktur ermöglichen das Formular den Aufbau einer Beziehung und eines Dialogs.
+2. [**Dialog**](design-und-strukturgrundlagen.md#dialoge) - Formulare ermöglichen eine Konversation zwischen Benutzer und Unternehmen.
+3. [**Aussehen**](design-und-strukturgrundlagen.md#aussehen) - Erst mit dem richtigen Aussehen und einer logischen Struktur ermöglicht das Formular den Aufbau einer Beziehung und eines Dialogs.
 
 ### Beziehung
 
 Ein Formular kann die Beziehung zwischen Benutzer und Unternehmen aufbauen und verstärken. Dies bedeutet jedoch auch, dass ein schlechtes Formular eine Beziehung beenden oder schwächen kann.
 
-* **Eine Beziehung basiert auf Vertrauen.** Somit muss das Formular vertrauenswürdig sein. Dies kann durch das Design, Logo, Fotos, Farben, Typographie oder Wording erreicht werden. Der Benutzer muss sofort wissen, dass hinter dem Formular eine seriösen Firma steht.
-* **Jede Beziehung hat ein Ziel.** Ob in einer romatischen Beziehung oder bei Businesspartnern, jede Beziehung hat ein Ziel. Was hat dein Formular für ein Ziel?
+* **Eine Beziehung basiert auf Vertrauen.** Somit muss das Formular vertrauenswürdig sein. Dies kann durch das Design, Logo, Fotos, Farben, Typographie oder Wording erreicht werden. Der Benutzer muss sofort wissen, dass hinter dem Formular eine seriöse Firma steht.
+* **Jede Beziehung hat ein Ziel.** Ob in einer romantischen Beziehung oder bei Businesspartnern, jede Beziehung hat ein Ziel. Was hat dein Formular für ein Ziel?
 * **Passt der Name des Formulars zum Inhalt?** Stimmt der Inhalt (Formularfelder) mit den Erwartungen des Benutzers überein? Die Erwartungen des Benutzers werden im Link, Titel, Email etc. aufgebaut, mit dem er auf das Formular gelangt ist.
 * **Passt das Formular zu meiner Zielgruppe?** Es ist wichtig zu wissen, wer das Formular ausfüllt und was für Besonderheiten sich daraus schliessen lassen. Beispiele: Private Kunden vs. Geschäftskunden, Mitglieder vs. Sponsoren, bestehende vs. neue Kunden:&#x20;
 
@@ -39,15 +39,15 @@ Ein Formular kann die Beziehung zwischen Benutzer und Unternehmen aufbauen und v
 
 ### Dialoge
 
-Ein Formular ist keine einseitige Kommunikation, sondern ein Gespräch zwischen mehreren Parteien - ein Dialog. Der Benutzer füllt ein Formlar aus, um ein Gespräch mit dem Unternehmen zu beginnen.
+Ein Formular ist keine einseitige Kommunikation, sondern ein Gespräch zwischen mehreren Parteien - ein Dialog. Der Benutzer füllt ein Formular aus, um ein Gespräch mit dem Unternehmen zu beginnen.
 
-* **Ein Formular ist somit ein Gespräch und kein Verhör.** Aggressives Wording lösen beim Benutzer eine Abwehrhaltung aus.
-* **Dem logischen Aufbau einer Konversation folgen.** Ein Formular muss einen logischen Aufbau aufweisen. Du würdest doch auch nicht in den ersten 5 Sekunden des Kennenlernens gleich nach der Telefonnummer fragen? Als Grundsatz gilt: Das Formular geht von den allgemeine Fragen (low Involvement) langsam über zu spezifischen Fragen (high Involvement).
-* **Formular nach Themen sortieren.** Menschen denken in Cluster: Fragt ein Formular beispielsweise Informationen über das Auto des Benutzers ab, ruft dieser das Cluster «Auto» in seinen Gedanken auf und kann sämtliche Informationen über sein Auto schnell in das Formular eintragen. Die Informationen sollten deshalb entsprechend gruppiert sein:&#x20;
+* **Ein Formular ist somit ein Gespräch und kein Verhör.** Aggressives Wording löst beim Benutzer eine Abwehrhaltung aus.
+* **Dem logischen Aufbau einer Konversation folgen.** Ein Formular muss einen logischen Aufbau aufweisen. Du würdest doch auch nicht in den ersten 5 Sekunden des Kennenlernens gleich nach der Telefonnummer fragen? Als Grundsatz gilt: Das Formular geht von den allgemeinen Fragen (low Involvement) langsam über zu spezifischen Fragen (high Involvement).
+* **Formular nach Themen sortieren.** Menschen denken in Clustern: Fragt ein Formular beispielsweise Informationen über das Auto des Benutzers ab, ruft dieser das Cluster «Auto» in seinen Gedanken auf und kann sämtliche Informationen über sein Auto schnell in das Formular eintragen. Die Informationen sollten deshalb entsprechend gruppiert sein:&#x20;
 
 <figure><img src="../../.gitbook/assets/Comparis.png" alt=""><figcaption></figcaption></figure>
 
-Formularstruktur auf [www.comparis.ch](https://github.com/johannesE/modul-101/tree/7ef76a9c9f706911092af198dd248f9a2832f329/Tag%202/08%20Formulare/03%20Design-%20und%20Strukturgrundlagen/www.comparis.ch) - Die Informationsgruppen sind optisch und inhaltlich klar aufgeteilt.
+Formularstruktur auf [www.comparis.ch](https://www.comparis.ch) - Die Informationsgruppen sind optisch und inhaltlich klar aufgeteilt.
 
 * **Pausen einbauen.** Viele Benutzer fühlen sich vor allem von grossen Formularen überrumpelt. Dem kann entgegengewirkt werden, indem gezielt Abstände oder Seitenumbrüche in das Formular eingebaut werden.
 * **Ablenkungen entfernen.** Wie bei einem richtigen Dialog, stören Ablenkungen den Gesprächsfluss. Darum ist es wichtig den Fokus auf das Formular zu setzen und unnötige Ablenkungen zu eliminieren.
@@ -58,7 +58,7 @@ Das Aussehen eines Formulars ist entscheidend für dessen Benutzerfreundlichkeit
 
 #### Label
 
-* **Wörter vs. Sätze.** Ganze Sätze helfen bei komplexeren Fragestellungen. Meist rechten aber einzelne Wörter.&#x20;
+* **Wörter vs. Sätze.** Ganze Sätze helfen bei komplexeren Fragestellungen. Meist reichen aber einzelne Wörter.&#x20;
 
 ![Anmeldung mit Sätzen bei Amazon.](<../../.gitbook/assets/04 (1).jpg>)
 

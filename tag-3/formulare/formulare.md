@@ -27,7 +27,7 @@ In diesem Kurs nutzen wir zum Testen das Ziel [https://formlog.ict-bz.ch/](https
 
 ### `input`-Typen
 
-In HTML werden die meisten Formularfelder mit dem `input` Tag deklariert. Mit dem `type` Attribut können verschiedene Typen spezifiziert werden. Unter W3School.com findest du alle [Input-Typen](https://www.w3schools.com/html/html_form_input_types.asp) mit Beispielen.&#x20;
+In HTML werden die meisten Formularfelder mit dem `input` Tag deklariert. Mit dem `type` Attribut können verschiedene Typen spezifiziert werden. Unter W3Schools.com findest du alle [Input-Typen](https://www.w3schools.com/html/html_form_input_types.asp) mit Beispielen.&#x20;
 
 **Jedes Feld muss zwingend ein `name` Attribut haben**, sonst wird das Feld beim Versenden nicht mitgeschickt.
 
@@ -39,7 +39,7 @@ In HTML werden die meisten Formularfelder mit dem `input` Tag deklariert. Mit de
 
 ### Weitere Form-Elemente
 
-Zudem gibt es mehrzeilige Textfelder (`textarea`), Dropdowns (`select`, `option`) und Schaltflächen (`buttons`). Unter W3School.com findest du diese [Form-Elemente](https://www.w3schools.com/html/html_form_elements.asp) mit Beispielen.&#x20;
+Zudem gibt es mehrzeilige Textfelder (`textarea`), Dropdowns (`select`, `option`) und Schaltflächen (`buttons`). Unter W3Schools.com findest du diese [Form-Elemente](https://www.w3schools.com/html/html_form_elements.asp) mit Beispielen.&#x20;
 
 ```html
 <textarea name="remarks" rows="10" cols="4"></textarea>
@@ -75,7 +75,7 @@ Diese Zuordnung ist zudem für Screenreader wichtig, da er nur so weiss, welches
 
 ### Placeholder
 
-Alternatif kann innerhalb des Feldes ein Placeholder eingefügt werden. Dieser verschwindet, sobald etwas ins Feld geschrieben wird.&#x20;
+Alternativ kann innerhalb des Feldes ein Placeholder eingefügt werden. Dieser verschwindet, sobald etwas ins Feld geschrieben wird.&#x20;
 
 <div align="left"><figure><img src="../../.gitbook/assets/Placeholder.png" alt=""><figcaption></figcaption></figure></div>
 
@@ -99,7 +99,7 @@ Das Attribut `required` macht ein Feld zum Pflichtfeld. Es muss ausgefüllt sein
 
 ## Feld sperren: `disabled` oder `readonly`
 
-Das Attribut `disabled` bewirkt, dass ein Feld nicht angeklickt und nicht bearbeitet werden kann. Es wird grau dargestellt.
+Das Attribut `disabled` bewirkt, dass ein Feld nicht angeklickt und nicht bearbeitet werden kann. Es wird grau dargestellt. **Achtung:** Der Wert eines `disabled`-Feldes wird beim Absenden **nicht** mitgeschickt.
 
 <div align="left"><figure><img src="../../.gitbook/assets/image (1).png" alt="" width="213"><figcaption></figcaption></figure></div>
 
@@ -126,7 +126,7 @@ Mit dem Attribut `value` kann definiert werden, dass ein Feld beim Laden schon e
 <div align="left"><figure><img src="../../.gitbook/assets/image (3).png" alt="" width="230"><figcaption></figcaption></figure></div>
 
 <pre class="language-html"><code class="lang-html">&#x3C;label for="customer-no">Kundennummer:&#x3C;/label>&#x3C;br>
-&#x3C;input type="text" id="customer-no" name="customer-no" value="123456" disabled>&#x3C;br>
+&#x3C;input type="text" id="customer-no" name="customer-no" value="123456" readonly>&#x3C;br>
 <strong>
 </strong><strong>&#x3C;label for="mail">E-Mail *&#x3C;/label>&#x3C;br>
 </strong>&#x3C;input type="email" id="mail" name="mail" value="muster@test.ch">
@@ -154,7 +154,7 @@ Mit einem `submit`-Button kann das Formular versendet werden. Bei einem Klick da
 
 <div align="left"><figure><img src="../../.gitbook/assets/Button.png" alt=""><figcaption></figcaption></figure></div>
 
-Es gibt zwei gültige Schreibwesen für einen Submit-Button:
+Es gibt zwei gültige Schreibweisen für einen Submit-Button:
 
 ```html
 <form action="ziel.php" method="post">
