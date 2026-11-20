@@ -2,7 +2,7 @@
 
 Seit 2020 wird ein neues Feature von fast allen Browsern unterstützt, welches bisher nur mit Frameworks und CSS-Kompilern möglich war: CSS-Variablen.
 
-## Einheitliche Gestaltung von Elemente
+## Einheitliche Gestaltung von Elementen
 
 In einem [Styleguide](../tag-4/konzeptionierung.md#styleguide) werden für eine Website üblicherweise 2-3 einheitliche Fonts und ein Farbkonzept mit 4-8 einheitlichen Farben definiert. Diese werden in der Website für verschiedene Elemente genutzt, z.B. Überschriften, Navigation, Buttons, Links etc. Um das Layout einheitlich und leicht anpassbar zu halten, sollten für solche Definitionen Variablen genutzt werden:&#x20;
 
@@ -81,5 +81,5 @@ a:hover {
 
 Überarbeite dein bisheriges Stylesheet (CSS):&#x20;
 
-1. Welche Werte nutzt du mehrmals oder später noch noch für andere Elemente? Typischerweise sind dies Farben und Schriftwarten, aber auch Schriftgrössen, Standard-Abstände oder Border-Radius für abgerundete Elemente.
+1. Welche Werte nutzt du mehrmals oder später noch für andere Elemente? Typischerweise sind dies Farben und Schriftarten, aber auch Schriftgrössen, Standard-Abstände oder Border-Radius für abgerundete Elemente.
 2. Definiere dafür CSS-Variablen und nutze sie in den CSS-Deklarationen.

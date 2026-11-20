@@ -21,7 +21,7 @@ Lade das Grundgerüst herunter und entpacke es in ein neues Verzeichnis:
 
 Erstelle eine 2-stufige Navigation mit ausklappenden Untermenüs nur mit HTML & CSS, ohne JavaScript. Recherchiere dazu bei Bedarf selbständig im Netz:&#x20;
 
-1.  Erstelle im HTML-Dokument eine 2-stufige verschachtelte Navigation mit Listen-Elementen aufgebaut ist, oder nutze das folgende Gerüst und studiere die Verschachtelung!&#x20;
+1.  Erstelle im HTML-Dokument eine 2-stufige verschachtelte Navigation, die mit Listen-Elementen aufgebaut ist, oder nutze das folgende Gerüst und studiere die Verschachtelung!&#x20;
 
     ```html
     <nav>    
@@ -46,7 +46,7 @@ Erstelle eine 2-stufige Navigation mit ausklappenden Untermenüs nur mit HTML & 
       list-style: none;
     }
     ```
-3. Erstelle CSS-Regeln dazu, welches die Hauptmenüs horizontal anordnet und die Untermenüs drunter vertikal aufgeklappt (`position: absolute;`). Nutze für beides Flexbox-Definitionen.
+3. Erstelle CSS-Regeln dazu, welche die Hauptmenüs horizontal anordnet und die Untermenüs drunter vertikal aufgeklappt (`position: absolute;`). Nutze für beides Flexbox-Definitionen.
 4.  Erstelle CSS-Regeln, welche bei Hover über das `<li>`-Element des Hauptmenüs das Untermenü (`<ul>`) automatisch einblendet. Das könnte so was ähnliches sein:&#x20;
 
     ```css
@@ -58,7 +58,7 @@ Erstelle eine 2-stufige Navigation mit ausklappenden Untermenüs nur mit HTML & 
       display: block;
     }
     ```
-5. Findest du heraus, wie die Untermenüs dynamisch sliden können, **ohne** JavaaScript?&#x20;
+5. Findest du heraus, wie die Untermenüs dynamisch sliden können, **ohne** JavaScript?&#x20;
 
-Du kannst auch ausgeklügeltere Beispiele im Internet suchen anschauen und etwas davon übernehmen. Z.B. [https://codepen.io/dinhhoa-214/pen/wjLyeR](https://codepen.io/dinhhoa-214/pen/wjLyeR)
+Du kannst auch ausgeklügeltere Beispiele im Internet suchen, anschauen und etwas davon übernehmen. Z.B. [https://codepen.io/dinhhoa-214/pen/wjLyeR](https://codepen.io/dinhhoa-214/pen/wjLyeR)
 

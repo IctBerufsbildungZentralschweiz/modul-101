@@ -8,7 +8,7 @@ In CSS können Farben mit **Farbnamen** oder mit verschiedenen **Farbmodellen** 
 
 ### Farbnamen
 
-\> [Liste aller unterstützen Farbnamen](https://www.w3schools.com/cssref/css_colors.php)
+\> [Liste aller unterstützten Farbnamen](https://www.w3schools.com/cssref/css_colors.php)
 
 ```css
 .navigation {
@@ -31,7 +31,7 @@ color: rgb(254, 233, 93);
 color: #fee95d;
 ```
 
-Wenn die beiden Hexadezimal-Ziffern je Farbe übereinstimmen, können die abgekürzt werden:&#x20;
+Wenn die beiden Hexadezimal-Ziffern je Farbe übereinstimmen, können sie abgekürzt werden:&#x20;
 
 ```css
 color: #fff; /* = #ffffff */
@@ -51,14 +51,14 @@ color: #fee95d88;
 
 ### Andere Farbmodelle
 
-* [hsl(Farbton, Sättigung, Helligkeit)](https://developer.mozilla.org/de/docs/Web/CSS/Reference/Values/color_value/hsl): Beschreibt Farben auf einer intuitiveren Weise: Farbton (Hue), Sättigung (Saturation) und Helligkeit (Lightness).
-* [hwb(Farbton, Weißanteil, Schwarzanteil)](https://developer.mozilla.org/de/docs/Web/CSS/Reference/Values/color_value/hwb): Kombiniert Farbton mit Anteilen von Weiß und Schwarz.
+* [hsl(Farbton, Sättigung, Helligkeit)](https://developer.mozilla.org/de/docs/Web/CSS/Reference/Values/color_value/hsl): Beschreibt Farben auf eine intuitivere Weise: Farbton (Hue), Sättigung (Saturation) und Helligkeit (Lightness).
+* [hwb(Farbton, Weissanteil, Schwarzanteil)](https://developer.mozilla.org/de/docs/Web/CSS/Reference/Values/color_value/hwb): Kombiniert Farbton mit Anteilen von Weiss und Schwarz.
 * [lab(Helligkeit, a, b)](https://developer.mozilla.org/de/docs/Web/CSS/Reference/Values/color_value/lab): Ein Farbraum, der die menschliche Farbwahrnehmung nachbildet. Er besteht aus Helligkeit und den Achsen a (Grün-Rot) und b (Blau-Gelb).
 * [lch(Helligkeit, Sättigung, Farbton)](https://developer.mozilla.org/de/docs/Web/CSS/Reference/Values/color_value/lch): Auch ein geräteunabhängiger Farbraum, der auf CIELAB basiert, aber Helligkeit, Sättigung (Chroma) und Farbton verwendet.
 
 ## Farbwähler im Browser und in Visual Studio Code
 
-Im Browser kannst du über Rechts-Klick > Untersuchen oder mit \[F12] in die DevTools wechseln und dort die Farbe eines Elements in CSS finden und verändern. Auch Transparenz ist möglich. Unterhalb des Farbwertes kann du das Farbmodell wecheln (HEX, RGB, etc.):&#x20;
+Im Browser kannst du über Rechts-Klick > Untersuchen oder mit \[F12] in die DevTools wechseln und dort die Farbe eines Elements in CSS finden und verändern. Auch Transparenz ist möglich. Unterhalb des Farbwertes kannst du das Farbmodell wechseln (HEX, RGB, etc.):&#x20;
 
 <figure><img src="../../.gitbook/assets/Browser-Color-Tool.png" alt=""><figcaption><p>DevTools Farbwähler</p></figcaption></figure>
 
@@ -82,8 +82,8 @@ Nutze die letzte Aufgabe für folgende Experimente:&#x20;
 1. Untersuche **im Browser** ein Element mit Hintergrundfarbe, wähle eine andere Farbe mit dem Farbmischer und kopiere den neuen Wert in dein CSS. Probiere die rgb(...)- und die #xxxxxx-Variante aus.
 2. Mische eine Hintergrundfarbe für das ganze Dokument (`<body>`-Element) mittels der rgb()-Funktion.
 3. Ändere die Transparenz einmal mittels rgb()-Funktion und danach mittels #hex-wert, und schau, welche anderen Farbmodelle ev. noch Transparenz erlauben.&#x20;
-4. Untersuche direkt in den DevTools das Farbmodell [LAB](01-farben.md#lab-cielab).
+4. Untersuche direkt in den DevTools das Farbmodell [LAB](01-farben.md#andere-farbmodelle).
 
 **Zusatzaufgabe:**
 
-* Stelle mit einem Farbwähler eine Farbkombination von 5 Farben zusammen und wende sie sinnvoll auf deine Seite "Über mich" an. Du kannst dafür CSS-Variabeln nutzen, wenn du willst.
+* Stelle mit einem Farbwähler eine Farbkombination von 5 Farben zusammen und wende sie sinnvoll auf deine Seite "Über mich" an. Du kannst dafür CSS-Variablen nutzen, wenn du willst.

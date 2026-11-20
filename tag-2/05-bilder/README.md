@@ -4,7 +4,7 @@ Hinweis: Andere Medien ([Videos und Audios](../../tag-3/02-medien-video-audio.md
 
 ## Aktivierungs-Fragen
 
-Recherchiert zu zweit oder zu dritt:&#x20;
+Recherchiere zu zweit oder zu dritt:&#x20;
 
 Es sollen Bilder für eine Firmen-Website aufbereitet und eingefügt werden, welche Handys repariert. &#x20;
 
@@ -30,9 +30,9 @@ Fragen zu Bildrechten und Qualität:&#x20;
 cyon hat einen guten Artikel zu den Bildrechten: [https://www.cyon.ch/blog/Bilder-im-Internet-rechtssicher-verwenden](https://www.cyon.ch/blog/Bilder-im-Internet-rechtssicher-verwenden)
 {% endhint %}
 
-Somit sollten ein Website-Betreiber immer die nötigen Rechte für Bilder haben, welche auf seiner Website gezeigt werden. Mögliche Plattformen für den Erwerb von Bild-Lizenzen:
+Somit sollte ein Website-Betreiber immer die nötigen Rechte für Bilder haben, welche auf seiner Website gezeigt werden. Mögliche Plattformen für den Erwerb von Bild-Lizenzen:
 
-* [Fotolia](https://de.fotolia.com/)
+* [Adobe Stock](https://stock.adobe.com/de/)
 * [Shutterstock](https://www.shutterstock.com)
 
 Daneben gibt es auch noch komplett kostenlose Bildportale. Meistens sind die Aufnahmen von Amateur- und Hobbyfotografen, die aber deshalb nicht schlechter sein müssen:
@@ -54,7 +54,7 @@ Siehe [Useability](../../tag-3/usability.md#id-5.-die-richtigen-bilder-verwenden
 
 JPEG oder JPG ist ein verlustreiches Bildformat von der Joint Photographic Experts Group.
 
-* Das JPG-Format verfügt über mehr mehrere Millionen Farben. Dies macht es zur idealen Wahl für die Anzeige von Fotografien im Web.
+* Das JPG-Format verfügt über mehrere Millionen Farben. Dies macht es zur idealen Wahl für die Anzeige von Fotografien im Web.
 *   JPEG ist ein verlustreiches Bildformat. Die Kompression kann also dazu benutzt werden um die Dateigrösse zu reduzieren: Die Qualität bei einer Kompression von 60% ist meistens absolut ausreichend für das Web. Bei einem Kompressionsfaktor grösser als 75% kann es zu deutlichen Qualitätsverlusten kommen.
 
     ![JPG-Kompression](<../../.gitbook/assets/compression (1).jpg>)
@@ -72,7 +72,7 @@ GIF steht für Graphics Interchange Format.
 
     ![GIF-Kompression](<../../.gitbook/assets/gif (1).jpg>)
 * Das GIF-Format ist ein verlustfreies Bildformat, sofern das Original max. 256 Farbtöne hat.
-* Das GIF-Format unterstützt Transparenz - dabei gibt es jedoch keine Halbtransparenz (z. B. 50% weiss), sondern immer nur ganz oder garnicht.
+* Das GIF-Format unterstützt Transparenz - dabei gibt es jedoch keine Halbtransparenz (z. B. 50% weiss), sondern immer nur ganz oder gar nicht.
 * Das GIF-Format unterstützt Animationen - darum kann es gut eingesetzt werden für repetierende, animierte Bilder wie Icons, Emoticons, Banner etc.
 * Eignet sich für einfache Grafiken mit wenig Farben, jedoch nicht für Fotografien.
 
@@ -84,7 +84,7 @@ Verwende GIFs für Animationen oder Bilder, die wenige Farben enthalten und als 
 
 ### PNG
 
-PNG steht für Portable Network Graphics. Es ist eine alternative zum GIF-Format, welches vom W3C-Konsortium entwickelt wurde.
+PNG steht für Portable Network Graphics. Es ist eine Alternative zum GIF-Format, welches vom W3C-Konsortium entwickelt wurde.
 
 * Wie das JPEG, verfügt das PNG über Millionen von Farben.
 * Wie das GIF, handelt es sich um einen verlustfreien Kompressionsalgorithmus.
@@ -97,12 +97,12 @@ Verwende PNGs nie für Fotos sondern nur für Illustrationen oder Icons. PNGs ko
 
 ### SVG
 
-SVG steht für Scalable Vector Graphics und ist eine XML-basiertes Vektordatei. Obwohl es bereits 2001 entwickelt wurde, wurde das Format erst in den letzten Jahren populär für den Einsatz im Web. Der Grund dafür lag in der schwachen Unterstützung der Webbrowsern für dieses Format. In der Zwischenzeit wird das SVG-Format von den meisten Browsern unterstützt - leider immer noch mit einigen Bugs.
+SVG steht für Scalable Vector Graphics und ist eine XML-basierte Vektordatei. Obwohl es bereits 2001 entwickelt wurde, wurde das Format erst in den letzten Jahren populär für den Einsatz im Web. Der Grund dafür lag in der schwachen Unterstützung der Webbrowser für dieses Format. In der Zwischenzeit wird das SVG-Format von den meisten Browsern unterstützt - leider immer noch mit einigen Bugs.
 
-* Das SVG-Format ist weniger ein Bild aus Pixeln, als eine Bauanleitung für Vektoren um daraus ein Bild oder eine Grafik zu bauen. Es eignet sich deshalb vorallem für Grafiken wie Logos, Karten, Icons etc.
+* Das SVG-Format ist weniger ein Bild aus Pixeln, als eine Bauanleitung für Vektoren um daraus ein Bild oder eine Grafik zu bauen. Es eignet sich deshalb vor allem für Grafiken wie Logos, Karten, Icons etc.
 * Da es sich um ein Vektor-Format handelt, können die Bilder beliebig und ohne Qualitätseinbussen skaliert werden.
 * SVG-Bilder unterstützen Animationen und können via CSS oder JavaScript animiert werden.
-* Bei komplexeren Bildern steigt die Dateigrösse von SVG-Bilder rasant an. Darum eignet sich das Format mehr für Grafiken, als für Fotografien.
+* Bei komplexeren Bildern steigt die Dateigrösse von SVG-Bildern rasant an. Darum eignet sich das Format mehr für Grafiken, als für Fotografien.
 
 #### Anwendungsfall
 
@@ -110,13 +110,13 @@ Verwende SVGs dann, wenn ein Bild in verschiedenen Grössen benötigt wird oder 
 
 ### WebP
 
-Dieses Bildformat hat jedoch Web in seiner DNA: Es wurde für den Gebrauch im Internet (von Google) entwickelt.
+Dieses Bildformat hat das Web in seiner DNA: Es wurde für den Gebrauch im Internet (von Google) entwickelt.
 
 > WebP is a modern **image format** that provides superior **lossless and lossy** compression for images on the web. … WebP lossless images are 26% smaller in size compared to PNGs. WebP lossy images are 25-34% smaller than comparable JPEG images … Lossless WebP supports **transparency** … at a cost of just 22% additional bytes. For cases when lossy RGB compression is acceptable, **lossy WebP also supports transparency**, typically providing 3× smaller file sizes compared to PNG. -- [WebP Website](https://developers.google.com/speed/webp/)
 
 Der Vorteil von WebP ist also, dass es die Vorzüge von JPG und PNG in einem Bildformat kombiniert - ohne dabei auf eine überdimensionale Dateigrösse zu wachsen.
 
-**Browser-Support:** WebP ist relativ neu und wird noch nicht von allen Browsern unterstützt, insbesondere Browser-Versionen vor 2022. Siehe [https://caniuse.com/webp](https://caniuse.com/webp). Dazu  kann ein Fallback auf ein anderes Bildformat wie WebP oder JPEG implementiert werden.
+**Browser-Support:** WebP ist relativ neu und wird noch nicht von allen Browsern unterstützt, insbesondere Browser-Versionen vor 2022. Siehe [https://caniuse.com/webp](https://caniuse.com/webp). Dazu  kann ein Fallback auf ein anderes Bildformat wie PNG oder JPEG implementiert werden.
 
 ### **AVIF**
 
@@ -124,9 +124,9 @@ AVIF steht für **AV1 Image File Format** und ist ein modernes Bildformat, das a
 
 #### **Vorteile von AVIF:**
 
-* **Hohe Kompressionseffizienz:** AVIF-Bilder bieten eine hervorragende Bildqualität bei wesentlich kleineren Dateigrößen im Vergleich zu JPEG, PNG oder WebP.
+* **Hohe Kompressionseffizienz:** AVIF-Bilder bieten eine hervorragende Bildqualität bei wesentlich kleineren Dateigrössen im Vergleich zu JPEG, PNG oder WebP.
 * **Unterstützung für HDR:** AVIF unterstützt **High Dynamic Range (HDR)**, was es ideal für Bilder mit hohem Kontrastumfang macht.
-* **Transparenz:** Wie PNG und WebP unterstützt auch AVIF Transparenz, allerdings mit einer geringeren Dateigröße.
+* **Transparenz:** Wie PNG und WebP unterstützt auch AVIF Transparenz, allerdings mit einer geringeren Dateigrösse.
 * **Farbtiefe:** AVIF unterstützt Farbtiefen von bis zu 12 Bit pro Kanal, wodurch es detailreichere und lebendigere Bilder ermöglicht als ältere Formate.
 
 **Nachteile von AVIF:**
@@ -136,7 +136,7 @@ AVIF steht für **AV1 Image File Format** und ist ein modernes Bildformat, das a
 
 #### **Anwendungsfall**
 
-AVIF eignet sich hervorragend für Szenarien, in denen **maximale Bildqualität bei minimaler Dateigröße** gefragt ist, z. B. für Fotografien auf Websites, bei denen schnelle Ladezeiten entscheidend sind.&#x20;
+AVIF eignet sich hervorragend für Szenarien, in denen **maximale Bildqualität bei minimaler Dateigrösse** gefragt ist, z. B. für Fotografien auf Websites, bei denen schnelle Ladezeiten entscheidend sind.&#x20;
 
 ### Links
 
@@ -151,11 +151,11 @@ Mit [Bulk Resize Photos](https://bulkresizephotos.com/) können mehrere Fotos mi
 Mit dem [Online Image Editor](https://www.online-image-editor.com/) kannst du einzelne Bilder online skalieren und zuschneiden.\
 Mit [TinyPNG](https://tinypng.com/) kannst du Bilder komprimieren und Formate ändern.
 
-Bei den meisten Bildformaten kann die **Qualität = Komprimierung** gewählt werden. Mit ca. 70% werden die Bilder meist deutlich kleiner, aber es ist noch kaum ein Qualitätsverlust sichtbar.
+Bei den meisten Bildformaten kann die **Qualitätsstufe** gewählt werden (je tiefer, desto stärker die Komprimierung). Mit ca. 70% werden die Bilder meist deutlich kleiner, aber es ist noch kaum ein Qualitätsverlust sichtbar.
 
 ### Responsive Bildgrössen
 
-Für unterschiedliche Geräte kannst du seit ... unterschiedliche Bildgrössen und Auflösungen anbieten.&#x20;
+Für unterschiedliche Geräte kannst du unterschiedliche Bildgrössen und Auflösungen anbieten.&#x20;
 
 Dazu gibt es verschiedene Möglichkeiten. Eine empfehlenswerte ist das `<picture>`-Element:
 
@@ -187,17 +187,17 @@ img {
 }
 ```
 
-Dies verhindert, dass ein Bild jemals grösser werden kann als der Container, in welchen es rein passen sollte.&#x20;
+Dies verhindert, dass ein Bild jemals grösser werden kann als der Container, in welchen es reinpassen sollte.&#x20;
 
 ## 🛠️Aufgaben Bildformate, Grösse, Qualität
 
 Mache ein Foto und füge es als JPG auf der Seite "Über mich" ein. Probiere dabei folgendes aus:&#x20;
 
-1. Speichere das Foto als JPG mit einem Bildbearbeitungs-Programm in unterschieldicher Qualität (Komprimierung) und schau, ab wann du einen klaren Qualitätsverlust sehen kannst. Vergleiche die Dateigrössen mit der Grösse des Originalbildes. Wo ist der ideale Kompromiss zwischen Qualität und Dateigrösse?&#x20;
+1. Speichere das Foto als JPG mit einem Bildbearbeitungs-Programm in unterschiedlicher Qualität (Komprimierung) und schau, ab wann du einen klaren Qualitätsverlust sehen kannst. Vergleiche die Dateigrössen mit der Grösse des Originalbildes. Wo ist der ideale Kompromiss zwischen Qualität und Dateigrösse?&#x20;
 2. Speichere das Foto in unterschiedlichen Formaten und schau dir die Dateigrösse und die Qualität an: \
    JPG, PNG, WebP und GIF.
 3. Verkleinere das Bild im JPG-Format auf die Grösse, wie du es in der Website haben willst. Wähle die oben gefundene optimale Komprimierung. Wie gross ist die Datei jetzt?&#x20;
-4. Suche im Internet ein Logo, welches im SVG-Format gespeichert ist. Füge es auf deiner Seite ein und skaliere es auf mind. 300px. Schau, ob du ein Qualitätsunterschied siehst.
+4. Suche im Internet ein Logo, welches im SVG-Format gespeichert ist. Füge es auf deiner Seite ein und skaliere es auf mind. 300px. Schau, ob du einen Qualitätsunterschied siehst.
 5. Teste, was passiert, wenn du das Browser-Fenster schmaler machst als das Bild (mobile Ansicht). Wenn das Bild das Layout sprengt, teste die [Lösung oben](./#tipp-wenn-bilder-das-layout-sprengen).
 
 ## Ladegeschwindigkeit
@@ -224,7 +224,7 @@ Um die Geschwindigkeit einer Website zu testen gibt es unterschiedliche Tools. H
 
 ### Optimierungsmöglichkeiten
 
-* [Geeignetes Bildformat](./#bild-formate) wählen
+* [Geeignetes Bildformat](./#bildformate) wählen
 * [Auflösung](./#bild-grossen) auf wirklich benutzte Grösse ändern
 * [Responsive Bildgrössen](./#responsive-bildgrossen): Für kleine Geräte kleinere Bilder anbieten
 * Komprimierung erhöhen
@@ -252,12 +252,12 @@ In Seiten-Headern oder für spezielle Effekte können Bilder als Hintergrund ein
 
 **Gestaltung:** Hinter Text sollte aus Lesbarkeitsgründen meist kein Bild oder nur ein sehr kontrastarmes sein.&#x20;
 
-Detailierte Beschreibung der Möglichkeiten: \
+Detaillierte Beschreibung der Möglichkeiten: \
 [drweb.de/background-image](https://www.drweb.de/background-image/)
 
 ### Beispiel Bannerbild
 
-Ein Bannerbild dient als Stimmungsbild und sollte im Querformat möglichst die ganze Breite.&#x20;
+Ein Bannerbild dient als Stimmungsbild und sollte im Querformat möglichst die ganze Breite einnehmen.&#x20;
 
 **Ausprobieren auf** [codepen.io](https://codepen.io/sternenvogel/pen/raeVEeZ)
 
@@ -294,7 +294,7 @@ Für einen Kunden soll eine Website entworfen werden, er kann aber die Bilder no
 
 1. Nutze vorübergehend andere Bilder vom Kunden, z.B. von der alten Website.&#x20;
 2. Setze Platzhalter-Fotos (z.B. von [**picsum.photos**](https://picsum.photos/)), Platzhalter-Avatare (z.B. von [**pravatar.cc**](https://pravatar.cc/)) oder Platzhalter-Bilder mit Text (z.B. [**dummyimage.com**](https://dummyimage.com/)) ein.
-3. Sage dem Kunden, dass du erst weiter machen kannst, wenn er liefert. :-)
+3. Sage dem Kunden, dass du erst weitermachen kannst, wenn er liefert. :-)
 
 Das gleiche Problem kann mit fehlenden Texten auftreten. Dafür kannst du:&#x20;
 
@@ -303,7 +303,7 @@ Das gleiche Problem kann mit fehlenden Texten auftreten. Dafür kannst du:&#x20;
 
 ## 🛠️Aufgaben
 
-1. Füge in der Aufgabe "Über mich" im Header ein Hintergrundbild ein. Sorge dafür, dass es den ganzen Header-Bereich abgeckt, egal wie breit das Bworser-Fenster ist.&#x20;
+1. Füge in der Aufgabe "Über mich" im Header ein Hintergrundbild ein. Sorge dafür, dass es den ganzen Header-Bereich abdeckt, egal wie breit das Browser-Fenster ist.&#x20;
 2. Füge ein [Platzhalter-Bild](./#platzhalter-bilder) ein.
 3. Bonus-Aufgabe: Wie stellst du ein Bild nur mit CSS als kreisrundes Bild dar? Suche online nach einer einfachen Lösung.&#x20;
-4. Optional: Im Header soll ein Text über dem Hintergrund mit halbtransparentem Container versehen (Lesbarkeit des Textes) angezeigt werden.  Verpacke dafür den Text in einen Container (`<div>`). Probiere im Browser (DevTools) eine passende Transparenz einzustellen und dann ins CSS kopieren kann
+4. Optional: Im Header soll ein Text über dem Hintergrund mit halbtransparentem Container versehen (Lesbarkeit des Textes) angezeigt werden.  Verpacke dafür den Text in einen Container (`<div>`). Probiere im Browser (DevTools) eine passende Transparenz aus und kopiere sie dann ins CSS.

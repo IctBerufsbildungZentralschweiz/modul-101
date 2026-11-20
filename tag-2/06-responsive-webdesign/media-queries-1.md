@@ -1,6 +1,6 @@
 # Container Queries
 
-Während Media Queries sich auf die Fensterbreite bezieht, fragen Container Queries die Breite des beinhaltenden Containers ab.
+Während Media Queries sich auf die Fensterbreite beziehen, fragen Container Queries die Breite des beinhaltenden Containers ab.
 
 {% hint style="info" %}
 **Achtung neues Feature:** Container Queries werden von den meisten Desktop-Browsern seit 2023 unterstützt, von Android-Browsern jedoch erst seit Okt./Nov. 2026. ⇒ Noch zurückhaltend verwenden!
@@ -54,7 +54,7 @@ nav {
 Container sollten einen Namen haben, falls es mehrere verschachtelte Container Queries gibt:
 
 ```css
-/* Benannter Container deklarieren */
+/* Benannten Container deklarieren */
 nav {
   container-type: inline-size;
   container-name: navigation; /* Beliebiger Name */
@@ -73,5 +73,5 @@ nav {
 
 Wende die Container Queries auf die Newsportal-Aufgabe an, wenn du sie gemacht hast, sonst auf die Navigations-Aufgabe:&#x20;
 
-* Aufgabe Newsportal: Ab wann haben die Überschriften in den NEws-Artikeln nicht mehr Platz auf 1 Zeile? Passe die Fontgrösse für Überschrift für kleine Container an.
-* Aufgabe Navigation: Mache die Schrift generell etwas grösser und füge in der Navigation etwas längere Texte (mind. 20 Zeichen) ein. Schau dann, ab welcher Container-Breite die Menü-Optionen nicht mehr auf 1 Zeile platz haben und verkleinere dann die Schriftgrösse.
+* Aufgabe Newsportal: Ab wann haben die Überschriften in den News-Artikeln nicht mehr Platz auf 1 Zeile? Passe die Fontgrösse für die Überschrift für kleine Container an.
+* Aufgabe Navigation: Mache die Schrift generell etwas grösser und füge in der Navigation etwas längere Texte (mind. 20 Zeichen) ein. Schau dann, ab welcher Container-Breite die Menü-Optionen nicht mehr auf 1 Zeile Platz haben und verkleinere dann die Schriftgrösse.

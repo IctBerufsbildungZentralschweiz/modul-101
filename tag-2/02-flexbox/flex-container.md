@@ -1,6 +1,6 @@
 # Der Flex-Container
 
-Die folgende Liste von Eigenschaften für den Flex-Container ist nicht abschliessend, zeigt jedoch die wichtigten Elemente.
+Die folgende Liste von Eigenschaften für den Flex-Container ist nicht abschliessend, zeigt jedoch die wichtigsten Elemente.
 
 ![Flex Container](<../../.gitbook/assets/flex-container (1).svg>)
 
@@ -64,7 +64,7 @@ Die Eigenschaft gap legt den minimalen Abstand zwischen den Items fest:&#x20;
 
 ## Flex-Container: `justify-content`
 
-Diese Eigenschaft definiert die Ausrichtung der Items einer einer Linie. Ebenfalls wird definiert, was mit dem restlichen Platz gemacht wird.
+Diese Eigenschaft definiert die Ausrichtung der Items auf einer Linie. Ebenfalls wird definiert, was mit dem restlichen Platz gemacht wird.
 
 ![Justify Content](<../../.gitbook/assets/justify-content (1).svg>)
 

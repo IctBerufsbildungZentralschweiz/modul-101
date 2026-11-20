@@ -16,18 +16,18 @@ Stattdessen solltest du dein Layout immer bei diesen Grössen verändern, wo dei
 
 ## Mobile first vs. Desktop first
 
-Jede Website sollte zwar auf Mibiles und Desktop funktionieren. Je nach Zielgruppe und Komplexität der Website wird diese aber primär für mobile oder für Desktop-Geräte entwickelt.&#x20;
+Jede Website sollte zwar auf Mobilgeräten und Desktops funktionieren. Je nach Zielgruppe und Komplexität der Website wird diese aber primär für mobile oder für Desktop-Geräte entwickelt.&#x20;
 
 ### Mobile first
 
-**Mobile-First-Design** ist ein Webdesign-Ansatz, bei dem die Website zuerst für Benutzer von Mobilen Geräten optimiert wird. Danach wird eine Version für grössere Bildschirme entworfen.&#x20;
+**Mobile-First-Design** ist ein Webdesign-Ansatz, bei dem die Website zuerst für Benutzer von mobilen Geräten optimiert wird. Danach wird eine Version für grössere Bildschirme entworfen.&#x20;
 
 **Im CSS** werden zuerst die Definitionen für kleine Bildschirme geschrieben, danach mittels Media-Queries für grosse Displays überschrieben.&#x20;
 
 **Wann wähle ich diesen Ansatz?**\
 Für einfachere Websites und Applikationen, die oft unterwegs benutzt werden.&#x20;
 
-**Beispiel:** Ein B2C-Webshop (Business to Customer) für Ticket-Verkauf.
+**Beispiel:** Ein B2C-Webshop (Business to Consumer) für Ticket-Verkauf.
 
 ### Desktop first
 
