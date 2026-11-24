@@ -1,6 +1,6 @@
 # Informationsgruppierung
 
-Bei umfangreichen Formularen können Formularfelder in zusammengehörige Gruppen zusammengefasst werden. Dies erhöht die Bedienerfreundlichkeit.&#x20;
+Bei umfangreichen Formularen können Formularfelder in zusammengehörige Gruppen zusammengefasst werden. Dies erhöht die Bedienerfreundlichkeit.
 
 Formularelemente lassen sich in drei hierarchische Stufen unterteilen:
 
@@ -12,7 +12,7 @@ Formularelemente lassen sich in drei hierarchische Stufen unterteilen:
 
 Das Tag `fieldset` ermöglicht es, die Formularfelder in Sets/Gruppen zu strukturieren. Ausschlaggebend für die Unterteilung ist die thematische Zusammengehörigkeit der einzelnen Felder.
 
-Die Formularfeld-Gruppen erleichtern zum einen die Navigation innerhalb des Dokuments und erhöhen gleichzeitig die Accessibility der Seite.&#x20;
+Die Formularfeld-Gruppen erleichtern zum einen die Navigation innerhalb des Dokuments und erhöhen gleichzeitig die Accessibility der Seite.
 
 Accessibility/Barrierefreiheit: Kommunikation in einer Weise, welche von Menschen mit Behinderung und von älteren Menschen in gleicher Weise genutzt werden kann wie von Menschen ohne Behinderung.
 
@@ -48,4 +48,4 @@ Accessibility/Barrierefreiheit: Kommunikation in einer Weise, welche von Mensche
 
 Als kleine Illustration:
 
-<div align="left"><img src="../../.gitbook/assets/Form (1).jpg" alt="Formularfelder" width="375"></div>
+<div align="left"><img src="../../.gitbook/assets/Form.jpg" alt="Formularfelder" width="375"></div>

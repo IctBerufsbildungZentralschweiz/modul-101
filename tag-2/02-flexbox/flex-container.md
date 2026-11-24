@@ -2,7 +2,7 @@
 
 Die folgende Liste von Eigenschaften für den Flex-Container ist nicht abschliessend, zeigt jedoch die wichtigsten Elemente.
 
-![Flex Container](<../../.gitbook/assets/flex-container (1).svg>)
+![Flex Container](../../.gitbook/assets/flex-container.svg)
 
 ## Flex-Container: `display`
 
@@ -18,7 +18,7 @@ Um zu definieren, dass es sich bei einem Element um einen Flex-Container handelt
 
 Mit der `flex-direction`-Eigenschaft kann definiert werden, ob sich die Elemente horizontal oder vertikal ausrichten sollen (=Ausrichtungsachse). Sprich, ob man mit einem Zeilenlayout oder einem Spaltenlayout arbeiten möchte:
 
-![Flex Direction](<../../.gitbook/assets/flex-direction (1).svg>)
+![Flex Direction](../../.gitbook/assets/flex-direction.svg)
 
 ```css
 .container {
@@ -37,7 +37,7 @@ Mit der `flex-direction`-Eigenschaft kann definiert werden, ob sich die Elemente
 
 Standardmässig passt der Flex-Container sämtliche Flex-Items in eine Linie ein. Dieses Verhalten kann jedoch mit der `flex-wrap`-Eigenschaft angepasst werden.
 
-![Flex Wrap](<../../.gitbook/assets/flex-wrap (1).svg>)
+![Flex Wrap](../../.gitbook/assets/flex-wrap.svg)
 
 ```css
 .container {
@@ -51,9 +51,9 @@ Standardmässig passt der Flex-Container sämtliche Flex-Items in eine Linie ein
 | wrap              | Die Items werden auf mehrere Linien aufgeteilt, von oben nach unten |
 | wrap-reverse      | Die Items werden auf mehrere Linien aufgeteilt, von unten nach oben |
 
-## Abstand zwischen den Items: `gap`&#x20;
+## Abstand zwischen den Items: `gap`
 
-Die Eigenschaft gap legt den minimalen Abstand zwischen den Items fest:&#x20;
+Die Eigenschaft gap legt den minimalen Abstand zwischen den Items fest:
 
 ```css
 .container {
@@ -66,7 +66,7 @@ Die Eigenschaft gap legt den minimalen Abstand zwischen den Items fest:&#x20;
 
 Diese Eigenschaft definiert die Ausrichtung der Items auf einer Linie. Ebenfalls wird definiert, was mit dem restlichen Platz gemacht wird.
 
-![Justify Content](<../../.gitbook/assets/justify-content (1).svg>)
+![Justify Content](../../.gitbook/assets/justify-content.svg)
 
 ```css
 .container {
@@ -87,7 +87,7 @@ Diese Eigenschaft definiert die Ausrichtung der Items auf einer Linie. Ebenfalls
 
 Diese Eigenschaft definiert die Ausrichtung der Linien entlang der vertikalen Achse (`cross-axis`). Ebenfalls wird definiert, was mit dem restlichen Platz gemacht wird. Somit ist diese Eigenschaft die vertikale Schwester von `justify-content`.
 
-![Align Content](<../../.gitbook/assets/align-content (1).svg>)
+![Align Content](../../.gitbook/assets/align-content.svg)
 
 ```css
 .container {

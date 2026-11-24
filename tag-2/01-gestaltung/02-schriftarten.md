@@ -2,17 +2,17 @@
 
 ## Wahl der Schriftarten
 
-Welche Schriften sind wofür geeignet? Für gutes Webdesign gibt es eine einfache Regel:&#x20;
+Welche Schriften sind wofür geeignet? Für gutes Webdesign gibt es eine einfache Regel:
 
 * **Logo:**\
-  Ziel ist Unverwechselbarkeit und Wiedererkennung. Deshalb können für Logos auch ausgefallene Fonts benutzt werden.&#x20;
+  Ziel ist Unverwechselbarkeit und Wiedererkennung. Deshalb können für Logos auch ausgefallene Fonts benutzt werden.
 * **Überschriften:**\
   Überschriften sind kurz und dienen der Orientierung. Sie dürfen einen starken Charakter haben, brauchen einen guten Kontrast, sollen skalierbar sein (h1-h6) und sollen ev. auch fett gut aussehen.\
-  Die Freiheit ist hier gross, auch ausgefallene Schriftarten, Serifen-Schriften etc. sind möglich.&#x20;
+  Die Freiheit ist hier gross, auch ausgefallene Schriftarten, Serifen-Schriften etc. sind möglich.
 * **Lauftext:**\
-  Lauftexte sind Abschnitte, Sätze, der Hauptinhalt der Website. Wichtig sind leichte Lesbarkeit und guter Lesefluss. Deshalb sollten für Lauftext am Bildschirm schlichte, sehr gut lesbare Schriftarten gewählt werden, ohne Schnörkel und meist ohne Serifen.&#x20;
+  Lauftexte sind Abschnitte, Sätze, der Hauptinhalt der Website. Wichtig sind leichte Lesbarkeit und guter Lesefluss. Deshalb sollten für Lauftext am Bildschirm schlichte, sehr gut lesbare Schriftarten gewählt werden, ohne Schnörkel und meist ohne Serifen.
 
-Binde nicht zu viele Schriftarten und Schriftstile ein. Das Layout wird sonst unruhig und die Ladezeit der Website kann stark beeinflusst werden. Oft werden 2 Schriftarten gewählt: Eine für Überschriften und eine für Lauftext.&#x20;
+Binde nicht zu viele Schriftarten und Schriftstile ein. Das Layout wird sonst unruhig und die Ladezeit der Website kann stark beeinflusst werden. Oft werden 2 Schriftarten gewählt: Eine für Überschriften und eine für Lauftext.
 
 ## Schriftarten in CSS definieren
 
@@ -31,7 +31,7 @@ h1 {
 
 Schriftarten werden **vom Computer des Besuchers** geladen. Je nach Betriebssystem und Software sind jedoch andere Schriftarten vorhanden. Calibri ist beispielsweise auf Windows installiert, auf Mac nicht. Das ergibt Darstellungsprobleme.
 
-<div align="left"><img src="../../.gitbook/assets/calibri (1).png" alt="Fehlende Schriftart"></div>
+<div align="left"><img src="../../.gitbook/assets/calibri.png" alt="Fehlende Schriftart"></div>
 
 ## Lösung 1: Alternative Schriftarten definieren
 
@@ -74,7 +74,7 @@ Seit CSS3 können auch eigene Schriftarten verwendet werden. Hier gilt es folgen
 
 ### Woher bekomme ich eine Schriftart?
 
-Es gibt viele Plattformen, welche Fonts anbieten. Ein paar Beispiele:&#x20;
+Es gibt viele Plattformen, welche Fonts anbieten. Ein paar Beispiele:
 
 * [Google Fonts](https://fonts.google.com/)
 * [Adobe Fonts](https://fonts.adobe.com/)
@@ -129,7 +129,7 @@ Wird die CSS-Datei direkt aufgerufen, sehen wir die soeben besprochenen `@font-f
 
 #### Problem: Datenschutz
 
-**Achtung:** Gemäss einem Urteil des Landgerichts München von 2022 verstösst das Laden von Google Fonts direkt von Google-Servern ohne Einwilligung der User gegen die DSGVO (Europäische Datenschutz-Grundverordnung), weil eine Verbindung zu Google-Servern in den USA aufgebaut wird und die Server ohne Einwilligung diverse Daten des Besuchers abgreifen.&#x20;
+**Achtung:** Gemäss einem Urteil des Landgerichts München von 2022 verstösst das Laden von Google Fonts direkt von Google-Servern ohne Einwilligung der User gegen die DSGVO (Europäische Datenschutz-Grundverordnung), weil eine Verbindung zu Google-Servern in den USA aufgebaut wird und die Server ohne Einwilligung diverse Daten des Besuchers abgreifen.
 
 #### Lösung: Google Fonts selber hosten
 
@@ -137,8 +137,8 @@ Dies kann gelöst werden, indem die Fonts heruntergeladen und auf einem eigenen 
 
 ## 🛠️ Aufgaben
 
-Füge deiner Webseite `about-me.html` eine individuelle Schrift hinzu:&#x20;
+Füge deiner Webseite `about-me.html` eine individuelle Schrift hinzu:
 
 1. Wähle eine Schrift von [Google-Fonts](https://fonts.google.com/) aus ("Get font" rechts oben) und binde diese mittels "Get embed code" in die Seite ein. Wähle anschliessend per CSS die ausgewählte Schriftart als Standardschrift (`body`).
 2. Definiere eine alternative Schrift, falls der Google-Font nicht oder langsam lädt.
-3. **Datenschutz:** Lade die Schriftart von Google herunter ("Download" statt "Get embed code"), packe  sie aus der Zip-Datei in einen neuen Ordner `/fonts` und [binde sie von da ein](02-schriftarten.md#font-face), damit keine Verbindung zu Google mehr nötig ist.
+3. **Datenschutz:** Lade die Schriftart von Google herunter ("Download" statt "Get embed code"), packe sie aus der Zip-Datei in einen neuen Ordner `/fonts` und [binde sie von da ein](02-schriftarten.md#font-face), damit keine Verbindung zu Google mehr nötig ist.

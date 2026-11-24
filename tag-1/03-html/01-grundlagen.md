@@ -20,7 +20,7 @@ Mit `<p>` können wir spezifizieren, dass es sich um einen Absatz handelt:
 
 Das oben beschriebene Beispiel zeigt, wie ein HTML-Element aufgebaut ist:
 
-![Aufbau eines HTML-Elements](<../../.gitbook/assets/html-grundlagen (1).jpg>)
+![Aufbau eines HTML-Elements](../../.gitbook/assets/html-grundlagen.jpg)
 
 * **Das öffnende Tag:** Dieses besteht aus dem Namen des Elements (in diesem Fall ein p für _paragraph_ (engl.: Absatz)), welcher zwischen zwei spitzen Klammern eingesetzt ist. Dies zeigt an, wo das Element beginnt — in diesem Fall am Anfang unseres Absatzes.
 * **Der Inhalt:** Dies ist der Inhalt des Elements, in diesem Fall einfach nur Text.
@@ -31,7 +31,7 @@ Das oben beschriebene Beispiel zeigt, wie ein HTML-Element aufgebaut ist:
 
 Elemente können auch Attribute enthalten. Das sieht dann so aus:
 
-![Attribut eines HTML-Elements](<../../.gitbook/assets/html-attribut (1).jpg>)
+![Attribut eines HTML-Elements](../../.gitbook/assets/html-attribut.jpg)
 
 Attribute enthalten Zusatzinformationen über das Element, welche nicht als eigentlicher Inhalt angezeigt werden. Das `class`-Attribut beispielsweise kann später dazu verwendet werden, das Element mit CSS zu gestalten.
 
@@ -66,7 +66,7 @@ Gewisse Elemente haben keinen Inhalt, diese werden leere Elemente genannt. Beisp
 
 Das `<img>`-Tag beinhaltet zwei Attribute, aber es gibt kein schliessendes `</img>`-Tag und keinen Inhalt in dem Element. Das `<img>`-Tag braucht keinen Inhalt um einen Effekt zu haben. Es bindet ein Bild an der entsprechenden Stelle in der HTML-Seite ein.
 
-**Frage:** Welche anderen Beispiele findest du in einer Website? \
+**Frage:** Welche anderen Beispiele findest du in einer Website?\
 Tipp: Schau dir einzelne Texte mit Umbrüchen und auch den HTML `<head>` an.
 
 ## Liste mit HTML-Tags

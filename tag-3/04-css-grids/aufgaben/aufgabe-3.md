@@ -19,7 +19,7 @@ Erstelle ein CSS-Grid für folgende Startseite des Blogs «blog.ict-bz.ch». Jed
 
 **Tipp:** Für dieses Layout benötigst du _keine_ `grid-area` Regeln. Es geht deutlich einfacher!
 
-![](<../../../.gitbook/assets/desktop (1).png>)
+![](../../../.gitbook/assets/desktop.png)
 
 ## Responsives Layout
 
@@ -27,11 +27,11 @@ Erstelle ein CSS-Grid für folgende Startseite des Blogs «blog.ict-bz.ch». Jed
 2. Die einzelnen Elemente werden jetzt auf `zwei Spalten` verteilt.
 3. Das erste Element ist immer noch `zwei Spalten` breit, aber nur noch `eine Zeile` hoch.
 
-![](<../../../.gitbook/assets/tablet (1).png>)
+![](../../../.gitbook/assets/tablet.png)
 
 1. Wenn für die einzelnen Elemente nicht mehr mindestens `440px` Breite zur Verfügung stehen, sollen alle Elemente über `100%` des Bildschirms in einer Spalte angezeigt werden.
 
-![](<../../../.gitbook/assets/smartphone (1).png>)
+![](../../../.gitbook/assets/smartphone.png)
 
 ## Zusatzaufgabe
 

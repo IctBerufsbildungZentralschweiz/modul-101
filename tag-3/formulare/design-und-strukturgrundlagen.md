@@ -30,7 +30,7 @@ Ein Formular kann die Beziehung zwischen Benutzer und Unternehmen aufbauen und v
 * **Eine Beziehung basiert auf Vertrauen.** Somit muss das Formular vertrauenswürdig sein. Dies kann durch das Design, Logo, Fotos, Farben, Typographie oder Wording erreicht werden. Der Benutzer muss sofort wissen, dass hinter dem Formular eine seriöse Firma steht.
 * **Jede Beziehung hat ein Ziel.** Ob in einer romantischen Beziehung oder bei Businesspartnern, jede Beziehung hat ein Ziel. Was hat dein Formular für ein Ziel?
 * **Passt der Name des Formulars zum Inhalt?** Stimmt der Inhalt (Formularfelder) mit den Erwartungen des Benutzers überein? Die Erwartungen des Benutzers werden im Link, Titel, Email etc. aufgebaut, mit dem er auf das Formular gelangt ist.
-* **Passt das Formular zu meiner Zielgruppe?** Es ist wichtig zu wissen, wer das Formular ausfüllt und was für Besonderheiten sich daraus schliessen lassen. Beispiele: Private Kunden vs. Geschäftskunden, Mitglieder vs. Sponsoren, bestehende vs. neue Kunden:&#x20;
+* **Passt das Formular zu meiner Zielgruppe?** Es ist wichtig zu wissen, wer das Formular ausfüllt und was für Besonderheiten sich daraus schliessen lassen. Beispiele: Private Kunden vs. Geschäftskunden, Mitglieder vs. Sponsoren, bestehende vs. neue Kunden:
 
 <figure><img src="../../.gitbook/assets/Bonprix.png" alt=""><figcaption></figcaption></figure>
 
@@ -43,7 +43,7 @@ Ein Formular ist keine einseitige Kommunikation, sondern ein Gespräch zwischen 
 
 * **Ein Formular ist somit ein Gespräch und kein Verhör.** Aggressives Wording löst beim Benutzer eine Abwehrhaltung aus.
 * **Dem logischen Aufbau einer Konversation folgen.** Ein Formular muss einen logischen Aufbau aufweisen. Du würdest doch auch nicht in den ersten 5 Sekunden des Kennenlernens gleich nach der Telefonnummer fragen? Als Grundsatz gilt: Das Formular geht von den allgemeinen Fragen (low Involvement) langsam über zu spezifischen Fragen (high Involvement).
-* **Formular nach Themen sortieren.** Menschen denken in Clustern: Fragt ein Formular beispielsweise Informationen über das Auto des Benutzers ab, ruft dieser das Cluster «Auto» in seinen Gedanken auf und kann sämtliche Informationen über sein Auto schnell in das Formular eintragen. Die Informationen sollten deshalb entsprechend gruppiert sein:&#x20;
+* **Formular nach Themen sortieren.** Menschen denken in Clustern: Fragt ein Formular beispielsweise Informationen über das Auto des Benutzers ab, ruft dieser das Cluster «Auto» in seinen Gedanken auf und kann sämtliche Informationen über sein Auto schnell in das Formular eintragen. Die Informationen sollten deshalb entsprechend gruppiert sein:
 
 <figure><img src="../../.gitbook/assets/Comparis.png" alt=""><figcaption></figcaption></figure>
 
@@ -58,29 +58,29 @@ Das Aussehen eines Formulars ist entscheidend für dessen Benutzerfreundlichkeit
 
 #### Label
 
-* **Wörter vs. Sätze.** Ganze Sätze helfen bei komplexeren Fragestellungen. Meist reichen aber einzelne Wörter.&#x20;
+* **Wörter vs. Sätze.** Ganze Sätze helfen bei komplexeren Fragestellungen. Meist reichen aber einzelne Wörter.
 
-![Anmeldung mit Sätzen bei Amazon.](<../../.gitbook/assets/04 (1).jpg>)
+![Anmeldung mit Sätzen bei Amazon.](../../.gitbook/assets/04.jpg)
 
 Diese Anmeldeseite von Amazon nutzt ganze Sätze, obwohl einzelne Wörter absolut ausreichend wären.
 
 * **Position des Labels.** Auch hier gibt es keine abschliessende Regel und die unterschiedlichen Positionen des Labels bieten verschiedene Vor- und Nachteile.
 * **Nur eine Kolonne.** Der Aufbau eines Formulars sollte sich nicht über mehrere Spalten ziehen, sondern klar dem Verlauf von oben nach unten folgen.
 
-![Zweispaltige Layouts sind eher ungeeignet.](<../../.gitbook/assets/05 (1).jpg>)
+![Zweispaltige Layouts sind eher ungeeignet.](../../.gitbook/assets/05.jpg)
 
 #### Formularfelder
 
 * **Feldtypen richtig einsetzen.** Beim Erstellen eines Formularfeldes sollte man sich stets folgende Frage stellen: Welches Feld eignet sich am besten für die gewünschte Information?
 * **Gestaltung der Formularfelder.** HTML5 und CSS3 bieten eine Vielfalt von verschiedenen Varianten um ein Formularfeld zu gestalten. Diese sollten jedoch nur beschränkt eingesetzt werden. Es ist wichtiger dem Benutzer eine einfache und intuitive Oberfläche zu bieten als ein schön gestaltetes aber benutzerunfreundliches Formular zu designen (Beispiel Pflichtfeld mit \*).
 
-![Da hat es jemand zu gut gemeint.](<../../.gitbook/assets/06 (1).jpg>)
+![Da hat es jemand zu gut gemeint.](../../.gitbook/assets/06.jpg)
 
 #### Aktionen
 
 * **Primäre und Sekundäre Aktionen unterscheiden.** Die primäre und die sekundäre Aktion eines Formulares müssen optisch klar unterschieden werden. So wird der Button für das Versenden des Formulars anders dargestellt als der Button für das Abbrechen.
 
-![Unterscheiden der Aktionen.](<../../.gitbook/assets/07 (1).jpg>)
+![Unterscheiden der Aktionen.](../../.gitbook/assets/07.jpg)
 
 Schlechtes Beispiel: Die Aktionen auf den Buttons sind optisch nicht in eine primäre und eine sekundäre Aktion differenzierbar.
 

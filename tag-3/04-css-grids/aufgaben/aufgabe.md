@@ -6,13 +6,13 @@ Du weisst jetzt, wie man ein Layout mit CSS Grids definiert. Nutze dein Wissen u
 
 ![](../../../.gitbook/assets/ralph.png)
 
-Setze das unten dargestellte Layout mit einem CSS Grid um.&#x20;
+Setze das unten dargestellte Layout mit einem CSS Grid um.
 
-![Aufgabe](<../../../.gitbook/assets/aufgabe (1).png>)
+![Aufgabe](../../../.gitbook/assets/aufgabe.png)
 
-Erstelle dazu ein neues Verzeichnis `grid-aufgabe` mit den Dateien `layout.html` und `styles.css`.&#x20;
+Erstelle dazu ein neues Verzeichnis `grid-aufgabe` mit den Dateien `layout.html` und `styles.css`.
 
-In `layout.html`  kannst du als Grundgerüst folgenden Code benutzen:&#x20;
+In `layout.html` kannst du als Grundgerüst folgenden Code benutzen:
 
 ```html
 <!DOCTYPE html>
@@ -55,14 +55,14 @@ body {
 }
 ```
 
-1. Im HTML-`head` solltest du noch das [CSS verlinken](../../../tag-1/04-css/02-einbindung.md#css-datei-einbinden).&#x20;
+1. Im HTML-`head` solltest du noch das [CSS verlinken](../../../tag-1/04-css/02-einbindung.md#css-datei-einbinden).
 2. Damit die Bereiche besser sichtbar sind, gib den Menüs, der Sidebar und dem Footer eine neue Hintergrundfarbe, z.B. `darkgray`.
 3. Erstelle nun das Grid gemäss obiger Grafik. Ersetze dazu die Kommentarzeichen `/* ... */` mit den Angaben zu Spaltenbreite bzw. Zeilenhöhe.
 4. Füge zwischen allen Spalten einen Abstand von `20px` ein. Zeilen sollen keinen Abstand haben.
 
 **Platzierung**
 
-Aktuell werden die Elemente noch nicht richtig angeordnet. Dafür geben wir nun den Grid-Areas Namen und platzieren die Elemente:&#x20;
+Aktuell werden die Elemente noch nicht richtig angeordnet. Dafür geben wir nun den Grid-Areas Namen und platzieren die Elemente:
 
 1. Kopiere aus dem Kapitel Platzierung das Beispiel für `grid-template-areas: ...` und passe die Feld-Namen an, wie du es in deinem Layout brauchst.
 2. Für jedes Element kannst du nun mit `grid-area` definieren, in welches Feld es platziert werden soll.
@@ -80,7 +80,7 @@ header {
 /* etc. */
 ```
 
-**Danach kannst du noch folgende Fragen beantworten:**&#x20;
+**Danach kannst du noch folgende Fragen beantworten:**
 
 * Was bewirkt `body { margin: 0; }`?
 * Was bedeutet `.container { margin: 0 auto; }` und was bewirkt es?

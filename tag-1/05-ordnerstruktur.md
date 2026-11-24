@@ -2,7 +2,7 @@
 
 Bei kleineren Projekten ist es noch einfach ohne sinnvolle Ordnerstruktur den Überblick zu behalten. Werden die Projekte jedoch etwas grösser, verliert man schnell den Überblick:
 
-![Ordnung](<../.gitbook/assets/mess (1).gif>)
+![Ordnung](../.gitbook/assets/mess.gif)
 
 ```
 root/
@@ -43,7 +43,7 @@ root/
       |-> dokument.pdf
 ```
 
-**Hinweis:** \
+**Hinweis:**\
 **HTML-Dokumente** werden meist nicht in einem Unterordner platziert. Dies würde unschöne URLs ergeben (www.meine-domain.ch/html/home.html) und die Verlinkung von Bildern und CSS verkomplizieren.
 
 ### Relative Pfade
@@ -78,11 +78,11 @@ Absolute Pfade haben immer das Stammverzeichnis eines Servers (Root) als Ausgang
 <img src="https://www.example.com/images/zebras.jpg" alt="Zebras">
 ```
 
-Werden Beziehungen zu externen Dateien (Frameworks, Schriften etc.) hergestellt, wird der Pfad meistens mit einem absoluten Pfad angegeben. Dabei sollte der Anbieter sicherstellen, dass sich der Pfad nicht ändert.&#x20;
+Werden Beziehungen zu externen Dateien (Frameworks, Schriften etc.) hergestellt, wird der Pfad meistens mit einem absoluten Pfad angegeben. Dabei sollte der Anbieter sicherstellen, dass sich der Pfad nicht ändert.
 
 ### Probleme mit absoluten lokalen Pfaden
 
-Falls lokale Links (zu Bildern, CSS etc.) nicht relativ, sondern absolut eingefügt wurden, werden diese nach dem Veröffentlichen nicht mehr funktionieren, weil der absolute Link auf dem Webserver nicht vorhanden ist:&#x20;
+Falls lokale Links (zu Bildern, CSS etc.) nicht relativ, sondern absolut eingefügt wurden, werden diese nach dem Veröffentlichen nicht mehr funktionieren, weil der absolute Link auf dem Webserver nicht vorhanden ist:
 
 ```html
 <img src="C:\Users\Max\Projekte\Website\root\images\zebras.jpg" alt="Zebras">
@@ -96,4 +96,4 @@ Falls lokale Links (zu Bildern, CSS etc.) nicht relativ, sondern absolut eingef�
 
 ## 🛠️ Aufgabe
 
-Erstelle in der aktuellen Aufgabe die Ordner /images und /css, ev. weitere, und verschiebe Bilder und CSS in diese Ordner. Passe dann die Pfade in der HTML-Datei an und teste.&#x20;
+Erstelle in der aktuellen Aufgabe die Ordner /images und /css, ev. weitere, und verschiebe Bilder und CSS in diese Ordner. Passe dann die Pfade in der HTML-Datei an und teste.

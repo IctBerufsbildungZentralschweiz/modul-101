@@ -4,21 +4,21 @@ Hinweis: Andere Medien ([Videos und Audios](../../tag-3/02-medien-video-audio.md
 
 ## Aktivierungs-Fragen
 
-Recherchiere zu zweit oder zu dritt:&#x20;
+Recherchiere zu zweit oder zu dritt:
 
-Es sollen Bilder für eine Firmen-Website aufbereitet und eingefügt werden, welche Handys repariert. &#x20;
+Es sollen Bilder für eine Firmen-Website aufbereitet und eingefügt werden, welche Handys repariert.
 
-Recherchiere zu den gängigen Bildformaten und überlege, welche Formate für folgende Bilder geeignet sind (+), welche nicht (-), und warum:&#x20;
+Recherchiere zu den gängigen Bildformaten und überlege, welche Formate für folgende Bilder geeignet sind (+), welche nicht (-), und warum:
 
-1. Ein zweifarbiges Logo. Die Anzeigegrösse ist je nach Gerät anders.&#x20;
-2. Portraits aller Angestellten auf der Teamseite.&#x20;
+1. Ein zweifarbiges Logo. Die Anzeigegrösse ist je nach Gerät anders.
+2. Portraits aller Angestellten auf der Teamseite.
 3. Ein animierter Briefkasten auf der Seite "Kontakt", wo ein Brief eingeworfen wird.
-4. Partner-Logos im Footer, die Grösse ist immer gleich.&#x20;
+4. Partner-Logos im Footer, die Grösse ist immer gleich.
 
-Fragen zu Bildrechten und Qualität:&#x20;
+Fragen zu Bildrechten und Qualität:
 
-1. Auf der Seite "Produkte" sollen Original-Bilder von Geräte-Herstellern eingefügt werden. Worauf ist dabei zu achten?&#x20;
-2. Was sind Vor- und Nachteile, wenn du die Bilder in hoher Qualität und Auflösung einfügst?&#x20;
+1. Auf der Seite "Produkte" sollen Original-Bilder von Geräte-Herstellern eingefügt werden. Worauf ist dabei zu achten?
+2. Was sind Vor- und Nachteile, wenn du die Bilder in hoher Qualität und Auflösung einfügst?
 
 ## Rechte an Bildern & Inhalten
 
@@ -43,10 +43,10 @@ Daneben gibt es auch noch komplett kostenlose Bildportale. Meistens sind die Auf
 
 #### Eigene Bilder nutzen
 
-**Tipp:** Selber gemachte, "echte" Bilder wirken meist viel ansprechender als Stock-Bilder. \
-Siehe [Useability](../../tag-3/usability.md#id-5.-die-richtigen-bilder-verwenden).&#x20;
+**Tipp:** Selber gemachte, "echte" Bilder wirken meist viel ansprechender als Stock-Bilder.\
+Siehe [Useability](../../tag-3/usability.md#id-5.-die-richtigen-bilder-verwenden).
 
-**Rechte:** Bei eigenen Bildern muss das Einverständnis der Menschen auf dem Bild eingeholt werden, dass sie mit der Bildnutzung einverstanden sind. Am besten schriftlich. Ausser es handelt sich um öffentliche Personen oder sie sind auf dem Bild kaum zu identifizieren.&#x20;
+**Rechte:** Bei eigenen Bildern muss das Einverständnis der Menschen auf dem Bild eingeholt werden, dass sie mit der Bildnutzung einverstanden sind. Am besten schriftlich. Ausser es handelt sich um öffentliche Personen oder sie sind auf dem Bild kaum zu identifizieren.
 
 ## Bildformate
 
@@ -57,7 +57,7 @@ JPEG oder JPG ist ein verlustreiches Bildformat von der Joint Photographic Exper
 * Das JPG-Format verfügt über mehrere Millionen Farben. Dies macht es zur idealen Wahl für die Anzeige von Fotografien im Web.
 *   JPEG ist ein verlustreiches Bildformat. Die Kompression kann also dazu benutzt werden um die Dateigrösse zu reduzieren: Die Qualität bei einer Kompression von 60% ist meistens absolut ausreichend für das Web. Bei einem Kompressionsfaktor grösser als 75% kann es zu deutlichen Qualitätsverlusten kommen.
 
-    ![JPG-Kompression](<../../.gitbook/assets/compression (1).jpg>)
+    ![JPG-Kompression](../../.gitbook/assets/compression.jpg)
 * JPG-Bilder unterstützen keine Transparenz. Sollte ein Teil des Bildes somit transparent sein, eignet sich das JPG-Format nicht.
 
 #### Anwendungsfall
@@ -70,13 +70,13 @@ GIF steht für Graphics Interchange Format.
 
 *   Das GIF-Format verfügt nur über 256 Farben, dadurch ist die Dateigrösse meistens entsprechend klein.
 
-    ![GIF-Kompression](<../../.gitbook/assets/gif (1).jpg>)
+    ![GIF-Kompression](../../.gitbook/assets/gif.jpg)
 * Das GIF-Format ist ein verlustfreies Bildformat, sofern das Original max. 256 Farbtöne hat.
 * Das GIF-Format unterstützt Transparenz - dabei gibt es jedoch keine Halbtransparenz (z. B. 50% weiss), sondern immer nur ganz oder gar nicht.
 * Das GIF-Format unterstützt Animationen - darum kann es gut eingesetzt werden für repetierende, animierte Bilder wie Icons, Emoticons, Banner etc.
 * Eignet sich für einfache Grafiken mit wenig Farben, jedoch nicht für Fotografien.
 
-![Loop](<../../.gitbook/assets/loop (1).gif>)
+![Loop](../../.gitbook/assets/loop.gif)
 
 #### Anwendungsfall
 
@@ -116,7 +116,7 @@ Dieses Bildformat hat das Web in seiner DNA: Es wurde für den Gebrauch im Inter
 
 Der Vorteil von WebP ist also, dass es die Vorzüge von JPG und PNG in einem Bildformat kombiniert - ohne dabei auf eine überdimensionale Dateigrösse zu wachsen.
 
-**Browser-Support:** WebP ist relativ neu und wird noch nicht von allen Browsern unterstützt, insbesondere Browser-Versionen vor 2022. Siehe [https://caniuse.com/webp](https://caniuse.com/webp). Dazu  kann ein Fallback auf ein anderes Bildformat wie PNG oder JPEG implementiert werden.
+**Browser-Support:** WebP ist relativ neu und wird noch nicht von allen Browsern unterstützt, insbesondere Browser-Versionen vor 2022. Siehe [https://caniuse.com/webp](https://caniuse.com/webp). Dazu kann ein Fallback auf ein anderes Bildformat wie PNG oder JPEG implementiert werden.
 
 ### **AVIF**
 
@@ -132,11 +132,11 @@ AVIF steht für **AV1 Image File Format** und ist ein modernes Bildformat, das a
 **Nachteile von AVIF:**
 
 * **Rendering-Geschwindigkeit:** Die Codierung und Decodierung von AVIF-Bildern ist derzeit rechenintensiver als bei anderen Formaten, was zu längeren Ladezeiten führen kann.
-* **Browser-Support:** AVIF ist relativ neu und wird noch nicht von allen Browsern unterstützt, insbesondere Browser-Versionen vor 2023/2024. Siehe [https://caniuse.com/avif](https://caniuse.com/avif). Dazu  kann ein Fallback auf ein anderes Bildformat wie WebP oder JPEG implementiert werden.
+* **Browser-Support:** AVIF ist relativ neu und wird noch nicht von allen Browsern unterstützt, insbesondere Browser-Versionen vor 2023/2024. Siehe [https://caniuse.com/avif](https://caniuse.com/avif). Dazu kann ein Fallback auf ein anderes Bildformat wie WebP oder JPEG implementiert werden.
 
 #### **Anwendungsfall**
 
-AVIF eignet sich hervorragend für Szenarien, in denen **maximale Bildqualität bei minimaler Dateigrösse** gefragt ist, z. B. für Fotografien auf Websites, bei denen schnelle Ladezeiten entscheidend sind.&#x20;
+AVIF eignet sich hervorragend für Szenarien, in denen **maximale Bildqualität bei minimaler Dateigrösse** gefragt ist, z. B. für Fotografien auf Websites, bei denen schnelle Ladezeiten entscheidend sind.
 
 ### Links
 
@@ -146,7 +146,7 @@ AVIF eignet sich hervorragend für Szenarien, in denen **maximale Bildqualität 
 
 Wichtig ist es nicht nur die Bilder im richtigen Bildformat bereitzustellen, sondern auch in einer angemessenen Grösse. **Bilder sollten immer in der Grösse bereitgestellt werden, in der sie tatsächlich im Web verwendet werden.**
 
-Hier drei nützliche Werkzeuge: \
+Hier drei nützliche Werkzeuge:\
 Mit [Bulk Resize Photos](https://bulkresizephotos.com/) können mehrere Fotos miteinander verarbeitet werden.\
 Mit dem [Online Image Editor](https://www.online-image-editor.com/) kannst du einzelne Bilder online skalieren und zuschneiden.\
 Mit [TinyPNG](https://tinypng.com/) kannst du Bilder komprimieren und Formate ändern.
@@ -155,7 +155,7 @@ Bei den meisten Bildformaten kann die **Qualitätsstufe** gewählt werden (je ti
 
 ### Responsive Bildgrössen
 
-Für unterschiedliche Geräte kannst du unterschiedliche Bildgrössen und Auflösungen anbieten.&#x20;
+Für unterschiedliche Geräte kannst du unterschiedliche Bildgrössen und Auflösungen anbieten.
 
 Dazu gibt es verschiedene Möglichkeiten. Eine empfehlenswerte ist das `<picture>`-Element:
 
@@ -177,9 +177,9 @@ Das \<img>-Element wird genutzt, falls keine der gegebenen Media-Bedingungen zut
 
 ### Tipp: Wenn Bilder das Layout sprengen
 
-Bei responsiven Layouts kann es passieren, dass ein Bild grösser ist als der HTML-Container, in welchen es reinpassen sollte. Ein Bild ist beispielsweise 800px breit, in deinem Layout auf einem kleinen Gerät ist aber nur 400px Platz. Dies kann dein ganzes Layout "sprengen".&#x20;
+Bei responsiven Layouts kann es passieren, dass ein Bild grösser ist als der HTML-Container, in welchen es reinpassen sollte. Ein Bild ist beispielsweise 800px breit, in deinem Layout auf einem kleinen Gerät ist aber nur 400px Platz. Dies kann dein ganzes Layout "sprengen".
 
-Einfache Abhilfe bringt eine simple CSS-Regel:&#x20;
+Einfache Abhilfe bringt eine simple CSS-Regel:
 
 ```css
 img {
@@ -187,16 +187,16 @@ img {
 }
 ```
 
-Dies verhindert, dass ein Bild jemals grösser werden kann als der Container, in welchen es reinpassen sollte.&#x20;
+Dies verhindert, dass ein Bild jemals grösser werden kann als der Container, in welchen es reinpassen sollte.
 
 ## 🛠️Aufgaben Bildformate, Grösse, Qualität
 
-Mache ein Foto und füge es als JPG auf der Seite "Über mich" ein. Probiere dabei folgendes aus:&#x20;
+Mache ein Foto und füge es als JPG auf der Seite "Über mich" ein. Probiere dabei folgendes aus:
 
-1. Speichere das Foto als JPG mit einem Bildbearbeitungs-Programm in unterschiedlicher Qualität (Komprimierung) und schau, ab wann du einen klaren Qualitätsverlust sehen kannst. Vergleiche die Dateigrössen mit der Grösse des Originalbildes. Wo ist der ideale Kompromiss zwischen Qualität und Dateigrösse?&#x20;
-2. Speichere das Foto in unterschiedlichen Formaten und schau dir die Dateigrösse und die Qualität an: \
+1. Speichere das Foto als JPG mit einem Bildbearbeitungs-Programm in unterschiedlicher Qualität (Komprimierung) und schau, ab wann du einen klaren Qualitätsverlust sehen kannst. Vergleiche die Dateigrössen mit der Grösse des Originalbildes. Wo ist der ideale Kompromiss zwischen Qualität und Dateigrösse?
+2. Speichere das Foto in unterschiedlichen Formaten und schau dir die Dateigrösse und die Qualität an:\
    JPG, PNG, WebP und GIF.
-3. Verkleinere das Bild im JPG-Format auf die Grösse, wie du es in der Website haben willst. Wähle die oben gefundene optimale Komprimierung. Wie gross ist die Datei jetzt?&#x20;
+3. Verkleinere das Bild im JPG-Format auf die Grösse, wie du es in der Website haben willst. Wähle die oben gefundene optimale Komprimierung. Wie gross ist die Datei jetzt?
 4. Suche im Internet ein Logo, welches im SVG-Format gespeichert ist. Füge es auf deiner Seite ein und skaliere es auf mind. 300px. Schau, ob du einen Qualitätsunterschied siehst.
 5. Teste, was passiert, wenn du das Browser-Fenster schmaler machst als das Bild (mobile Ansicht). Wenn das Bild das Layout sprengt, teste die [Lösung oben](./#tipp-wenn-bilder-das-layout-sprengen).
 
@@ -209,11 +209,11 @@ Die zentrale Rolle der Ladegeschwindigkeit für eine Website zeigt folgendes Bei
 * Nach mehr als zwei Sekunden Ladezeit erhöht sich die Absprungrate (Personen, welche die Website verlassen) um 12%.
 * Nach mehr als vier Sekunden Ladezeit erhöht sich die Absprungrate um 25%.
 
-Mehr dazu auf [www.tooltester.com/de/blog/website-ladezeit-statistiken ](https://www.tooltester.com/de/blog/website-ladezeit-statistiken/)
+Mehr dazu auf [www.tooltester.com/de/blog/website-ladezeit-statistiken](https://www.tooltester.com/de/blog/website-ladezeit-statistiken/)
 
 Der Grund für lange Ladezeiten sind häufig schlecht verarbeitete Medien (Bilder, Videos). Durchschnittlich machen Bilder mehr als **65% des Inhaltes** einer Website aus.
 
-![Aufteilung von Website Content](<../../.gitbook/assets/chart (1).png>)
+![Aufteilung von Website Content](../../.gitbook/assets/chart.png)
 
 ### Geschwindigkeitstests
 
@@ -233,7 +233,7 @@ Um die Geschwindigkeit einer Website zu testen gibt es unterschiedliche Tools. H
 
 ### Lazy-Loading
 
-Werden auf einer Seite viele Bilder angezeigt, ein Teil ev. erst beim Scrollen, können diese erst bei Bedarf nachgeladen werden. So wird nicht die ganze Seiten-Ladezeit ausgebremst. Dazu gibt es das Attribut `loading="lazy"`:&#x20;
+Werden auf einer Seite viele Bilder angezeigt, ein Teil ev. erst beim Scrollen, können diese erst bei Bedarf nachgeladen werden. So wird nicht die ganze Seiten-Ladezeit ausgebremst. Dazu gibt es das Attribut `loading="lazy"`:
 
 ```html
 <!-- Sofort geladene Bilder -->
@@ -248,16 +248,16 @@ Werden auf einer Seite viele Bilder angezeigt, ein Teil ev. erst beim Scrollen, 
 
 ## Bild als Hintergrund
 
-In Seiten-Headern oder für spezielle Effekte können Bilder als Hintergrund eingefügt werden.&#x20;
+In Seiten-Headern oder für spezielle Effekte können Bilder als Hintergrund eingefügt werden.
 
-**Gestaltung:** Hinter Text sollte aus Lesbarkeitsgründen meist kein Bild oder nur ein sehr kontrastarmes sein.&#x20;
+**Gestaltung:** Hinter Text sollte aus Lesbarkeitsgründen meist kein Bild oder nur ein sehr kontrastarmes sein.
 
-Detaillierte Beschreibung der Möglichkeiten: \
+Detaillierte Beschreibung der Möglichkeiten:\
 [drweb.de/background-image](https://www.drweb.de/background-image/)
 
 ### Beispiel Bannerbild
 
-Ein Bannerbild dient als Stimmungsbild und sollte im Querformat möglichst die ganze Breite einnehmen.&#x20;
+Ein Bannerbild dient als Stimmungsbild und sollte im Querformat möglichst die ganze Breite einnehmen.
 
 **Ausprobieren auf** [codepen.io](https://codepen.io/sternenvogel/pen/raeVEeZ)
 
@@ -288,22 +288,22 @@ Ein Hintergrundbild nimmt nicht automatisch Platz ein. Deshalb definieren wir hi
 
 ## **Platzhalter-Bilder**
 
-**Häufige Situation in Projekten:**&#x20;
+**Häufige Situation in Projekten:**
 
-Für einen Kunden soll eine Website entworfen werden, er kann aber die Bilder noch nicht liefern. Da hast du 3 Möglichkeiten:&#x20;
+Für einen Kunden soll eine Website entworfen werden, er kann aber die Bilder noch nicht liefern. Da hast du 3 Möglichkeiten:
 
-1. Nutze vorübergehend andere Bilder vom Kunden, z.B. von der alten Website.&#x20;
+1. Nutze vorübergehend andere Bilder vom Kunden, z.B. von der alten Website.
 2. Setze Platzhalter-Fotos (z.B. von [**picsum.photos**](https://picsum.photos/)), Platzhalter-Avatare (z.B. von [**pravatar.cc**](https://pravatar.cc/)) oder Platzhalter-Bilder mit Text (z.B. [**dummyimage.com**](https://dummyimage.com/)) ein.
 3. Sage dem Kunden, dass du erst weitermachen kannst, wenn er liefert. :-)
 
-Das gleiche Problem kann mit fehlenden Texten auftreten. Dafür kannst du:&#x20;
+Das gleiche Problem kann mit fehlenden Texten auftreten. Dafür kannst du:
 
 1. Alte oder erfundene Texte einfügen, die zum Kunden passen.
 2. Blindtexte (ohne sinnvollen Inhalt) einsetzen: [**blindtextgenerator.de**](https://www.blindtextgenerator.de/)
 
 ## 🛠️Aufgaben
 
-1. Füge in der Aufgabe "Über mich" im Header ein Hintergrundbild ein. Sorge dafür, dass es den ganzen Header-Bereich abdeckt, egal wie breit das Browser-Fenster ist.&#x20;
+1. Füge in der Aufgabe "Über mich" im Header ein Hintergrundbild ein. Sorge dafür, dass es den ganzen Header-Bereich abdeckt, egal wie breit das Browser-Fenster ist.
 2. Füge ein [Platzhalter-Bild](./#platzhalter-bilder) ein.
-3. Bonus-Aufgabe: Wie stellst du ein Bild nur mit CSS als kreisrundes Bild dar? Suche online nach einer einfachen Lösung.&#x20;
-4. Optional: Im Header soll ein Text über dem Hintergrund mit halbtransparentem Container versehen (Lesbarkeit des Textes) angezeigt werden.  Verpacke dafür den Text in einen Container (`<div>`). Probiere im Browser (DevTools) eine passende Transparenz aus und kopiere sie dann ins CSS.
+3. Bonus-Aufgabe: Wie stellst du ein Bild nur mit CSS als kreisrundes Bild dar? Suche online nach einer einfachen Lösung.
+4. Optional: Im Header soll ein Text über dem Hintergrund mit halbtransparentem Container versehen (Lesbarkeit des Textes) angezeigt werden. Verpacke dafür den Text in einen Container (`<div>`). Probiere im Browser (DevTools) eine passende Transparenz aus und kopiere sie dann ins CSS.

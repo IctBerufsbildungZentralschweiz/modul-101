@@ -4,31 +4,31 @@ Wie dir vielleicht bereits aufgefallen ist, geht es bei Webseiten oft darum, Box
 
 Mit CSS können Grösse, Farben, Position usw. bestimmt werden.
 
-<div align="center"><img src="../../.gitbook/assets/boxmodell-gif (1).gif" alt="boxmodell-gif"></div>
+<div align="center"><img src="../../.gitbook/assets/boxmodell-gif.gif" alt="boxmodell-gif"></div>
 
 ## Eigenschaften von Boxen
 
 Das CSS-Layout basiert auf dem Box-Modell. Jede Box, die Platz auf einer Webseite einnimmt, hat unter anderem folgende Eigenschaften:
 
-* **Aussenabstand (`margin`):** \
+* **Aussenabstand (`margin`):**\
   Der Abstand vom Border bis zum nächsten benachbarten Element.
-* **Rahmen (`border`):** \
+* **Rahmen (`border`):**\
   Der Border ist der Rahmen um ein Element.
-* **Innenabstand (`padding`):** \
+* **Innenabstand (`padding`):**\
   Das Padding ist der Raum zwischen Inhalt und Rahmen eines Elements.
 
-![Boxmodell](<../../.gitbook/assets/boxmodell (1).png>)
+![Boxmodell](../../.gitbook/assets/boxmodell.png)
 
 ### 🛠️ Erforschen
 
-1. Rufe eine beliebige Website im Internet auf, öffne die "Developer Tools" (Rechtsklick auf ein Element > "Untersuchen" oder `F12`) und suche das Tab "Computed".&#x20;
-2. Schau dir die Grafik des Box-Models eines HTML-Elements unter "Computed" an und darunter, woher die Abstände in CSS kommen.&#x20;
-3. Wechsle zwischen den Tabs "Styles" und "Computed": Welche Informationen zeigt dir "Styles", welche "Computed"? Worin unterscheiden sich die beiden Ansichten?&#x20;
-4. Untersuche noch ein paar andere Elemente auf der gleichen Seite.&#x20;
+1. Rufe eine beliebige Website im Internet auf, öffne die "Developer Tools" (Rechtsklick auf ein Element > "Untersuchen" oder `F12`) und suche das Tab "Computed".
+2. Schau dir die Grafik des Box-Models eines HTML-Elements unter "Computed" an und darunter, woher die Abstände in CSS kommen.
+3. Wechsle zwischen den Tabs "Styles" und "Computed": Welche Informationen zeigt dir "Styles", welche "Computed"? Worin unterscheiden sich die beiden Ansichten?
+4. Untersuche noch ein paar andere Elemente auf der gleichen Seite.
 
 ### Shorthand Properties: 4 Seiten - top, right, bottom, left
 
-Die Abstände und Rahmen einer Box können für alle 4 Seiten einzeln oder zusammen definiert werden. Ein paar Beispiele:&#x20;
+Die Abstände und Rahmen einer Box können für alle 4 Seiten einzeln oder zusammen definiert werden. Ein paar Beispiele:
 
 ```css
 .element-x {
@@ -72,7 +72,7 @@ Für jede Box kann die Breite und Höhe definiert werden. Häufige Masseinheiten
 
 **Hinweis:** Standardmässig beziehen sich `width` und `height` nur auf den Inhaltsbereich. Padding und Border kommen zusätzlich dazu. Mit `box-sizing: border-box;` kann das Verhalten geändert werden, sodass `width` und `height` den gesamten Bereich inkl. Padding und Border umfassen.
 
-Box-Sizing für ALLE Elemente auf der Website einstellen:&#x20;
+Box-Sizing für ALLE Elemente auf der Website einstellen:
 
 ```css
 * {
@@ -82,7 +82,7 @@ Box-Sizing für ALLE Elemente auf der Website einstellen:&#x20;
 
 ### Übergrosser Inhalt (`overflow`)
 
-Wenn der Inhalt einer Box grösser ist als die angegebene Breite oder Höhe der Box, kannst du bestimmen, was passieren soll:&#x20;
+Wenn der Inhalt einer Box grösser ist als die angegebene Breite oder Höhe der Box, kannst du bestimmen, was passieren soll:
 
 * `overflow: visible`: Inhalt soll über die Box hinausragen
 * `overflow: hidden`: Zu grosser Teil soll ausgeblendet werden
@@ -92,9 +92,9 @@ Genauere Beschreibungen findest du z.B. auf [https://css-tricks.com/css-is-aweso
 
 ## 🛠️ Aufgaben zum Boxmodell
 
-Style deine Website "Über mich" weiter und überprüfe nach jedem Schritt das Ergebnis im Browser.&#x20;
+Style deine Website "Über mich" weiter und überprüfe nach jedem Schritt das Ergebnis im Browser.
 
-Stelle sicher, dass deine Seite die semantischen Strukturelemente `<header>`, `<main>` und `<footer>` enthält. Sie sollen direkt unter dem `<body>`-Element sein, also nicht tiefer verschachtelt. Die drei Blöcke sollen unterschiedliche Hintergrundfarben haben, damit du sie besser erkennst.&#x20;
+Stelle sicher, dass deine Seite die semantischen Strukturelemente `<header>`, `<main>` und `<footer>` enthält. Sie sollen direkt unter dem `<body>`-Element sein, also nicht tiefer verschachtelt. Die drei Blöcke sollen unterschiedliche Hintergrundfarben haben, damit du sie besser erkennst.
 
 1. Die drei semantischen Strukturelemente sollen einen Innenabstand von 40px haben.
 2. Der Header soll 200px hoch sein.

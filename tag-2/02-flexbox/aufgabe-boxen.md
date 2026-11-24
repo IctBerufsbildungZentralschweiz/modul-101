@@ -1,6 +1,6 @@
 # 🛠️ Aufgabe Boxen
 
-Die Aufgabendateien findest du in der Datei «boxen.zip». Lade die Datei herunter und entpacke das Zip-Archiv.&#x20;
+Die Aufgabendateien findest du in der Datei «boxen.zip». Lade die Datei herunter und entpacke das Zip-Archiv.
 
 {% file src="../../.gitbook/assets/boxen.zip" %}
 Download Aufgabendateien
@@ -12,11 +12,11 @@ Ergänze den Flex-Container mit den nötigen CSS-Deklarationen (an der Stelle mi
 
 ### Bildschirm breit
 
-![](<../../.gitbook/assets/screen-1300 (1).png>)
+![](../../.gitbook/assets/screen-1300.png)
 
 ### Bildschirm schmal
 
-![](<../../.gitbook/assets/screen-800 (1).png>)
+![](../../.gitbook/assets/screen-800.png)
 
 ## Aufgabe 2
 

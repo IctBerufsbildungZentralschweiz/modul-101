@@ -13,12 +13,12 @@ HTML besitzt sechs Überschrifttypen, wobei meist nur 3-4 gebraucht werden: `<h1
 <h4>Ich bin eine weitere Unterüberschrift</h4>
 ```
 
-**Regel:** \
+**Regel:**\
 Jede Seite sollte genau eine Hauptüberschrift `<h1>` und beliebig viele Unterüberschriften `<h2>`-`<h6>` haben. Es sollten keine Ebenen übersprungen werden (z. B. `<h3>` gefolgt von `<h5>`). Dies ist unter anderem für die Suchmaschinen-Platzierung wichtig.
 
 ## Links
 
-Links sind, was das Internet zu einem **NETZ/WEB** macht. Um einen Link zu implementieren, müssen wir das `<a>`-Element verwenden. `a` ist die Kurzform für "Anker" (engl. "anchor").&#x20;
+Links sind, was das Internet zu einem **NETZ/WEB** macht. Um einen Link zu implementieren, müssen wir das `<a>`-Element verwenden. `a` ist die Kurzform für "Anker" (engl. "anchor").
 
 Zuerst schreiben wir einen Absatz:
 
@@ -57,9 +57,9 @@ Das genauso wichtige Attribut ist das `alt`-Attribut. Dieses Attribut muss immer
 
 Der Text im `alt`-Attribut wird angezeigt, wenn das Bild nicht geladen werden kann. Dies ist nützlich für Sehbehinderte, für Suchmaschinen (können keine Bilder sehen) und wenn es einen Fehler beim Laden des Bildes gibt. Dieser alternative Satz sollte dem Leser Informationen geben, damit er sich vorstellen kann, was auf dem Bild angezeigt ist.
 
-![Alt Tag eines \<img>](<../../.gitbook/assets/img-alt (1).jpg>)
+![Alt Tag eines \<img>](../../.gitbook/assets/img-alt.jpg)
 
-Die Attribute `width` und `height` können optional angegeben werden, damit der Browser weiss, wie breit bzw. hoch die Bilder werden sollen. Die Werte sollten den wirklichen Pixel-Massen des Bildes entsprechen! Der Wert ist ohne "px". Wird nur width oder nur height angegeben, wird der andere Wert automatisch berechnet.&#x20;
+Die Attribute `width` und `height` können optional angegeben werden, damit der Browser weiss, wie breit bzw. hoch die Bilder werden sollen. Die Werte sollten den wirklichen Pixel-Massen des Bildes entsprechen! Der Wert ist ohne "px". Wird nur width oder nur height angegeben, wird der andere Wert automatisch berechnet.
 
 ```html
 <img src="images/mein-logo.png" alt="Mein Firmenlogo" width="300" height="100">
@@ -69,14 +69,14 @@ Die Attribute `width` und `height` können optional angegeben werden, damit der 
 
 Ähnlich wie in einem Textverarbeitungsprogramm gibt es in HTML zwei Arten von Umbrüchen:
 
-* Das **`<p>`-Element** definiert einen neuen **Absatz (Paragraph)**. \
+* Das **`<p>`-Element** definiert einen neuen **Absatz (Paragraph)**.\
   _&#x53;emantik:_ Inhaltlich beginnt hier etwas Neues.\
-  _&#x4C;ayout:_ Zwischen Absätzen erzeugt der Browser einen kleinen Abstand.&#x20;
-* Das **`<br>`-Element** definiert einen **Zeilenumbruch (Break)** innerhalb eines Absatzes. \
-  Das `<br>`-Element  ist ein **leerer Tag**, hat also keinen Inhalt und kein schliessendes Tag. \
+  _&#x4C;ayout:_ Zwischen Absätzen erzeugt der Browser einen kleinen Abstand.
+* Das **`<br>`-Element** definiert einen **Zeilenumbruch (Break)** innerhalb eines Absatzes.\
+  Das `<br>`-Element ist ein **leerer Tag**, hat also keinen Inhalt und kein schliessendes Tag.\
   _&#x53;emantik:_ Der Text gehört noch zum gleichen Inhalt, soll aber auf einer neuen Zeile stehen.\
-  _&#x4C;ayout:_ Der Browser erzeugt keinen Abstand zwischen den Zeilen. \
-  **Nutze dieses Tag sparsam!**&#x20;
+  _&#x4C;ayout:_ Der Browser erzeugt keinen Abstand zwischen den Zeilen.\
+  **Nutze dieses Tag sparsam!**
 * Eine **neue Zeile in HTML** wird vom Browser ignoriert und dient nur dazu, den HTML-Code für den Programmierer übersichtlich zu gestalten.
 
 ```html
@@ -91,11 +91,11 @@ Die Attribute `width` und `height` können optional angegeben werden, damit der 
 </p>
 ```
 
-**Resultat:** Teste mit [`codepen.io`](https://codepen.io/dosullz/pen/QNxdzd), wie das Resultat des obigen Codes im Browser aussieht.&#x20;
+**Resultat:** Teste mit [`codepen.io`](https://codepen.io/dosullz/pen/QNxdzd), wie das Resultat des obigen Codes im Browser aussieht.
 
 ## Kommentare
 
-Kommentare in HTML helfen, Code besser zu verstehen:&#x20;
+Kommentare in HTML helfen, Code besser zu verstehen:
 
 ```html
 <!-- Main content -->
@@ -105,7 +105,7 @@ Kommentare in HTML helfen, Code besser zu verstehen:&#x20;
 <aside> ... </aside>
 ```
 
-Mit Kommentaren kann auch HTML-Code (temporär) deaktiviert werden. Dadurch wird er vom Browser nicht interpretiert (parsed):&#x20;
+Mit Kommentaren kann auch HTML-Code (temporär) deaktiviert werden. Dadurch wird er vom Browser nicht interpretiert (parsed):
 
 ```html
 <article> Neuer Beitrag...</article>
@@ -114,7 +114,7 @@ Mit Kommentaren kann auch HTML-Code (temporär) deaktiviert werden. Dadurch wird
 
 ## Tags im HTML-Head
 
-Die wichtigsten Tags sind im Beitrag [HTML-Dokument](04-html-dokument.md) beschrieben.&#x20;
+Die wichtigsten Tags sind im Beitrag [HTML-Dokument](04-html-dokument.md) beschrieben.
 
 Weitere Tags für den HTML-Head findest du im Kapitel [HTML-Head, Favicon, Metatags](../../tag-3/optionale-themen/html-less-than-head-greater-than-favicon-metatags.md)
 

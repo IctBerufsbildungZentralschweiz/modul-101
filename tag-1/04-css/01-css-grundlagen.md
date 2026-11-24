@@ -14,11 +14,11 @@ p {
 
 Die ganze Struktur wird Regelsatz (oder oft nur Regel) genannt:
 
-![CSS-Grundgerüst](<../../.gitbook/assets/css-bezeichnungen (1).jpg>)
+![CSS-Grundgerüst](../../.gitbook/assets/css-bezeichnungen.jpg)
 
 ### Bestandteile
 
-**Selektor** - Der HTML-Elementname steht am Anfang der Regel. Er wählt die Elemente, die gestaltet werden sollen (in diesem Beispiel `p`). Selektoren dienen dazu, in CSS bestimmte Elemente eines HTML-Dokuments zu adressieren, um sie zu gestalten:&#x20;
+**Selektor** - Der HTML-Elementname steht am Anfang der Regel. Er wählt die Elemente, die gestaltet werden sollen (in diesem Beispiel `p`). Selektoren dienen dazu, in CSS bestimmte Elemente eines HTML-Dokuments zu adressieren, um sie zu gestalten:
 
 <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -44,7 +44,7 @@ p {
 
 ## Kommentare
 
-Wie in HTML können auch in CSS Kommentare zur besseren Verständlichkeit des Codes hinzugefügt werden:&#x20;
+Wie in HTML können auch in CSS Kommentare zur besseren Verständlichkeit des Codes hinzugefügt werden:
 
 ```css
 /* Styles for Buttons */
@@ -53,7 +53,7 @@ button {
 }
 ```
 
-CSS-Code kann auch auskommentiert werden, wenn er aktuell nicht interpretiert werden soll:&#x20;
+CSS-Code kann auch auskommentiert werden, wenn er aktuell nicht interpretiert werden soll:
 
 ```css
 button {
@@ -62,8 +62,8 @@ button {
 }
 ```
 
-In diesem Beispiel wird eine Formatierung aktuell nicht berücksichtigt.&#x20;
+In diesem Beispiel wird eine Formatierung aktuell nicht berücksichtigt.
 
-**I**m Browser in den DevTools > Styles erkennt der Browser dann zwar die Deklaration, deaktiviert sie jedoch:&#x20;
+**I**m Browser in den DevTools > Styles erkennt der Browser dann zwar die Deklaration, deaktiviert sie jedoch:
 
 <div align="left"><figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure></div>

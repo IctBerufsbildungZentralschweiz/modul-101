@@ -4,8 +4,6 @@
 
 Natürlich gibt es nicht _den_ «Ablauf eines Webprojektes». Trotzdem zeigen die Folien exemplarisch auf, wie ein solcher Ablauf aussehen könnte
 
-
-
 {% file src="../.gitbook/assets/Erklaerung_Webprojektablauf.pdf" %}
 
 Ein Auftrag beginnt meistens nicht mit der Realisation, sondern zuerst mit einem Konzept: Das Konzept beinhaltet die Analyse der IST-Situation, die Festlegung einer strategischen Stossrichtung, die Prüfung von möglichen Lösungsvarianten, die Planung des Vorgehens sowie Kriterien für die Kontrolle der Arbeit.
@@ -40,15 +38,15 @@ Viele Unternehmen neigen dazu, den eigentlichen «Webauftritt» als Ziel zu habe
 | Bereich   | Mögliche Ziele / Beispiele                                                                                                                   |
 | --------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | Marketing | Mehr Besucher-Verkehr, Bedürfnisse wecken, Leads generieren & Reaktivierung bestehender Kunden                                               |
-|           | Beispiel: Sechs Monate nach dem Relaunch der neuen Webseite sollen täglich 350 Besucher die Website besuchen.                               |
+|           | Beispiel: Sechs Monate nach dem Relaunch der neuen Webseite sollen täglich 350 Besucher die Website besuchen.                                |
 |           |                                                                                                                                              |
-| Verkauf   | Mehr Verkäufe, höherer Umwandlungssatz von Interessenten zu Käufern & bessere Verkaufsunterstützung                                           |
+| Verkauf   | Mehr Verkäufe, höherer Umwandlungssatz von Interessenten zu Käufern & bessere Verkaufsunterstützung                                          |
 |           | Beispiel: Innerhalb der nächsten drei Jahre nach dem Launch sollen täglich mindestens 1000 Franken Umsatz über den Webshop generiert werden. |
 |           |                                                                                                                                              |
 | Support   | Verbesserung des Kundensupports & Verringerung der Telefonanfragen                                                                           |
 |           | Beispiel: Innerhalb von drei Monaten nach dem Relaunch sollen täglich zwei Personen weniger die Hotline anrufen.                             |
 |           |                                                                                                                                              |
-| Webmaster | Vereinfachte Verwaltung bestehender und Veröffentlichung neuer Inhalte auf der Website                                                |
+| Webmaster | Vereinfachte Verwaltung bestehender und Veröffentlichung neuer Inhalte auf der Website                                                       |
 |           | Beispiel: Mit der neuen Website gibt es innerhalb des nächsten Jahres halb so viele Support-Anfragen an die Webagentur.                      |
 |           |                                                                                                                                              |
 | IT        | Integration von Drittsystemen, höhere Sicherheit & verbesserte Performance                                                                   |
@@ -82,7 +80,7 @@ Mögliche Fragestellungen für die Erstellung einer Persona:
 
 Die Informationsarchitektur ist eine der zentralen Aufgaben jedes Konzeptes, wenn ein Internetauftritt geplant wird. Die Sitemap ist die Antwort auf die Frage, welche Informationen man wo auf der Site unterbringt.
 
-![Sitemap](<../.gitbook/assets/sitemap (1).png>)
+![Sitemap](../.gitbook/assets/sitemap.png)
 
 \=> [Weitere Informationen (www.beyonder.ch)](https://www.beyonder.ch/blog/was-ist-eine-informationsarchitektur-die-struktur-und-der-inhalt-also-konzept-eurer-website)
 
@@ -92,15 +90,15 @@ Die Informationsarchitektur ist eine der zentralen Aufgaben jedes Konzeptes, wen
 
 Wireframe bedeutet so viel wie Drahtgerüst und ist eine schnelle und grobe Wiedergabe eines Designs.
 
-![Wireframe](<../.gitbook/assets/wireframe (1).jpg>)
+![Wireframe](../.gitbook/assets/wireframe.jpg)
 
 Mit einem Wireframe sollten folgende W-Fragen beantwortet werden:
 
 * WAS für wichtige Inhaltselemente gibt es?
 * WO wird die Information platziert? Die Struktur bzw. Anordnung.
-* WIE wird das Element dargestellt? Die grundlegende Visualisierung der Benutzerschnittstellen.&#x20;
+* WIE wird das Element dargestellt? Die grundlegende Visualisierung der Benutzerschnittstellen.
 
-**Aufgabe:** [Green iTech](https://green-itech.ch/) - Wie sieht ein Wireframe der Seite aus?&#x20;
+**Aufgabe:** [Green iTech](https://green-itech.ch/) - Wie sieht ein Wireframe der Seite aus?
 
 #### Einsatz von Wireframes
 
@@ -108,7 +106,7 @@ Wireframes werden hauptsächlich in der Anfangsphase eines Projektes verwendet u
 
 #### Einordnung des Wireframes
 
-![Wireframe](<../.gitbook/assets/unterschied-wireframe-mockup (1).png>)
+![Wireframe](../.gitbook/assets/unterschied-wireframe-mockup.png)
 
 #### Wireframe vs. Mockup
 
@@ -144,19 +142,19 @@ Ein Styleguide kann unter anderem Folgendes beinhalten:
 
 #### Hilfsmittel
 
-![Styletiles](<../.gitbook/assets/style-tiles (1).jpg>)
+![Styletiles](../.gitbook/assets/style-tiles.jpg)
 
 * [Styleguide von Styletil.es](http://styletil.es/downloads/Style_Tile_Template.psd.zip) - PSD Vorlage
 
 ## **Blind-Texte und Platzhalter-Bilder**
 
-**Häufige Situation in Projekten:**&#x20;
+**Häufige Situation in Projekten:**
 
-Du sollst der Kundin zeigen, wie du den Text und das Layout ihrer neuen Website gestalten wirst, hast aber noch keinen Text oder keine Bilder bekommen. Da hast du 3 Möglichkeiten:&#x20;
+Du sollst der Kundin zeigen, wie du den Text und das Layout ihrer neuen Website gestalten wirst, hast aber noch keinen Text oder keine Bilder bekommen. Da hast du 3 Möglichkeiten:
 
 * Nutze vorübergehend alte oder erfundene Texte und alte Bilder, die zur Kundin passen.
 * Setze Blindtexte (z.B. [**blindtextgenerator.de**](https://www.blindtextgenerator.de/)) und Platzhalter-Bilder (z.B. [**picsum.photos**](https://picsum.photos/) oder [**dummyimage.com**](https://dummyimage.com/)) ein.
-* Sag der Kundin, dass du erst weiter machen kannst, wenn sie die Daten liefert.&#x20;
+* Sag der Kundin, dass du erst weiter machen kannst, wenn sie die Daten liefert.
 
 **Wichtig:** Vergiss nicht, vor dem Veröffentlichen alle Seiten zu prüfen, dass keine Platzhaltertexte oder -bilder mehr drin sind!
 

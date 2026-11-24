@@ -64,7 +64,7 @@ Elemente mit der entsprechenden Klasse werden ausgewählt. Klassen können mehre
 
 ### Namensgebung
 
-* Klassen und IDs sollen nur aus Buchstaben, Zahlen und -/\_ bestehen und dürfen NICHT mit einer Zahl beginnen.&#x20;
+* Klassen und IDs sollen nur aus Buchstaben, Zahlen und -/\_ bestehen und dürfen NICHT mit einer Zahl beginnen.
 * Verzichte auf Sonderzeichen bei der Verwendung des `class`- und des `id`-Attributs. Auch wenn dies von CSS unterstützt wird, kann es zu unerwarteten Problemen führen.
 * Verwende englische Begriffe.
 * Da die Gross- und Kleinschreibung relevant ist, empfiehlt es sich, alles in Kleinbuchstaben zu schreiben.
@@ -74,7 +74,7 @@ Elemente mit der entsprechenden Klasse werden ausgewählt. Klassen können mehre
 
 Mit Pseudoklassen lässt sich eine Seite nicht nur in Bezug auf die Struktur des Inhalts gestalten, sondern auch in Bezug auf andere Faktoren wie zum Beispiel den Browserverlauf (`:visited`), Reihenfolge der Elemente (`:first-child`) oder die Position des Mauszeigers (`:hover`).
 
-![CSS-Pseudoklasse](<../../.gitbook/assets/css-pseudoklasse (1).jpg>)
+![CSS-Pseudoklasse](../../.gitbook/assets/css-pseudoklasse.jpg)
 
 Die Pseudoklasse wird angeführt mit einem Doppelpunkt und hinter den regulären Selektor angefügt.
 
@@ -82,21 +82,21 @@ Die Pseudoklasse wird angeführt mit einem Doppelpunkt und hinter den regulären
 
 Vor allem bei Links (`<a>`) sind die Pseudoklassen wichtig, um den Website-Besuchern mitzuteilen, dass es sich hier beispielsweise um klickbare Elemente handelt.
 
-| Pseudoklasse | Ausgewählte Elemente                                                        |
-| ------------ | --------------------------------------------------------------------------- |
-| `a:link`     | Dies wählt jeden Link aus, der bisher noch nicht besucht wurde.             |
-| `a:visited`  | Dies wählt jeden Link aus, der bereits besucht wurde.                       |
-| `a:hover`    | Dies wählt einen Link aus, über dem sich der Mauszeiger gerade befindet.    |
+| Pseudoklasse | Ausgewählte Elemente                                                         |
+| ------------ | ---------------------------------------------------------------------------- |
+| `a:link`     | Dies wählt jeden Link aus, der bisher noch nicht besucht wurde.              |
+| `a:visited`  | Dies wählt jeden Link aus, der bereits besucht wurde.                        |
+| `a:hover`    | Dies wählt einen Link aus, über dem sich der Mauszeiger gerade befindet.     |
 | `a:active`   | Dies wählt jedes Element aus, welches vom Benutzer momentan angeklickt wird. |
 
 #### Sonstige nützliche Pseudoklassen
 
-| Pseudoklasse                           | Ausgewählte Elemente                                                                                                                                            |
-| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `:first-child`                         | Dies wählt jedes Element aus, welches das erste Kindelement seines Elternelements ist.                                                                          |
-| `:last-child`                          | Dies wählt jedes Element aus, welches das letzte Kindelement seines Elternelements ist.                                                                          |
-| `:nth-child()`                         | In der Klammer dieser Pseudoklasse muss noch ein Wert mitgegeben werden - Beispiel: 2n. So wird jedes 2te Kindelement seines Elternelements ausgewählt.         |
-| <p><code>:has()</code><br><br><br></p> | <p>Dies wählt jedes Element aus, das mindestens ein Element enthält, auf welches der Selektor in der Klammer zutrifft. Beispiel: <code>article:has(img)</code> wählt jeden Artikel aus, der ein Bild enthält. <br>Diese Pseudoklasse wird erst seit 2023 von den meisten Browsern unterstützt.</p> |
+| Pseudoklasse                           | Ausgewählte Elemente                                                                                                                                                                                                                                                                              |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `:first-child`                         | Dies wählt jedes Element aus, welches das erste Kindelement seines Elternelements ist.                                                                                                                                                                                                            |
+| `:last-child`                          | Dies wählt jedes Element aus, welches das letzte Kindelement seines Elternelements ist.                                                                                                                                                                                                           |
+| `:nth-child()`                         | In der Klammer dieser Pseudoklasse muss noch ein Wert mitgegeben werden - Beispiel: 2n. So wird jedes 2te Kindelement seines Elternelements ausgewählt.                                                                                                                                           |
+| <p><code>:has()</code><br><br><br></p> | <p>Dies wählt jedes Element aus, das mindestens ein Element enthält, auf welches der Selektor in der Klammer zutrifft. Beispiel: <code>article:has(img)</code> wählt jeden Artikel aus, der ein Bild enthält.<br>Diese Pseudoklasse wird erst seit 2023 von den meisten Browsern unterstützt.</p> |
 
 #### Beispiele zu Pseudoklassen
 

@@ -22,6 +22,6 @@ Flexbox ist nicht einfach eine einzelne CSS-Regel, sondern ein ganzes Modul. Das
 
 Während "normale" Layouts auf den Anordnungsrichtungen `block` (vertikal) und `inline` (horizontal) basieren, basiert das Flex-Layout auf den Flex-Richtungen (engl. flex-flow-directions). Die folgende Grafik zeigt die wichtigsten Begriffe des Flex-Layouts:
 
-![Flex Box](<../../.gitbook/assets/flexbox (1).png>)
+![Flex Box](../../.gitbook/assets/flexbox.png)
 
 Grundsätzlich werden die Flex-Items entweder entlang der `main axis` (vom `main-start` zum `main-end`) oder entlang der `cross axis` (vom `cross-start` zum `cross-end`) gegliedert.

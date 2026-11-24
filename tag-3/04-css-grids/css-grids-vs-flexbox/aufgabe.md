@@ -8,6 +8,6 @@ Bildet Gruppen von 3 Personen und überlegt euch, wie sich das vorgefertigte Des
 
 Zeichnet dazu die entsprechenden Bereiche im Design ein und notiert die dazugehörigen Tags und CSS-Attribute.
 
-{% file src="../../../.gitbook/assets/221121_Design_Hochzeit (1).pdf" %}
+{% file src="../../../.gitbook/assets/221121_Design_Hochzeit.pdf" %}
 Design einer Hochzeitswebsite
 {% endfile %}

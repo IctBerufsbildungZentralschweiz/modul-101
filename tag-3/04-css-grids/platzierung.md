@@ -2,18 +2,16 @@
 
 ## 🛠️ Aufgabe
 
-Untersuche folgende 3 Websites mit den Browser-Entwicklerwerkzeugen und finde heraus, wo und wie sie Grids nutzen:&#x20;
+Untersuche folgende 3 Websites mit den Browser-Entwicklerwerkzeugen und finde heraus, wo und wie sie Grids nutzen:
 
 1. [www.theguardian.com/europe](https://www.theguardian.com/europe)
 2. [www.vaude.com](https://www.vaude.com/)
 3. [www.berufsberatung.ch/de/berufe/mediamatiker-in-efz](https://www.berufsberatung.ch/de/berufe/mediamatiker-in-efz)
 
-
-
 ## Arten von Grid-Layouts
 
-Es gibt viele Arten, wie Grids für Layouts genutzt werden können. \
-Wir schauen hier folgende verbreitete Varianten an:&#x20;
+Es gibt viele Arten, wie Grids für Layouts genutzt werden können.\
+Wir schauen hier folgende verbreitete Varianten an:
 
 [**Layout mit benannten Grid Areas (Named Grid Areas)**](platzierung.md#layout-mit-benannten-grid-areas-named-grid-areas)
 
@@ -27,17 +25,15 @@ Wir schauen hier folgende verbreitete Varianten an:&#x20;
 
 ![](../../.gitbook/assets/grafik.png)
 
-
-
 ## Benannte Grid Areas (Named Grid Areas)
 
-Im Container werden die Areas benannt, in den Items können sie dann zugeteilt werden:&#x20;
+Im Container werden die Areas benannt, in den Items können sie dann zugeteilt werden:
 
 ### Container: `grid-template-areas`
 
-Mit `grid-template-areas` können bestimmten Bereichen im Grid spezifische Namen vergeben werden.&#x20;
+Mit `grid-template-areas` können bestimmten Bereichen im Grid spezifische Namen vergeben werden.
 
-![Container](<../../.gitbook/assets/code-example-3 (1).png>)
+![Container](../../.gitbook/assets/code-example-3.png)
 
 In unserem Beispiel gibt es vier Areas: `header`, `social`, `content` und `sidebar`. Die Namen dieser Areas kannst du frei wählen, sie sollten aus Kleinbuchstaben bestehen.
 
@@ -81,15 +77,13 @@ aside   { grid-area: sidebar; }
 
 Siehe [https://codepen.io/anon/pen/ooZVoG](https://codepen.io/anon/pen/ooZVoG).
 
-
-
 ## Grid-Linien (Grid Line Placement)
 
-Für einheitliche Anordnung von Seiteninhalten wird oft ein Raster hinterlegt, an welchem sich alle Items ausrichten. Häufig wird ein 12er-Raster verwendet, weil dieses leicht durch 2, 3 und 4 teilbar ist (für 2-, 3- und 4-spaltige Layouts).&#x20;
+Für einheitliche Anordnung von Seiteninhalten wird oft ein Raster hinterlegt, an welchem sich alle Items ausrichten. Häufig wird ein 12er-Raster verwendet, weil dieses leicht durch 2, 3 und 4 teilbar ist (für 2-, 3- und 4-spaltige Layouts).
 
 <figure><img src="../../.gitbook/assets/guardian-grid.png" alt=""><figcaption></figcaption></figure>
 
-Der Container sieht ähnlich aus. Man kann bequemlichkeitshalber mehrere Spalten auf einmal definieren. Dabei ist die Einheit "fr" = Fraction = Bruchteil geläufig:&#x20;
+Der Container sieht ähnlich aus. Man kann bequemlichkeitshalber mehrere Spalten auf einmal definieren. Dabei ist die Einheit "fr" = Fraction = Bruchteil geläufig:
 
 ```css
 .container {
@@ -102,7 +96,7 @@ Der Container sieht ähnlich aus. Man kann bequemlichkeitshalber mehrere Spalten
 
 **Explizite Platzierung über Zeilen und Spalten:**
 
-In den Elementen kann dann die Start- und End-Spalte angegeben werden:&#x20;
+In den Elementen kann dann die Start- und End-Spalte angegeben werden:
 
 ```css
 .main-article {
@@ -118,7 +112,7 @@ In den Elementen kann dann die Start- und End-Spalte angegeben werden:&#x20;
 
 **Platzierung einer dynamischen Anzahl von Elementen:**
 
-Ein Grid kann auch eine dynamische Anzahl von Elementen enthalten. Dann werden nur die Spalten (columns) definiert, die Zeilen (rows) nicht. Z.B. ein vierspaltiges Grid mit variablen Zeilen:&#x20;
+Ein Grid kann auch eine dynamische Anzahl von Elementen enthalten. Dann werden nur die Spalten (columns) definiert, die Zeilen (rows) nicht. Z.B. ein vierspaltiges Grid mit variablen Zeilen:
 
 ```html
 <div class="container">
@@ -138,7 +132,7 @@ Ein Grid kann auch eine dynamische Anzahl von Elementen enthalten. Dann werden n
 }
 ```
 
-Für die dynamische Anzahl Zeilen können optional Eigenschaften gesetzt werden:&#x20;
+Für die dynamische Anzahl Zeilen können optional Eigenschaften gesetzt werden:
 
 ```css
 .container {
@@ -148,46 +142,38 @@ Für die dynamische Anzahl Zeilen können optional Eigenschaften gesetzt werden:
 }
 ```
 
-Beispiel: [www.vaude.com](https://www.vaude.com/de/de/)&#x20;
+Beispiel: [www.vaude.com](https://www.vaude.com/de/de/)
 
-Mehr zu dynamischen Grids: \
+Mehr zu dynamischen Grids:\
 [https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid\_layout/Auto-placement](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Auto-placement)
-
-
 
 ## Kombination
 
-Es kann z.B. das Grundlayout mit Named Grid Areas erstellt sein, im Content (`<main>)`  kann ein Linien-Grid eingesetzt werden:&#x20;
+Es kann z.B. das Grundlayout mit Named Grid Areas erstellt sein, im Content (`<main>)` kann ein Linien-Grid eingesetzt werden:
 
 <figure><img src="../../.gitbook/assets/grafik.png" alt=""><figcaption></figcaption></figure>
 
-
-
 ## Welche Variante soll ich nutzen? Vor- und Nachteile?
 
-**Feste Layout-Bereiche?** \
+**Feste Layout-Bereiche?**\
 **⇒ Benannte Grid Areas (Named Grid Areas)**
 
-Die Liniennummern von Grid-Linien können sich je nach Bildschirmbreite (Breakpoint) ändern. Dann kann man sich nicht einfach auf die Liniennummern verlassen oder muss sie im Kopf umrechnen.&#x20;
+Die Liniennummern von Grid-Linien können sich je nach Bildschirmbreite (Breakpoint) ändern. Dann kann man sich nicht einfach auf die Liniennummern verlassen oder muss sie im Kopf umrechnen.
 
 Der Ansatz der benannten Grid Areas ist da robuster und leichter lesbar. Wir können das Layout für jeden Breakpoint (Bildschirmbreite) mithilfe von `grid-template-areas` innerhalb des Grid-Containers neu definieren und die Zuordnung ist immer noch klar.
 
-**Dynamische Anzahl von Elementen (z.B. Shop-Artikel, News-Beiträge)?** \
+**Dynamische Anzahl von Elementen (z.B. Shop-Artikel, News-Beiträge)?**\
 **⇒ Layout mit Grid-Linien (Grid Line Placement)**
 
-Ist die Anzahl Items ähnlich wie bei einer Flexbox variabel, können keine festen Namen zugeteilt werden. Da bietet sich das Grid Line Placement an.&#x20;
-
-
+Ist die Anzahl Items ähnlich wie bei einer Flexbox variabel, können keine festen Namen zugeteilt werden. Da bietet sich das Grid Line Placement an.
 
 ## Unterstützung in den Browser-DevTools (F12)
 
 In den Entwicklertools findest du unter `Inspect -> Layout` (Firefox) bzw. `Elements -> Layout` (Chrome) den Grid Inspector, der dir beim Arbeiten mit Grids helfen kann:
 
-![Grid Inspector in Firefox](<../../.gitbook/assets/dev-tools-setting (1).png>) ![Container](<../../.gitbook/assets/dev-tools (1).png>)
+![Grid Inspector in Firefox](../../.gitbook/assets/dev-tools-setting.png) ![Container](../../.gitbook/assets/dev-tools.png)
 
 <figure><img src="../../.gitbook/assets/ChromeDevToolsGrid.png" alt=""><figcaption><p>Grids und Flexboxen sind in Chrome leicht zu finden.</p></figcaption></figure>
-
-
 
 ## Weiterführende Links
 
