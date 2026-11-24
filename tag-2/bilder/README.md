@@ -1,6 +1,6 @@
 # Medien: Bilder
 
-Hinweis: Andere Medien ([Videos und Audios](../../tag-3/02-medien-video-audio.md)) folgen später.
+Hinweis: Andere Medien ([Videos und Audios](../../tag-3/medien-video-audio.md)) folgen später.
 
 ## Aktivierungs-Fragen
 

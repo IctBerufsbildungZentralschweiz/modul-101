@@ -1,6 +1,6 @@
 # CSS-Selektoren kombinieren
 
-Abhängig davon, in welchen übergeordneten Elementen und Containern etwas verschachtelt ist, können wir das Aussehen steuern. Für alle Beispiele nehmen wir folgenden HTML-Code an:&#x20;
+Abhängig davon, in welchen übergeordneten Elementen und Containern etwas verschachtelt ist, können wir das Aussehen steuern. Für alle Beispiele nehmen wir folgenden HTML-Code an:
 
 ```html
 <header>
@@ -29,13 +29,13 @@ Abhängig davon, in welchen übergeordneten Elementen und Containern etwas versc
 
 ### 🛠️ Ausprobieren
 
-Erstelle eine neue Datei `selektoren-test.html` und ein neues CSS `css/selektoren-test.css` und binde das CSS ins HTML-Dokument ein. Kopiere ein [HTML-Grundgerüst](../../tag-1/03-html/04-html-dokument.md#aufbau-eines-html-dokumentes) in deine neue HTML-Datei und dann innerhalb des Body den obigen HTML-Code.
+Erstelle eine neue Datei `selektoren-test.html` und ein neues CSS `css/selektoren-test.css` und binde das CSS ins HTML-Dokument ein. Kopiere ein [HTML-Grundgerüst](../../tag-1/html/html-dokument.md#aufbau-eines-html-dokumentes) in deine neue HTML-Datei und dann innerhalb des Body den obigen HTML-Code.
 
 Teste dann im CSS die folgenden Beispiele aus:
 
 ## Mehrere Elemente auswählen
 
-Teilen sich mehrere Elemente die gleichen Regeln, sollten diese zusammengefasst werden. Dazu werden mehrere Selektoren hintereinander geschrieben, getrennt durch Kommas:&#x20;
+Teilen sich mehrere Elemente die gleichen Regeln, sollten diese zusammengefasst werden. Dazu werden mehrere Selektoren hintereinander geschrieben, getrennt durch Kommas:
 
 ```css
 h1, .subnavi, footer {
@@ -45,7 +45,7 @@ h1, .subnavi, footer {
 
 ## Nachfahren-Selektor
 
-Nachfahren sind alle Elemente innerhalb eines anderen Elements (Kinder, Kindeskinder etc.). Dieser Selektor adressiert also bestimmte Elemente, welche in HTML in einem anderen Element verschachtelt sind. Die Eltern- und Nachfahren-Selektoren werden durch ein Leerzeichen getrennt:&#x20;
+Nachfahren sind alle Elemente innerhalb eines anderen Elements (Kinder, Kindeskinder etc.). Dieser Selektor adressiert also bestimmte Elemente, welche in HTML in einem anderen Element verschachtelt sind. Die Eltern- und Nachfahren-Selektoren werden durch ein Leerzeichen getrennt:
 
 ```css
 main h1 { /* Formatiert die Überschrift 1 im <main>-Container */
@@ -53,7 +53,7 @@ main h1 { /* Formatiert die Überschrift 1 im <main>-Container */
 }
 ```
 
-### Beispiel: Links je nach Kontext anders gestalten&#x20;
+### Beispiel: Links je nach Kontext anders gestalten
 
 ```css
 /* Links generell gestalten */
@@ -66,7 +66,7 @@ footer a { color: red; }
 
 ### Beispiel: Unterschiedliche Seiten-Layouts
 
-Oft hat z.B. die Startseite ein anderes Layout als die restlichen Seiten. Damit wir trotzdem eine gemeinsame CSS-Datei für alles nutzen können, kannst du jeder Seite eine Klasse ins `<body>`-Element geben und darüber das Layout steuern:&#x20;
+Oft hat z.B. die Startseite ein anderes Layout als die restlichen Seiten. Damit wir trotzdem eine gemeinsame CSS-Datei für alles nutzen können, kannst du jeder Seite eine Klasse ins `<body>`-Element geben und darüber das Layout steuern:
 
 ```html
 <!-- index.html (Startseite) -->
@@ -98,20 +98,20 @@ header {
 }
 ```
 
-**Hinweis:** An Tag 3 werden wir Grids für Seiten-Layouts einsetzen. Da wirst du das wieder brauchen können, um je nach Seite unterschiedliche Grid-Layouts zu definieren.&#x20;
+**Hinweis:** An Tag 3 werden wir Grids für Seiten-Layouts einsetzen. Da wirst du das wieder brauchen können, um je nach Seite unterschiedliche Grid-Layouts zu definieren.
 
 ## CSS Nesting
 
 {% hint style="info" %}
-**Achtung neues Feature:** CSS Nesting wird von den meisten Browsern seit Dezember 2023 unterstützt, von einzelnen mobilen Browsern aber erst kurz (Android-Browser seit Okt./Nov. 2026) oder teils gar nicht. \
+**Achtung neues Feature:** CSS Nesting wird von den meisten Browsern seit Dezember 2023 unterstützt, von einzelnen mobilen Browsern aber erst kurz (Android-Browser seit Okt./Nov. 2026) oder teils gar nicht.\
 ⇒ Noch zurückhaltend verwenden.
 
 Siehe [caniuse.com](https://caniuse.com/?search=CSS+Nesting)
 {% endhint %}
 
-Verschachtelte Nachfahren-Selektoren können schnell zu unübersichtlichem CSS-Code führen und Änderungen an Selektoren mühsam machen. Abhilfe bietet das "CSS Nesting".&#x20;
+Verschachtelte Nachfahren-Selektoren können schnell zu unübersichtlichem CSS-Code führen und Änderungen an Selektoren mühsam machen. Abhilfe bietet das "CSS Nesting".
 
-CSS Nesting war lange nur mit speziellem CSS-Compiler (LESS/SASS) möglich. Seit kurzem wird das Nesting auch ohne Compiler von den meisten Browsern nativ unterstützt:&#x20;
+CSS Nesting war lange nur mit speziellem CSS-Compiler (LESS/SASS) möglich. Seit kurzem wird das Nesting auch ohne Compiler von den meisten Browsern nativ unterstützt:
 
 ```css
 /* Obiges Beispiel mit CSS Nesting */
@@ -123,7 +123,7 @@ CSS Nesting war lange nur mit speziellem CSS-Compiler (LESS/SASS) möglich. Seit
 }
 ```
 
-Mehr zu CSS Nesting findest du unter [Optionale Themen > Neuere Features](../../tag-3/optionale-themen/neuere-features.md#css-nesting).
+Mehr zu CSS Nesting findest du unter [Optionale Themen > Neuere Features](../optionale-themen/neuere-features.md#css-nesting).
 
 ## Kind-Selektor (direkte Nachfahren)
 
@@ -169,5 +169,5 @@ Auf deiner Seite "Über mich":
 * Gib allen Links in der Tabelle eine andere Farbe ([Nachfahren-Selektor](./#nachfahren-selektor))
 * Gib allen Links im Footer eine andere Farbe
 * Schau, wo du aktuell doppelte Style-Definitionen hast und fasse sie zusammen ([Mehrere Elemente auswählen](./#mehrere-elemente-auswahlen))
-* Was bewirkt folgende Definition? \
+* Was bewirkt folgende Definition?\
   `h2 + p { font-weight: bold; }`

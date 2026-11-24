@@ -13,15 +13,15 @@ Untersuche folgende 3 Websites mit den Browser-Entwicklerwerkzeugen und finde he
 Es gibt viele Arten, wie Grids für Layouts genutzt werden können.\
 Wir schauen hier folgende verbreitete Varianten an:
 
-[**Layout mit benannten Grid Areas (Named Grid Areas)**](platzierung.md#layout-mit-benannten-grid-areas-named-grid-areas)
+[**Layout mit benannten Grid Areas (Named Grid Areas)**](grid-layout-und-platzierung.md#layout-mit-benannten-grid-areas-named-grid-areas)
 
 ![](../../.gitbook/assets/named-grid-areas.png)
 
-[**Layout mit Grid-Linien (Grid Line Placement)**](platzierung.md#layout-mit-grid-linien-grid-line-placement)
+[**Layout mit Grid-Linien (Grid Line Placement)**](grid-layout-und-platzierung.md#layout-mit-grid-linien-grid-line-placement)
 
 ![](../../.gitbook/assets/guardian-grid.png)
 
-[**Kombination von beiden**](platzierung.md#kombination)
+[**Kombination von beiden**](grid-layout-und-platzierung.md#kombination)
 
 ![](../../.gitbook/assets/grafik.png)
 

@@ -4,11 +4,11 @@
 
 Selektoren-Arten:
 
-* [Element-Selektor (Tag-Selektor)](03-selektoren.md#element-selektor-oder-tag-selektor)
-* [Klassen-Selektor](03-selektoren.md#klassen-selektor)
-* [ID-Selektor](03-selektoren.md#id-selektor)
-* [Pseudoklassen-Selektor](03-selektoren.md#pseudoklassen-selektor)
-* [Attribut-Selektor](03-selektoren.md#attribut-selektor)
+* [Element-Selektor (Tag-Selektor)](selektoren.md#element-selektor-oder-tag-selektor)
+* [Klassen-Selektor](selektoren.md#klassen-selektor)
+* [ID-Selektor](selektoren.md#id-selektor)
+* [Pseudoklassen-Selektor](selektoren.md#pseudoklassen-selektor)
+* [Attribut-Selektor](selektoren.md#attribut-selektor)
 
 ## Selektoren-Arten
 
@@ -91,12 +91,12 @@ Vor allem bei Links (`<a>`) sind die Pseudoklassen wichtig, um den Website-Besuc
 
 #### Sonstige nützliche Pseudoklassen
 
-| Pseudoklasse                           | Ausgewählte Elemente                                                                                                                                                                                                                                                                              |
-| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `:first-child`                         | Dies wählt jedes Element aus, welches das erste Kindelement seines Elternelements ist.                                                                                                                                                                                                            |
-| `:last-child`                          | Dies wählt jedes Element aus, welches das letzte Kindelement seines Elternelements ist.                                                                                                                                                                                                           |
-| `:nth-child()`                         | In der Klammer dieser Pseudoklasse muss noch ein Wert mitgegeben werden - Beispiel: 2n. So wird jedes 2te Kindelement seines Elternelements ausgewählt.                                                                                                                                           |
-| <p><code>:has()</code><br><br><br></p> | <p>Dies wählt jedes Element aus, das mindestens ein Element enthält, auf welches der Selektor in der Klammer zutrifft. Beispiel: <code>article:has(img)</code> wählt jeden Artikel aus, der ein Bild enthält.<br>Diese Pseudoklasse wird erst seit 2023 von den meisten Browsern unterstützt.</p> |
+| Pseudoklasse                           | Ausgewählte Elemente                                                                                                                                                                                                                                                                            |
+| -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `:first-child`                         | Dies wählt jedes Element aus, welches das erste Kindelement seines Elternelements ist.                                                                                                                                                                                                          |
+| `:last-child`                          | Dies wählt jedes Element aus, welches das letzte Kindelement seines Elternelements ist.                                                                                                                                                                                                         |
+| `:nth-child()`                         | In der Klammer dieser Pseudoklasse muss noch ein Wert mitgegeben werden - Beispiel: 2n. So wird jedes 2te Kindelement seines Elternelements ausgewählt.                                                                                                                                         |
+| <p><code>:has()</code><br><br><br></p> | <p>Dies wählt jedes Element aus, das mindestens ein Element enthält, auf welches der Selektor in der Klammer zutrifft. Beispiel: <code>article:has(img)</code> wählt jeden Artikel aus, der ein Bild enthält.</p><p>Diese Pseudoklasse wird seit 2023 von den meisten Browsern unterstützt.</p> |
 
 #### Beispiele zu Pseudoklassen
 

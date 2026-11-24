@@ -9,7 +9,7 @@ Bei der Suchmaschinen-Optimierung (SEO = Search Engine Optimization) unterscheid
 **Onsite-Massnahmen:** Alles, was an der Website selber optimiert werden kann, z.B.
 
 * **URL /** **Dateinamen:** Keywords, welche in der URL bzw. im Dateinamen vorkommen, erhalten bei Suchmaschinen ein besonders hohes Gewicht.
-* **Saubere Struktur und Überschriften:** Nutze [semantische Tags](../../tag-1/03-html/06-struktur-semantische-tags.md) und setze die [Überschriften](../../tag-1/03-html/02-haeufig-benutzte-tags.md) richtig. Jede Seite soll genau eine Überschrift 1 enthalten und logisch abgestuft weitere Überschriften (h2-h6). Wichtige **Schlüsselworte** sollen in den Überschriften und im Text vorkommen.
+* **Saubere Struktur und Überschriften:** Nutze [semantische Tags](../../tag-1/html/struktur-semantische-tags.md) und setze die [Überschriften](../../tag-1/html/haeufig-benutzte-tags.md) richtig. Jede Seite soll genau eine Überschrift 1 enthalten und logisch abgestuft weitere Überschriften (h2-h6). Wichtige **Schlüsselworte** sollen in den Überschriften und im Text vorkommen.
 * **Meta-Tags**: Title-Tag und Meta-Description enthalten geeignete Keywords, welche gesucht werden und auch im Seiteninhalt vorkommen
 * **Korrekter Code:** Fehlerhafter HTML-Code kann die Darstellung und die Indexierung durch Suchmaschinen beeinträchtigen. Schicke deine Seiten deshalb durch den Validator.
 * **Schnelle Ladezeiten:** Die Website sollte überprüft werden, z.B. im Browser in den DevTools unter "Netzwerk" oder mittels [Google-PageSpeed-Test](https://pagespeed.web.dev/) oder [WebPagetest](https://www.webpagetest.org/).\

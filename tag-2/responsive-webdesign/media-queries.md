@@ -35,7 +35,7 @@ body {
 
 ## Medien-Features
 
-Media Queries lassen sich auf diverse `Features` anwenden. \
+Media Queries lassen sich auf diverse `Features` anwenden.\
 Eine Liste aller verfügbaren Features befindet sich hier: [developer.mozilla.org/en-US/docs/Web/CSS/@media#Media\_features](https://developer.mozilla.org/en-US/docs/Web/CSS/@media#Media_features).
 
 Die Syntax setzt sich zusammen aus `(feature-name: Wert)`.
@@ -60,7 +60,7 @@ Die mit Abstand am meisten verwendeten Features sind `min-width` und `max-width`
 }
 ```
 
-**Achtung:** Gerade wenn es um die Bildschirmbreite geht möchte man diese oft nur für _Bildschirme_ anwenden, nicht etwa wenn die Website ausgedruckt wird. Aus diesem Grund macht es Sinn im Filter zwei Features mit dem `and` Operator zu verketten.
+**Achtung:** Gerade wenn es um die Bildschirmbreite geht, möchte man diese oft nur für _Bildschirme_ anwenden, nicht etwa wenn die Website ausgedruckt wird. Aus diesem Grund macht es Sinn im Filter zwei Features mit dem `and` Operator zu verketten:
 
 ```css
 @media screen and (min-width: 1200px) {
@@ -73,7 +73,7 @@ Die mit Abstand am meisten verwendeten Features sind `min-width` und `max-width`
 
 #### Verkettung mehrerer Bedingungen
 
-Wie schon bei `@media screen and (min-width: 1200px)` kann ich auch mehrere Bedingungen verknüpfen, z.B. um nur bestimmte Fensterbreiten anzusprechen:&#x20;
+Wie schon bei `@media screen and (min-width: 1200px)` kann ich auch mehrere Bedingungen verknüpfen, z.B. um nur bestimmte Fensterbreiten anzusprechen:
 
 ```
 @media screen and (min-width: 800px) and (max-width: 1199px) {
@@ -86,7 +86,7 @@ Wie schon bei `@media screen and (min-width: 1200px)` kann ich auch mehrere Bedi
 
 ### Fensterbreite: Media Query Range Syntax
 
-Seit 2023 können auch Vergleichs-Operatoren genutzt werden, sog. media query range features:&#x20;
+Seit 2023 können auch Vergleichs-Operatoren genutzt werden, sog. media query range features:
 
 ```css
 /* statt (max-width: 1199px): */
@@ -98,7 +98,7 @@ Seit 2023 können auch Vergleichs-Operatoren genutzt werden, sog. media query ra
 }
 ```
 
-Damit können auch Bereiche einfach abgefragt werden:&#x20;
+Damit können auch Bereiche einfach abgefragt werden:
 
 ```css
 /* statt screen and (min-width: 800px) and (max-width: 1199px): */
@@ -109,7 +109,7 @@ Damit können auch Bereiche einfach abgefragt werden:&#x20;
 
 ### Ausrichtung: Hoch- / Querformat
 
-Wenn ich wissen will, ob ein Bildschirm im Hoch- oder Querformat benutzt wird, kann ich dies abfragen:&#x20;
+Wenn ich wissen will, ob ein Bildschirm im Hoch- oder Querformat benutzt wird, kann ich dies abfragen:
 
 ```
 @media screen and (orientation: landscape) { /* Oder portrait für Hochformat */
@@ -117,11 +117,11 @@ Wenn ich wissen will, ob ein Bildschirm im Hoch- oder Querformat benutzt wird, k
 }
 ```
 
-Das ist eher unüblich, öfter wird einfach die Fensterbreite (min-width/max-width) abgefragt.&#x20;
+Das ist eher unüblich, öfter wird einfach die Fensterbreite (min-width/max-width) abgefragt.
 
 ### Helligkeit: `light-level`
 
-Mit der `CSS Media Queries Level 4` Spezifikation wurden viele neue Features eingeführt. \
+Mit der `CSS Media Queries Level 4` Spezifikation wurden viele neue Features eingeführt.\
 **Achtung:** Manche davon werden momentan [noch nicht in allen Browsern](https://caniuse.com/?search=CSS%20Media%20Queries%20Level%204) unterstützt.
 
 **Hinweis:** Das Feature `light-level` wird aktuell von keinem Browser unterstützt. Das folgende Beispiel dient nur zur Veranschaulichung.

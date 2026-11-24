@@ -55,7 +55,7 @@ body {
 }
 ```
 
-1. Im HTML-`head` solltest du noch das [CSS verlinken](../../../tag-1/04-css/02-einbindung.md#css-datei-einbinden).
+1. Im HTML-`head` solltest du noch das [CSS verlinken](../../../tag-1/css/einbindung.md#css-datei-einbinden).
 2. Damit die Bereiche besser sichtbar sind, gib den Menüs, der Sidebar und dem Footer eine neue Hintergrundfarbe, z.B. `darkgray`.
 3. Erstelle nun das Grid gemäss obiger Grafik. Ersetze dazu die Kommentarzeichen `/* ... */` mit den Angaben zu Spaltenbreite bzw. Zeilenhöhe.
 4. Füge zwischen allen Spalten einen Abstand von `20px` ein. Zeilen sollen keinen Abstand haben.
