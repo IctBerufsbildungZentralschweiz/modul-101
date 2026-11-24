@@ -2,7 +2,7 @@
 
 HTML ist keine Programmiersprache, sondern eine Auszeichnungssprache; sie ist dazu gedacht, einer Website Struktur zu verleihen.
 
-Die Sprache besteht aus einer Reihe von Elementen, Tags genannt, welche um verschiedene Teile des Inhalts herum platzieren werden können, um diesem eine spezielle Aufgabe zuzuweisen. Zum Beispiel kann damit einen Text in einen Link verwandelt werden.
+Die Sprache besteht aus einer Reihe von Elementen, Tags genannt, welche um verschiedene Teile des Inhalts herum platziert werden können, um diesem eine spezielle Aufgabe zuzuweisen. Zum Beispiel kann damit ein Text in einen Link verwandelt werden.
 
 Ein Beispiel:
 
@@ -10,7 +10,7 @@ Ein Beispiel:
 Meine Katze hat zwei Pfötchen.
 ```
 
-Mit `<p>` können spezifizieren, das es sich um einen Absatz handelt:
+Mit `<p>` können wir spezifizieren, dass es sich um einen Absatz handelt:
 
 ```html
 <p>Meine Katze hat zwei Pfötchen.</p>
@@ -33,7 +33,7 @@ Elemente können auch Attribute enthalten. Das sieht dann so aus:
 
 ![Attribut eines HTML-Elements](<../../.gitbook/assets/html-attribut (1).jpg>)
 
-Attribute enthalten Zusatzinformationen über das Element, welche nicht als eigentlicher Inhalt anzeigt werden. Das `class`-Attribut beispielsweise kann später dazu verwendet werden, das Element mit CSS zu gestalten.
+Attribute enthalten Zusatzinformationen über das Element, welche nicht als eigentlicher Inhalt angezeigt werden. Das `class`-Attribut beispielsweise kann später dazu verwendet werden, das Element mit CSS zu gestalten.
 
 Syntax von Attributen:
 
@@ -44,7 +44,7 @@ Syntax von Attributen:
 
 ## Verschachtelte Elemente
 
-Mehrere Elemente können ineinander verschachtelt werden. Wenn wir also besonders betonen wollen, dass unsere Katze **zwei** Beine hat, können wir dieses einzelne Wort in einem `<strong>` Element verpacken.
+Mehrere Elemente können ineinander verschachtelt werden. Wenn wir also besonders betonen wollen, dass unsere Katze **zwei** Pfötchen hat, können wir dieses einzelne Wort in einem `<strong>` Element verpacken.
 
 ```html
 <p>Meine Katze hat <strong>zwei</strong> Pfötchen.</p>
@@ -66,7 +66,7 @@ Gewisse Elemente haben keinen Inhalt, diese werden leere Elemente genannt. Beisp
 
 Das `<img>`-Tag beinhaltet zwei Attribute, aber es gibt kein schliessendes `</img>`-Tag und keinen Inhalt in dem Element. Das `<img>`-Tag braucht keinen Inhalt um einen Effekt zu haben. Es bindet ein Bild an der entsprechenden Stelle in der HTML-Seite ein.
 
-**Frage:** Welche andere Beispiele findest du in einer Website? \
+**Frage:** Welche anderen Beispiele findest du in einer Website? \
 Tipp: Schau dir einzelne Texte mit Umbrüchen und auch den HTML `<head>` an.
 
 ## Liste mit HTML-Tags

@@ -2,7 +2,7 @@
 
 ## Überschriften
 
-Mit Überschriftelementen können bestimmte Teile des Inhaltes als Überschrift deklariert werden. Wie ein Buch einen Hauptitel und Kapitelüberschriften haben kann, können HTML Dokumente eine Hauptüberschrift und weitere Überschriften haben.
+Mit Überschriftelementen können bestimmte Teile des Inhaltes als Überschrift deklariert werden. Wie ein Buch einen Haupttitel und Kapitelüberschriften haben kann, können HTML Dokumente eine Hauptüberschrift und weitere Überschriften haben.
 
 HTML besitzt sechs Überschrifttypen, wobei meist nur 3-4 gebraucht werden: `<h1>–<h6>`
 
@@ -39,7 +39,7 @@ Mit dem `href`-Attribut definieren wir, wo der Link hinzeigen soll:
 
 **Link in neuem Fenster / Tab öffnen:**
 
-Wenn ein Link auf eine externe Website oder ein PDF verweist, sollte diese in einem neuen Tab oder neuen Fenster geöffnet werden, weil das Ziel die bisherige Navigation nicht mehr anbietet und so die Besucher nicht mehr leicht zurück finden. Dazu gibt es das Attribut `target`:
+Wenn ein Link auf eine externe Website oder ein PDF verweist, sollte diese in einem neuen Tab oder neuen Fenster geöffnet werden, weil das Ziel die bisherige Navigation nicht mehr anbietet und so die Besucher nicht mehr leicht zurückfinden. Dazu gibt es das Attribut `target`:
 
 ```html
 <p>Heute ist ein <a href="https://luzerntourismus.roundshot.com/" target="_blank">schöner Tag</a> in Luzern.</p>
@@ -47,24 +47,22 @@ Wenn ein Link auf eine externe Website oder ein PDF verweist, sollte diese in ei
 
 ## Bilder
 
-Das `<img>`-Tag bettet ein Bild an der Stelle der Seite ein, wo es in der HTML-Struktur eingegliedert ist. Es tut dies mit dem `src` ('src' steht für 'source') Attribut, welches den Pfad zum gewünschen Bild beinhaltet.
+Das `<img>`-Tag bettet ein Bild an der Stelle der Seite ein, wo es in der HTML-Struktur eingegliedert ist. Es tut dies mit dem `src` ('src' steht für 'source') Attribut, welches den Pfad zum gewünschten Bild beinhaltet.
 
 ```markup
 <img src="images/mein-logo.png" alt="Mein Firmenlogo" height="100">
 ```
 
-Das genauso wichtige Attribut ist das `alt`-Attribut. Diese Attribut muss immer vorhanden sein. Es darf jedoch explizit leer gelassen werden.
+Das genauso wichtige Attribut ist das `alt`-Attribut. Dieses Attribut muss immer vorhanden sein. Es darf jedoch explizit leer gelassen werden.
 
-Der Text im `alt`-Attribut wird angezeigt, wenn das Bild nicht geladen werden kann. Dies ist nützlich für Sehbehinderte, für Suchmaschinen (können keine Bilder sehen) und wenn es einen Fehler beim Laden des Bildes gibt. Dieser alternative Satz sollte dem Leser eine Informationen geben, damit er sich vorstellen kann, was auf dem Bild angezeigt ist.
+Der Text im `alt`-Attribut wird angezeigt, wenn das Bild nicht geladen werden kann. Dies ist nützlich für Sehbehinderte, für Suchmaschinen (können keine Bilder sehen) und wenn es einen Fehler beim Laden des Bildes gibt. Dieser alternative Satz sollte dem Leser Informationen geben, damit er sich vorstellen kann, was auf dem Bild angezeigt ist.
 
 ![Alt Tag eines \<img>](<../../.gitbook/assets/img-alt (1).jpg>)
 
-Die Attribute `width` und `height` können optional angegeben werden, damit der Browser weiss, wie breit bzw. hoch die Bilder werden sollen. Die Werte sollten den wirklichen Pixel-Massen des Bildes entsprechen! Der Wert ist ohne "px". Wird nur width oder nur height angegeben, wird der andere Wert automatisch bewechnet.&#x20;
+Die Attribute `width` und `height` können optional angegeben werden, damit der Browser weiss, wie breit bzw. hoch die Bilder werden sollen. Die Werte sollten den wirklichen Pixel-Massen des Bildes entsprechen! Der Wert ist ohne "px". Wird nur width oder nur height angegeben, wird der andere Wert automatisch berechnet.&#x20;
 
 ```html
-<p>Heute ist ein 
-<a href="https://luzerntourismus.roundshot.com/" target="_blank">schöner Tag</a> 
-in Luzern.</p>
+<img src="images/mein-logo.png" alt="Mein Firmenlogo" width="300" height="100">
 ```
 
 ## Absatz (Paragraph) vs. Zeilenumbruch (Break)
@@ -72,11 +70,11 @@ in Luzern.</p>
 Ähnlich wie in einem Textverarbeitungsprogramm gibt es in HTML zwei Arten von Umbrüchen:
 
 * Das **`<p>`-Element** definiert einen neuen **Absatz (Paragraph)**. \
-  _&#x53;emantik:_ Inhaltlich beginnt hier etwas neues.\
+  _&#x53;emantik:_ Inhaltlich beginnt hier etwas Neues.\
   _&#x4C;ayout:_ Zwischen Absätzen erzeugt der Browser einen kleinen Abstand.&#x20;
 * Das **`<br>`-Element** definiert einen **Zeilenumbruch (Break)** innerhalb eines Absatzes. \
   Das `<br>`-Element  ist ein **leerer Tag**, hat also keinen Inhalt und kein schliessendes Tag. \
-  _&#x53;eminatik:_ Der Text gehört noch zum gleichen Inhalt, soll aber auf einer neuen Zeile stehen.\
+  _&#x53;emantik:_ Der Text gehört noch zum gleichen Inhalt, soll aber auf einer neuen Zeile stehen.\
   _&#x4C;ayout:_ Der Browser erzeugt keinen Abstand zwischen den Zeilen. \
   **Nutze dieses Tag sparsam!**&#x20;
 * Eine **neue Zeile in HTML** wird vom Browser ignoriert und dient nur dazu, den HTML-Code für den Programmierer übersichtlich zu gestalten.
@@ -84,7 +82,7 @@ in Luzern.</p>
 ```html
 <p>Der erste Absatz enthält einen Umbruch<br>auf eine neue Zeile.</p>
 <p>
-    Etwas übersichtlicher sieht der Umbruch im Code<br>
+    Etwas übersichtlicher sieht der Umbruch<br>
     im Code so aus.
 </p>
 <p>
@@ -104,7 +102,7 @@ Kommentare in HTML helfen, Code besser zu verstehen:&#x20;
 <main> ... </main>
 
 <!-- Teasers for current events -->
-<aslide> ... </aslide>
+<aside> ... </aside>
 ```
 
 Mit Kommentaren kann auch HTML-Code (temporär) deaktiviert werden. Dadurch wird er vom Browser nicht interpretiert (parsed):&#x20;

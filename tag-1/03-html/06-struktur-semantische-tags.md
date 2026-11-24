@@ -9,7 +9,7 @@ Mehrere Tags können zu zusammengehörigen Blöcken zusammengefasst werden. Dazu
 
 Das Strukturelement `<div>` (Document Division Element) ist ein generischer Container für Inhalte, der keine eigene Bedeutung hat, ausser dass er Elemente zusammenfasst, z.B. um sie im Layout zu positionieren oder zu stylen (mit Hilfe von CSS).
 
-Beispiel: Wir möchten folgende Absätze mit einer Hintergrundfarbe hinterlegen, ohne einen weissen Absand dazwischen zu haben.
+Beispiel: Wir möchten folgende Absätze mit einer Hintergrundfarbe hinterlegen, ohne einen weissen Abstand dazwischen zu haben.
 
 ```html
 <p>Ich bin ein erster Absatz.</p>
@@ -26,7 +26,7 @@ Dies entspricht jedoch nicht unserem gewünschten Ergebnis:
 
 <div align="left"><img src="../../.gitbook/assets/p-background (1).PNG" alt="Absätze mit Hintergrund" width="446"></div>
 
-Lösung: Wenn umklammern die beiden Absätze mit einem `<div>`-Strukturelement und stylen das `<div>`-Element:
+Lösung: Wir umklammern die beiden Absätze mit einem `<div>`-Strukturelement und stylen das `<div>`-Element:
 
 ```html
 <div class="red">
@@ -47,7 +47,7 @@ Lösung: Wenn umklammern die beiden Absätze mit einem `<div>`-Strukturelement u
 
 ## Semantische Strukturelemente
 
-Semtantische Elemente sind gleichbedeutend wie `<div>`-Strukturelemente, definieren aber klar die Bedeutung des Inhalts, welches sie umfassen.&#x20;
+Semantische Elemente sind gleichbedeutend wie `<div>`-Strukturelemente, definieren aber klar die Bedeutung des Inhalts, den sie umfassen.&#x20;
 
 **Semantische Elemente haben folgende Vorteile:**&#x20;
 

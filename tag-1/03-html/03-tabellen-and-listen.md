@@ -110,7 +110,7 @@ Wenn du den Code z.B. mit [Codepen](https://codepen.io/pen/) testest, wirst du f
 
 #### Tabellen-Zeilen (Rows)
 
-Um die Zellen in Reihe zu unterteilen, nutzen wir das `<tr>`-Tag ('table row'):
+Um die Zellen in Reihen zu unterteilen, nutzen wir das `<tr>`-Tag ('table row'):
 
 ```markup
 <table>
@@ -135,7 +135,7 @@ Um die Zellen in Reihe zu unterteilen, nutzen wir das `<tr>`-Tag ('table row'):
 
 #### Spalten-Überschriften (Headings)
 
-Die erste Reihe eine Tabelle enthält oft keine Daten, sondern die Spaltenüberschriften. Dafür ist das `<th>`-Tag vorgesehen ('th' steht für 'Table Heading'):
+Die erste Reihe einer Tabelle enthält oft keine Daten, sondern die Spaltenüberschriften. Dafür ist das `<th>`-Tag vorgesehen ('th' steht für 'Table Heading'):
 
 ```markup
 <table>

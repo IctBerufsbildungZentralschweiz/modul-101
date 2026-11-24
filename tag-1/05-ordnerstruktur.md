@@ -17,11 +17,11 @@ root/
    |-> index.html
    |-> kontakt.html
    |-> ueber-uns.html
-   |-> style.css
+   |-> styles.css
    |-> zebras.jpg
 ```
 
-Bei der Ordnerstruktur gibt es kein richtig oder falsch, sondern nur ein übersichtlich und ein nicht-übersichtlich. Eine mögliche Ordnerstruktur ist beispielsweise:
+Bei der Ordnerstruktur gibt es kein Richtig oder Falsch, sondern nur ein Übersichtlich und ein Unübersichtlich. Eine mögliche Ordnerstruktur ist beispielsweise:
 
 ```
 root/
@@ -44,11 +44,11 @@ root/
 ```
 
 **Hinweis:** \
-**HTML-Dokumente** werden meist nicht in einem Unterordner platziert. Dies würde unschöne URLs ergeben (www.meine-domain.ch/html/home.html) und verkompliziert die Verlinkung von Bildern und CSS.
+**HTML-Dokumente** werden meist nicht in einem Unterordner platziert. Dies würde unschöne URLs ergeben (www.meine-domain.ch/html/home.html) und die Verlinkung von Bildern und CSS verkomplizieren.
 
 ### Relative Pfade
 
-Relative Pfaden haben das aktuelle Dokument als Ausgangspunkt für den angegebenen Pfad.
+Relative Pfade haben das aktuelle Dokument als Ausgangspunkt für den angegebenen Pfad.
 
 Beziehungen von internen Dateien werden meistens mit einem relativen Pfad angegeben. So können die Dateien problemlos verschoben werden (beispielsweise von der Entwicklungsumgebung auf den Produktivserver).
 
@@ -66,7 +66,7 @@ Beispiel für einen relativen Pfad in `tiere/afrika.html`:
 <img src="../images/zebras.jpg" alt="Zebras">
 ```
 
-`../` - Zwei Punkte und ein Frontslash vermitteln, dass in die nächst höhere Ebene gegngen werden soll.
+`../` - Zwei Punkte und ein Slash vermitteln, dass in die nächsthöhere Ebene gegangen werden soll.
 
 ### Absolute Pfade
 

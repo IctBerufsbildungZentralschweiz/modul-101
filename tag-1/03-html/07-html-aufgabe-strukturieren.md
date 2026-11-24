@@ -2,9 +2,9 @@
 
 ![](../../.gitbook/assets/ralph.png)
 
-## Aufgabe Seminatischen Elemente
+## Aufgabe semantische Elemente
 
-**Strukturiere die Webseite "über mich" mit seminatischen Elementen**
+**Strukturiere die Webseite "über mich" mit semantischen Elementen**
 
 1.  Packe alle Elemente im `<body>` in sinnvolle semantische Strukturelemente:&#x20;
 

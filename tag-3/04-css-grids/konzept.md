@@ -2,7 +2,7 @@
 
 ## CSS Grids für Layouts
 
-Das `CSS Grid Layout` dient dazu, Elemente zweidimensional anzuordnen, z.B. für ein gridbasierten Layout oder für komplexere Elemente innerhalb einer Seite.
+Das `CSS Grid Layout` dient dazu, Elemente zweidimensional anzuordnen, z.B. für ein gridbasiertes Layout oder für komplexere Elemente innerhalb einer Seite.
 
 Alternativ können einfache Layouts auch mit Flexbox erstellt werden, für komplexere Layouts sind aber Grids deutlich effizienter.&#x20;
 

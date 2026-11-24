@@ -1,6 +1,6 @@
 # CSS-Selektoren kombinieren
 
-Abhängig davon, in welchen Übergeordneten Elementen und Containern etwas verschachtelt ist, können wir das Aussehen steuern. Für alle Beispiele nehmen wir folgenden HTML-Code an:&#x20;
+Abhängig davon, in welchen übergeordneten Elementen und Containern etwas verschachtelt ist, können wir das Aussehen steuern. Für alle Beispiele nehmen wir folgenden HTML-Code an:&#x20;
 
 ```html
 <header>
@@ -15,15 +15,15 @@ Abhängig davon, in welchen Übergeordneten Elementen und Containern etwas versc
 
 <main>
   <h1>Services</h1>
-  <p>Dies ist unter Super-Service</p>
-  <p>Wir bieden <a href="reparaturen.html">Reparaturen</a> an.</p>
+  <p>Dies ist unser Super-Service</p>
+  <p>Wir bieten <a href="reparaturen.html">Reparaturen</a> an.</p>
 </main>
 
 <footer>
   <nav>
     <a href="kontakt.html">Kontakt</a> | 
     <a href="datenschutz.html">Impressum & Datenschutz</a>
-  <nav>
+  </nav>
 </footer>
 ```
 
@@ -31,7 +31,7 @@ Abhängig davon, in welchen Übergeordneten Elementen und Containern etwas versc
 
 Erstelle eine neue Datei `selektoren-test.html` und ein neues CSS `css/selektoren-test.css` und binde das CSS ins HTML-Dokument ein. Kopiere ein [HTML-Grundgerüst](../../tag-1/03-html/04-html-dokument.md#aufbau-eines-html-dokumentes) in deine neue HTML-Datei und dann innerhalb des Body den obigen HTML-Code.
 
-Testen dann im CSS die folgenden Beispiele aus:
+Teste dann im CSS die folgenden Beispiele aus:
 
 ## Mehrere Elemente auswählen
 
@@ -45,7 +45,7 @@ h1, .subnavi, footer {
 
 ## Nachfahren-Selektor
 
-Nachfahren sind alle Elemente innerhalb eines anderen Elements (Kinder, Kindeskinder etc.). Dieser Selektor adressiert also bestimmte Elemente, welche in HTML in einem anderen Element verschachtel sind. Die Eltern- und Nachfohr-Selektoren werden durch ein Leerzeichen getrennt:&#x20;
+Nachfahren sind alle Elemente innerhalb eines anderen Elements (Kinder, Kindeskinder etc.). Dieser Selektor adressiert also bestimmte Elemente, welche in HTML in einem anderen Element verschachtelt sind. Die Eltern- und Nachfahren-Selektoren werden durch ein Leerzeichen getrennt:&#x20;
 
 ```css
 main h1 { /* Formatiert die Überschrift 1 im <main>-Container */
@@ -78,7 +78,7 @@ Oft hat z.B. die Startseite ein anderes Layout als die restlichen Seiten. Damit 
 ```
 
 ```html
-<!-- contact.html (Konraktseite) -->
+<!-- contact.html (Kontaktseite) -->
 <body class="contact">
     <header>
         <h1>Kontakt</h1>
@@ -116,14 +116,14 @@ CSS Nesting war lange nur mit speziellem CSS-Compiler (LESS/SASS) möglich. Seit
 ```css
 /* Obiges Beispiel mit CSS Nesting */
 .home {
-    .container {
-        grid-template-rows: 300px 50px 300px auto 150px;
+    header {
+        height: 400px;
     }
     /* weitere Deklarationen für die Startseite... */
 }
 ```
 
-Mehr zu CSS Nesting findest du unter [Optionale Themen > Neueren Features](../../tag-3/optionale-themen/neuere-features.md#css-nesting).
+Mehr zu CSS Nesting findest du unter [Optionale Themen > Neuere Features](../../tag-3/optionale-themen/neuere-features.md#css-nesting).
 
 ## Kind-Selektor (direkte Nachfahren)
 
@@ -142,7 +142,7 @@ Als Kind werden alle Elemente _direkt unterhalb_ eines anderen Elements bezeichn
 Wählt ein Element aus, welches unmittelbar auf ein anderes Element auf der gleichen Ebene folgt.
 
 ```
-h1 + p { /* Formatiert nur das nav-Element direkt nach h1 */
+h1 + p { /* Formatiert nur das p-Element direkt nach h1 */
   font-weight: bold;
 }
 ```
@@ -156,7 +156,7 @@ Um Elemente auszuwählen, welche mehrere Selektoren gleichzeitig erfüllen, kett
 a.nav-link {
   text-decoration: none;
 }
-/* Gilt nur für Elemente mit Klassen "subnav-link" UND "active" in einem Element */
+/* Gilt nur für Elemente mit Klassen "nav-link" UND "active" in einem Element */
 .nav-link.active {
   color: red;
 }
@@ -166,8 +166,8 @@ a.nav-link {
 
 Auf deiner Seite "Über mich":
 
-* Gebe allen Links in der Tabelle eine andere Farbe ([Nachfahren-Selektor](./#nachfahren-selektor))
-* Gebe allen Links im Footer eine andere Farbe
+* Gib allen Links in der Tabelle eine andere Farbe ([Nachfahren-Selektor](./#nachfahren-selektor))
+* Gib allen Links im Footer eine andere Farbe
 * Schau, wo du aktuell doppelte Style-Definitionen hast und fasse sie zusammen ([Mehrere Elemente auswählen](./#mehrere-elemente-auswahlen))
 * Was bewirkt folgende Definition? \
   `h2 + p { font-weight: bold; }`

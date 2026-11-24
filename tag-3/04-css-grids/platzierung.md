@@ -41,7 +41,7 @@ Mit `grid-template-areas` können bestimmten Bereichen im Grid spezifische Namen
 
 In unserem Beispiel gibt es vier Areas: `header`, `social`, `content` und `sidebar`. Die Namen dieser Areas kannst du frei wählen, sie sollten aus Kleinbuchstaben bestehen.
 
-Das Grid wird mit `grid-template-areas` aufgeteilt. Für jede Zeile muss eine Definition erstellt werden. Jede Spalte muss einen Namen erhalten. Spalten und Zeilen mit gleichem Namen gelten als `Area`.
+Das Grid wird mit `grid-template-areas` aufgeteilt. Für jede Zeile muss eine Definition erstellt werden. Jede Zelle muss einen Namen (oder `.` für leer) erhalten. Alle Zellen mit demselben Namen müssen ein zusammenhängendes Rechteck bilden; andernfalls ist die gesamte `grid-template-areas`-Deklaration ungültig.
 
 ```css
 .container {
@@ -85,7 +85,7 @@ Siehe [https://codepen.io/anon/pen/ooZVoG](https://codepen.io/anon/pen/ooZVoG).
 
 ## Grid-Linien (Grid Line Placement)
 
-Für einheitliche Anordnung von Seiteninhalten wird oft ein Raster hinterlegt, an welchem sich alle Items ausrichten. Häufig wird ein 12er-Raster verwendet, weil dieser leicht durch 2, 3 und 4 teilbar ist (für 2-, 3- und 4-spaltige Layouts).&#x20;
+Für einheitliche Anordnung von Seiteninhalten wird oft ein Raster hinterlegt, an welchem sich alle Items ausrichten. Häufig wird ein 12er-Raster verwendet, weil dieses leicht durch 2, 3 und 4 teilbar ist (für 2-, 3- und 4-spaltige Layouts).&#x20;
 
 <figure><img src="../../.gitbook/assets/guardian-grid.png" alt=""><figcaption></figcaption></figure>
 
@@ -138,7 +138,7 @@ Ein Grid kann auch eine dynamische Anzahl von Elementen enthalten. Dann werden n
 }
 ```
 
-Für die dynamischen Anzahl Zeilen können optional Eigenschaften gesetzt werden:&#x20;
+Für die dynamische Anzahl Zeilen können optional Eigenschaften gesetzt werden:&#x20;
 
 ```css
 .container {
@@ -166,9 +166,9 @@ Es kann z.B. das Grundlayout mit Named Grid Areas erstellt sein, im Content (`<m
 ## Welche Variante soll ich nutzen? Vor- und Nachteile?
 
 **Feste Layout-Bereiche?** \
-**⇒ Benannten Grid Areas (Named Grid Areas)**
+**⇒ Benannte Grid Areas (Named Grid Areas)**
 
-Die Zeilennummern von Grid-Linien können sich je nach Bildschirmbreite (Breakpoint) ändern. Dann kann man sich nicht einfach auf die Zeilennummern verlassen oder muss sie im Kopf umrechnen.&#x20;
+Die Liniennummern von Grid-Linien können sich je nach Bildschirmbreite (Breakpoint) ändern. Dann kann man sich nicht einfach auf die Liniennummern verlassen oder muss sie im Kopf umrechnen.&#x20;
 
 Der Ansatz der benannten Grid Areas ist da robuster und leichter lesbar. Wir können das Layout für jeden Breakpoint (Bildschirmbreite) mithilfe von `grid-template-areas` innerhalb des Grid-Containers neu definieren und die Zuordnung ist immer noch klar.
 
