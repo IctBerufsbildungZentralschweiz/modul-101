@@ -41,7 +41,7 @@ Mit `grid-template-areas` können bestimmten Bereichen im Grid spezifische Namen
 
 In unserem Beispiel gibt es vier Areas: `header`, `social`, `content` und `sidebar`. Die Namen dieser Areas kannst du frei wählen, sie sollten aus Kleinbuchstaben bestehen.
 
-Das Grid wird mit `grid-template-areas` aufgeteilt. Für jede Zeile muss eine Definition erstellt werden. Jede Zelle muss einen Namen (oder `.` für leer) erhalten. Benachbarte Zellen mit gleichem Namen bilden eine `Area`.
+Das Grid wird mit `grid-template-areas` aufgeteilt. Für jede Zeile muss eine Definition erstellt werden. Jede Zelle muss einen Namen (oder `.` für leer) erhalten. Alle Zellen mit demselben Namen müssen ein zusammenhängendes Rechteck bilden; andernfalls ist die gesamte `grid-template-areas`-Deklaration ungültig.
 
 ```css
 .container {
