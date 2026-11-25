@@ -6,7 +6,12 @@
 
 **Strukturiere die Webseite "über mich" mit semantischen Elementen**
 
-1.  Packe alle Elemente im `<body>` in sinnvolle semantische Strukturelemente:
+Packe alle Elemente im `<body>` in sinnvolle semantische Strukturelemente. Entscheide, welche Elemente sinnvoll in&#x20;
 
-    Entscheide, welche Elemente sinnvoll in den `<header>`-Block, den `<footer>`, in `<main>` mit passenden `<article>`-Elementen oder in einen `<aside>`-Block (optional) passen könnten.
-2. Kopiere den Code in den [HTML-Validator](https://validator.w3.org/#validate_by_input) und korrigiere allfällige Fehler.
+* den `<header>`-Block,&#x20;
+* den `<footer>`,&#x20;
+* in `<main>`&#x20;
+* mit passenden `<article>`-Elementen oder&#x20;
+* in einen `<aside>`-Block (optional)&#x20;
+
+passen könnten.
