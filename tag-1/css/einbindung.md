@@ -2,16 +2,16 @@
 
 ## Wo kann CSS definiert werden?
 
-CSS-Regeln können an 3 Orten geschrieben werden:&#x20;
+CSS-Regeln können an 3 Orten geschrieben werden:
 
-**Extern in CSS-Datei(en)** mittels `<link>`-Element **(empfohlen)**: \
+**Extern in CSS-Datei(en)** mittels `<link>`-Element **(empfohlen)**:\
 CSS in einer eigenen Datei wird im HTML-Dokument im `<head>` verlinkt. Dies bringt eine saubere Trennung von HTML & CSS und CSS kann von mehreren HTML-Dateien gemeinsam genutzt werden.
 
 ```html
 <link href="css/styles.css" rel="stylesheet">
 ```
 
-**Intern** im HTML-Dokument mittels `<style>`-Abschnitt im `<head>` (nicht empfohlen): \
+**Intern** im HTML-Dokument mittels `<style>`-Abschnitt im `<head>` (nicht empfohlen):\
 Styles, welche nur auf dieser Seite verfügbar sind.
 
 ```html
@@ -20,19 +20,19 @@ Styles, welche nur auf dieser Seite verfügbar sind.
 </style>
 ```
 
-**Inline** als `style` Attribut im HTML-Tag (nicht empfohlen):&#x20;
+**Inline** als `style` Attribut im HTML-Tag (nicht empfohlen):
 
 ```html
  <p style="font-weight: bold;">
 ```
 
-**Wichtig:** Inline-Styling sollte vermieden werden! Zweck von CSS ist es, Inhalt (HTML) und Styling (CSS) auseinanderzuhalten und Styles möglichst über die ganze Website einheitlich zu halten.&#x20;
+**Wichtig:** Inline-Styling sollte vermieden werden! Zweck von CSS ist es, Inhalt (HTML) und Styling (CSS) auseinanderzuhalten und Styles möglichst über die ganze Website einheitlich zu halten.
 
 ## CSS-Datei einbinden
 
 ### **🛠️ Praxis**
 
-Erstelle eine neue CSS-Datei `styles.css`  in deinem Projekt-Verzeichnis, kopiere als Start schon mal folgenden Inhalt rein und verknüpfe sie in deiner `about-me.html` Datei:&#x20;
+Erstelle eine neue CSS-Datei `styles.css` in deinem Projekt-Verzeichnis, kopiere als Start schon mal folgenden Inhalt rein:
 
 ```css
 body {
@@ -45,13 +45,15 @@ header, main, footer {
 }
 ```
 
-Nun haben wir zwar diese beiden Dateien, diese wissen jedoch noch nichts voneinander. Dies können wir ändern, indem wir das CSS mit dem HTML-Dokument verknüpfen.
+Damit das HTML-Dokument das Stylesheet findet, müssen wir es noch verlinken. wir die CSS-Datei mit dem HTML-Dokument verlinken.&#x20;
 
 Öffne die Datei `about-me.html` und füge die folgende Zeile irgendwo in den `<head>`-Bereich ein:
 
 ```markup
 <link href="styles.css" rel="stylesheet">
 ```
+
+#### Erklärung
 
 **`<link>`** - Mit dem `<link>` kann das HTML-Dokument mit anderen Dokumenten verlinkt werden - es entsteht eine Beziehung (Link) zum angegebenen Dokument.
 
@@ -65,7 +67,7 @@ Betrachte anschliessend die Datei `about-me.html` im Browser - Hintergrund und S
 
 ## 🛠️ Aufgabe
 
-Erstelle zur Seite "Über mich" eine neue Datei "styles.css", binde sie in dein HTML-Dokument ein und schreibe in CSS 2-3 Formatierungen deiner Wahl. Z.B. Hintergrundfarbe, Schriftfarbe, Grösse, Font etc. für Überschriften oder Text.&#x20;
+Schreibe in der Datei `styles.css` 2 - 3 Formatierungen deiner Wahl. Z.B. Hintergrundfarbe, Schriftfarbe, Grösse, Font etc. für Überschriften oder Text.&#x20;
 
-Werden deine neuen Stile auf die HTML-Seite angewandt? \
-Falls nicht, wie kannst du die Fehler finden? Schau im Browser in den Entwicklungswerkzeugen nach.&#x20;
+Werden deine neuen Stile auf die HTML-Seite angewandt?\
+Falls nicht, wie kannst du die Fehler finden? Schau im Browser in den Entwicklungswerkzeugen nach.

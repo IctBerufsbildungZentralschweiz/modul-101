@@ -16,22 +16,26 @@ Selektoren-Arten:
 
 Auch Tag- oder Typ-Selektor genannt. Alle HTML-Elemente eines bestimmten Typs werden ausgewählt.
 
+```html
+<p>Wird ausgewählt</p>
+<p>Wird auch ausgewählt</p>
+<div>Wird nicht ausgewählt</div>
+```
+
 ```css
 p {
     color: red;
 }
 ```
 
-```html
-<p>Wird ausgewählt</p>
-<p>Wird auch ausgewählt</p>
-
-<div>Wird nicht ausgewählt</div>
-```
-
 ### ID-Selektor
 
-Elemente mit der entsprechenden ID werden ausgewählt. Eine ID kann immer nur einem einzigen Element innerhalb eines Dokuments zugeordnet werden.
+Elemente mit der entsprechenden ID werden ausgewählt. Eine ID darf immer nur einem einzigen Element innerhalb eines Dokuments zugeordnet werden.
+
+```html
+<p id="important">Wird ausgewählt</p>
+<p>Wird nicht ausgewählt</p>
+```
 
 ```css
 #important {
@@ -39,27 +43,20 @@ Elemente mit der entsprechenden ID werden ausgewählt. Eine ID kann immer nur ei
 }
 ```
 
-```html
-<p id="important">Wird ausgewählt</p>
-
-<p>Wird nicht ausgewählt</p>
-```
-
 ### Klassen-Selektor
 
 Elemente mit der entsprechenden Klasse werden ausgewählt. Klassen können mehreren Elementen innerhalb eines Dokuments zugeordnet werden.
+
+```html
+<p class="important-text">Wird ausgewählt</p>
+<p class="important-text">Wird auch ausgewählt</p>
+<p>Wird nicht ausgewählt</p>
+```
 
 ```css
 .important-text {
     color: red;
 }
-```
-
-```html
-<p class="important-text">Wird ausgewählt</p>
-<p class="important-text">Wird auch ausgewählt</p>
-
-<p>Wird nicht ausgewählt</p>
 ```
 
 ### Namensgebung
