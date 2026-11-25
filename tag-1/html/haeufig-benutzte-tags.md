@@ -134,4 +134,4 @@ Gehe auf [Codepen.io](https://codepen.io/pen/) und probiere folgende Tags aus:
 - Neue Zeile in HTML (ohne <br>)
 ```
 
-**Tipp zum \<img>:** Als src="..." kannst du testhalber einen Bildpfad aus einer beliebigen Website verwenden. Den findest du im Browser mit Rechts-Klick auf ein Bild > Bildadresse kopieren.
+**Tipp zum \<img>:** Als src="..." kannst du testhalber einen Bildpfad aus einer beliebigen Website verwenden. Den findest du im Browser mit Rechts-Klick auf ein Bild > **Bildadresse kopieren**.

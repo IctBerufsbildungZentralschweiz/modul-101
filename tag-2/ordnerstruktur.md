@@ -102,8 +102,10 @@ Falls lokale Links (zu Bildern, CSS etc.) nicht relativ, sondern absolut eingef�
 <img src="images/zebras.jpg" alt="Zebras">
 ```
 
-## 🛠️ Aufgabe
+## 🛠️ Aufgabe Ordnerstruktur
 
-Erstelle in der aktuellen Aufgabe die Ordner /css, /fonts und /images, ev. weitere, und verschiebe CSS, Fonts und Bilder in diese Ordner. Passe dann die Pfade in der HTML-Datei an und teste.&#x20;
+1. Erstelle in der aktuellen Aufgabe die Ordner `/css`, `/fonts` und `/images` und verschiebe CSS, Fonts und Bilder in diese Ordner.&#x20;
+2. Passe dann die Pfade in der HTML- und CSS-Datei an.
+3. Teste, ob alle Formatierungen, Bilder und Fonts noch richtig angezeigt werden.&#x20;
 
 **Tipp:** Falls die Fonts nicht mehr gefunden werden, muss du zuerst aus dem CSS-Ordner raus und in den Font-Ordner rein: `../fonts/dein-font.otf` - Warum?&#x20;
