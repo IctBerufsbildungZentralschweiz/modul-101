@@ -11,7 +11,7 @@ Packe alle Elemente im `<body>` in sinnvolle semantische Strukturelemente. Entsc
 * den `<header>`-Block,&#x20;
 * den `<footer>`,&#x20;
 * in `<main>`&#x20;
-* mit passenden `<article>`-Elementen oder&#x20;
+* mit passenden `<section>` und `<article>`-Elementen oder&#x20;
 * in einen `<aside>`-Block (optional)&#x20;
 
 passen könnten.
