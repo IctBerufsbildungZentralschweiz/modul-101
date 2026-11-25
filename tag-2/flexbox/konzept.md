@@ -1,27 +1,51 @@
 # Konzept der Flexbox
 
-Das Flexbox-Layout-Modul (flexible Boxen) zielt darauf ab das Layouten, Ausrichten und Ausnutzen des Platzes innerhalb einzelner Elemente in einem Container zu vereinfachen. Dies vor allem unter der Voraussetzung, dass die Grösse der Elemente unbekannt und/oder dynamisch ist (darum das Wort "flex").
+## Wozu braucht man die "CSS Flexbox"?
 
-Die Grundidee hinter dem flexiblen Layout ist es dem Container die Möglichkeit zu geben, seinen Inhalt zu steuern (Höhe, Breite, Reihenfolge), dass der verfügbare Platz möglichst gut ausgenutzt werden kann (meistens in Anbetracht der verschiedenen Anzeigegeräte und der damit verbundenen Unterschieden der Anzeigegrössen). Der Flex-Container kann somit Elemente vergrössern, verkleinern und umsortieren, um den vorhandenen Platz möglichst optimal auszunutzen.
+Wenn eine unbekannte Anzahl von Elementen angeordnet und ausgerichtet werden sollen, kann die Flexbox sehr nützlich sein.&#x20;
 
-Das Wichtigste: Ein Flexbox-Layout ist richtungsunabhängig, ganz im Gegensatz zu regulären Layouts (`block` ist vertikal; `inline` ist horizontal). Die reguläre Methode funktioniert zwar gut bei simplen Anordnungen von Elementen, stösst jedoch bei komplexeren Konstrukten an ihre Grenzen (vor allem wenn es zu Änderungen kommt: Richtungsänderungen, Grössenänderungen etc.).
+**Beispiel: Navigation**
+
+Menü-Optionen werden gleichmässig verteilt:
+
+<figure><img src="../../.gitbook/assets/grafik (5).png" alt=""><figcaption></figcaption></figure>
+
+**Beispiel: Cards mit Newsartikeln**
+
+Mehrere ganze Elemente mit Bild und Text werden angeordnet:
+
+<div align="left"><figure><img src="../../.gitbook/assets/grafik (7).png" alt=""><figcaption></figcaption></figure></div>
+
+**Beispiel: Bildergalerie**
+
+Elemente werden mehrzeilig oder mehrspaltig dynamisch angeordnet:
+
+<div align="left"><figure><img src="../../.gitbook/assets/grafik (6).png" alt=""><figcaption></figcaption></figure></div>
+
+\> [Mehr Beispiele](https://www.quackit.com/css/flexbox/examples/flexbox_photo_gallery_examples.cfm)
+
+## Das Konzept
+
+Das Flexbox-Layout-Modul (flexible Boxen) vereinfacht das Layouten, Ausrichten und Ausnutzen des Platzes von Elementen innerhalb eines Containers. Dies vor allem unter der Voraussetzung, dass die Grösse der Elemente unbekannt und/oder dynamisch ist (darum das Wort "flex").
+
+Die Grundidee hinter dem flexiblen Layout ist es, dem Container die Möglichkeit zu geben, seinen Inhalt zu steuern (Höhe, Breite, Reihenfolge), sodass der verfügbare Platz möglichst gut ausgenutzt werden kann (meistens in Anbetracht der verschiedenen Anzeigegeräte und Anzeigegrössen). Der Flex-Container kann somit Elemente vergrössern, verkleinern und umsortieren, um den vorhandenen Platz optimal auszunutzen.
 
 {% hint style="warning" %}
-**Achtung:** Flexbox-Layouts wurden nicht dafür konzipiert ganze Layouts zu gestalten, sondern nur für einzelne Komponenten auf einer Website. Für die Seitenlayouts wurde das CSS-Grid-Modul vorgesehen (dazu später mehr).
+**Achtung:** Flexbox-Layouts wurden nicht dafür konzipiert ganze Layouts zu gestalten, sondern nur für einzelne Komponenten auf einer Website. Für die Seitenlayouts wurde das CSS-Grid-Modul vorgesehen. Dazu später mehr.
 {% endhint %}
 
 ***
 
 ## Grundlagen und Begriffe
 
-Flexbox ist nicht einfach eine einzelne CSS-Regel, sondern ein ganzes Modul. Das Modul beinhaltet somit nicht nur eine Eigenschaft, sondern ein ganzes Set aus zusammengehörigen CSS-Regeln. Manche Regeln sind dafür da, den Flex-Container zu konfigurieren (das Elternelement, wird als "flex container" bezeichnet), andere wiederum sind für die im Container enthaltenen Kindelemente (genannt "flex-items").
+Flexbox ist nicht einfach eine einzelne CSS-Regel, sondern ein ganzes Modul. Das Modul beinhaltet ein ganzes Set aus zusammengehörigen CSS-Regeln. Manche Regeln sind dafür da, den "Flex-Container" zu konfigurieren (das Elternelement), andere wiederum sind für die enthaltenen "Flex-Items" (die Kindelemente).
 
 ![Flex Container](../../.gitbook/assets/flex-container.svg)
 
 ![Flex Items](../../.gitbook/assets/flex-items.svg)
 
-Während "normale" Layouts auf den Anordnungsrichtungen `block` (vertikal) und `inline` (horizontal) basieren, basiert das Flex-Layout auf den Flex-Richtungen (engl. flex-flow-directions). Die folgende Grafik zeigt die wichtigsten Begriffe des Flex-Layouts:
+Während "normale" Layouts auf den Anordnungsrichtungen `display: block` (vertikal) und `display: inline` (horizontal) basieren, basiert das Flex-Layout auf den Flex-Richtungen (`flex-direction`). Die Elemente können sowohl horizontal als auch vertikal angeordnet werden:&#x20;
 
-![Flex Box](../../.gitbook/assets/flexbox.png)
+<div align="left"><figure><img src="../../.gitbook/assets/grafik (8).png" alt=""><figcaption></figcaption></figure></div>
 
-Grundsätzlich werden die Flex-Items entweder entlang der `main axis` (vom `main-start` zum `main-end`) oder entlang der `cross axis` (vom `cross-start` zum `cross-end`) gegliedert.
+Das Flexbox-Layout ersetzt oft das ältere System, Elemente mit `display: block` und `display: inline` anzuordnen, weil es viel flexibler und mächtiger ist.&#x20;

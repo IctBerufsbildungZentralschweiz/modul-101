@@ -28,21 +28,6 @@ p {
 }
 ```
 
-### ID-Selektor
-
-Elemente mit der entsprechenden ID werden ausgewählt. Eine ID darf immer nur einem einzigen Element innerhalb eines Dokuments zugeordnet werden.
-
-```html
-<p id="important">Wird ausgewählt</p>
-<p>Wird nicht ausgewählt</p>
-```
-
-```css
-#important {
-    color: red;
-}
-```
-
 ### Klassen-Selektor
 
 Elemente mit der entsprechenden Klasse werden ausgewählt. Klassen können mehreren Elementen innerhalb eines Dokuments zugeordnet werden.
@@ -55,6 +40,21 @@ Elemente mit der entsprechenden Klasse werden ausgewählt. Klassen können mehre
 
 ```css
 .important-text {
+    color: red;
+}
+```
+
+### ID-Selektor
+
+Elemente mit der entsprechenden ID werden ausgewählt. Eine ID darf immer nur einem einzigen Element innerhalb eines Dokuments zugeordnet werden.
+
+```html
+<p id="important">Wird ausgewählt</p>
+<p>Wird nicht ausgewählt</p>
+```
+
+```css
+#important {
     color: red;
 }
 ```
@@ -97,6 +97,15 @@ Vor allem bei Links (`<a>`) sind die Pseudoklassen wichtig, um den Website-Besuc
 
 #### Beispiele zu Pseudoklassen
 
+```html
+<p>
+  <a href="css.html">Wird rot wenn der Mauszeiger darüber fährt.</a>
+  <a href="shop.html">Ist fett</a>
+  <a href="shop.html">Ist nicht fett</a>
+</p>
+<a href="shop.html"><img src="logo.jpg" alt="Logo"><br>Mit Schatten</a>
+```
+
 <pre class="language-css"><code class="lang-css"><strong>a {
 </strong>    color: blue;
 }
@@ -111,26 +120,17 @@ a:has(img) {
 }
 </code></pre>
 
-```html
-<p>
-  <a href="css.html">Wird rot wenn der Mauszeiger darüber fährt.</a>
-  <a href="shop.html">Ist fett</a>
-  <a href="shop.html">Ist nicht fett</a>
-</p>
-<a href="shop.html"><img src="logo.jpg" alt="Logo"><br>Mit Schatten</a>
-```
-
 ### Attribut-Selektor
 
 Elemente mit entsprechendem Attribut werden ausgewählt.
+
+```html
+<a href="kontakt.html" target="_blank">Wird ausgewählt</a>
+<a href="kontakt.html">Wird nicht ausgewählt</a>
+```
 
 ```css
 a[target="_blank"] {
     color: red;
 }
-```
-
-```html
-<a href="kontakt.html" target="_blank">Wird ausgewählt</a>
-<a href="kontakt.html">Wird nicht ausgewählt</a>
 ```

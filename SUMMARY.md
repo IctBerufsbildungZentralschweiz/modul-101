@@ -30,7 +30,7 @@
     * [Schriftarten](tag-2/gestaltung-mit-css/02-schriftarten.md)
     * [Einheiten](tag-2/gestaltung-mit-css/03-einheiten.md)
   * [Ordnerstruktur](tag-2/ordnerstruktur.md)
-  * [CSS Flexbox](tag-2/flexbox/README.md)
+  * [CSS Flexbox: Elemente anordnen](tag-2/flexbox/README.md)
     * [Konzept der Flexbox](tag-2/flexbox/konzept.md)
     * [Der Flex-Container](tag-2/flexbox/flex-container.md)
     * [Die Flex-Items](tag-2/flexbox/flex-items.md)

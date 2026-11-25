@@ -49,7 +49,7 @@ Wenn ein Link auf eine externe Website oder ein PDF verweist, sollte diese in ei
 
 Das `<img>`-Tag bettet ein Bild an der Stelle der Seite ein, wo es in der HTML-Struktur eingegliedert ist. Es tut dies mit dem `src` ('src' steht für 'source') Attribut, welches den Pfad zum gewünschten Bild beinhaltet.
 
-```markup
+```html
 <img src="images/mein-logo.png" alt="Mein Firmenlogo" height="100">
 ```
 
