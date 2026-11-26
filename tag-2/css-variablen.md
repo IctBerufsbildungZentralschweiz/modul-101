@@ -4,7 +4,7 @@ Seit 2020 wird ein neues Feature von fast allen Browsern unterstützt, welches b
 
 ## Einheitliche Gestaltung von Elementen
 
-In einem [Styleguide](../tag-4/konzeptionierung.md#styleguide) werden für eine Website üblicherweise 2-3 einheitliche Fonts und ein Farbkonzept mit 4-8 einheitlichen Farben definiert. Diese werden in der Website für verschiedene Elemente genutzt, z.B. Überschriften, Navigation, Buttons, Links etc. Um das Layout einheitlich und leicht anpassbar zu halten, sollten für solche Definitionen Variablen genutzt werden:&#x20;
+In einem [Styleguide](../tag-4/konzeptionierung.md#styleguide) werden für eine Website üblicherweise 2-3 einheitliche Fonts und ein Farbkonzept mit 4-8 einheitlichen Farben definiert. Diese werden in der Website für verschiedene Elemente genutzt, z.B. Überschriften, Navigation, Buttons, Links etc. Um das Layout einheitlich und leicht anpassbar zu halten, sollten für solche Definitionen Variablen genutzt werden:
 
 **Früher (mühsam zu ändern):**
 
@@ -38,9 +38,9 @@ a:hover {
 }
 ```
 
-&#x20;**Mit CSS-Variablen:**
+**Mit CSS-Variablen:**
 
-```
+```css
 /* Wenn eine Farbe oder ein Font verändert werden soll,  *
  * kann dies hier einmal zentral gemacht werden:         */
 :root {
@@ -79,7 +79,7 @@ a:hover {
 
 ## 🛠️ Aufgabe
 
-Überarbeite dein bisheriges Stylesheet (CSS):&#x20;
+Überarbeite dein bisheriges Stylesheet (CSS):
 
 1. Welche Werte nutzt du mehrmals oder später noch für andere Elemente? Typischerweise sind dies Farben und Schriftarten, aber auch Schriftgrössen, Standard-Abstände oder Border-Radius für abgerundete Elemente.
 2. Definiere dafür CSS-Variablen und nutze sie in den CSS-Deklarationen.

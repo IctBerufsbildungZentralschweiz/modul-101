@@ -2,7 +2,7 @@
 
 ## Farbmodelle
 
-Auf Bildschirmen und Beamer werden die Farben _additiv_ aus den drei Grundfarben **R**ot, **G**rün und **B**lau zusammengemischt.&#x20;
+Auf Bildschirmen und Beamer werden die Farben _additiv_ aus den drei Grundfarben **R**ot, **G**rün und **B**lau zusammengemischt.
 
 In CSS können Farben mit **Farbnamen** oder mit verschiedenen **Farbmodellen** definiert werden.
 
@@ -19,7 +19,7 @@ In CSS können Farben mit **Farbnamen** oder mit verschiedenen **Farbmodellen** 
 
 ### RGB-Farbwerte
 
-Es gibt viele [verschiedene Farbmodelle](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value), die in CSS genutzt werden können. Die häufigsten sind Angaben auf RGB-Basis:&#x20;
+Es gibt viele [verschiedene Farbmodelle](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value), die in CSS genutzt werden können. Die häufigsten sind Angaben auf RGB-Basis:
 
 <figure><img src="../../.gitbook/assets/rgb-farbmodell.png" alt=""><figcaption><p>RGB Farbmodell mit Farbwerten</p></figcaption></figure>
 
@@ -31,7 +31,7 @@ color: rgb(254, 233, 93);
 color: #fee95d;
 ```
 
-Wenn die beiden Hexadezimal-Ziffern je Farbe übereinstimmen, können sie abgekürzt werden:&#x20;
+Wenn die beiden Hexadezimal-Ziffern je Farbe übereinstimmen, können sie abgekürzt werden:
 
 ```css
 color: #fff; /* = #ffffff */
@@ -39,7 +39,7 @@ color: #d20; /* = #dd2200 */
 color: #000; /* = #000000 */
 ```
 
-**Transparenz:** Beide können zusätzlich eine 4. Zahl für Transparenz enthalten:&#x20;
+**Transparenz:** Beide können zusätzlich eine 4. Zahl für Transparenz enthalten:
 
 ```css
 /* RGB (Red, Green, Blue) mit 50% Transparenz: */
@@ -58,11 +58,11 @@ color: #fee95d88;
 
 ## Farbwähler im Browser und in Visual Studio Code
 
-Im Browser kannst du über Rechts-Klick > Untersuchen oder mit \[F12] in die DevTools wechseln und dort die Farbe eines Elements in CSS finden und verändern. Auch Transparenz ist möglich. Unterhalb des Farbwertes kannst du das Farbmodell wechseln (HEX, RGB, etc.):&#x20;
+Im Browser kannst du über Rechts-Klick > Untersuchen oder mit \[F12] in die DevTools wechseln und dort die Farbe eines Elements in CSS finden und verändern. Auch Transparenz ist möglich. Unterhalb des Farbwertes kannst du das Farbmodell wechseln (HEX, RGB, etc.):
 
 <figure><img src="../../.gitbook/assets/Browser-Color-Tool.png" alt=""><figcaption><p>DevTools Farbwähler</p></figcaption></figure>
 
-In Visual Studio Code gibt es beim Bearbeiten von CSS ein ähnliches Tool. Auch hier kannst du das Farbmodell ändern durch Klick auf den Farbwert oben:&#x20;
+In Visual Studio Code gibt es beim Bearbeiten von CSS ein ähnliches Tool. Auch hier kannst du das Farbmodell ändern durch Klick auf den Farbwert oben:
 
 <div align="left"><figure><img src="../../.gitbook/assets/VSC-Color-Tool.png" alt=""><figcaption><p>Farbwähler in Visual Studio Code</p></figcaption></figure></div>
 
@@ -77,13 +77,13 @@ In Visual Studio Code gibt es beim Bearbeiten von CSS ein ähnliches Tool. Auch 
 
 ## 🛠️ Aufgaben
 
-Nutze die letzte Aufgabe für folgende Experimente:&#x20;
+Nutze die letzte Aufgabe für folgende Experimente:
 
 1. Untersuche **im Browser** ein Element mit Hintergrundfarbe, wähle eine andere Farbe mit dem Farbmischer und kopiere den neuen Wert in dein CSS. Probiere die rgb(...)- und die #xxxxxx-Variante aus.
 2. Mische eine Hintergrundfarbe für das ganze Dokument (`<body>`-Element) mittels der rgb()-Funktion.
-3. Ändere die Transparenz einmal mittels rgb()-Funktion und danach mittels #hex-wert, und schau, welche anderen Farbmodelle ev. noch Transparenz erlauben.&#x20;
-4. Untersuche direkt in den DevTools das Farbmodell [LAB](01-farben.md#andere-farbmodelle).
+3. Ändere die Transparenz einmal mittels rgb()-Funktion und danach mittels #hex-wert, und schau, welche anderen Farbmodelle ev. noch Transparenz erlauben.
 
 **Zusatzaufgabe:**
 
+* Untersuche direkt in den DevTools noch andere Farbmodelle, z.B. das Farbmodell [LAB](01-farben.md#andere-farbmodelle).
 * Stelle mit einem Farbwähler eine Farbkombination von 5 Farben zusammen und wende sie sinnvoll auf deine Seite "Über mich" an. Du kannst dafür CSS-Variablen nutzen, wenn du willst.

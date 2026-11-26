@@ -11,16 +11,9 @@ In CSS werden verschiedene Einheiten verwendet, um Grössenangaben für Abständ
 * Beispiel: `.slider-image { height: 200px; }`\
   Alle Bilder eines Sliders sollen genau 200px hoch angezeigt werden.
 
-**Prozent (`%`)**
-
-* Relativ zur Grösse des übergeordneten Elements.
-* Ermöglicht eine flexible und reaktionsschnelle Gestaltung, da sich die Grösse an die des übergeordneten Elements anpasst.
-* Beispiel: `.map-container { width: 50%; }`\
-  Einen Kartenausschnitt auf die halbe Breite des umgebenden Containers skalieren.
-
 **Relative Einheiten (`rem` und `em`)**
 
-Die CSS-Einheit **em** stammt aus dem traditionellen Buchdruck und der Typografie und steht dort für die Breite des Großbuchstabens **M** (englisch _equal to m_)
+Die CSS-Einheit **em** stammt aus dem Buchdruck und der Typografie und steht dort für die Breite des Großbuchstabens **M** (englisch _equal to m_).
 
 * "rem" ist relativ zur Schriftgrösse des Root-Elements (\<html>).\
   Das Root-Element hat meist die Schriftgrösse 1rem = 16px.
@@ -29,6 +22,13 @@ Die CSS-Einheit **em** stammt aus dem traditionellen Buchdruck und der Typografi
 * **Anwendungsbereich:** Wird vor allem eingesetzt für skalierbare Schriftgrössen, Masse und Abstände für barrierefreie Websites. Wird die Standard-Schriftgrösse des Browsers verändert, dann werden rem-Einheiten proportional dazu skaliert.
 * **Beispiel:** `h1 { font-size: 2.5rem; }`\
   Überschrift 1 wird 2.5 mal so gross wie Standard-Text angezeigt, also 2.5x16px = 40px
+
+**Prozent (`%`)**
+
+* Relativ zur Grösse des übergeordneten Elements.
+* Ermöglicht eine flexible und reaktionsschnelle Gestaltung, da sich die Grösse an die des übergeordneten Elements anpasst.
+* Beispiel: `.map-container { width: 50%; }`\
+  Einen Kartenausschnitt auf die halbe Breite des umgebenden Containers skalieren.
 
 **Viewport Height (`vh`) und Viewport Width (`vw`)**
 
