@@ -1,5 +1,15 @@
 # CSS-Selektoren kombinieren
 
+Selektoren können miteinander kombiniert werden, um noch genauer die gewünschten HTML-Elements anzusteuern. Es gibt verschiedene Arten von Kombinationen:&#x20;
+
+* [Mehrere Elemente auswählen](./#mehrere-elemente-auswahlen) (Selektor-Liste)
+* [Nachfahr-Selektor](./#nachfahren-selektor)
+  * [CSS-Nesting](./#css-nesting)
+* [Kind-Selektor](./#kind-selektor-direkte-nachfahren)
+* [Next-Sibling-Kombinator](./#next-sibling-kombinator)
+* [Mehrfach-Selektor](./#mehrfach-selektoren)
+  * [Pseudoklassen-Selektor](../../tag-1/css/selektoren.md#pseudoklassen-selektor) (siehe Selektoren von Tag 1)
+
 Abhängig davon, in welchen übergeordneten Elementen und Containern etwas verschachtelt ist, können wir das Aussehen steuern. Für alle Beispiele nehmen wir folgenden HTML-Code an:
 
 ```html
@@ -89,7 +99,7 @@ Oft hat z.B. die Startseite ein anderes Layout als die restlichen Seiten. Damit 
 ```css
 /* Basis-Layout für alle Seiten */
 header {
-    background-color: darkblue;
+    background-color: orange;
     height: 200px;
 }
 /* Für die Startseite einige Styles überschreiben */
@@ -133,7 +143,7 @@ Als Kind werden alle Elemente _direkt unterhalb_ eines anderen Elements bezeichn
 
 ```css
 .navi > a {/* Formatiert nur "Home" und "Services", aber nicht "Reparaturen" */
-  color: red;
+  color: green;
 }
 ```
 

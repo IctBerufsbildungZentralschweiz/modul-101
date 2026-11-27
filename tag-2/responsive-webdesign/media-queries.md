@@ -21,14 +21,14 @@ Um einzelne Medien-Typen zu filtern, kann `all`, `screen`, `print` oder `speech`
 body {
     background: red;
 }
-
-/**
- * Beim Ausdrucken der Website soll der Seitenhintergrund
- * nicht rot sein.
- */
+/* Beim Ausdrucken soll der Hintergrund nicht rot sein 
+   und die Navigation ausgeblendet werden. */
 @media print {
     body {
         background: none;
+    }
+    nav {
+        display: none;
     }
 }
 ```
@@ -75,7 +75,7 @@ Die mit Abstand am meisten verwendeten Features sind `min-width` und `max-width`
 
 Wie schon bei `@media screen and (min-width: 1200px)` kann ich auch mehrere Bedingungen verknüpfen, z.B. um nur bestimmte Fensterbreiten anzusprechen:
 
-```
+```css
 @media screen and (min-width: 800px) and (max-width: 1199px) {
     /** 
      * Diese Styles werden garantiert nur bei der Anzeige
@@ -86,14 +86,16 @@ Wie schon bei `@media screen and (min-width: 1200px)` kann ich auch mehrere Bedi
 
 ### Fensterbreite: Media Query Range Syntax
 
-Seit 2023 können auch Vergleichs-Operatoren genutzt werden, sog. media query range features:
+Seit kurzem können auch Vergleichs-Operatoren genutzt werden, die sog. Media Query Range Syntax. Dies vereinfacht einiges.&#x20;
+
+**Vorsicht:** Dieses Feature ist sehr neu und wird auf Mobiles erst seit November 2026 unterstützt. Siehe [caniuse.com](https://caniuse.com/?search=Media+Query+Range+Syntax).
 
 ```css
 /* statt (max-width: 1199px): */
-@media (width < 1200px) {
+@media screen and (width < 1200px) {
   /* … */
 }
-@media (width >= 1200px) {
+@media screen and (width >= 1200px) {
   /* … */
 }
 ```

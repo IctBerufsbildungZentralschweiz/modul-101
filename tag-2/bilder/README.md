@@ -159,7 +159,7 @@ Für unterschiedliche Geräte kannst du unterschiedliche Bildgrössen und Auflö
 
 Dazu gibt es verschiedene Möglichkeiten. Eine empfehlenswerte ist das `<picture>`-Element:
 
-```
+```html
 <picture>
   <source media="(max-width: 799px)" srcset="person-480w-portrait.jpg">
   <source media="(min-width: 800px)" srcset="person-800w.jpg">
@@ -231,7 +231,7 @@ Um die Geschwindigkeit einer Website zu testen gibt es unterschiedliche Tools. H
 * [Lazy-Loading](./#lazy-loading)
 * CDN: Content Delivery Network nutzen
 
-### Lazy-Loading
+### Lazy-Loading (optional)
 
 Werden auf einer Seite viele Bilder angezeigt, ein Teil ev. erst beim Scrollen, können diese erst bei Bedarf nachgeladen werden. So wird nicht die ganze Seiten-Ladezeit ausgebremst. Dazu gibt es das Attribut `loading="lazy"`:
 

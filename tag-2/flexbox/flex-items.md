@@ -53,3 +53,7 @@ Die `align-self`-Eigenschaft ermöglicht es einem Flex-Item die Ausrichtung des 
   align-self: auto; /* Oder: flex-start | flex-end | center | baseline | stretch */
 }
 ```
+
+## Aufgabe
+
+Löse jetzt von der "[Aufgabe Boxen](aufgabe-boxen.md#aufgabe-2)" jetzt die 2. Aufgabe
