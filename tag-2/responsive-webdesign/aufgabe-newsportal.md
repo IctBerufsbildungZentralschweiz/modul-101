@@ -1,6 +1,6 @@
 # 🛠️ Aufgabe Newsportal
 
-Die Aufgabendateien findest du in der Datei «newsportal.zip». Lade die Datei herunter und entpacke das Zip-Archiv.&#x20;
+Die Aufgabendateien findest du in der Datei «newsportal.zip». Lade die Datei herunter und entpacke das Zip-Archiv.
 
 {% file src="../../.gitbook/assets/newsportal.zip" %}
 Download Aufgabendateien
@@ -49,3 +49,8 @@ Ergänze nun CSS-Regeln in den geschweiften Klammern, damit das Layout wie folgt
 ### Bildschirmbreite: kleiner als 480px
 
 ![Order](../../.gitbook/assets/news-3.jpg)
+
+## Testing auf deinem Handy
+
+* Öffne dein FTP-Tool (WinSCP oder FileZilla), verbinde mit dem Server und erstelle in deinem persönlichen Ordner ein neues Unterverzeichnis `/navigation`
+* Lade deine Übung (`html` und `css`) hoch und teste sie auf deinem Handy.
