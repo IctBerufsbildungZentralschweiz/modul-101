@@ -52,5 +52,5 @@ Ergänze nun CSS-Regeln in den geschweiften Klammern, damit das Layout wie folgt
 
 ## Testing auf deinem Handy
 
-* Öffne dein FTP-Tool (WinSCP oder FileZilla), verbinde mit dem Server und erstelle in deinem persönlichen Ordner ein neues Unterverzeichnis `/navigation`
+* Öffne dein FTP-Tool (WinSCP oder FileZilla), verbinde mit dem Server und erstelle in deinem persönlichen Ordner ein neues Unterverzeichnis `/newsportal`
 * Lade deine Übung (`html` und `css`) hoch und teste sie auf deinem Handy.
