@@ -113,7 +113,7 @@ Damit können auch Bereiche einfach abgefragt werden:
 
 Wenn ich wissen will, ob ein Bildschirm im Hoch- oder Querformat benutzt wird, kann ich dies abfragen:
 
-```
+```css
 @media screen and (orientation: landscape) { /* Oder portrait für Hochformat */
   /* Styling für Querformat */
 }
@@ -121,27 +121,8 @@ Wenn ich wissen will, ob ein Bildschirm im Hoch- oder Querformat benutzt wird, k
 
 Das ist eher unüblich, öfter wird einfach die Fensterbreite (min-width/max-width) abgefragt.
 
-### Helligkeit: `light-level`
+## Optional: Container-Queries
 
-Mit der `CSS Media Queries Level 4` Spezifikation wurden viele neue Features eingeführt.\
-**Achtung:** Manche davon werden momentan [noch nicht in allen Browsern](https://caniuse.com/?search=CSS%20Media%20Queries%20Level%204) unterstützt.
+Media-Queries beziehen sich immer auf die Breite des ganzen Ausgabe-Mediums (also das Fenster oder Display).&#x20;
 
-**Hinweis:** Das Feature `light-level` wird aktuell von keinem Browser unterstützt. Das folgende Beispiel dient nur zur Veranschaulichung.
-
-```css
-body {
-    background: white;
-    color: black;
-}
-
-@media (light-level: dim) {
-    /**
-     * Bei dunklen Lichtverhältnissen soll der Website-Hintergrund
-     * zu schwarz wechseln.
-     */
-    body {
-        background: black;
-        color: white;
-    }
-}
-```
+In verschachtelten Layouts kann man auch auf die Breite eines einzelnen Containers innerhalb der Website reagieren. Dazu gibt es neu die Container-Queries. Mehr dazu bei den [Optionalen Themen > Container Queries](../../tag-3/optionale-themen/media-queries-1.md).

@@ -21,9 +21,13 @@ Wir schauen hier folgende verbreitete Varianten an:
 
 ![](../../.gitbook/assets/guardian-grid.png)
 
-[**Kombination von beiden**](grid-layout-und-platzierung.md#kombination)
+**Kombination von beiden**
+
+Es kann z.B. das Grundlayout mit Named Grid Areas erstellt sein, im Content (`<main>)` kann ein Linien-Grid eingesetzt werden:
 
 ![](../../.gitbook/assets/grafik.png)
+
+
 
 ## Benannte Grid Areas (Named Grid Areas)
 
@@ -77,6 +81,8 @@ aside   { grid-area: sidebar; }
 
 Siehe [https://codepen.io/anon/pen/ooZVoG](https://codepen.io/anon/pen/ooZVoG).
 
+
+
 ## Grid-Linien (Grid Line Placement)
 
 Für einheitliche Anordnung von Seiteninhalten wird oft ein Raster hinterlegt, an welchem sich alle Items ausrichten. Häufig wird ein 12er-Raster verwendet, weil dieses leicht durch 2, 3 und 4 teilbar ist (für 2-, 3- und 4-spaltige Layouts).
@@ -94,7 +100,7 @@ Der Container sieht ähnlich aus. Man kann bequemlichkeitshalber mehrere Spalten
 }
 ```
 
-**Explizite Platzierung über Zeilen und Spalten:**
+### Platzierung mit festen Zeilen- und Spaltennummern
 
 In den Elementen kann dann die Start- und End-Spalte angegeben werden:
 
@@ -110,9 +116,9 @@ In den Elementen kann dann die Start- und End-Spalte angegeben werden:
 }
 ```
 
-**Platzierung einer dynamischen Anzahl von Elementen:**
+### Platzierung einer dynamischen Anzahl von Elementen
 
-Ein Grid kann auch eine dynamische Anzahl von Elementen enthalten. Dann werden nur die Spalten (columns) definiert, die Zeilen (rows) nicht. Z.B. ein vierspaltiges Grid mit variablen Zeilen:
+Ein Grid kann auch eine dynamische Anzahl von Elementen enthalten. Dann werden nur die Spalten (columns) definiert, die Zeilen (rows) nicht. Z.B. ein vierspaltiges Grid mit variablen Zeilen wie auf [www.vaude.com](https://www.vaude.com/de/de/):
 
 ```html
 <div class="container">
@@ -132,48 +138,15 @@ Ein Grid kann auch eine dynamische Anzahl von Elementen enthalten. Dann werden n
 }
 ```
 
-Für die dynamische Anzahl Zeilen können optional Eigenschaften gesetzt werden:
+### Mehr zu dynamischen Grids
 
-```css
-.container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: 100px;
-}
-```
-
-Beispiel: [www.vaude.com](https://www.vaude.com/de/de/)
-
-Mehr zu dynamischen Grids:\
-[https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid\_layout/Auto-placement](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Auto-placement)
-
-## Kombination
-
-Es kann z.B. das Grundlayout mit Named Grid Areas erstellt sein, im Content (`<main>)` kann ein Linien-Grid eingesetzt werden:
-
-<figure><img src="../../.gitbook/assets/grafik.png" alt=""><figcaption></figcaption></figure>
-
-## Welche Variante soll ich nutzen? Vor- und Nachteile?
-
-**Feste Layout-Bereiche?**\
-**⇒ Benannte Grid Areas (Named Grid Areas)**
-
-Die Liniennummern von Grid-Linien können sich je nach Bildschirmbreite (Breakpoint) ändern. Dann kann man sich nicht einfach auf die Liniennummern verlassen oder muss sie im Kopf umrechnen.
-
-Der Ansatz der benannten Grid Areas ist da robuster und leichter lesbar. Wir können das Layout für jeden Breakpoint (Bildschirmbreite) mithilfe von `grid-template-areas` innerhalb des Grid-Containers neu definieren und die Zuordnung ist immer noch klar.
-
-**Dynamische Anzahl von Elementen (z.B. Shop-Artikel, News-Beiträge)?**\
-**⇒ Layout mit Grid-Linien (Grid Line Placement)**
-
-Ist die Anzahl Items ähnlich wie bei einer Flexbox variabel, können keine festen Namen zugeteilt werden. Da bietet sich das Grid Line Placement an.
+[developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid\_layout/Auto-placement](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Auto-placement)
 
 ## Unterstützung in den Browser-DevTools (F12)
 
 In den Entwicklertools findest du unter `Inspect -> Layout` (Firefox) bzw. `Elements -> Layout` (Chrome) den Grid Inspector, der dir beim Arbeiten mit Grids helfen kann:
 
 ![Grid Inspector in Firefox](../../.gitbook/assets/dev-tools-setting.png) ![Container](../../.gitbook/assets/dev-tools.png)
-
-<figure><img src="../../.gitbook/assets/ChromeDevToolsGrid.png" alt=""><figcaption><p>Grids und Flexboxen sind in Chrome leicht zu finden.</p></figcaption></figure>
 
 ## Weiterführende Links
 
