@@ -1,6 +1,8 @@
 ---
-description: Zwischen dem Ziel des Benutzers und dem Ziel der Firma steht oft ein Formular.
+description: >-
+  Bisher haben wir nur Einweg-Kommunikation zum Besucher gemacht.  Nun wollen
+  wir den Besuchern eine Kontakt-Möglichkeit abieten.
 ---
 
-# 08 Formulare
+# Formulare & Kommunikation
 

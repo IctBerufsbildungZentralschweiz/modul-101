@@ -1,6 +1,6 @@
 # Formulare & Felder
 
-Unter [w3schools.com/html/html\_forms.asp](https://www.w3schools.com/html/html_forms.asp) findest du eine Übersicht wichtiger Elemente von Formularen und die Möglichkeit, es selber auszuprobieren. Nutze auch `Next >` oben rechts.&#x20;
+Unter [w3schools.com/html/html\_forms.asp](https://www.w3schools.com/html/html_forms.asp) findest du eine Übersicht wichtiger Elemente von Formularen und die Möglichkeit, es selber auszuprobieren. Nutze auch `Next >` oben rechts.
 
 ## `form`-Tag
 
@@ -13,21 +13,20 @@ Alle Elemente müssen in einem `<form>`-Tag eingefasst sein.
 </form>
 ```
 
-Beim Absenden eines Formulars werden die Daten aller Elemente innerhalb des `<form>`-Tags an die in **`action`** definierte URL versendet. \
-**Achtung:** Felder, welche ausserhalb des `<form>`-Containers stehen, werden **nicht** mitgesendet.
+Das `<form>`-Tag braucht mind. 2 Attribute:&#x20;
 
-Das Attribut method kann den Wert "get" oder "post" enthalten.&#x20;
+Das **`action`** -Attribut definiert die URL, wo das Formular hin geschickt werden soll. Meist ein Script auf einem Server, welches die Formulardaten verarbeitet, z.B. in eine Datenbank speichert oder eine E-Mail verschickt.&#x20;
 
-* **method="post" (meist empfohlen)** schickt die Formulardaten im Hintergrund an die Zieladresse. Die Datenmenge ist grundsätzlich nicht limitiert und vertrauliche Daten sind bei einer verschlüsselten Verbindung (https) geschützt.&#x20;
-* **method="get" (meist nicht empfohlen)** hängt alle Formulardaten hinten an die URL an und schickt sie so mit. Die Datenmenge ist auf ca. 2000 Zeichen limitiert, also recht klein. Vertrauliche Daten sollten NIE mit "get" verschickt werden, weil sie in der URL für alle transparent lesbar sind.
+Das **`method`**-Attribut kann die Werte `"get"` oder `"post"` enthalten. \
+Meist ist die **Methode `"post"` empfohlen**, weil sie die Daten sicherer an den Server schickt. Mehr auf [www.w3schools.com/tags/att\_form\_method.asp](https://www.w3schools.com/tags/att_form_method.asp)
 
-In diesem Kurs nutzen wir zum Testen das Ziel [https://formlog.ict-bz.ch/](https://formlog.ict-bz.ch/). Deine Daten werden dort 7 Tage gespeichert und danach gelöscht. Die Daten müssen mit der **Methode "post"** geschickt werden, "get" funktioniert nicht.
+In diesem Kurs nutzen wir zum Testen das Ziel [https://formlog.ict-bz.ch/](https://formlog.ict-bz.ch/). Deine Daten werden dort 7 Tage gespeichert und danach gelöscht. Die Daten müssen mit der **Methode `"post"`** geschickt werden, `"get"` funktioniert nicht.
 
 ## Steuerelemente
 
 ### `input`-Typen
 
-In HTML werden die meisten Formularfelder mit dem `input` Tag deklariert. Mit dem `type` Attribut können verschiedene Typen spezifiziert werden. Unter W3Schools.com findest du alle [Input-Typen](https://www.w3schools.com/html/html_form_input_types.asp) mit Beispielen.&#x20;
+In HTML werden die meisten Formularfelder mit dem `input` Tag deklariert. Mit dem `type` Attribut können verschiedene Typen spezifiziert werden. Unter W3Schools.com findest du alle [Input-Typen](https://www.w3schools.com/html/html_form_input_types.asp) mit Beispielen.
 
 **Jedes Feld muss zwingend ein `name` Attribut haben**, sonst wird das Feld beim Versenden nicht mitgeschickt.
 
@@ -39,7 +38,7 @@ In HTML werden die meisten Formularfelder mit dem `input` Tag deklariert. Mit de
 
 ### Weitere Form-Elemente
 
-Zudem gibt es mehrzeilige Textfelder (`textarea`), Dropdowns (`select`, `option`) und Schaltflächen (`buttons`). Unter W3Schools.com findest du diese [Form-Elemente](https://www.w3schools.com/html/html_form_elements.asp) mit Beispielen.&#x20;
+Zudem gibt es mehrzeilige Textfelder (`textarea`), Dropdowns (`select`, `option`) und Schaltflächen (`buttons`). Unter W3Schools.com findest du diese [Form-Elemente](https://www.w3schools.com/html/html_form_elements.asp) mit Beispielen.
 
 ```html
 <textarea name="remarks" rows="10" cols="4"></textarea>
@@ -60,27 +59,27 @@ Ein alleinstehendes, unbeschriftetes Inputfeld ist für den Besucher nicht brauc
 
 <div align="left"><figure><img src="../../.gitbook/assets/Label.png" alt=""><figcaption></figcaption></figure></div>
 
-* **Vorteil:** Bei Eingabe ist die Feldbezeichnung weiter sichtbar.&#x20;
-* **Nachteil:** Das Formular braucht etwas mehr Platz.&#x20;
+* **Vorteil:** Bei Eingabe ist die Feldbezeichnung weiter sichtbar.
+* **Nachteil:** Das Formular braucht etwas mehr Platz.
 
 ```html
 <label for="email1">E-Mail-Adresse</label><br>
 <input type="email" name="mail" id="email1"><br>
 ```
 
-Das `for` Attribut im Label verweist auf die `id` des Input-Elements. \
+Das `for` Attribut im Label verweist auf die `id` des Input-Elements.\
 Bei einem Klick auf das Label wird der Cursor automatisch ins zugehörige Feld platziert.
 
 Diese Zuordnung ist zudem für Screenreader wichtig, da er nur so weiss, welches Label vorgelesen werden soll, wenn der Cursor ins Feld platziert wird.
 
 ### Placeholder
 
-Alternativ kann innerhalb des Feldes ein Placeholder eingefügt werden. Dieser verschwindet, sobald etwas ins Feld geschrieben wird.&#x20;
+Alternativ kann innerhalb des Feldes ein Placeholder eingefügt werden. Dieser verschwindet, sobald etwas ins Feld geschrieben wird.
 
 <div align="left"><figure><img src="../../.gitbook/assets/Placeholder.png" alt=""><figcaption></figcaption></figure></div>
 
-* **Vorteil:** Das Formular ist kompakter.&#x20;
-* **Nachteil:** Bei Eingabe ist die Feldbezeichnung nicht mehr sichtbar.&#x20;
+* **Vorteil:** Das Formular ist kompakter.
+* **Nachteil:** Bei Eingabe ist die Feldbezeichnung nicht mehr sichtbar.
 
 ```html
 <input type="email" name="mail" placeholder="E-Mail-Adresse">
@@ -88,7 +87,7 @@ Alternativ kann innerhalb des Feldes ein Placeholder eingefügt werden. Dieser v
 
 ## Pflichtfeld: `required`
 
-Das Attribut `required` macht ein Feld zum Pflichtfeld. Es muss ausgefüllt sein, bevor das Formular abgeschickt werden kann. Das Label sollte einen Stern enthalten.&#x20;
+Das Attribut `required` macht ein Feld zum Pflichtfeld. Es muss ausgefüllt sein, bevor das Formular abgeschickt werden kann. Das Label sollte einen Stern enthalten.
 
 <div align="left"><figure><img src="../../.gitbook/assets/image.png" alt="" width="223"><figcaption></figcaption></figure></div>
 
@@ -127,8 +126,8 @@ Mit dem Attribut `value` kann definiert werden, dass ein Feld beim Laden schon e
 
 <pre class="language-html"><code class="lang-html">&#x3C;label for="customer-no">Kundennummer:&#x3C;/label>&#x3C;br>
 &#x3C;input type="text" id="customer-no" name="customer-no" value="123456" readonly>&#x3C;br>
-<strong>
-</strong><strong>&#x3C;label for="mail">E-Mail *&#x3C;/label>&#x3C;br>
+
+<strong>&#x3C;label for="mail">E-Mail *&#x3C;/label>&#x3C;br>
 </strong>&#x3C;input type="email" id="mail" name="mail" value="muster@test.ch">
 </code></pre>
 
